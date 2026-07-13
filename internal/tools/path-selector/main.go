@@ -111,6 +111,7 @@ func (t *Tool) extract() {
 		zonePath := filepath.Join(englishZone, zone)
 		if _, err := os.Stat(zonePath); os.IsNotExist(err) {
 			fmt.Printf("  Skipping (not found): %s\n", zonePath)
+			fmt.Println("  For Plutonium, use path like: %LOCALAPPDATA%\\Plutonium\\storage\\t6")
 			continue
 		}
 
@@ -188,10 +189,7 @@ func (t *Tool) build() {
 }
 
 func detectGamePath() (string, error) {
-	common := []string{
-		`C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops II`,
-		`C:\Program Files\Steam\steamapps\common\Call of Duty Black Ops II`,
-	}
+	common := []string{}
 
 	if runtime.GOOS == "windows" {
 		localAppData := os.Getenv("LOCALAPPDATA")
@@ -207,6 +205,11 @@ func detectGamePath() (string, error) {
 			)
 		}
 	}
+
+	common = append(common,
+		`C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops II`,
+		`C:\Program Files\Steam\steamapps\common\Call of Duty Black Ops II`,
+	)
 
 	for _, p := range common {
 		if _, err := os.Stat(filepath.Join(p, "zone", "english")); err == nil {
