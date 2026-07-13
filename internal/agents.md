@@ -39,12 +39,15 @@ It provides two main executables:
 | `RawFile` | ✅ | ✅ | Raw text/script files |
 | `KeyValuePairs` | ✅ | ✅ | Key-value configs |
 
+**Current version used by this project:** [v0.31.0](https://github.com/Laupetin/OpenAssetTools/releases/tag/v0.31.0)
+**Version info documented in:** `internal/tools/README.md`
+
 ### Getting OAT
 
-**Option 1 - Download release:**
-- https://github.com/Laupetin/OpenAssetTools/releases/latest
-- Download the Windows release zip
-- Extract `Unlinker.exe` and `Linker.exe` into `internal/tools/`
+**Option 1 - Download release (recommended):**
+- https://github.com/Laupetin/OpenAssetTools/releases/tag/v0.31.0
+- Download the Windows release zip (e.g. `OpenAssetTools-v0.31.0-Windows.zip`)
+- Extract the zip contents into `internal/tools/oat-windows/` (so `Unlinker.exe` is at `internal/tools/oat-windows/Unlinker.exe`)
 
 **Option 2 - Build from source (Windows):**
 ```powershell
@@ -69,7 +72,15 @@ msbuild build\OpenAssetTools.sln /p:Configuration=Release
 
 ### Step 1: Extract English Strings
 
-Use `Unlinker` to dump the localization entries from the English game files.
+Use the path-selector tool (recommended) to run Unlinker automatically:
+
+```powershell
+cd internal\tools\path-selector
+.\path-selector.exe
+# Select option [1] Extract
+```
+
+**OR** use `Unlinker` directly:
 
 **NOTE:** Your BO2 Plutonium installation must be accessible. Typical paths:
 - Plutonium: `%localappdata%\Plutonium\storage\t6\`
@@ -79,26 +90,27 @@ Use `Unlinker` to dump the localization entries from the English game files.
 ```powershell
 # Set game path
 $g = "$env:LOCALAPPDATA\Plutonium\storage\t6"
+$o = "internal\tools\oat-windows"
 
 # Unlink common_mp (multiplayer + shared strings)
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\common_mp.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\common_mp.ff"
 
 # Unlink common_zm (zombies strings)
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\common_zm.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\common_zm.ff"
 
 # Unlink UI zones
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\ui_mp.ff"
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\ui_zm.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\ui_mp.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\ui_zm.ff"
 
 # Unlink code_post_gfx (menu strings)
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\code_post_gfx_mp.ff"
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\code_post_gfx_zm.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\code_post_gfx_mp.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\code_post_gfx_zm.ff"
 
 # Unlink patches
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\patch_mp.ff"
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\patch_zm.ff"
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\patch_ui_mp.ff"
-.\Unlinker.exe --search-path "$g\zone\english" "$g\zone\english\patch_ui_zm.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\patch_mp.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\patch_zm.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\patch_ui_mp.ff"
+& "$o\Unlinker.exe" --search-path "$g\zone\english" "$g\zone\english\patch_ui_zm.ff"
 ```
 
 After unlinking, a `zone_dump` folder is created containing:
@@ -178,15 +190,26 @@ assets
 
 ### Step 4: Build Custom .ff Files
 
-Use `Linker` to build the Brazilian Portuguese `.ff` files:
+Use the path-selector tool (recommended):
+
+```powershell
+cd internal\tools\path-selector
+.\path-selector.exe
+# Select option [2] Build
+```
+
+**OR** use `Linker` directly:
 
 ```powershell
 # For each zone, run Linker:
-.\Linker.exe ^
-    --load "$g\zone\english\common_mp.ff" ^
-    --asset-path "translation\ptbr\zone_raw" ^
-    --zone-path "translation\ptbr\zone_source" ^
-    --outdir "translation\ptbr\zone\brazilian" ^
+$o = "internal\tools\oat-windows"
+$g = "$env:LOCALAPPDATA\Plutonium\storage\t6"
+
+& "$o\Linker.exe" `
+    --load "$g\zone\english\common_mp.ff" `
+    --asset-path "translation\ptbr\zone_raw" `
+    --zone-path "translation\ptbr\zone_source" `
+    --outdir "translation\ptbr\zone\brazilian" `
     common_mp
 ```
 
@@ -292,6 +315,41 @@ Extracts all English .ff files from the game to `translation/source/`.
 
 ### `internal/scripts/build-patch.ps1`
 Builds all Brazilian .ff files from translated assets and assembles the final patch in `translation/ptbr/`.
+
+---
+
+## Path Selector Tool (Go)
+
+**Source:** `internal/tools/path-selector/main.go`
+**Binary:** `internal/tools/path-selector/path-selector.exe`
+
+A Go-based interactive CLI that replaces the raw PowerShell scripts. Handles paths with spaces correctly.
+
+### Features
+- **Auto-detects** BO2 installation in common locations (Steam, Plutonium)
+- **Interactive menu** (Extract, Build, Change path, Exit)
+- **Proper quoting** for paths with spaces
+- **Persists** game path to `gamepath.txt` (gitignored)
+
+### How to use
+```powershell
+cd internal\tools\path-selector
+.\path-selector.exe
+```
+
+### How to rebuild (requires Go)
+```powershell
+cd internal\tools\path-selector
+go build -o path-selector.exe .
+```
+
+### Menu options
+| Option | Action |
+|--------|--------|
+| `1` | Extract all `.ff` files via Unlinker |
+| `2` | Build all `.ff` files via Linker |
+| `3` | Change game path |
+| `4` | Exit |
 
 ---
 

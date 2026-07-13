@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$GamePath,
     [Parameter(Mandatory=$false)]
-    [string]$OatPath = "..\tools",
+    [string]$OatPath = "..\tools\oat-windows",
     [Parameter(Mandatory=$false)]
     [string]$OutDir = "..\..\translation\source"
 )

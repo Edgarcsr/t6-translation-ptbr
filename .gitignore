@@ -1,6 +1,14 @@
-# OpenAssetTools binaries
+# OpenAssetTools binaries (at root of tools/)
 internal/tools/Unlinker.exe
 internal/tools/Linker.exe
+
+# OpenAssetTools binaries (inside oat-windows/ subfolder)
+internal/tools/oat-windows/Unlinker.exe
+internal/tools/oat-windows/Linker.exe
+internal/tools/oat-windows/ImageConverter.exe
+
+# OAT release zip
+internal/tools/oat-windows.zip
 
 # OAT build artifacts
 internal/tools/build/
@@ -18,3 +26,9 @@ Thumbs.db
 
 # OAT submodule (if cloned)
 internal/tools/OpenAssetTools/
+
+# Path-selector build output
+internal/tools/path-selector/path-selector.exe
+
+# Game path persistence (user-specific)
+gamepath.txt

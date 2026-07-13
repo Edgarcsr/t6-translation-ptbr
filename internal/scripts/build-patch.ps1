@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$GamePath,
     [Parameter(Mandatory=$false)]
-    [string]$OatPath = "..\tools",
+    [string]$OatPath = "..\tools\oat-windows",
     [Parameter(Mandatory=$false)]
     [string]$ProjectRoot = "..\..",
     [Parameter(Mandatory=$false)]
@@ -61,7 +61,7 @@ foreach ($zone in $Zones) {
         $zone
 }
 
-# Copy localization files to output
-Copy-Item -Path "$ProjectRoot\translation\ptbr\localization*.txt" -Destination "$ProjectRoot\translation\ptbr" -Force
+# Copy localization files to patch output
+Copy-Item -Path "$ProjectRoot\translation\ptbr\localization*.txt" -Destination $PtbrOutput -Force
 
 Write-Host "Done! Brazilian patch files are in $PtbrOutput"
