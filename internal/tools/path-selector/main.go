@@ -85,9 +85,23 @@ func (t *Tool) extract() {
 	}
 
 	englishZone := filepath.Join(t.GamePath, "zone", "english")
+	absZone, _ := filepath.Abs(englishZone)
+
 	if _, err := os.Stat(englishZone); os.IsNotExist(err) {
-		fmt.Printf("Error: zone/english not found at %s\n", englishZone)
+		fmt.Printf("Error: zone/english not found at %s\n", absZone)
 		return
+	}
+
+	entries, _ := os.ReadDir(englishZone)
+	var ffFiles []string
+	for _, e := range entries {
+		if !e.IsDir() {
+			ffFiles = append(ffFiles, e.Name())
+		}
+	}
+	fmt.Printf("Found %d .ff files in %s\n", len(ffFiles), absZone)
+	for _, f := range ffFiles {
+		fmt.Printf("  - %s\n", f)
 	}
 
 	zones := []string{
@@ -111,7 +125,7 @@ func (t *Tool) extract() {
 		zonePath := filepath.Join(englishZone, zone)
 		if _, err := os.Stat(zonePath); os.IsNotExist(err) {
 			fmt.Printf("  Skipping (not found): %s\n", zonePath)
-			fmt.Println("  For Plutonium, use path like: %LOCALAPPDATA%\\Plutonium\\storage\\t6")
+			fmt.Printf("  For Plutonium, use path like: %s\\Plutonium\\storage\\t6\n", os.Getenv("LOCALAPPDATA"))
 			continue
 		}
 
