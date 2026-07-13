@@ -1,0 +1,20 @@
+# OpenAssetTools binaries
+internal/tools/Unlinker.exe
+internal/tools/Linker.exe
+
+# OAT build artifacts
+internal/tools/build/
+
+# Game files - do not commit game assets
+*.ff
+*.iwd
+*.ipak
+*.sabs
+*.sabl
+
+# Windows junk
+Thumbs.db
+*.DS_Store
+
+# OAT submodule (if cloned)
+internal/tools/OpenAssetTools/

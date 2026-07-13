@@ -1,0 +1,103 @@
+italian
+
+
+WIN_CONFIGURE_UPDATED_TITLE
+"Impostazioni consigliate aggiornate"
+
+
+WIN_CONFIGURE_UPDATED_BODY
+"Le impostazioni consigliate sono cambiate dall'ultima volta che hai avviato Call of Duty.
+Vuoi che il gioco si configuri automaticamente con queste nuove impostazioni?
+
+Questa è la scelta consigliata nella maggior parte dei casi. Modificherà le impostazioni ma non i comandi."
+
+
+
+WIN_LOW_MEMORY_BODY
+"Hai poca memoria virtuale.
+Il gioco potrebbe rallentare o fermarsi del tutto.
+Ti consigliamo di chiudere qualche programma prima di avviare Call of Duty.
+
+Vuoi avviare Call of Duty lo stesso?"
+
+
+WIN_LOW_MEMORY_TITLE
+"Memoria scarsa"
+
+
+WIN_COLORDEPTH_WARN_BODY
+"È probabile che il gioco non possa essere visualizzato correttamente
+in una finestra con questa profondità di colore del desktop. Seleziona
+OK per provarci lo stesso o Annulla per uscire."
+
+
+WIN_COLORDEPTH_WARN_TITLE
+"Profondità di colore del desktop scarsa"
+
+
+WIN_COMPUTER_CHANGE_BODY
+"Il tuo computer è cambiato dall'ultima volta che hai avviato Call of Duty.
+Vuoi che il gioco si configuri automaticamente per il tuo nuovo hardware?
+
+Questa è la scelta consigliata nella maggior parte dei casi.
+Modificherà le impostazioni ma non i comandi."
+
+
+WIN_COMPUTER_CHANGE_TITLE
+"Applicare le impostazioni ottimali?"
+
+
+WIN_DISK_FULL_BODY
+"Call of Duty: Black Ops II non è riuscito a scrivere un file. Il disco rigido potrebbe essere pieno."
+
+
+WIN_DISK_FULL_TITLE
+"Errore di scrittura"
+
+
+WIN_IMPROPER_QUIT_BODY
+"Call of Duty: Black Ops II non è stato chiuso correttamente l'ultima volta.
+Vuoi avviare il gioco in modalità Sicura?
+
+Questa è la scelta consigliata nella maggior parte dei casi.
+Modificherà le impostazioni ma non i comandi."
+
+
+WIN_IMPROPER_QUIT_TITLE
+"Avviare in modalità Sicura?"
+
+
+WIN_ERROR
+"Errore fatale"
+
+WIN_NO_STEAM
+"Per giocare, Steam deve essere in esecuzione."
+
+WIN_OUT_OF_MEM_BODY
+"Memoria esaurita. Il disco potrebbe essere pieno."
+
+
+WIN_OUT_OF_MEM_TITLE
+"Memoria esaurita"
+
+
+WIN_UNABLE_LOAD_DLL_BODY
+"Impossibile caricare una DLL. La memoria potrebbe essere scarsa, lo spazio su disco insufficiente oppure potrebbero mancare dei file DLL."
+
+
+WIN_DIRECTX_INIT_TITLE
+"Errore DirectX"
+
+WIN_DIRECTX_INIT_BODY
+"DirectX ha causato un errore irreversibile.
+
+Cerca una soluzione nel file readme."
+
+WIN_EXE_ALREADY_RUNNING
+"Call of Duty: Black Ops II è già in esecuzione.
+
+Nel menu puoi cambiare modalità di gioco."
+
+
+WIN_COULDNT_START_PROCESS
+"Impossibile avviare il processo."
