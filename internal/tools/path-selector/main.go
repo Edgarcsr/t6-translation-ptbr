@@ -17,6 +17,7 @@ type Tool struct {
 	OatPath      string
 	ProjectRoot  string
 	Locale       string
+	LangPrefix   string // e.g. "en" for English, "br" for Brazilian Portuguese
 }
 
 func main() {
@@ -24,6 +25,7 @@ func main() {
 		OatPath:     filepath.Join("..", "oat-windows"),
 		ProjectRoot: filepath.Join("..", ".."),
 		Locale:      "brazilian",
+		LangPrefix:  "en",
 	}
 
 	detected, err := detectGamePath()
@@ -104,28 +106,28 @@ func (t *Tool) extract() {
 		fmt.Printf("  - %s\n", f)
 	}
 
-	zones := []string{
-		"common_mp.ff",
-		"common_zm.ff",
-		"code_post_gfx_mp.ff",
-		"code_post_gfx_zm.ff",
-		"ui_mp.ff",
-		"ui_zm.ff",
-		"patch_mp.ff",
-		"patch_zm.ff",
-		"patch_ui_mp.ff",
-		"patch_ui_zm.ff",
+	zoneNames := []string{
+		"common_mp",
+		"common_zm",
+		"code_post_gfx_mp",
+		"code_post_gfx_zm",
+		"ui_mp",
+		"ui_zm",
+		"patch_mp",
+		"patch_zm",
+		"patch_ui_mp",
+		"patch_ui_zm",
 	}
 
 	sourceDir := filepath.Join(t.ProjectRoot, "translation", "source")
 	os.MkdirAll(sourceDir, 0755)
 
-	for _, zone := range zones {
-		fmt.Printf("Extracting %s...\n", zone)
-		zonePath := filepath.Join(englishZone, zone)
+	for _, zone := range zoneNames {
+		filename := fmt.Sprintf("%s_%s.ff", t.LangPrefix, zone)
+		fmt.Printf("Extracting %s...\n", filename)
+		zonePath := filepath.Join(englishZone, filename)
 		if _, err := os.Stat(zonePath); os.IsNotExist(err) {
 			fmt.Printf("  Skipping (not found): %s\n", zonePath)
-			fmt.Printf("  For Plutonium, use path like: %s\\Plutonium\\storage\\t6\n", os.Getenv("LOCALAPPDATA"))
 			continue
 		}
 
@@ -178,7 +180,7 @@ func (t *Tool) build() {
 		}
 
 		fmt.Printf("Building %s...\n", zone)
-		sourceZone := filepath.Join(englishZone, zone+".ff")
+		sourceZone := filepath.Join(englishZone, fmt.Sprintf("%s_%s.ff", t.LangPrefix, zone))
 		if _, err := os.Stat(sourceZone); os.IsNotExist(err) {
 			fmt.Printf("  Skipping (source ff not found): %s\n", sourceZone)
 			continue
