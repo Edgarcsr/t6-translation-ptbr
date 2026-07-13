@@ -29,6 +29,7 @@ internal/tools/OpenAssetTools/
 
 # Path-selector build output
 internal/tools/path-selector/path-selector.exe
+internal/tools/path-selector/path-selector.exe~
 
 # Game path persistence (user-specific)
 gamepath.txt
