@@ -28,6 +28,14 @@ func main() {
 		LangPrefix:  "en",
 	}
 
+	// Resolve relative paths to absolute so they work from any working directory
+	if abs, err := filepath.Abs(t.OatPath); err == nil {
+		t.OatPath = abs
+	}
+	if abs, err := filepath.Abs(t.ProjectRoot); err == nil {
+		t.ProjectRoot = abs
+	}
+
 	detected, err := detectGamePath()
 	if err == nil {
 		t.GamePath = detected
