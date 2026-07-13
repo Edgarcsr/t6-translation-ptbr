@@ -21,8 +21,8 @@ type Tool struct {
 
 func main() {
 	t := &Tool{
-		OatPath:     filepath.Join("..", "..", "oat-windows"),
-		ProjectRoot: filepath.Join("..", "..", ".."),
+		OatPath:     filepath.Join("..", "oat-windows"),
+		ProjectRoot: filepath.Join("..", ".."),
 		Locale:      "brazilian",
 	}
 
