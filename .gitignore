@@ -33,3 +33,13 @@ internal/tools/path-selector/path-selector.exe~
 
 # Game path persistence (user-specific)
 gamepath.txt
+
+# Full extracted game asset dump (audio, textures, shaders) - copyrighted, keep local-only
+translation/source/
+
+# Debug re-dump artifacts from verifying built .ff files
+**/zone_dump/
+
+# Full copies of original (mostly-untranslated) copyrighted string tables from the
+# abandoned direct-replace approach - only the minimal override files are ours to publish
+translation/ptbr/zone_raw/english/localizedstrings/en_*.str

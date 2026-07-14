@@ -23,7 +23,7 @@ type Tool struct {
 func main() {
 	t := &Tool{
 		OatPath:     filepath.Join("..", "oat-windows"),
-		ProjectRoot: filepath.Join("..", ".."),
+		ProjectRoot: filepath.Join("..", "..", ".."),
 		Locale:      "brazilian",
 		LangPrefix:  "en",
 	}
@@ -181,14 +181,15 @@ func (t *Tool) build() {
 	}
 
 	for _, zone := range zones {
-		zoneSource := filepath.Join(ptbrZoneSource, zone+".zone")
+		prefixedZone := fmt.Sprintf("%s_%s", t.LangPrefix, zone)
+		zoneSource := filepath.Join(ptbrZoneSource, prefixedZone+".zone")
 		if _, err := os.Stat(zoneSource); os.IsNotExist(err) {
 			fmt.Printf("Skipping %s (no zone source)\n", zone)
 			continue
 		}
 
 		fmt.Printf("Building %s...\n", zone)
-		sourceZone := filepath.Join(englishZone, fmt.Sprintf("%s_%s.ff", t.LangPrefix, zone))
+		sourceZone := filepath.Join(englishZone, prefixedZone+".ff")
 		if _, err := os.Stat(sourceZone); os.IsNotExist(err) {
 			fmt.Printf("  Skipping (source ff not found): %s\n", sourceZone)
 			continue
@@ -196,11 +197,11 @@ func (t *Tool) build() {
 
 		cmd := exec.Command(linker,
 			"--load", sourceZone,
-			"--asset-path", ptbrRaw,
-			"--zone-path", ptbrZoneSource,
-			"--outdir", ptbrOutput,
+			"--asset-search-path", ptbrRaw,
+			"--source-search-path", ptbrZoneSource,
+			"--output-folder", ptbrOutput,
 			"--verbose",
-			zone,
+			prefixedZone,
 		)
 		cmd.Stdout = os.Stdout
 		cmd.Stderr = os.Stderr
