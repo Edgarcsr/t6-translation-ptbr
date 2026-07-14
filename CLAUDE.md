@@ -44,14 +44,22 @@ Each file is processed separately, so no single file hits the 10,852 limit.
 
 ## Recommended Workflow
 
-### Step 1: Create Override File
-Edit: `%localappdata%\Plutonium\storage\t6\raw\localizedstrings\ptbr_strings.str`
+→ **Full docs:** `docs/TRANSLATION_WORKFLOW.md` | `docs/RAW_OVERRIDE_SYSTEM.md`
 
-Format:
+### Step 1: Extract Original Strings
+```powershell
+cd internal/tools/t6-translator
+./t6-translator.exe  # [1] Extract
+```
+Output: `translation/source/zone_dump/` (original strings from game)
+
+### Step 2: Translate Files
+Copy to `translation/ptbr/zone_raw/` and edit:
+
+**Format:**
 ```
 VERSION             "1"
 CONFIG              "ptbr_translation"
-FILENOTES           "PT-BR override strings"
 
 REFERENCE           ZMUI_SOLO_PLAY_CAPS
 LANG_ENGLISH        "JOGO SOLO"
@@ -62,19 +70,29 @@ LANG_ENGLISH        "PARTIDAS PERSONALIZADAS"
 ENDMARKER
 ```
 
-### Step 2: Test in Game
-- No compilation needed
-- No mod activation needed
-- Just restart the game → strings load automatically
+**DO NOT change:**
+- `REFERENCE` (it's the internal key)
+- `VERSION`, `CONFIG`, `ENDMARKER`
+- Use plain text, no accents (use "voce" not "você")
 
 ### Step 3: Version Control
-Store source files in repo:
-```
-translation/ptbr/zone_raw/english/localizedstrings/
-└── ptbr_strings.str
+```powershell
+git add translation/ptbr/zone_raw/
+git commit -m "feat: add PT-BR translations for patch_zm"
 ```
 
-Commit regularly so nothing is lost.
+### Step 4: Deploy to Plutonium
+```powershell
+$src = "translation\ptbr\zone_raw"
+$dst = "$env:LOCALAPPDATA\Plutonium\storage\t6\raw\localizedstrings"
+Copy-Item "$src\*.str" -Destination $dst -Force
+```
+
+### Step 5: Test in Game
+- Restart Plutonium T6
+- Strings load automatically
+- No mod activation needed
+- Profile/stats preserved
 
 ---
 
