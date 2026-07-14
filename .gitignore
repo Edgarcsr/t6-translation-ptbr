@@ -43,3 +43,6 @@ translation/source/
 # Full copies of original (mostly-untranslated) copyrighted string tables from the
 # abandoned direct-replace approach - only the minimal override files are ours to publish
 translation/ptbr/zone_raw/english/localizedstrings/en_*.str
+
+# Example folder
+example/
