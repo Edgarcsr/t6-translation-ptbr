@@ -9001,7 +9001,7 @@ REFERENCE           EXE_WAITINGFORMASTERSERVERRESPONSE
 LANG_ENGLISH        "Aguardando resposta do Servidor Mestre"
 
 REFERENCE           MENU_SOLO_CAPS
-LANG_ENGLISH        "SOLO"
+LANG_ENGLISH        "JOGO SOLO"
 
 REFERENCE           MPTIP_WAR_MACHINE_TIP
 LANG_ENGLISH        "Tiros da War Machine e outros lança-granadas precisam percorrer uma distância mínima para explodir."
