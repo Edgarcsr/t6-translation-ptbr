@@ -800,7 +800,7 @@ REFERENCE           MPUI_HINTTEXT_YYYY
 LANG_ENGLISH        "Por favor selecione o ano da sua data de nascimento."
 
 REFERENCE           ZOMBIE_PERK_FASTRELOAD
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Speed Cola [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Veloci-cola [Custo: &&1]"
 
 REFERENCE           ZOMBIE_NEED_POWER
 LANG_ENGLISH        "Você deve ligar a Energia primeiro!"
@@ -1931,7 +1931,7 @@ REFERENCE           ZMUI_STANDARD_CAPS
 LANG_ENGLISH        "Sobrevivência"
 
 REFERENCE           ZOMBIE_PERK_ADDITIONALPRIMARYWEAPON
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Mule Kick [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Coice de Mula [Custo: &&1]"
 
 REFERENCE           ZMUI_DIFFICULTY_CAPS
 LANG_ENGLISH        "DIFICULDADE"
@@ -2312,19 +2312,19 @@ REFERENCE           MPUI_PAINTBALL_LOC
 LANG_ENGLISH        "GEORGIA, U.S.A."
 
 REFERENCE           ZOMBIE_PERK_QUICKREVIVE
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Revive [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Reviver [Custo: &&1]"
 
 REFERENCE           PRESENCE_MP_HYDRO
 LANG_ENGLISH        "Hydro"
 
 REFERENCE           ZOMBIE_PERK_DOUBLETAP
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Double Tap Root Beer [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Cerveja de Raiz Dupla [Custo: &&1]"
 
 REFERENCE           ZOMBIE_PERK_JUGGERNAUT
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Jugger-Nog [Custo: &&1]"
 
 REFERENCE           ZOMBIE_PERK_TOMBSTONE
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Tombstone [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Lápide [Custo: &&1]"
 
 REFERENCE           ZOMBIE_WEAPON_AK74U
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para AK74u [Custo: &&1]"
