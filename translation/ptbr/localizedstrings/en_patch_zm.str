@@ -5166,7 +5166,7 @@ REFERENCE           MENU_CHALLENGE_CATEGORY_PERKS_HINT
 LANG_ENGLISH        "Uma colecao de desafios para Perks."
 
 REFERENCE           ZMUI_STANDARD_TRANSIT
-LANG_ENGLISH        "Survival Bus Depot"
+LANG_ENGLISH        "Sobrevivência Bus Depot"
 
 REFERENCE           MENU_CHALLENGES_OPTICS_TYPES_HINT
 LANG_ENGLISH        "Veja desafios que desbloqueiam reticulos para a &&1."
@@ -6540,10 +6540,10 @@ REFERENCE           ZMUI_CLASSIC_TRANSIT
 LANG_ENGLISH        "TranZit"
 
 REFERENCE           ZMUI_STANDARD_TOWN
-LANG_ENGLISH        "Survival Town"
+LANG_ENGLISH        "Sobrevivência Town"
 
 REFERENCE           ZMUI_STANDARD_FARM
-LANG_ENGLISH        "Survival Farm"
+LANG_ENGLISH        "Sobrevivência Farm"
 
 REFERENCE           ZMUI_GRIEF_FARM
 LANG_ENGLISH        "Grief Farm"
@@ -6552,7 +6552,7 @@ REFERENCE           ZMUI_STANDARD_DESC_NUKED
 LANG_ENGLISH        "Equivalencia massa-energia, testes secretos, perks de pouso forcado. Sobreviva no iconico Nuketown, onde o passado e o futuro se encontram."
 
 REFERENCE           ZMUI_STANDARD_NUKED
-LANG_ENGLISH        "Survival Nuketown"
+LANG_ENGLISH        "Sobrevivência Nuketown"
 
 REFERENCE           ZMUI_NUKED_STARTLOC
 LANG_ENGLISH        "Nuketown"
