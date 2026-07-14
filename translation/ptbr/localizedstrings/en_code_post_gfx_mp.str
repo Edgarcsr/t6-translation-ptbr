@@ -271,4 +271,16 @@ LANG_ENGLISH        "JOGADOR"
 REFERENCE           MPUI_PLAYER
 LANG_ENGLISH        "Jogador"
 
+REFERENCE           MPUI_ZSTANDARD
+LANG_ENGLISH        "Sobrevivência"
+
+REFERENCE           PRESENCE_ZSTANDARD
+LANG_ENGLISH        "Sobrevivência"
+
+REFERENCE           MPUI_SUR
+LANG_ENGLISH        "Sobrevivência"
+
+REFERENCE           MPUI_BUNKER_DEFENCE_MODE
+LANG_ENGLISH        "Sobrevivência"
+
 ENDMARKER
