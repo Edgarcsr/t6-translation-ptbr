@@ -54,7 +54,7 @@ cd internal/tools/t6-translator
 Output: `translation/source/zone_dump/` (original strings from game)
 
 ### Step 2: Translate Files
-Copy to `translation/ptbr/zone_raw/` and edit:
+Copy to `translation/ptbr/localizedstrings/` and edit:
 
 **Format:**
 ```
@@ -73,17 +73,16 @@ ENDMARKER
 **DO NOT change:**
 - `REFERENCE` (it's the internal key)
 - `VERSION`, `CONFIG`, `ENDMARKER`
-- Use plain text, no accents (use "voce" not "você")
 
 ### Step 3: Version Control
 ```powershell
-git add translation/ptbr/zone_raw/
+git add translation/ptbr/localizedstrings/
 git commit -m "feat: add PT-BR translations for patch_zm"
 ```
 
 ### Step 4: Deploy to Plutonium
 ```powershell
-$src = "translation\ptbr\zone_raw"
+$src = "translation\ptbr\localizedstrings"
 $dst = "$env:LOCALAPPDATA\Plutonium\storage\t6\raw\localizedstrings"
 Copy-Item "$src\*.str" -Destination $dst -Force
 ```
@@ -108,8 +107,8 @@ Copy-Item "$src\*.str" -Destination $dst -Force
 
 ## Character Encoding
 - **Use:** UTF-8 with BOM
-- **Avoid:** Accents if possible (é, ã, ç) — T6's font may not render them
-- **Preferred:** "esta" instead of "está", "voce" instead of "você"
+- **Accents:** ✅ Confirmed working — é, ã, ç, õ, ô, í, ó all render correctly in T6
+- **Use proper PT-BR:** "opções" instead of "opcoes", "você" instead of "voce", etc.
 
 ---
 
@@ -126,9 +125,10 @@ But for translation-only (no custom scripts), **`raw/` alone is sufficient**.
 ## Next Steps
 
 1. ✅ Raw folder created at `%localappdata%\Plutonium\storage\t6\raw\localizedstrings/`
-2. ⏳ Add strings to `ptbr_strings.str` as you translate
-3. ⏳ Version control: commit to `translation/ptbr/zone_raw/`
-4. ⏳ Test in-game after each major batch
+2. ✅ Accents confirmed working (é, ã, ç, õ, ô, í, ó all render)
+3. ✅ `en_patch_zm.str` translated (2308 strings)
+4. ✅ `en_code_post_gfx_mp.str` + `en_code_post_gfx_zm.str` — "PARTIDAS PERSONALIZADAS" and "Opções" translated
+5. ⏳ Translate remaining 80+ zone files
 
 ---
 
