@@ -14,19 +14,18 @@
 
 ---
 
-## Status atual
+## Status Atual
 
-**5.405 strings traduzidas em 6 arquivos.** Funcionando em jogo via sistema RAW de override.
+**55.587+ strings traduzidas.** Funcionando em jogo via sistema RAW de override.
 
-| Arquivo                                                         | Strings | Status                                            |
-| --------------------------------------------------------------- | ------- | ------------------------------------------------- |
-| `en_patch_zm.str`                                               | 2.308   | ✅ Completo (Zombies — patches, menus, perks)     |
-| `en_patch_mp.str`                                               | 2.475   | ✅ Completo (Multiplayer — patches, menus, modos) |
-| `en_ui_mp.str`                                                  | 306     | ✅ Completo (UI Multiplayer)                      |
-| `en_ui_zm.str`                                                  | 306     | ✅ Completo (UI Zombies)                          |
-| `en_code_post_gfx_mp.str`                                       | 5       | ✅ Strings-chave (Custom Games, Opções)           |
-| `en_code_post_gfx_zm.str`                                       | 5       | ✅ Strings-chave (Custom Games, Opções)           |
-| `en_common_mp` `en_common_zm` `en_patch_ui_mp` `en_patch_ui_zm` | —       | ⬜ Sem .str (assets visuais)                      |
+| Arquivo | Strings | Status |
+|---------|---------|--------|
+| `en_code_post_gfx_mp_translated.str` | 33.879 | ✅ Completo (MP Menus + HUD) |
+| `en_code_post_gfx_zm_translated.str` | 21.708 | ✅ Completo (ZM Menus + HUD) |
+| `en_patch_zm.str` | 2.308 | ✅ Completo (Zombies perks, portas, etc) |
+| `en_patch_mp.str` | 2.475 | ✅ Completo (Multiplayer) |
+| `en_ui_mp.str` | 306 | ✅ Completo (UI Multiplayer) |
+| `en_ui_zm.str` | 306 | ✅ Completo (UI Zombies) |
 
 ## Sistema RAW de Override ✅ (Método Preferido)
 
@@ -49,22 +48,25 @@ Plutonium carrega automaticamente, sem limite de strings por arquivo, e **manté
 
 ```
 translation/
-├── source/zone_dump/          # Strings originais extraídas (NÃO EDITAR)
-└── ptbr/localizedstrings/     # ⬅️ SEU TRABALHO FICA AQUI
-    ├── en_patch_zm.str        # ✅ 2.308 strings (Zombies)
-    ├── en_patch_mp.str        # ✅ 2.475 strings (Multiplayer)
-    ├── en_ui_mp.str           # ✅ 306 strings (UI MP)
-    ├── en_ui_zm.str           # ✅ 306 strings (UI ZM)
-    ├── en_code_post_gfx_mp.str# ✅ 5 strings-chave (HUD MP)
-    └── en_code_post_gfx_zm.str# ✅ 5 strings-chave (HUD ZM)
+├── source/zone_dump/               # Strings originais (extraído do jogo)
+└── ptbr/zone_raw/                  # ⬅️ Strings TRADUZIDAS
+    ├── en_code_post_gfx_mp_translated.str  # ✅ 33.879 (MP menus + HUD)
+    ├── en_code_post_gfx_zm_translated.str  # ✅ 21.708 (ZM menus + HUD)
+    ├── en_patch_zm.str              # ✅ 2.308 (Zombies perks, portas)
+    ├── en_patch_mp.str              # ✅ 2.475 (Multiplayer)
+    ├── en_ui_mp.str                 # ✅ 306 (UI Multiplayer)
+    └── en_ui_zm.str                 # ✅ 306 (UI Zombies)
 ```
+
+**Nota:** Os arquivos `en_code_post_gfx_*.str` foram consolidados de 13 chunks (8 MP + 5 ZM) em 2 arquivos únicos para facilitar versionamento e deploy.
 
 ## Deploy Rápido
 
 ```powershell
-$src = "translation\ptbr\localizedstrings"
+$src = "translation\ptbr\zone_raw"
 $dst = "$env:LOCALAPPDATA\Plutonium\storage\t6\raw\localizedstrings"
 Copy-Item "$src\*.str" -Destination $dst -Force
+Write-Host "✅ Arquivos copiados. Restart Plutonium T6!"
 ```
 
 ## 📚 Documentação
