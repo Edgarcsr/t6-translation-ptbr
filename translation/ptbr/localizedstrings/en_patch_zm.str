@@ -2759,7 +2759,7 @@ REFERENCE           ZOMBIE_HACK_NO_COST
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Hackear"
 
 REFERENCE           MPUI_STORAGEPACK_MSG
-LANG_ENGLISH        "Aumenta o numero de conjuntos personalizados de Create-A-Class\npara 10 e expande a capacidade de armazenamento de midia para emblemas,\nvideos, capturas de tela e partidas personalizadas. Visite a Loja\npara comprar agora!"
+LANG_ENGLISH        "Aumenta o numero de conjuntos personalizados de Crie uma Classe\npara 10 e expande a capacidade de armazenamento de midia para emblemas,\nvideos, capturas de tela e partidas personalizadas. Visite a Loja\npara comprar agora!"
 
 REFERENCE           ZMUI_ZMEAT_SHORT_CAPS
 LANG_ENGLISH        "CARNE"

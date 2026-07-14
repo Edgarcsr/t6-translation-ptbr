@@ -16,14 +16,17 @@
 
 ## Status atual
 
-**3 arquivos traduzidos, ~2.400 strings.** Funcionando em jogo via sistema RAW de override.
+**5.405 strings traduzidas em 6 arquivos.** Funcionando em jogo via sistema RAW de override.
 
 | Arquivo | Strings | Status |
 |---|---|---|
-| `en_patch_zm.str` | 2.308 | ✅ Completo (com acentos) |
-| `en_code_post_gfx_mp.str` | strings-chave | ✅ "PARTIDAS PERSONALIZADAS", "Opções" |
-| `en_code_post_gfx_zm.str` | strings-chave | ✅ "PARTIDAS PERSONALIZADAS", "Opções" |
-| 80+ arquivos restantes | ~45.000 | ⏳ Pendente |
+| `en_patch_zm.str` | 2.308 | ✅ Completo (Zombies — patches, menus, perks) |
+| `en_patch_mp.str` | 2.475 | ✅ Completo (Multiplayer — patches, menus, modos) |
+| `en_ui_mp.str` | 306 | ✅ Completo (UI Multiplayer) |
+| `en_ui_zm.str` | 306 | ✅ Completo (UI Zombies) |
+| `en_code_post_gfx_mp.str` | 5 | ✅ Strings-chave (Custom Games, Opções) |
+| `en_code_post_gfx_zm.str` | 5 | ✅ Strings-chave (Custom Games, Opções) |
+| `en_common_mp` `en_common_zm` `en_patch_ui_mp` `en_patch_ui_zm` | — | ⬜ Sem .str (assets visuais) |
 
 ## Sistema RAW de Override ✅ (Método Preferido)
 
@@ -48,9 +51,12 @@ Plutonium carrega automaticamente, sem limite de strings por arquivo, e **manté
 translation/
 ├── source/zone_dump/          # Strings originais extraídas (NÃO EDITAR)
 └── ptbr/localizedstrings/     # ⬅️ SEU TRABALHO FICA AQUI
-    ├── en_patch_zm.str        # ✅ Traduzido (patches Zombies)
-    ├── en_code_post_gfx_mp.str# ✅ Traduzido (HUD Multiplayer)
-    └── en_code_post_gfx_zm.str# ✅ Traduzido (HUD Zombies)
+    ├── en_patch_zm.str        # ✅ 2.308 strings (Zombies)
+    ├── en_patch_mp.str        # ✅ 2.475 strings (Multiplayer)
+    ├── en_ui_mp.str           # ✅ 306 strings (UI MP)
+    ├── en_ui_zm.str           # ✅ 306 strings (UI ZM)
+    ├── en_code_post_gfx_mp.str# ✅ 5 strings-chave (HUD MP)
+    └── en_code_post_gfx_zm.str# ✅ 5 strings-chave (HUD ZM)
 ```
 
 ## Deploy Rápido
