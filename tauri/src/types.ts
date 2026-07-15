@@ -1,1 +1,1 @@
-export type Status = "idle" | "downloading" | "downloaded" | "applying" | "applied" | "error";
+export type Status = "idle" | "downloading" | "applying" | "applied" | "error";

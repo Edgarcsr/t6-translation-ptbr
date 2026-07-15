@@ -12,7 +12,7 @@ import type { Status } from "./types";
 
 const DF_REPO_OWNER = "edgarcsr";
 const DF_REPO_NAME = "t6-translation-ptbr";
-const DF_RELEASE_TAG = "v0.1.0";
+const DF_RELEASE_TAG = "v0.2.0";
 const DF_BO2_PATH = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops II";
 
 function SettingsPanel({
@@ -102,7 +102,6 @@ function SettingsPanel({
 
 function App() {
   const [status, setStatus] = useState<Status>("idle");
-  const [zipPath, setZipPath] = useState("");
   const [error, setError] = useState("");
   const [repoOwner, setRepoOwner] = useState(DF_REPO_OWNER);
   const [repoName, setRepoName] = useState(DF_REPO_NAME);
@@ -159,36 +158,6 @@ function App() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, []);
 
-  async function handleDownload() {
-    try {
-      setStatus("downloading");
-      setError("");
-      const path = await tauriInvoke<string>("download_translation", { repoOwner, repoName, releaseTag });
-      setZipPath(path);
-      setStatus("downloaded");
-    } catch (err) {
-      setError(String(err));
-      setStatus("error");
-    }
-  }
-
-  async function handleApply() {
-    if (!zipPath) {
-      setError("Nenhuma tradução baixada");
-      setStatus("error");
-      return;
-    }
-    try {
-      setStatus("applying");
-      setError("");
-      await tauriInvoke<string>("apply_translation", { zipPath });
-      setStatus("applied");
-    } catch (err) {
-      setError(String(err));
-      setStatus("error");
-    }
-  }
-
   const handlePickPath = useCallback(async (setter: (p: string) => void) => {
     try {
       const selected = await open({ directory: true, multiple: false, title: "Selecionar pasta" });
@@ -196,15 +165,17 @@ function App() {
     } catch {}
   }, []);
 
-  async function handleRemove() {
+  async function handleDownload() {
     try {
       setError("");
-      await tauriInvoke("remove_translation", {});
+      setStatus("downloading");
+      const path = await tauriInvoke<string>("download_translation", { repoOwner, repoName, releaseTag });
+      setStatus("applying");
+      await tauriInvoke<string>("apply_translation", { zipPath: path });
+      setStatus("applied");
     } catch (err) {
       setError(String(err));
-    } finally {
-      setZipPath("");
-      setStatus("idle");
+      setStatus("error");
     }
   }
 
@@ -265,8 +236,6 @@ function App() {
           <DownloadCard
             status={status}
             onDownload={handleDownload}
-            onApply={handleApply}
-            onRemove={handleRemove}
           />
 
           <SteamFixCard

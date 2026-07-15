@@ -1,8 +1,8 @@
 [package]
-name = "tauri"
-version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+name = "t6-translation-ptbr"
+version = "0.2.0"
+description = "BO2 PT-BR Translation Manager for Plutonium"
+authors = ["Edgarcsr"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
