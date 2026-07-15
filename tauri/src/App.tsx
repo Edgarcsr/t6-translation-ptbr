@@ -109,10 +109,41 @@ function App() {
   const [showSettings, setShowSettings] = useState(false);
   const [steamFixInstalled, setSteamFixInstalled] = useState(false);
   const [steamFixBusy, setSteamFixBusy] = useState(false);
+  const [translationInstalled, setTranslationInstalled] = useState(false);
+  const [translationFileCount, setTranslationFileCount] = useState(0);
   const bo2Path = DF_BO2_PATH;
   const plutoniumPath = "%LOCALAPPDATA%\\Plutonium";
 
   const isBusy = status === "downloading" || status === "applying";
+
+  // Verificar status da tradução e Steam Fix ao iniciar
+  useEffect(() => {
+    (async () => {
+      try {
+        // Verificar tradução
+        const translationResult = await tauriInvoke<{
+          installed: boolean;
+          file_count: number;
+          path: string;
+        }>("check_translation_status", {});
+        setTranslationInstalled(translationResult.installed);
+        setTranslationFileCount(translationResult.file_count);
+
+        // Se a tradução já está instalada, marcar como "applied"
+        if (translationResult.installed) {
+          setStatus("applied");
+        }
+
+        // Verificar Steam Fix
+        const steamFixResult = await tauriInvoke<boolean>("check_steam_fix_status", {
+          bo2Path,
+        });
+        setSteamFixInstalled(steamFixResult);
+      } catch (err) {
+        console.error("Erro ao verificar status:", err);
+      }
+    })();
+  }, []);
 
   async function handleDownload() {
     try {
@@ -205,7 +236,12 @@ function App() {
         )}
 
         <div className="grid grid-cols-2 gap-4">
-          <HeroCard repoOwner={repoOwner} repoName={repoName} />
+          <HeroCard
+            repoOwner={repoOwner}
+            repoName={repoName}
+            translationInstalled={translationInstalled}
+            fileCount={translationFileCount}
+          />
 
           <DownloadCard
             status={status}

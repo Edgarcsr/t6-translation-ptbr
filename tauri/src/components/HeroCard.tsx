@@ -1,6 +1,16 @@
-import { Github } from "lucide-react";
+import { Github, Check, AlertCircle } from "lucide-react";
 
-export function HeroCard({ repoOwner, repoName }: { repoOwner: string; repoName: string }) {
+export function HeroCard({
+  repoOwner,
+  repoName,
+  translationInstalled,
+  fileCount,
+}: {
+  repoOwner: string;
+  repoName: string;
+  translationInstalled: boolean;
+  fileCount: number;
+}) {
   return (
     <div className="row-span-3 bg-brand rounded-2xl p-6 flex flex-col justify-between">
       <div>
@@ -9,7 +19,7 @@ export function HeroCard({ repoOwner, repoName }: { repoOwner: string; repoName:
             <span className="absolute inline-flex w-full h-full rounded-full bg-white animate-ping opacity-75" />
             <span className="relative inline-flex w-2 h-2 rounded-full bg-white" />
           </span>
-          Ativo
+          Projeto ativo
         </span>
       </div>
       <div className="space-y-1">

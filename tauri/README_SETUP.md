@@ -1,6 +1,9 @@
 # Translation Manager - Tauri App
 
-Aplicação desktop para baixar e aplicar a tradução PT-BR do BO2 no Plutonium.
+Aplicação desktop para:
+1. 📥 Baixar tradução PT-BR do BO2 (via GitHub release)
+2. 📂 Aplicar tradução no Plutonium
+3. 🎮 Configurar Steam para rodar Plutonium ao invés do BO2 original
 
 ## 🚀 Configuração e Build
 
@@ -68,6 +71,23 @@ gh release create v1.0.0 translation.zip
 
 ---
 
+## 🎮 Steam Fix - Rodar Plutonium pelo Steam
+
+O app pode configurar o Steam para rodar Plutonium ao invés do BO2 original:
+
+1. Clique em **"Instalar Steam Fix"**
+2. App faz backup dos executáveis originais
+3. Substitui `t6mp.exe`, `t6sp.exe`, `t6zm.exe` por `plutonium.exe`
+4. Ao clicar "Play" no Steam → Roda Plutonium!
+
+**Desinstalar:**
+- Clique em **"Desinstalar Steam Fix"**
+- Restaura executáveis originais automaticamente
+
+> 📖 **Leia:** [STEAM_FIX_EVOLUTION.md](./STEAM_FIX_EVOLUTION.md) para entender a estratégia
+
+---
+
 ## 🔧 Funções Backend (Rust)
 
 ### `download_translation(repo_owner, repo_name, release_tag)`
@@ -83,6 +103,20 @@ Descompacta o ZIP e copia arquivos `.str` para a pasta do Plutonium.
 
 **Retorna:** Mensagem confirmando o diretório  
 **Erro:** Se ZIP inválido ou sem permissão de escrita
+
+### `steam_fix_install(bo2_path)`
+
+Faz backup dos executáveis e substitui por `plutonium.exe`.
+
+**Retorna:** Mensagem de sucesso com detalhes do backup  
+**Erro:** Se não conseguir copiar arquivos
+
+### `steam_fix_uninstall(bo2_path)`
+
+Restaura executáveis originais do backup.
+
+**Retorna:** Mensagem de sucesso  
+**Erro:** Se backup não existir
 
 ---
 
