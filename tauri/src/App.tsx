@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { AlertCircle, Settings, X, Github, Gamepad2, FolderOpen } from "lucide-react";
+import { Toaster, toast } from "sonner";
 import { tauriInvoke } from "./lib/tauri";
 import { open } from "@tauri-apps/plugin-dialog";
 import { TooltipProvider } from "./components/Tooltip";
@@ -170,12 +171,15 @@ function App() {
       setError("");
       setStatus("downloading");
       const path = await tauriInvoke<string>("download_translation", { repoOwner, repoName, releaseTag });
+      toast.success("Download concluído! Aplicando...");
       setStatus("applying");
       await tauriInvoke<string>("apply_translation", { zipPath: path });
       setStatus("applied");
+      toast.success("Tradução aplicada!");
     } catch (err) {
       setError(String(err));
       setStatus("error");
+      toast.error("Erro ao aplicar tradução");
     }
   }
 
@@ -186,12 +190,15 @@ function App() {
       if (steamFixInstalled) {
         await tauriInvoke("steam_fix_uninstall", { bo2Path });
         setSteamFixInstalled(false);
+        toast.success("Steam Launch Fix removido!");
       } else {
         await tauriInvoke("steam_fix_install", { bo2Path });
         setSteamFixInstalled(true);
+        toast.success("Steam Launch Fix aplicado!");
       }
     } catch (err) {
       setError(String(err));
+      toast.error("Erro ao aplicar Steam Launch Fix");
     } finally {
       setSteamFixBusy(false);
     }
@@ -199,6 +206,12 @@ function App() {
 
   return (
     <TooltipProvider>
+    <Toaster
+      position="bottom-center"
+      toastOptions={{
+        style: { background: "#171717", border: "1px solid #262626", color: "#fff", fontSize: "13px" },
+      }}
+    />
     <div className="min-h-screen bg-black text-white">
       <div className="max-w-2xl mx-auto px-6 py-8">
         <header className="flex items-center justify-between mb-8">
