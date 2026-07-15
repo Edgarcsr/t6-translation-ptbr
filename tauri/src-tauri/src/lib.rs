@@ -262,6 +262,7 @@ fn check_steam_fix_status(bo2_path: &str) -> Result<bool, String> {
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_opener::init())
+        .plugin(tauri_plugin_dialog::init())
         .invoke_handler(tauri::generate_handler![
             download_translation,
             apply_translation,

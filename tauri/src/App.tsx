@@ -1,6 +1,7 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { AlertCircle, Settings, X, Github, Gamepad2, FolderOpen } from "lucide-react";
 import { tauriInvoke } from "./lib/tauri";
+import { open } from "@tauri-apps/plugin-dialog";
 import { TooltipProvider } from "./components/Tooltip";
 import { HeroCard } from "./components/HeroCard";
 import { DownloadCard } from "./components/DownloadCard";
@@ -110,8 +111,8 @@ function App() {
   const [steamFixInstalled, setSteamFixInstalled] = useState(false);
   const [steamFixBusy, setSteamFixBusy] = useState(false);
 
-  const bo2Path = DF_BO2_PATH;
-  const plutoniumPath = "%LOCALAPPDATA%\\Plutonium";
+  const [bo2Path, setBo2Path] = useState(DF_BO2_PATH);
+  const [plutoniumPath, setPlutoniumPath] = useState("%LOCALAPPDATA%\\Plutonium");
   const [bo2Detected, setBo2Detected] = useState(false);
   const [plutoniumDetected, setPlutoniumDetected] = useState(false);
 
@@ -176,6 +177,13 @@ function App() {
       setStatus("error");
     }
   }
+
+  const handlePickPath = useCallback(async (setter: (p: string) => void) => {
+    try {
+      const selected = await open({ directory: true, multiple: false, title: "Selecionar pasta" });
+      if (selected) setter(selected as string);
+    } catch {}
+  }, []);
 
   async function handleRemove() {
     try {
@@ -274,12 +282,14 @@ function App() {
             label="BO2 Path"
             path={bo2Path}
             detected={bo2Detected}
+            onPick={() => handlePickPath(setBo2Path)}
           />
           <PathCard
             icon={<FolderOpen className="w-3.5 h-3.5 text-neutral-500" />}
             label="Plutonium Path"
             path={plutoniumPath}
             detected={plutoniumDetected}
+            onPick={() => handlePickPath(setPlutoniumPath)}
           />
         </div>
 
