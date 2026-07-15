@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@theme {
+  --color-brand: #EF7B00;
+  --color-brand-hover: #D96D00;
+  --color-brand-muted: rgba(239, 123, 0, 0.125);
+  --color-brand-shadow: rgba(239, 123, 0, 0.2);
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white font-sans;
+  }
+}
