@@ -9,19 +9,85 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  build-tauri:
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install dependencies (Ubuntu)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
+
+      - name: Install Node dependencies
+        run: npm ci
+        working-directory: tauri
+
+      - name: Build Tauri
+        run: npm run tauri build
+        working-directory: tauri
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: tauri-build-${{ matrix.os }}
+          path: tauri/src-tauri/target/release/bundle/
+
+  release:
+    needs: build-tauri
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
       - name: Package translation files
         run: |
-          mkdir -p "$GITHUB_WORKSPACE/dist"
-          cd "$GITHUB_WORKSPACE/translation/ptbr/localizedstrings"
+          mkdir -p dist
+          cd translation/ptbr/localizedstrings
           zip -j "$GITHUB_WORKSPACE/dist/translation.zip" *.str
+
+      - name: Organize assets
+        run: |
+          mkdir -p release-assets
+
+          # Windows
+          if [ -d "artifacts/tauri-build-windows-latest" ]; then
+            cp -r artifacts/tauri-build-windows-latest/msi/* release-assets/ 2>/dev/null || true
+            cp -r artifacts/tauri-build-windows-latest/nsis/* release-assets/ 2>/dev/null || true
+          fi
+
+          # macOS
+          if [ -d "artifacts/tauri-build-macos-latest" ]; then
+            cp -r artifacts/tauri-build-macos-latest/dmg/* release-assets/ 2>/dev/null || true
+          fi
+
+          # Linux
+          if [ -d "artifacts/tauri-build-ubuntu-latest" ]; then
+            cp -r artifacts/tauri-build-ubuntu-latest/appimage/* release-assets/ 2>/dev/null || true
+            cp -r artifacts/tauri-build-ubuntu-latest/deb/* release-assets/ 2>/dev/null || true
+          fi
+
+          # Translation
+          cp dist/translation.zip release-assets/
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/translation.zip
+          files: release-assets/**/*
           generate_release_notes: true
