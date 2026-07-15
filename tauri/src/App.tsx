@@ -158,16 +158,17 @@ function App() {
 
   async function handleSteamFixToggle() {
     setSteamFixBusy(true);
+    setError("");
     try {
       if (steamFixInstalled) {
-        await new Promise((r) => setTimeout(r, 1000));
+        await tauriInvoke("steam_fix_uninstall", { bo2Path });
         setSteamFixInstalled(false);
       } else {
-        await new Promise((r) => setTimeout(r, 1000));
+        await tauriInvoke("steam_fix_install", { bo2Path });
         setSteamFixInstalled(true);
       }
-    } catch {
-      setError("Falha ao gerenciar Steam Launch Fix");
+    } catch (err) {
+      setError(String(err));
     } finally {
       setSteamFixBusy(false);
     }

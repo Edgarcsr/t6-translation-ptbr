@@ -34,7 +34,7 @@ fn apply_translation(zip_path: &str) -> Result<String, String> {
     let zip_file = fs::File::open(zip_path).map_err(|e| format!("Erro ao abrir ZIP: {}", e))?;
     let mut archive = zip::ZipArchive::new(zip_file).map_err(|e| format!("ZIP inválido: {}", e))?;
 
-    let plutonium_dir = get_plutonium_strings_dir().map_err(|e| format!("Plutonium não encontrado: {}", e))?;
+    let plutonium_dir = get_plutonium_strings_dir()?;
     fs::create_dir_all(&plutonium_dir).map_err(|e| format!("Erro ao criar diretório: {}", e))?;
 
     for i in 0..archive.len() {
@@ -50,6 +50,59 @@ fn apply_translation(zip_path: &str) -> Result<String, String> {
     }
 
     Ok(format!("Tradução aplicada em: {}", plutonium_dir.display()))
+}
+
+#[tauri::command]
+fn remove_translation() -> Result<String, String> {
+    let plutonium_dir = get_plutonium_strings_dir()?;
+
+    if !plutonium_dir.exists() {
+        return Ok("Nenhuma tradução encontrada".to_string());
+    }
+
+    let mut removed = 0u32;
+    for entry in fs::read_dir(&plutonium_dir).map_err(|e| format!("Erro ao ler diretório: {}", e))? {
+        let entry = entry.map_err(|e| format!("Erro ao acessar entrada: {}", e))?;
+        let path = entry.path();
+
+        if path.extension().map_or(false, |ext| ext == "str") {
+            fs::remove_file(&path).map_err(|e| format!("Erro ao remover {}: {}", path.display(), e))?;
+            removed += 1;
+        }
+    }
+
+    Ok(format!("{} arquivo(s) .str removido(s)", removed))
+}
+
+#[tauri::command]
+fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
+    let bat_path = PathBuf::from(bo2_path).join("Plutonium_BO2.bat");
+    let plutonium_exe = PathBuf::from(bo2_path)
+        .join("plutonium.exe");
+
+    let content = format!(
+        "@echo off\n\
+         start \"\" \"{}\" -procname bo2\n\
+         exit\n",
+        plutonium_exe.display()
+    );
+
+    let mut file = fs::File::create(&bat_path).map_err(|e| format!("Erro ao criar script: {}", e))?;
+    file.write_all(content.as_bytes()).map_err(|e| format!("Erro ao escrever script: {}", e))?;
+
+    Ok(format!("Script criado: {}", bat_path.display()))
+}
+
+#[tauri::command]
+fn steam_fix_uninstall(bo2_path: &str) -> Result<String, String> {
+    let bat_path = PathBuf::from(bo2_path).join("Plutonium_BO2.bat");
+
+    if bat_path.exists() {
+        fs::remove_file(&bat_path).map_err(|e| format!("Erro ao remover script: {}", e))?;
+        Ok("Script removido".to_string())
+    } else {
+        Ok("Nenhum script encontrado".to_string())
+    }
 }
 
 fn get_plutonium_strings_dir() -> Result<PathBuf, String> {
@@ -68,7 +121,13 @@ fn get_plutonium_strings_dir() -> Result<PathBuf, String> {
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_opener::init())
-        .invoke_handler(tauri::generate_handler![download_translation, apply_translation])
+        .invoke_handler(tauri::generate_handler![
+            download_translation,
+            apply_translation,
+            remove_translation,
+            steam_fix_install,
+            steam_fix_uninstall,
+        ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
