@@ -11,7 +11,7 @@ import type { Status } from "./types";
 
 const DF_REPO_OWNER = "edgarcsr";
 const DF_REPO_NAME = "t6-translation-ptbr";
-const DF_RELEASE_TAG = "v1.0.0";
+const DF_RELEASE_TAG = "v0.1.0";
 const DF_BO2_PATH = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops II";
 
 function SettingsPanel({
