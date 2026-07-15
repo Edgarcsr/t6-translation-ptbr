@@ -2,6 +2,8 @@ use std::path::{Path, PathBuf};
 use std::fs;
 use std::io::Write;
 
+use std::env;
+
 #[tauri::command]
 async fn download_translation(repo_owner: &str, repo_name: &str, release_tag: &str) -> Result<String, String> {
     let url = format!(
@@ -74,29 +76,116 @@ fn remove_translation() -> Result<String, String> {
     Ok(format!("{} arquivo(s) .str removido(s)", removed))
 }
 
+const BO2_APPID: &str = "202970";
+const STEAM_LAUNCH_OPTION: &str = "-procname bo2";
+
+fn find_steam_config(bo2_path: &str) -> Option<PathBuf> {
+    let p = Path::new(bo2_path);
+    // BO2 path: .../steamapps/common/Call of Duty Black Ops II
+    let steam = p.parent()?.parent()?.parent()?.parent()?;
+    Some(steam.join("config").join("localconfig.vdf"))
+}
+
+fn update_steam_config(bo2_path: &str, add: bool) -> Result<(), String> {
+    let config_path = match find_steam_config(bo2_path) {
+        Some(p) if p.exists() => p,
+        _ => return Ok(()),
+    };
+
+    let content = fs::read_to_string(&config_path)
+        .map_err(|e| format!("Erro ao ler config Steam: {}", e))?;
+
+    let option_key = "\"LaunchOptions\"";
+    let option_val = format!("\"LaunchOptions\"\t\t\"{}\"", STEAM_LAUNCH_OPTION);
+    let bo2_tag = format!("\"{}\"", BO2_APPID);
+
+    if add {
+        // Check if already set
+        if content.contains(&option_val) {
+            return Ok(());
+        }
+        // Check if different LaunchOptions exists for BO2
+        if content.contains(&bo2_tag) && content.contains(option_key) {
+            // A LaunchOptions already exists - check if it's ours or replace it
+            // We'll skip this for now to avoid breaking existing config
+            return Err("Já existe uma opção de inicialização configurada para BO2 no Steam.\n\
+                       Remova manualmente em Propriedades > Opções de Inicialização e tente novamente.".to_string());
+        }
+    }
+
+    let mut modified = false;
+    let mut result = String::new();
+    let mut in_bo2 = false;
+    let mut depth: i32 = 0;
+    let mut inserted = false;
+
+    for line in content.lines() {
+        let trimmed = line.trim();
+
+        if trimmed == bo2_tag {
+            in_bo2 = true;
+        }
+
+        if add && in_bo2 && !inserted && trimmed == "\"}" && depth == 0 && in_bo2 {
+            // End of BO2 section, insert before closing
+            result.push_str(&format!("\t\t{}\r\n", option_val));
+            inserted = true;
+            modified = true;
+        }
+
+        if !add && in_bo2 && trimmed.contains(option_key) {
+            modified = true;
+            continue; // skip this line
+        }
+
+        result.push_str(line);
+        result.push_str("\r\n");
+
+        if trimmed == "\"{" {
+            depth += 1;
+        }
+        if trimmed == "\"}" {
+            depth -= 1;
+            if depth < 0 && in_bo2 {
+                in_bo2 = false;
+                depth = 0;
+            }
+        }
+    }
+
+    if modified {
+        let backup = config_path.with_extension("vdf.backup");
+        if !backup.exists() {
+            fs::copy(&config_path, &backup).ok();
+        }
+        fs::write(&config_path, result.trim_end())
+            .map_err(|e| format!("Erro ao salvar config Steam: {}", e))?;
+    }
+
+    Ok(())
+}
+
 #[tauri::command]
 async fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
     let bo2_dir = PathBuf::from(bo2_path);
     let dest = bo2_dir.join("plutonium.exe");
 
     if !dest.exists() {
-        // Try finding in Plutonium installation first
-        let localappdata = std::env::var("LOCALAPPDATA")
-            .map_err(|_| "LOCALAPPDATA não encontrado".to_string())?;
-        let plutonium_bin = PathBuf::from(localappdata)
-            .join("Plutonium").join("bin").join("plutonium.exe");
+        // Try local Plutonium installation first
+        let local = env::var("LOCALAPPDATA").unwrap_or_default();
+        let local_exe = PathBuf::from(local).join("Plutonium").join("bin").join("plutonium.exe");
 
-        if plutonium_bin.exists() {
-            fs::copy(&plutonium_bin, &dest)
+        if local_exe.exists() {
+            fs::copy(&local_exe, &dest)
                 .map_err(|e| format!("Erro ao copiar plutonium.exe: {}", e))?;
         } else {
-            // Download from official CDN
+            // Download from CDN
             let response = reqwest::get("https://cdn.plutonium.pw/updater/plutonium.exe")
                 .await
                 .map_err(|e| format!("Falha ao baixar plutonium.exe: {}", e))?;
 
             if !response.status().is_success() {
-                return Err(format!("Falha ao baixar plutonium.exe: HTTP {}", response.status()));
+                return Err(format!("Falha ao baixar: HTTP {}", response.status()));
             }
 
             let bytes = response.bytes().await
@@ -105,59 +194,34 @@ async fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
             let mut file = fs::File::create(&dest)
                 .map_err(|e| format!("Erro ao criar arquivo: {}", e))?;
             file.write_all(&bytes)
-                .map_err(|e| format!("Erro ao salvar arquivo: {}", e))?;
+                .map_err(|e| format!("Erro ao salvar: {}", e))?;
         }
     }
 
-    // Create launch scripts
-    let launcher_mp = format!(
-        "@echo off\r\nstart \"\" \"{}\" -procname bo2\r\nexit\r\n",
-        dest.display()
-    );
-    let launcher_zm = format!(
-        "@echo off\r\nstart \"\" \"{}\" -procname bo2\r\nexit\r\n",
-        dest.display()
-    );
-
-    fs::write(bo2_dir.join("Plutonium_BO2_MP.bat"), launcher_mp)
-        .map_err(|e| format!("Erro ao criar script MP: {}", e))?;
-    fs::write(bo2_dir.join("Plutonium_BO2_ZM.bat"), launcher_zm)
-        .map_err(|e| format!("Erro ao criar script ZM: {}", e))?;
+    update_steam_config(bo2_path, true)?;
 
     Ok(format!(
         "Steam Fix instalado!\n\
-         plutonium.exe copiado para: {}\n\
-         Scripts criados:\n\
-         MP: {}\n\
-         ZM: {}\n\n\
-         No Steam, vá em Biblioteca > Call of Duty Black Ops II >\n\
-         Propriedades > Opções de Inicialização e cole:\n\
-         \"{}\" %command%",
+         plutonium.exe em: {}\n\
+         Opção de inicialização adicionada no Steam:\n\
+         {}",
         dest.display(),
-        bo2_dir.join("Plutonium_BO2_MP.bat").display(),
-        bo2_dir.join("Plutonium_BO2_ZM.bat").display(),
-        dest.display(),
+        STEAM_LAUNCH_OPTION,
     ))
 }
 
 #[tauri::command]
 fn steam_fix_uninstall(bo2_path: &str) -> Result<String, String> {
     let bo2_dir = PathBuf::from(bo2_path);
-    let mut removed = Vec::new();
-
-    for name in &["Plutonium_BO2_MP.bat", "Plutonium_BO2_ZM.bat", "plutonium.exe"] {
-        let path = bo2_dir.join(name);
-        if path.exists() {
-            fs::remove_file(&path).map_err(|e| format!("Erro ao remover {}: {}", name, e))?;
-            removed.push(*name);
-        }
+    let exe_path = bo2_dir.join("plutonium.exe");
+    if exe_path.exists() {
+        fs::remove_file(&exe_path)
+            .map_err(|e| format!("Erro ao remover plutonium.exe: {}", e))?;
     }
 
-    if removed.is_empty() {
-        Ok("Nenhum arquivo do Steam Fix encontrado".to_string())
-    } else {
-        Ok(format!("Removido: {}", removed.join(", ")))
-    }
+    update_steam_config(bo2_path, false)?;
+
+    Ok("Steam Fix removido".to_string())
 }
 
 fn get_plutonium_strings_dir() -> Result<PathBuf, String> {
