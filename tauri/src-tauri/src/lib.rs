@@ -250,11 +250,6 @@ fn check_translation_status() -> Result<serde_json::Value, String> {
 }
 
 #[tauri::command]
-fn check_path(path: &str) -> bool {
-    Path::new(path).exists()
-}
-
-#[tauri::command]
 fn check_steam_fix_status(bo2_path: &str) -> Result<bool, String> {
     let bo2_dir = PathBuf::from(bo2_path);
     let backup_dir = bo2_dir.join(".plutonium_backup");

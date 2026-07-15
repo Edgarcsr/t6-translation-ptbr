@@ -29,7 +29,7 @@ export function SteamFixCard({
               className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all flex-shrink-0 ${
                 !busy
                   ? installed
-                    ? "bg-red-500 hover:bg-red-400 text-white active:scale-[0.98]"
+                    ? "bg-neutral-200 hover:bg-neutral-200 text-neutral-500 hover:text-rose-500 active:scale-[0.98]"
                     : "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
                   : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
               }`}

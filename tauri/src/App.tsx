@@ -109,7 +109,7 @@ function App() {
   const [showSettings, setShowSettings] = useState(false);
   const [steamFixInstalled, setSteamFixInstalled] = useState(false);
   const [steamFixBusy, setSteamFixBusy] = useState(false);
-  const [translationInstalled, setTranslationInstalled] = useState(false);
+
   const bo2Path = DF_BO2_PATH;
   const plutoniumPath = "%LOCALAPPDATA%\\Plutonium";
   const [bo2Detected, setBo2Detected] = useState(false);
@@ -131,7 +131,6 @@ function App() {
           file_count: number;
           path: string;
         }>("check_translation_status", {});
-        setTranslationInstalled(translationResult.installed);
 
         if (translationResult.installed) {
           setStatus("applied");
@@ -242,7 +241,6 @@ function App() {
           <HeroCard
             repoOwner={repoOwner}
             repoName={repoName}
-            translationInstalled={translationInstalled}
           />
 
           <DownloadCard
