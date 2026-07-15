@@ -5,6 +5,9 @@ on:
     tags:
       - "v*.*.*"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,9 +16,9 @@ jobs:
 
       - name: Package translation files
         run: |
-          mkdir -p dist
-          cd translation/ptbr/localizedstrings
-          zip -j ${{ github.workspace }}/dist/translation.zip *.str
+          mkdir -p "$GITHUB_WORKSPACE/dist"
+          cd "$GITHUB_WORKSPACE/translation/ptbr/localizedstrings"
+          zip -j "$GITHUB_WORKSPACE/dist/translation.zip" *.str
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
