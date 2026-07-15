@@ -75,24 +75,38 @@ fn remove_translation() -> Result<String, String> {
 }
 
 #[tauri::command]
-fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
+async fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
     let bo2_dir = PathBuf::from(bo2_path);
-
-    // Find plutonium.exe from user's Plutonium installation
-    let localappdata = std::env::var("LOCALAPPDATA")
-        .map_err(|_| "LOCALAPPDATA não encontrado".to_string())?;
-    let plutonium_bin = PathBuf::from(localappdata)
-        .join("Plutonium").join("bin").join("plutonium.exe");
-
     let dest = bo2_dir.join("plutonium.exe");
 
-    if plutonium_bin.exists() {
-        fs::copy(&plutonium_bin, &dest)
-            .map_err(|e| format!("Erro ao copiar plutonium.exe: {}", e))?;
-    } else if !dest.exists() {
-        return Err(
-            "Plutonium não encontrado. Instale o Plutonium em https://plutonium.pw/ primeiro.".to_string()
-        );
+    if !dest.exists() {
+        // Try finding in Plutonium installation first
+        let localappdata = std::env::var("LOCALAPPDATA")
+            .map_err(|_| "LOCALAPPDATA não encontrado".to_string())?;
+        let plutonium_bin = PathBuf::from(localappdata)
+            .join("Plutonium").join("bin").join("plutonium.exe");
+
+        if plutonium_bin.exists() {
+            fs::copy(&plutonium_bin, &dest)
+                .map_err(|e| format!("Erro ao copiar plutonium.exe: {}", e))?;
+        } else {
+            // Download from official CDN
+            let response = reqwest::get("https://cdn.plutonium.pw/updater/plutonium.exe")
+                .await
+                .map_err(|e| format!("Falha ao baixar plutonium.exe: {}", e))?;
+
+            if !response.status().is_success() {
+                return Err(format!("Falha ao baixar plutonium.exe: HTTP {}", response.status()));
+            }
+
+            let bytes = response.bytes().await
+                .map_err(|e| format!("Falha ao ler resposta: {}", e))?;
+
+            let mut file = fs::File::create(&dest)
+                .map_err(|e| format!("Erro ao criar arquivo: {}", e))?;
+            file.write_all(&bytes)
+                .map_err(|e| format!("Erro ao salvar arquivo: {}", e))?;
+        }
     }
 
     // Create launch scripts
