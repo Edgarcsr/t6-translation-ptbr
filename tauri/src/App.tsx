@@ -148,6 +148,17 @@ function App() {
     })();
   }, []);
 
+  // Bloquear F11 (fullscreen)
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "F11") {
+        e.preventDefault();
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, []);
+
   async function handleDownload() {
     try {
       setStatus("downloading");
@@ -293,9 +304,7 @@ function App() {
           />
         </div>
 
-        <footer className="text-center mt-6">
-          <p className="text-xs text-neutral-600">Tauri + React + Rust</p>
-        </footer>
+        <div className="mt-6" />
       </div>
     </div>
     </TooltipProvider>
