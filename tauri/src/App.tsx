@@ -110,16 +110,21 @@ function App() {
   const [steamFixInstalled, setSteamFixInstalled] = useState(false);
   const [steamFixBusy, setSteamFixBusy] = useState(false);
   const [translationInstalled, setTranslationInstalled] = useState(false);
-  const [translationFileCount, setTranslationFileCount] = useState(0);
   const bo2Path = DF_BO2_PATH;
   const plutoniumPath = "%LOCALAPPDATA%\\Plutonium";
+  const [bo2Detected, setBo2Detected] = useState(false);
+  const [plutoniumDetected, setPlutoniumDetected] = useState(false);
 
   const isBusy = status === "downloading" || status === "applying";
 
-  // Verificar status da tradução e Steam Fix ao iniciar
+  // Verificar status ao iniciar
   useEffect(() => {
     (async () => {
       try {
+        // Verificar caminhos
+        setBo2Detected(await tauriInvoke<boolean>("check_path", { path: bo2Path }));
+        setPlutoniumDetected(await tauriInvoke<boolean>("check_path", { path: plutoniumPath }));
+
         // Verificar tradução
         const translationResult = await tauriInvoke<{
           installed: boolean;
@@ -127,9 +132,7 @@ function App() {
           path: string;
         }>("check_translation_status", {});
         setTranslationInstalled(translationResult.installed);
-        setTranslationFileCount(translationResult.file_count);
 
-        // Se a tradução já está instalada, marcar como "applied"
         if (translationResult.installed) {
           setStatus("applied");
         }
@@ -240,7 +243,6 @@ function App() {
             repoOwner={repoOwner}
             repoName={repoName}
             translationInstalled={translationInstalled}
-            fileCount={translationFileCount}
           />
 
           <DownloadCard
@@ -273,11 +275,13 @@ function App() {
             icon={<Gamepad2 className="w-3.5 h-3.5 text-neutral-500" />}
             label="BO2 Path"
             path={bo2Path}
+            detected={bo2Detected}
           />
           <PathCard
             icon={<FolderOpen className="w-3.5 h-3.5 text-neutral-500" />}
             label="Plutonium Path"
             path={plutoniumPath}
+            detected={plutoniumDetected}
           />
         </div>
 

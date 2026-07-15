@@ -170,6 +170,11 @@ async fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
 }
 
 #[tauri::command]
+fn check_path(path: &str) -> bool {
+    Path::new(path).exists()
+}
+
+#[tauri::command]
 fn steam_fix_uninstall(bo2_path: &str) -> Result<String, String> {
     let bo2_dir = PathBuf::from(bo2_path);
     let backup_dir = bo2_dir.join(".plutonium_backup");
@@ -245,6 +250,11 @@ fn check_translation_status() -> Result<serde_json::Value, String> {
 }
 
 #[tauri::command]
+fn check_path(path: &str) -> bool {
+    Path::new(path).exists()
+}
+
+#[tauri::command]
 fn check_steam_fix_status(bo2_path: &str) -> Result<bool, String> {
     let bo2_dir = PathBuf::from(bo2_path);
     let backup_dir = bo2_dir.join(".plutonium_backup");
@@ -262,6 +272,7 @@ pub fn run() {
             apply_translation,
             remove_translation,
             check_translation_status,
+            check_path,
             check_steam_fix_status,
             steam_fix_install,
             steam_fix_uninstall,
