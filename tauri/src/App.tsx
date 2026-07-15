@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from "react";
-import { invoke } from "@tauri-apps/api/core";
-import { Download, AlertCircle, Settings, X, Github, FolderOpen, Package, Gamepad2, Trash2, Zap } from "lucide-react";
+import { Download, AlertCircle, Settings, X, Github, FolderOpen, Package, Gamepad2, Trash2, Zap, Check } from "lucide-react";
+import { tauriInvoke } from "./lib/tauri";
 import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "./components/Tooltip";
 
-type Status = "idle" | "downloading" | "downloaded" | "applied" | "error";
+type Status = "idle" | "downloading" | "downloaded" | "applying" | "applied" | "error";
 
 const DF_REPO_OWNER = "edgarcsr";
 const DF_REPO_NAME = "t6-translation-ptbr";
@@ -106,6 +106,7 @@ function Spinner() {
 
 function App() {
   const [status, setStatus] = useState<Status>("idle");
+  const [zipPath, setZipPath] = useState("");
   const [error, setError] = useState("");
   const [repoOwner, setRepoOwner] = useState(DF_REPO_OWNER);
   const [repoName, setRepoName] = useState(DF_REPO_NAME);
@@ -117,17 +118,47 @@ function App() {
   const plutoniumPath = "%LOCALAPPDATA%\\Plutonium";
 
   const translationProgress = 80;
-  const isBusy = status === "downloading";
+  const isBusy = status === "downloading" || status === "applying";
 
   async function handleDownload() {
     try {
       setStatus("downloading");
       setError("");
-      await invoke<string>("download_translation", { repoOwner, repoName, releaseTag });
+      const path = await tauriInvoke<string>("download_translation", { repoOwner, repoName, releaseTag });
+      setZipPath(path);
       setStatus("downloaded");
     } catch (err) {
       setError(String(err));
       setStatus("error");
+    }
+  }
+
+  async function handleApply() {
+    if (!zipPath) {
+      setError("Nenhuma tradução baixada");
+      setStatus("error");
+      return;
+    }
+    try {
+      setStatus("applying");
+      setError("");
+      await tauriInvoke<string>("apply_translation", { zipPath });
+      setStatus("applied");
+    } catch (err) {
+      setError(String(err));
+      setStatus("error");
+    }
+  }
+
+  async function handleRemove() {
+    try {
+      setError("");
+      await tauriInvoke("remove_translation", {});
+    } catch (err) {
+      setError(String(err));
+    } finally {
+      setZipPath("");
+      setStatus("idle");
     }
   }
 
@@ -199,8 +230,9 @@ function App() {
               <p className="text-sm text-white/80">traduzido</p>
             </div>
             <a
-              href="#"
-              onClick={(e) => { e.preventDefault(); }}
+              href="https://github.com/Edgarcsr/t6-translation-ptbr"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm transition-colors"
             >
               <Github className="w-4 h-4" />
@@ -208,7 +240,7 @@ function App() {
             </a>
           </div>
 
-          {/* Card 1 — Download */}
+          {/* Card 1 — Download / Apply */}
           <div className="bg-neutral-900 border border-neutral-800 rounded-2xl">
             <div className="p-4 flex items-center gap-3">
               <div className="w-9 h-9 rounded-full bg-neutral-800 flex items-center justify-center flex-shrink-0">
@@ -221,70 +253,125 @@ function App() {
               <Tooltip>
                 <TooltipTrigger asChild>
                   <button
-                    onClick={handleDownload}
-                    disabled={status === "downloading"}
+                    onClick={status === "downloaded" ? handleApply : handleDownload}
+                    disabled={status === "downloading" || status === "applying" || status === "applied"}
                     className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all flex-shrink-0 ${
-                      status !== "downloading"
+                      status === "downloading" || status === "applying" || status === "applied"
+                        ? "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                        : status === "downloaded"
                         ? "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
-                        : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                        : "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
                     }`}
                   >
-                    {status === "downloading" ? <Spinner /> : <Download className="w-4 h-4" />}
+                    {status === "downloading" || status === "applying" ? (
+                      <Spinner />
+                    ) : status === "downloaded" || status === "applied" ? (
+                      <Check className="w-4 h-4" />
+                    ) : (
+                      <Download className="w-4 h-4" />
+                    )}
                   </button>
                 </TooltipTrigger>
-                <TooltipContent>{status === "downloading" ? "Baixando..." : "Baixar"}</TooltipContent>
+                <TooltipContent>
+                  {status === "downloading" ? "Baixando..."
+                    : status === "downloaded" ? "Aplicar"
+                    : status === "applying" ? "Aplicando..."
+                    : status === "applied" ? "Aplicado"
+                    : "Baixar"}
+                </TooltipContent>
               </Tooltip>
             </div>
-            <div className="px-4 pb-4">
-              <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium ${
-                status === "downloading"
-                  ? "bg-amber-500/20 text-amber-400"
-                  : status === "downloaded" || status === "applied"
-                  ? "bg-emerald-500/20 text-emerald-400"
-                  : "bg-neutral-800 text-neutral-400"
-              }`}>
+            <div className="px-4 pb-4 flex items-center justify-between">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-neutral-800 text-neutral-400">
                 <span className="relative flex w-1.5 h-1.5">
-                  {(status === "downloading" || status === "downloaded" || status === "applied") && (
-                    <span className="absolute inline-flex w-full h-full rounded-full bg-current animate-ping opacity-75" />
+                  {(status === "downloading" || status === "downloaded" || status === "applying") && (
+                    <span className="absolute inline-flex w-full h-full rounded-full bg-amber-400 animate-ping opacity-75" />
                   )}
-                  <span className="relative inline-flex w-1.5 h-1.5 rounded-full bg-current" />
+                  {status === "applied" && (
+                    <span className="absolute inline-flex w-full h-full rounded-full bg-emerald-400 animate-ping opacity-75" />
+                  )}
+                  <span className={`relative inline-flex w-1.5 h-1.5 rounded-full ${
+                    status === "applied" ? "bg-emerald-400"
+                    : status === "downloading" || status === "downloaded" || status === "applying" ? "bg-amber-400"
+                    : "bg-neutral-500"
+                  }`} />
                 </span>
-                {status === "downloading" ? "baixando" : status === "downloaded" || status === "applied" ? "baixado" : "não baixado"}
+                {status === "downloading" ? "baixando"
+                  : status === "downloaded" || status === "applying" ? "baixado"
+                  : status === "applied" ? "aplicado"
+                  : "não baixado"}
               </span>
+              {(status === "downloaded" || status === "applied") && (
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <button
+                      onClick={handleRemove}
+                      className="w-7 h-7 rounded-lg flex items-center justify-center bg-neutral-800 hover:bg-neutral-700 text-neutral-500 hover:text-red-400 transition-all flex-shrink-0 active:scale-[0.95]"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                    </button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    {status === "downloaded" ? "Remover tradução baixada" : "Remover tradução aplicada"}
+                  </TooltipContent>
+                </Tooltip>
+              )}
             </div>
           </div>
 
-          {/* Card 2 — Steam Launch Fix (white, one row) */}
-          <div className="bg-white rounded-2xl p-4 flex items-center gap-3">
-            <div className="w-9 h-9 rounded-full bg-neutral-100 flex items-center justify-center flex-shrink-0">
-              <Gamepad2 className="w-4 h-4 text-neutral-500" />
+          {/* Card 2 — Steam Launch Fix (white) */}
+          <div className="bg-white rounded-2xl">
+            <div className="p-4 flex items-center gap-3">
+              <div className="w-9 h-9 rounded-full bg-neutral-100 flex items-center justify-center flex-shrink-0">
+                <Gamepad2 className="w-4 h-4 text-neutral-500" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-semibold text-neutral-900">Steam Launch Fix</p>
+                <p className="text-xs text-neutral-500 truncate">Iniciar BO2 pelo Plutonium</p>
+              </div>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <button
+                    onClick={handleSteamFixToggle}
+                    disabled={steamFixBusy}
+                    className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all flex-shrink-0 ${
+                      !steamFixBusy
+                        ? steamFixInstalled
+                          ? "bg-red-500 hover:bg-red-400 text-white active:scale-[0.98]"
+                          : "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
+                        : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                    }`}
+                  >
+                    {steamFixBusy ? <Spinner /> : steamFixInstalled ? <Trash2 className="w-4 h-4" /> : <Zap className="w-4 h-4" />}
+                  </button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  {steamFixBusy
+                    ? (steamFixInstalled ? "Desinstalando..." : "Instalando...")
+                    : (steamFixInstalled ? "Desinstalar" : "Instalar")}
+                </TooltipContent>
+              </Tooltip>
             </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-sm font-semibold text-neutral-900">Steam Launch Fix</p>
-              <p className="text-xs text-neutral-500 truncate">Iniciar BO2 pelo Plutonium</p>
+            <div className="px-4 pb-4">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-neutral-100 text-neutral-500">
+                <span className="relative flex w-1.5 h-1.5">
+                  {steamFixBusy && (
+                    <span className="absolute inline-flex w-full h-full rounded-full bg-amber-500 animate-ping opacity-75" />
+                  )}
+                  {steamFixInstalled && !steamFixBusy && (
+                    <span className="absolute inline-flex w-full h-full rounded-full bg-emerald-500 animate-ping opacity-75" />
+                  )}
+                  <span className={`relative inline-flex w-1.5 h-1.5 rounded-full ${
+                    steamFixBusy ? "bg-amber-500"
+                    : steamFixInstalled ? "bg-emerald-500"
+                    : "bg-neutral-400"
+                  }`} />
+                </span>
+                {steamFixBusy ? (steamFixInstalled ? "desinstalando" : "instalando")
+                  : steamFixInstalled ? "instalado"
+                  : "não instalado"}
+              </span>
             </div>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <button
-                  onClick={handleSteamFixToggle}
-                  disabled={steamFixBusy}
-                  className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all flex-shrink-0 ${
-                    !steamFixBusy
-                      ? steamFixInstalled
-                        ? "bg-red-500 hover:bg-red-400 text-white active:scale-[0.98]"
-                        : "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
-                      : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
-                  }`}
-                >
-                  {steamFixBusy ? <Spinner /> : steamFixInstalled ? <Trash2 className="w-4 h-4" /> : <Zap className="w-4 h-4" />}
-                </button>
-              </TooltipTrigger>
-              <TooltipContent>
-                {steamFixBusy
-                  ? (steamFixInstalled ? "Desinstalando..." : "Instalando...")
-                  : (steamFixInstalled ? "Desinstalar" : "Instalar")}
-              </TooltipContent>
-            </Tooltip>
           </div>
 
           {/* Card 3 — Empty placeholder */}
