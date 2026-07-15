@@ -23,8 +23,8 @@ export function PathCard({
         </div>
         <div className="flex items-center gap-1.5">
           {detected && (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium bg-neutral-800 text-neutral-400">
-              <Zap className="w-2.5 h-2.5 text-neutral-500" />
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-neutral-800 text-neutral-400">
+              <Zap className="w-3 h-3 text-neutral-500" />
               detectado
             </span>
           )}
