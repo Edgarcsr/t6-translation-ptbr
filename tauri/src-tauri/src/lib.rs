@@ -76,32 +76,73 @@ fn remove_translation() -> Result<String, String> {
 
 #[tauri::command]
 fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
-    let bat_path = PathBuf::from(bo2_path).join("Plutonium_BO2.bat");
-    let plutonium_exe = PathBuf::from(bo2_path)
-        .join("plutonium.exe");
+    let bo2_dir = PathBuf::from(bo2_path);
 
-    let content = format!(
-        "@echo off\n\
-         start \"\" \"{}\" -procname bo2\n\
-         exit\n",
-        plutonium_exe.display()
+    // Find plutonium.exe from user's Plutonium installation
+    let localappdata = std::env::var("LOCALAPPDATA")
+        .map_err(|_| "LOCALAPPDATA não encontrado".to_string())?;
+    let plutonium_bin = PathBuf::from(localappdata)
+        .join("Plutonium").join("bin").join("plutonium.exe");
+
+    let dest = bo2_dir.join("plutonium.exe");
+
+    if plutonium_bin.exists() {
+        fs::copy(&plutonium_bin, &dest)
+            .map_err(|e| format!("Erro ao copiar plutonium.exe: {}", e))?;
+    } else if !dest.exists() {
+        return Err(
+            "Plutonium não encontrado. Instale o Plutonium em https://plutonium.pw/ primeiro.".to_string()
+        );
+    }
+
+    // Create launch scripts
+    let launcher_mp = format!(
+        "@echo off\r\nstart \"\" \"{}\" -procname bo2\r\nexit\r\n",
+        dest.display()
+    );
+    let launcher_zm = format!(
+        "@echo off\r\nstart \"\" \"{}\" -procname bo2\r\nexit\r\n",
+        dest.display()
     );
 
-    let mut file = fs::File::create(&bat_path).map_err(|e| format!("Erro ao criar script: {}", e))?;
-    file.write_all(content.as_bytes()).map_err(|e| format!("Erro ao escrever script: {}", e))?;
+    fs::write(bo2_dir.join("Plutonium_BO2_MP.bat"), launcher_mp)
+        .map_err(|e| format!("Erro ao criar script MP: {}", e))?;
+    fs::write(bo2_dir.join("Plutonium_BO2_ZM.bat"), launcher_zm)
+        .map_err(|e| format!("Erro ao criar script ZM: {}", e))?;
 
-    Ok(format!("Script criado: {}", bat_path.display()))
+    Ok(format!(
+        "Steam Fix instalado!\n\
+         plutonium.exe copiado para: {}\n\
+         Scripts criados:\n\
+         MP: {}\n\
+         ZM: {}\n\n\
+         No Steam, vá em Biblioteca > Call of Duty Black Ops II >\n\
+         Propriedades > Opções de Inicialização e cole:\n\
+         \"{}\" %command%",
+        dest.display(),
+        bo2_dir.join("Plutonium_BO2_MP.bat").display(),
+        bo2_dir.join("Plutonium_BO2_ZM.bat").display(),
+        dest.display(),
+    ))
 }
 
 #[tauri::command]
 fn steam_fix_uninstall(bo2_path: &str) -> Result<String, String> {
-    let bat_path = PathBuf::from(bo2_path).join("Plutonium_BO2.bat");
+    let bo2_dir = PathBuf::from(bo2_path);
+    let mut removed = Vec::new();
 
-    if bat_path.exists() {
-        fs::remove_file(&bat_path).map_err(|e| format!("Erro ao remover script: {}", e))?;
-        Ok("Script removido".to_string())
+    for name in &["Plutonium_BO2_MP.bat", "Plutonium_BO2_ZM.bat", "plutonium.exe"] {
+        let path = bo2_dir.join(name);
+        if path.exists() {
+            fs::remove_file(&path).map_err(|e| format!("Erro ao remover {}: {}", name, e))?;
+            removed.push(*name);
+        }
+    }
+
+    if removed.is_empty() {
+        Ok("Nenhum arquivo do Steam Fix encontrado".to_string())
     } else {
-        Ok("Nenhum script encontrado".to_string())
+        Ok(format!("Removido: {}", removed.join(", ")))
     }
 }
 
