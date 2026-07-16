@@ -7,8 +7,7 @@ import { TooltipProvider } from "./components/Tooltip";
 import { HeroCard } from "./components/HeroCard";
 import { DownloadCard } from "./components/DownloadCard";
 import { SteamFixCard } from "./components/SteamFixCard";
-import { PlaceholderCard } from "./components/PlaceholderCard";
-import { PixCard } from "./components/PixCard";
+import { BottomCards } from "./components/BottomCards";
 import { PathCard } from "./components/PathCard";
 import type { Status } from "./types";
 
@@ -329,8 +328,7 @@ function App() {
             onToggle={handleSteamFixToggle}
           />
 
-          <PixCard />
-          <PlaceholderCard />
+          <BottomCards />
         </div>
 
         {error && (
