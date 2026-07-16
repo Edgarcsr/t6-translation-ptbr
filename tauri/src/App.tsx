@@ -13,7 +13,7 @@ import type { Status } from "./types";
 
 const DF_REPO_OWNER = "edgarcsr";
 const DF_REPO_NAME = "t6-translation-ptbr";
-const DF_RELEASE_TAG = "v0.6.0";
+const DF_RELEASE_TAG_FALLBACK = "v0.6.0";
 const DF_BO2_PATH = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops II";
 
 function SettingsPanel({
@@ -106,7 +106,7 @@ function App() {
   const [error, setError] = useState("");
   const [repoOwner, setRepoOwner] = useState(DF_REPO_OWNER);
   const [repoName, setRepoName] = useState(DF_REPO_NAME);
-  const [releaseTag, setReleaseTag] = useState(DF_RELEASE_TAG);
+  const [releaseTag, setReleaseTag] = useState(""); // preenchido via API
   const [showSettings, setShowSettings] = useState(false);
   const [steamFixInstalled, setSteamFixInstalled] = useState(false);
   const [steamFixBusy, setSteamFixBusy] = useState(false);
@@ -116,7 +116,24 @@ function App() {
   const [bo2Detected, setBo2Detected] = useState(false);
   const [plutoniumDetected, setPlutoniumDetected] = useState(false);
 
-  const isBusy = status === "downloading" || status === "applying";
+  const isBusy = status === "downloading" || status === "applying" || !releaseTag;
+
+  useEffect(() => {
+    (async () => {
+      try {
+        // Buscar última release do GitHub
+        const res = await fetch(`https://api.github.com/repos/${DF_REPO_OWNER}/${DF_REPO_NAME}/releases/latest`);
+        if (res.ok) {
+          const data = await res.json();
+          setReleaseTag(data.tag_name);
+        } else {
+          setReleaseTag(DF_RELEASE_TAG_FALLBACK);
+        }
+      } catch {
+        setReleaseTag(DF_RELEASE_TAG_FALLBACK);
+      }
+    })();
+  }, []);
 
   // Verificar status ao iniciar
   useEffect(() => {
