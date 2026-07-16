@@ -7,7 +7,8 @@ import { TooltipProvider } from "./components/Tooltip";
 import { HeroCard } from "./components/HeroCard";
 import { DownloadCard } from "./components/DownloadCard";
 import { SteamFixCard } from "./components/SteamFixCard";
-import { BottomCards } from "./components/BottomCards";
+import { PlaceholderCard } from "./components/PlaceholderCard";
+import { PixCard } from "./components/PixCard";
 import { PathCard } from "./components/PathCard";
 import type { Status } from "./types";
 
@@ -327,8 +328,6 @@ function App() {
             busy={steamFixBusy}
             onToggle={handleSteamFixToggle}
           />
-
-          <BottomCards />
         </div>
 
         {error && (
@@ -355,6 +354,13 @@ function App() {
             detected={plutoniumDetected}
             onPick={() => handlePickPath(setPlutoniumPath)}
           />
+        </div>
+
+        <div className="grid grid-cols-4 gap-4 mt-4">
+          <PixCard />
+          <div className="col-span-3">
+            <PlaceholderCard />
+          </div>
         </div>
 
         <div className="mt-6" />
