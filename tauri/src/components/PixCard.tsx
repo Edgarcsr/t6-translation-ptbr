@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { QrCode, Copy, Check } from "lucide-react";
+import { QrCode, Copy, Check, Coffee } from "lucide-react";
 import { toast } from "sonner";
 import QRCode from "qrcode";
 import { Dialog, DialogTrigger, DialogContent, DialogTitle } from "./Dialog";
@@ -14,7 +14,7 @@ export function PixCard() {
 
   useEffect(() => {
     QRCode.toDataURL(PIX_KEY, {
-      width: 280,
+      width: 200,
       margin: 2,
       color: { dark: "#ffffff", light: "#171717" },
     }).then((url) => {
@@ -43,35 +43,51 @@ export function PixCard() {
         </DialogTrigger>
 
         <DialogContent>
-          <div className="flex flex-col items-center gap-5 pt-2">
-            <DialogTitle>Doação via Pix</DialogTitle>
+          <div className="flex flex-col items-center gap-5 pt-1">
+            <div className="flex items-center gap-2.5">
+              <Coffee className="w-5 h-5 text-brand" />
+              <DialogTitle>Doação via Pix</DialogTitle>
+            </div>
 
-            <p className="text-sm text-neutral-400 text-center leading-relaxed">
-              Gostou do meu trabalho?<br />Considere me pagar um café
+            <p className="text-xs text-neutral-400 text-center leading-relaxed max-w-[14rem]">
+              Gostou da tradução? Qualquer contribuição ajuda a manter o projeto ativo.
             </p>
 
-            <div className="w-48 h-48 rounded-xl bg-neutral-800 flex items-center justify-center">
+            <div className="w-48 h-48 rounded-2xl bg-neutral-800 border border-neutral-700 flex items-center justify-center overflow-hidden">
               {qrLoading ? (
-                <div className="w-10 h-10 rounded-lg bg-neutral-700 animate-pulse" />
+                <div className="w-32 h-32 rounded-xl bg-neutral-700 animate-pulse" />
               ) : (
                 <img
                   src={qrDataUrl}
-                  alt="QR Code Pix"
-                  className="w-full h-full rounded-xl"
+                  alt="QR Code para doação via Pix"
+                  className="w-44 h-44 rounded-xl motion-safe:animate-in motion-safe:zoom-in-95 motion-safe:fade-in motion-safe:duration-300 motion-reduce:animate-none"
                 />
               )}
             </div>
 
-            <div className="w-full flex items-center gap-2 bg-neutral-800 rounded-xl px-4 py-3">
+            <span className="text-[11px] text-neutral-500 font-medium tracking-wider">
+              Qualquer valor · Pix copia e cola
+            </span>
+
+            <div className="w-full flex items-center gap-2 bg-neutral-800 border border-neutral-700 rounded-xl px-3 py-1.5 focus-within:ring-2 focus-within:ring-brand/50 transition-all">
               <code className="flex-1 text-xs text-neutral-300 break-all select-all font-mono">
                 {PIX_KEY}
               </code>
               <button
                 onClick={handleCopy}
                 aria-label="Copiar chave Pix"
-                className="w-7 h-7 rounded-lg flex items-center justify-center bg-neutral-700 hover:bg-neutral-600 text-neutral-400 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50 transition-all flex-shrink-0 active:scale-[0.95]"
+                disabled={copied}
+                className={`w-9 h-9 rounded-lg flex items-center justify-center transition-all flex-shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50 active:scale-[0.95] ${
+                  copied
+                    ? "bg-emerald-500/15 text-emerald-400 ring-1 ring-emerald-500/30"
+                    : "bg-neutral-700 hover:bg-neutral-600 text-neutral-400 hover:text-white"
+                }`}
               >
-                {copied ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
+                {copied ? (
+                  <Check className="w-4 h-4 motion-safe:animate-in motion-safe:zoom-in-0 motion-safe:fade-in motion-safe:duration-200" />
+                ) : (
+                  <Copy className="w-4 h-4" />
+                )}
               </button>
             </div>
           </div>
