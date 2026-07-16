@@ -11,20 +11,17 @@ export function PixCard() {
   }
 
   return (
-    <div className="bg-neutral-900 border border-neutral-800 rounded-2xl flex flex-col items-center justify-center p-4 gap-2">
-      <div className="w-8 h-8 rounded-full bg-neutral-800 flex items-center justify-center">
-        <QrCode className="w-4 h-4 text-neutral-400" />
-      </div>
+    <div className="flex items-center justify-center h-full">
       <Tooltip>
         <TooltipTrigger asChild>
           <button
             onClick={handleCopyPix}
-            className="text-xs font-medium text-brand hover:text-brand-hover transition-colors text-center leading-tight"
+            className="w-11 h-11 bg-neutral-900 border border-dashed border-neutral-700 rounded-2xl flex items-center justify-center text-neutral-400 hover:text-brand hover:border-brand/30 transition-all active:scale-[0.98]"
           >
-            Doar via Pix
+            <QrCode className="w-5 h-5" />
           </button>
         </TooltipTrigger>
-        <TooltipContent>Clique para copiar a chave Pix</TooltipContent>
+        <TooltipContent>Doar via Pix</TooltipContent>
       </Tooltip>
     </div>
   );

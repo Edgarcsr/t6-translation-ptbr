@@ -328,6 +328,13 @@ function App() {
             busy={steamFixBusy}
             onToggle={handleSteamFixToggle}
           />
+
+          <div className="grid grid-cols-4 gap-3">
+            <PixCard />
+            <div className="col-span-3">
+              <PlaceholderCard />
+            </div>
+          </div>
         </div>
 
         {error && (
@@ -354,13 +361,6 @@ function App() {
             detected={plutoniumDetected}
             onPick={() => handlePickPath(setPlutoniumPath)}
           />
-        </div>
-
-        <div className="grid grid-cols-4 gap-4 mt-4">
-          <PixCard />
-          <div className="col-span-3">
-            <PlaceholderCard />
-          </div>
         </div>
 
         <div className="mt-6" />
