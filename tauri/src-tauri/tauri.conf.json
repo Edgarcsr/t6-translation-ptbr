@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "productName": "T6 Translation PT-BR",
   "identifier": "com.edgar.t6-translation-ptbr",
   "build": {

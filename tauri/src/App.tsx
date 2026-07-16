@@ -40,8 +40,6 @@ function App() {
 
   const updateAvailable = status === "applied" && !!installedVersion && !!latestVersion && installedVersion !== latestVersion;
 
-  const isBusy = status === "downloading" || status === "applying" || !releaseTag;
-
   useEffect(() => {
     (async () => {
       try {

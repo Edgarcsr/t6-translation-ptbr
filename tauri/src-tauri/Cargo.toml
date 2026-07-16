@@ -1,6 +1,6 @@
 [package]
 name = "t6-translation-ptbr"
-version = "0.8.0"
+version = "0.8.1"
 description = "BO2 PT-BR Translation Manager for Plutonium"
 authors = ["Edgarcsr"]
 edition = "2021"
