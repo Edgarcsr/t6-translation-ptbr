@@ -273,6 +273,46 @@ fn check_steam_fix_status(bo2_path: &str) -> Result<bool, String> {
     Ok(backup_dir.exists())
 }
 
+#[tauri::command]
+async fn check_launcher_update(app: tauri::AppHandle) -> Result<serde_json::Value, String> {
+    let current = app.package_info().version.to_string();
+    let current_tag = format!("v{}", current);
+
+    let url = "https://api.github.com/repos/edgarcsr/t6-translation-ptbr/releases/latest";
+    let client = reqwest::Client::builder()
+        .user_agent("t6-translation-ptbr")
+        .build()
+        .map_err(|e| format!("Erro ao criar cliente HTTP: {}", e))?;
+
+    let response = client
+        .get(url)
+        .send()
+        .await
+        .map_err(|e| format!("Falha ao verificar atualização: {}", e))?;
+
+    if !response.status().is_success() {
+        return Ok(serde_json::json!({
+            "current": current_tag,
+            "latest": null,
+            "update_available": false,
+        }));
+    }
+
+    let data: serde_json::Value = response
+        .json()
+        .await
+        .map_err(|e| format!("Erro ao parsear resposta: {}", e))?;
+
+    let latest = data["tag_name"].as_str().unwrap_or("").to_string();
+    let update_available = !latest.is_empty() && latest != current_tag;
+
+    Ok(serde_json::json!({
+        "current": current_tag,
+        "latest": latest,
+        "update_available": update_available,
+    }))
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
@@ -287,6 +327,7 @@ pub fn run() {
             check_steam_fix_status,
             steam_fix_install,
             steam_fix_uninstall,
+            check_launcher_update,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

@@ -9,6 +9,7 @@ export function DownloadCard({
   updateAvailable,
   latestVersion,
   checkingUpdate,
+  plutoniumDetected,
   onDownload,
   onRemove,
   onCheckUpdate,
@@ -18,6 +19,7 @@ export function DownloadCard({
   updateAvailable?: boolean;
   latestVersion?: string;
   checkingUpdate?: boolean;
+  plutoniumDetected?: boolean;
   onDownload: () => void;
   onRemove: () => void;
   onCheckUpdate: () => void;
@@ -36,11 +38,13 @@ export function DownloadCard({
           <TooltipTrigger asChild>
             <button
               onClick={onDownload}
-              disabled={status !== "idle" && status !== "error" && !(status === "applied" && updateAvailable)}
+              disabled={!plutoniumDetected || (status !== "idle" && status !== "error" && !(status === "applied" && updateAvailable))}
               className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all flex-shrink-0 ${
-                status === "idle" || status === "error" || (status === "applied" && updateAvailable)
-                  ? "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
-                  : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                !plutoniumDetected
+                  ? "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                  : status === "idle" || status === "error" || (status === "applied" && updateAvailable)
+                    ? "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
+                    : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
               }`}
             >
               {status === "downloading" || status === "applying" ? (
@@ -53,7 +57,8 @@ export function DownloadCard({
             </button>
           </TooltipTrigger>
           <TooltipContent>
-            {status === "downloading" ? "Baixando..."
+            {!plutoniumDetected ? "Plutonium não detectado"
+              : status === "downloading" ? "Baixando..."
               : status === "applying" ? "Aplicando..."
               : status === "applied" && updateAvailable ? `Atualizar para ${latestVersion?.replace(/^v/i, "") || ""}`
               : status === "applied" ? "Aplicado"

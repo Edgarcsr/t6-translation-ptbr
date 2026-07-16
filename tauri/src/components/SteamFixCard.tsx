@@ -5,10 +5,12 @@ import { Spinner } from "./Spinner";
 export function SteamFixCard({
   installed,
   busy,
+  bo2Detected,
   onToggle,
 }: {
   installed: boolean;
   busy: boolean;
+  bo2Detected?: boolean;
   onToggle: () => void;
 }) {
   return (
@@ -25,22 +27,25 @@ export function SteamFixCard({
           <TooltipTrigger asChild>
             <button
               onClick={onToggle}
-              disabled={busy}
+              disabled={!bo2Detected || busy}
               className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all flex-shrink-0 ${
-                !busy
-                  ? installed
-                    ? "bg-neutral-200 hover:bg-neutral-200 text-neutral-500 hover:text-rose-500 active:scale-[0.98]"
-                    : "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
-                  : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                !bo2Detected
+                  ? "bg-neutral-200 text-neutral-400 cursor-not-allowed"
+                  : !busy
+                    ? installed
+                      ? "bg-neutral-200 hover:bg-neutral-200 text-neutral-500 hover:text-rose-500 active:scale-[0.98]"
+                      : "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
+                    : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
               }`}
             >
               {busy ? <Spinner /> : installed ? <Trash2 className="w-4 h-4" /> : <Zap className="w-4 h-4" />}
             </button>
           </TooltipTrigger>
           <TooltipContent>
-            {busy
-              ? (installed ? "Desinstalando..." : "Instalando...")
-              : (installed ? "Desinstalar" : "Instalar")}
+            {!bo2Detected ? "BO2 não encontrado"
+              : busy
+                ? (installed ? "Desinstalando..." : "Instalando...")
+                : (installed ? "Desinstalar" : "Instalar")}
           </TooltipContent>
         </Tooltip>
       </div>

@@ -1,9 +1,9 @@
-import { useState, useRef, useEffect, useCallback } from "react";
-import { AlertCircle, Settings, X, Github, Gamepad2, FolderOpen } from "lucide-react";
+import { useState, useEffect, useCallback } from "react";
+import { AlertCircle, PackageOpen, Gamepad2, FolderOpen, ExternalLink } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { tauriInvoke } from "./lib/tauri";
 import { open } from "@tauri-apps/plugin-dialog";
-import { TooltipProvider } from "./components/Tooltip";
+import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from "./components/Tooltip";
 import { HeroCard } from "./components/HeroCard";
 import { DownloadCard } from "./components/DownloadCard";
 import { SteamFixCard } from "./components/SteamFixCard";
@@ -17,103 +17,19 @@ const DF_REPO_OWNER = "edgarcsr";
 const DF_REPO_NAME = "t6-translation-ptbr";
 const DF_RELEASE_TAG_FALLBACK = "v0.6.0";
 const DF_BO2_PATH = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops II";
-
-function SettingsPanel({
-  repoOwner,
-  repoName,
-  releaseTag,
-  onRepoOwnerChange,
-  onRepoNameChange,
-  onReleaseTagChange,
-  onClose,
-  disabled,
-}: {
-  repoOwner: string;
-  repoName: string;
-  releaseTag: string;
-  onRepoOwnerChange: (v: string) => void;
-  onRepoNameChange: (v: string) => void;
-  onReleaseTagChange: (v: string) => void;
-  onClose: () => void;
-  disabled: boolean;
-}) {
-  const panelRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") onClose();
-    }
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, [onClose]);
-
-  return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-16">
-      <div className="fixed inset-0 bg-black/60" onClick={onClose} />
-      <div
-        ref={panelRef}
-        className="relative w-full max-w-md bg-neutral-900 border border-neutral-700 rounded-2xl p-6"
-      >
-        <div className="flex items-center justify-between mb-6">
-          <div className="flex items-center gap-2.5">
-            <Github className="w-5 h-5 text-neutral-400" />
-            <h2 className="text-base font-semibold text-white">Configurar repositório</h2>
-          </div>
-          <button
-            onClick={onClose}
-            className="p-1.5 rounded-lg hover:bg-neutral-800 text-neutral-500 hover:text-neutral-300 transition-colors"
-          >
-            <X className="w-4 h-4" />
-          </button>
-        </div>
-        <div className="space-y-4">
-          <div>
-            <label className="block text-sm text-neutral-400 mb-1.5">Owner</label>
-            <input
-              type="text"
-              value={repoOwner}
-              onChange={(e) => onRepoOwnerChange(e.target.value)}
-              disabled={disabled}
-              className="w-full bg-neutral-800 border border-neutral-600 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand-muted disabled:opacity-40 transition-colors"
-            />
-          </div>
-          <div>
-            <label className="block text-sm text-neutral-400 mb-1.5">Repositório</label>
-            <input
-              type="text"
-              value={repoName}
-              onChange={(e) => onRepoNameChange(e.target.value)}
-              disabled={disabled}
-              className="w-full bg-neutral-800 border border-neutral-600 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand-muted disabled:opacity-40 transition-colors"
-            />
-          </div>
-          <div>
-            <label className="block text-sm text-neutral-400 mb-1.5">Release tag</label>
-            <input
-              type="text"
-              value={releaseTag}
-              onChange={(e) => onReleaseTagChange(e.target.value)}
-              disabled={disabled}
-              className="w-full bg-neutral-800 border border-neutral-600 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand-muted disabled:opacity-40 transition-colors"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+const LAUNCHER_REPO_URL = "https://github.com/Edgarcsr/t6-translation-ptbr/releases/latest";
 
 function App() {
   const [status, setStatus] = useState<Status>("idle");
   const [installedVersion, setInstalledVersion] = useState("");
   const [error, setError] = useState("");
-  const [repoOwner, setRepoOwner] = useState(DF_REPO_OWNER);
-  const [repoName, setRepoName] = useState(DF_REPO_NAME);
-  const [releaseTag, setReleaseTag] = useState(""); // preenchido via API
-  const [showSettings, setShowSettings] = useState(false);
+  const [repoOwner] = useState(DF_REPO_OWNER);
+  const [repoName] = useState(DF_REPO_NAME);
+  const [releaseTag, setReleaseTag] = useState("");
   const [steamFixInstalled, setSteamFixInstalled] = useState(false);
   const [steamFixBusy, setSteamFixBusy] = useState(false);
   const [checkingUpdate, setCheckingUpdate] = useState(false);
+  const [launcherState, setLauncherState] = useState<{ current: string; latest: string | null; update_available: boolean } | null>(null);
 
   const [bo2Path, setBo2Path] = useState(DF_BO2_PATH);
   const [plutoniumPath, setPlutoniumPath] = useState("%LOCALAPPDATA%\\Plutonium");
@@ -141,6 +57,13 @@ function App() {
       } catch {
         setLatestVersion(DF_RELEASE_TAG_FALLBACK);
         setReleaseTag(DF_RELEASE_TAG_FALLBACK);
+      }
+
+      try {
+        const result = await tauriInvoke<{ current: string; latest: string | null; update_available: boolean }>("check_launcher_update", {});
+        setLauncherState(result);
+      } catch {
+        console.error("Falha ao verificar atualização do launcher");
       }
     })();
   }, []);
@@ -284,28 +207,38 @@ function App() {
         <header className="flex items-center justify-between mb-8">
           <div>
             <h1 className="text-lg font-semibold text-white">T6 Translation</h1>
-            <p className="text-sm text-neutral-500">Portuguese-BR para Plutonium</p>
+            <p className="text-sm text-neutral-500">Portuguese-BR para Plutonium <span className="text-neutral-600">{launcherState ? launcherState.current : "—"}</span></p>
           </div>
-          <button
-            onClick={() => setShowSettings(true)}
-            className="p-2 rounded-lg hover:bg-neutral-800 text-neutral-500 hover:text-neutral-300 transition-colors"
-          >
-            <Settings className="w-5 h-5" />
-          </button>
+          {launcherState && (
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <a
+                  href={launcherState.update_available ? LAUNCHER_REPO_URL : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`p-2 rounded-lg transition-all flex items-center gap-2 ${
+                    launcherState.update_available
+                      ? "bg-brand/15 text-brand hover:bg-brand/25"
+                      : "text-neutral-500 hover:text-neutral-300"
+                  }`}
+                >
+                  <PackageOpen className="w-4 h-4" />
+                  {launcherState.update_available && (
+                    <span className="text-xs font-semibold">Nova versão</span>
+                  )}
+                  {launcherState.update_available && (
+                    <ExternalLink className="w-3 h-3" />
+                  )}
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>
+                {launcherState.update_available
+                  ? `Launcher ${launcherState.latest} disponível`
+                  : `Launcher atualizado (${launcherState.current})`}
+              </TooltipContent>
+            </Tooltip>
+          )}
         </header>
-
-        {showSettings && (
-          <SettingsPanel
-            repoOwner={repoOwner}
-            repoName={repoName}
-            releaseTag={releaseTag}
-            onRepoOwnerChange={setRepoOwner}
-            onRepoNameChange={setRepoName}
-            onReleaseTagChange={setReleaseTag}
-            onClose={() => setShowSettings(false)}
-            disabled={isBusy}
-          />
-        )}
 
         <div className="grid grid-cols-2 gap-4">
           <HeroCard
@@ -318,6 +251,7 @@ function App() {
             version={installedVersion}
             updateAvailable={updateAvailable}
             latestVersion={latestVersion}
+            plutoniumDetected={plutoniumDetected}
             onDownload={handleDownload}
             onRemove={handleRemove}
             checkingUpdate={checkingUpdate}
@@ -327,6 +261,7 @@ function App() {
           <SteamFixCard
             installed={steamFixInstalled}
             busy={steamFixBusy}
+            bo2Detected={bo2Detected}
             onToggle={handleSteamFixToggle}
           />
 
