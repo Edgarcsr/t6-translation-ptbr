@@ -36,16 +36,16 @@ export function DownloadCard({
           <TooltipTrigger asChild>
             <button
               onClick={onDownload}
-              disabled={status !== "idle" && status !== "error"}
+              disabled={status !== "idle" && status !== "error" && !(status === "applied" && updateAvailable)}
               className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all flex-shrink-0 ${
-                status === "idle" || status === "error"
+                status === "idle" || status === "error" || (status === "applied" && updateAvailable)
                   ? "bg-brand hover:bg-brand-hover text-white active:scale-[0.98]"
                   : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
               }`}
             >
               {status === "downloading" || status === "applying" ? (
                 <Spinner />
-              ) : status === "applied" ? (
+              ) : status === "applied" && !updateAvailable ? (
                 <Check className="w-4 h-4" />
               ) : (
                 <Download className="w-4 h-4" />
@@ -55,6 +55,7 @@ export function DownloadCard({
           <TooltipContent>
             {status === "downloading" ? "Baixando..."
               : status === "applying" ? "Aplicando..."
+              : status === "applied" && updateAvailable ? `Atualizar para ${latestVersion?.replace(/^v/i, "") || ""}`
               : status === "applied" ? "Aplicado"
               : "Download"}
           </TooltipContent>
@@ -70,10 +71,10 @@ export function DownloadCard({
               <span className="absolute inline-flex w-full h-full rounded-full bg-emerald-400 animate-ping opacity-75" />
             )}
             {status === "applied" && updateAvailable && (
-              <span className="absolute inline-flex w-full h-full rounded-full bg-amber-400 animate-ping opacity-75" />
+              <span className="absolute inline-flex w-full h-full rounded-full bg-cyan-400 animate-ping opacity-75" />
             )}
             <span className={`relative inline-flex w-1.5 h-1.5 rounded-full ${
-              status === "applied" && updateAvailable ? "bg-amber-400"
+              status === "applied" && updateAvailable ? "bg-cyan-400"
               : status === "applied" ? "bg-emerald-400"
               : status === "downloading" || status === "applying" ? "bg-amber-400"
               : "bg-neutral-500"
@@ -88,7 +89,7 @@ export function DownloadCard({
             <span className="ml-0.5 text-neutral-500 font-normal">{version.replace(/^v/i, "")}</span>
           )}
           {status === "applied" && updateAvailable && latestVersion && (
-            <span className="ml-0.5 text-amber-400 font-normal">{latestVersion.replace(/^v/i, "")}</span>
+            <span className="ml-0.5 text-cyan-400 font-normal">{latestVersion.replace(/^v/i, "")}</span>
           )}
         </span>
         {status === "applied" && (
