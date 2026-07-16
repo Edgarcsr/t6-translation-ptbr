@@ -3,8 +3,9 @@ import { QrCode, Copy, Check, Coffee } from "lucide-react";
 import { toast } from "sonner";
 import QRCode from "qrcode";
 import { Dialog, DialogTrigger, DialogContent, DialogTitle } from "./Dialog";
+import { Tooltip, TooltipTrigger, TooltipContent } from "./Tooltip";
 
-const PIX_KEY = "edgar@exemplo.com";
+const PIX_KEY = "4bef9d37-64d2-4a3d-b3f6-7e6528f190e0";
 
 export function PixCard() {
   const [open, setOpen] = useState(false);
@@ -33,14 +34,19 @@ export function PixCard() {
   return (
     <div className="flex items-center justify-center h-full">
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogTrigger asChild>
-          <button
-            aria-label="Doar via Pix"
-            className="w-11 h-11 bg-neutral-900 border border-dashed border-neutral-700 rounded-2xl flex items-center justify-center text-neutral-400 hover:text-brand hover:border-brand/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50 transition-all active:scale-[0.98]"
-          >
-            <QrCode className="w-5 h-5" />
-          </button>
-        </DialogTrigger>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <DialogTrigger asChild>
+              <button
+                aria-label="Doar via Pix"
+                className="w-11 h-11 bg-neutral-900 border border-dashed border-neutral-700 rounded-2xl flex items-center justify-center text-neutral-400 hover:text-brand hover:border-brand/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50 transition-all active:scale-[0.98]"
+              >
+                <QrCode className="w-5 h-5" />
+              </button>
+            </DialogTrigger>
+          </TooltipTrigger>
+          <TooltipContent side="top">Doação via Pix</TooltipContent>
+        </Tooltip>
 
         <DialogContent>
           <div className="flex flex-col items-center gap-5 pt-1">

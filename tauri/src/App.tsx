@@ -9,6 +9,7 @@ import { DownloadCard } from "./components/DownloadCard";
 import { SteamFixCard } from "./components/SteamFixCard";
 import { PlaceholderCard } from "./components/PlaceholderCard";
 import { PixCard } from "./components/PixCard";
+import { DubbingCard } from "./components/DubbingCard";
 import { PathCard } from "./components/PathCard";
 import type { Status } from "./types";
 
@@ -329,9 +330,10 @@ function App() {
             onToggle={handleSteamFixToggle}
           />
 
-          <div className="grid grid-cols-4 gap-3">
+          <div className="flex gap-3 items-center">
             <PixCard />
-            <div className="col-span-3">
+            <DubbingCard />
+            <div className="flex-1">
               <PlaceholderCard />
             </div>
           </div>

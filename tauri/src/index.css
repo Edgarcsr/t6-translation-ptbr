@@ -12,4 +12,9 @@
   body {
     @apply bg-black text-white font-sans;
   }
+
+  ::selection {
+    background-color: #EF7B00;
+    color: #ffffff;
+  }
 }
