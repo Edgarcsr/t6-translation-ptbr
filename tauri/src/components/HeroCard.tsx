@@ -8,7 +8,7 @@ export function HeroCard({
   repoName: string;
 }) {
   return (
-    <div className="row-span-3 bg-brand rounded-2xl p-6 flex flex-col justify-between">
+    <div className="row-span-4 bg-brand rounded-2xl p-6 flex flex-col justify-between">
       <div>
         <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-medium">
           <span className="relative flex w-2 h-2">
