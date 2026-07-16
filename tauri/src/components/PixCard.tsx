@@ -5,7 +5,7 @@ import QRCode from "qrcode";
 import { Dialog, DialogTrigger, DialogContent, DialogTitle } from "./Dialog";
 import { Tooltip, TooltipTrigger, TooltipContent } from "./Tooltip";
 
-const PIX_KEY = "4bef9d37-64d2-4a3d-b3f6-7e6528f190e0";
+const PIX_KEY = "00020126580014BR.GOV.BCB.PIX01364bef9d37-64d2-4a3d-b3f6-7e6528f190e05204000053039865802BR5925EDGAR CAMACHO SEABRA RIBE6009SAO PAULO622605225gkygETKEMNleGfNjcKxWe630447D2";
 
 export function PixCard() {
   const [open, setOpen] = useState(false);
@@ -17,7 +17,7 @@ export function PixCard() {
     QRCode.toDataURL(PIX_KEY, {
       width: 200,
       margin: 2,
-      color: { dark: "#ffffff", light: "#171717" },
+      color: { dark: "#000000", light: "#ffffff" },
     }).then((url) => {
       setQrDataUrl(url);
       setQrLoading(false);
@@ -71,12 +71,12 @@ export function PixCard() {
               )}
             </div>
 
-            <span className="text-[11px] text-neutral-500 font-medium tracking-wider">
+            <span className="text-xs text-neutral-500 font-medium tracking-wider">
               Qualquer valor · Pix copia e cola
             </span>
 
             <div className="w-full flex items-center gap-2 bg-neutral-800 border border-neutral-700 rounded-xl px-3 py-1.5 focus-within:ring-2 focus-within:ring-brand/50 transition-all">
-              <code className="flex-1 text-xs text-neutral-300 break-all select-all font-mono">
+              <code className="flex-1 min-w-0 text-xs text-neutral-300 truncate select-all font-mono">
                 {PIX_KEY}
               </code>
               <button

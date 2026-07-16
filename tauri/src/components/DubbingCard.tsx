@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MicVocal, Download, FileArchive, FolderOpen, Check, Youtube } from "lucide-react";
+import { MicVocal, Youtube } from "lucide-react";
 import { Dialog, DialogTrigger, DialogContent, DialogTitle } from "./Dialog";
 import { Tooltip, TooltipTrigger, TooltipContent } from "./Tooltip";
 
@@ -35,69 +35,60 @@ export function DubbingCard() {
             </div>
 
             <p className="text-xs text-neutral-500 leading-relaxed">
-              Dublagem por{" "}
+              Dublagem feita pelo{" "}
               <span className="text-neutral-300">Luan_Costa@GAMES</span>
             </p>
 
+            <p className="text-xs text-neutral-400 leading-relaxed">
+              A dublagem é um arquivo muito grande para versionar nesse repositório. Encontrei essa versão no canal do Luan no YouTube, então vou te guiar para instalar ela.
+            </p>
+
             <div className="flex flex-col gap-4">
-              <div className="flex gap-3">
-                <div className="w-7 h-7 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 flex-shrink-0 mt-0.5">
-                  <Download className="w-4 h-4" />
+              <div className="flex flex-col gap-1">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-xs font-medium text-neutral-300">1.</span>
+                  <span className="text-xs font-medium text-neutral-300">Baixa o arquivo</span>
                 </div>
-                <div className="flex flex-col gap-1.5 min-w-0">
-                  <p className="text-xs font-medium text-neutral-300">
-                    1. Baixe o arquivo
-                  </p>
-                  <a
-                    href={DRIVE_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center h-9 rounded-lg bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white text-xs font-medium transition-all active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50"
-                  >
-                    Abrir no Google Drive
-                  </a>
-                </div>
+                <a
+                  href={DRIVE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-brand hover:text-brand-hover transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50 rounded-sm ml-5"
+                >
+                  Abrir no Google Drive
+                </a>
               </div>
 
-              <div className="flex gap-3">
-                <div className="w-7 h-7 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 flex-shrink-0 mt-0.5">
-                  <FileArchive className="w-4 h-4" />
+              <div className="flex flex-col gap-1">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-xs font-medium text-neutral-300">2.</span>
+                  <span className="text-xs font-medium text-neutral-300">Extrai o .zip</span>
                 </div>
-                <div className="flex flex-col gap-0.5 min-w-0 pt-1">
-                  <p className="text-xs font-medium text-neutral-300">
-                    2. Descompacte o arquivo
-                  </p>
-                  <p className="text-xs text-neutral-500">
-                    Extraia o conteúdo do .zip baixado
-                  </p>
-                </div>
+                <p className="text-xs text-neutral-500 ml-5">
+                  Só descompactar onde baixou
+                </p>
               </div>
 
-              <div className="flex gap-3">
-                <div className="w-7 h-7 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 flex-shrink-0 mt-0.5">
-                  <FolderOpen className="w-4 h-4" />
+              <div className="flex flex-col gap-1">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-xs font-medium text-neutral-300">3.</span>
+                  <span className="text-xs font-medium text-neutral-300">Cola na pasta do BO2</span>
                 </div>
-                <div className="flex flex-col gap-0.5 min-w-0 pt-1">
-                  <p className="text-xs font-medium text-neutral-300">
-                    3. Mova para a pasta do jogo
-                  </p>
-                  <p className="text-xs text-neutral-500">
-                    Copie a pasta extraída para a instalação do BO2
-                  </p>
-                </div>
+                <p className="text-xs text-neutral-500 ml-5">
+                  Joga a pasta extraída dentro da instalação do jogo
+                </p>
               </div>
             </div>
 
-            <div className="flex items-center gap-1.5 text-xs text-emerald-400">
-              <Check className="w-3.5 h-3.5 stroke-[2.5]" />
-              Suporte ao jogo base + DLCs
-            </div>
+            <p className="text-xs text-neutral-400 leading-relaxed">
+              Essa dublagem cobre tanto o jogo, quanto as DLCs
+            </p>
 
             <a
               href={VIDEO_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 w-full h-9 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white text-xs font-medium transition-all active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50"
+              className="inline-flex items-center gap-1.5 text-xs text-neutral-500 hover:text-neutral-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50 rounded-sm"
             >
               <Youtube className="w-4 h-4 text-red-500" />
               Ver tutorial no YouTube
