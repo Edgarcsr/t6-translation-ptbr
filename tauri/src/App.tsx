@@ -13,7 +13,7 @@ import type { Status } from "./types";
 
 const DF_REPO_OWNER = "edgarcsr";
 const DF_REPO_NAME = "t6-translation-ptbr";
-const DF_RELEASE_TAG = "v0.2.0";
+const DF_RELEASE_TAG = "v0.6.0";
 const DF_BO2_PATH = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops II";
 
 function SettingsPanel({
@@ -166,6 +166,18 @@ function App() {
     } catch {}
   }, []);
 
+  async function handleRemove() {
+    try {
+      setError("");
+      await tauriInvoke("remove_translation", {});
+      setStatus("idle");
+      toast.success("Tradução removida!");
+    } catch (err) {
+      setError(String(err));
+      toast.error("Erro ao remover tradução");
+    }
+  }
+
   async function handleDownload() {
     try {
       setError("");
@@ -249,6 +261,7 @@ function App() {
           <DownloadCard
             status={status}
             onDownload={handleDownload}
+            onRemove={handleRemove}
           />
 
           <SteamFixCard

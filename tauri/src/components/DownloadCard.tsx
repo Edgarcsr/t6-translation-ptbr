@@ -1,4 +1,4 @@
-import { Download, Package, Check } from "lucide-react";
+import { Download, Package, Check, Trash2 } from "lucide-react";
 import { Tooltip, TooltipTrigger, TooltipContent } from "./Tooltip";
 import { Spinner } from "./Spinner";
 import type { Status } from "../types";
@@ -6,9 +6,11 @@ import type { Status } from "../types";
 export function DownloadCard({
   status,
   onDownload,
+  onRemove,
 }: {
   status: Status;
   onDownload: () => void;
+  onRemove: () => void;
 }) {
   return (
     <div className="bg-neutral-900 border border-neutral-800 rounded-2xl">
@@ -48,7 +50,7 @@ export function DownloadCard({
           </TooltipContent>
         </Tooltip>
       </div>
-      <div className="px-4 pb-4">
+      <div className="px-4 pb-4 flex items-center justify-between">
         <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-neutral-800 text-neutral-400">
           <span className="relative flex w-1.5 h-1.5">
             {(status === "downloading" || status === "applying") && (
@@ -68,6 +70,19 @@ export function DownloadCard({
             : status === "applied" ? "aplicado"
             : "Download"}
         </span>
+        {status === "applied" && (
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <button
+                onClick={onRemove}
+                className="w-7 h-7 rounded-lg flex items-center justify-center bg-neutral-800 hover:bg-neutral-700 text-neutral-500 hover:text-red-400 transition-all flex-shrink-0 active:scale-[0.95]"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+              </button>
+            </TooltipTrigger>
+            <TooltipContent>Remover tradução</TooltipContent>
+          </Tooltip>
+        )}
       </div>
     </div>
   );

@@ -3689,6 +3689,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "t6-translation-ptbr"
+version = "0.2.0"
+dependencies = [
+ "futures",
+ "reqwest 0.11.27",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-dialog",
+ "tauri-plugin-opener",
+ "tokio",
+ "zip",
+]
+
+[[package]]
 name = "tao"
 version = "0.35.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3744,22 +3760,6 @@ name = "target-lexicon"
 version = "0.12.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "61c41af27dd6d1e27b1b16b489db798443478cef1f06a660c96db617ba5de3b1"
-
-[[package]]
-name = "tauri"
-version = "0.1.0"
-dependencies = [
- "futures",
- "reqwest 0.11.27",
- "serde",
- "serde_json",
- "tauri 2.11.5",
- "tauri-build",
- "tauri-plugin-dialog",
- "tauri-plugin-opener",
- "tokio",
- "zip",
-]
 
 [[package]]
 name = "tauri"
@@ -3901,7 +3901,7 @@ dependencies = [
  "rfd",
  "serde",
  "serde_json",
- "tauri 2.11.5",
+ "tauri",
  "tauri-plugin",
  "tauri-plugin-fs",
  "thiserror 2.0.18",
@@ -3924,7 +3924,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_repr",
- "tauri 2.11.5",
+ "tauri",
  "tauri-plugin",
  "tauri-utils",
  "thiserror 2.0.18",
@@ -3946,7 +3946,7 @@ dependencies = [
  "schemars 0.8.22",
  "serde",
  "serde_json",
- "tauri 2.11.5",
+ "tauri",
  "tauri-plugin",
  "thiserror 2.0.18",
  "url",
