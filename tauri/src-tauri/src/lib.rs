@@ -32,7 +32,7 @@ async fn download_translation(repo_owner: &str, repo_name: &str, release_tag: &s
 }
 
 #[tauri::command]
-fn apply_translation(zip_path: &str) -> Result<String, String> {
+fn apply_translation(zip_path: &str, release_tag: &str) -> Result<String, String> {
     let zip_file = fs::File::open(zip_path).map_err(|e| format!("Erro ao abrir ZIP: {}", e))?;
     let mut archive = zip::ZipArchive::new(zip_file).map_err(|e| format!("ZIP inválido: {}", e))?;
 
@@ -50,6 +50,9 @@ fn apply_translation(zip_path: &str) -> Result<String, String> {
             std::io::copy(&mut file, &mut out_file).map_err(|e| format!("Erro ao copiar arquivo: {}", e))?;
         }
     }
+
+    let version_path = plutonium_dir.join(".t6-version");
+    fs::write(&version_path, release_tag).map_err(|e| format!("Erro ao salvar versão: {}", e))?;
 
     Ok(format!("Tradução aplicada em: {}", plutonium_dir.display()))
 }
@@ -71,6 +74,11 @@ fn remove_translation() -> Result<String, String> {
             fs::remove_file(&path).map_err(|e| format!("Erro ao remover {}: {}", path.display(), e))?;
             removed += 1;
         }
+    }
+
+    let version_path = plutonium_dir.join(".t6-version");
+    if version_path.exists() {
+        fs::remove_file(&version_path).ok();
     }
 
     Ok(format!("{} arquivo(s) .str removido(s)", removed))
@@ -232,6 +240,7 @@ fn check_translation_status() -> Result<serde_json::Value, String> {
 
     let installed = plutonium_dir.exists();
     let mut file_count = 0;
+    let mut version = String::new();
 
     if installed {
         if let Ok(entries) = fs::read_dir(&plutonium_dir) {
@@ -240,12 +249,18 @@ fn check_translation_status() -> Result<serde_json::Value, String> {
                 .filter(|e| e.path().extension().map_or(false, |ext| ext == "str"))
                 .count() as u32;
         }
+
+        let version_path = plutonium_dir.join(".t6-version");
+        if version_path.exists() {
+            version = fs::read_to_string(&version_path).unwrap_or_default();
+        }
     }
 
     Ok(serde_json::json!({
         "installed": installed,
         "file_count": file_count,
         "path": plutonium_dir.to_string_lossy().to_string(),
+        "version": version,
     }))
 }
 

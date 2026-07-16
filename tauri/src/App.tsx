@@ -103,6 +103,7 @@ function SettingsPanel({
 
 function App() {
   const [status, setStatus] = useState<Status>("idle");
+  const [installedVersion, setInstalledVersion] = useState("");
   const [error, setError] = useState("");
   const [repoOwner, setRepoOwner] = useState(DF_REPO_OWNER);
   const [repoName, setRepoName] = useState(DF_REPO_NAME);
@@ -148,10 +149,12 @@ function App() {
           installed: boolean;
           file_count: number;
           path: string;
+          version: string;
         }>("check_translation_status", {});
 
         if (translationResult.installed) {
           setStatus("applied");
+          setInstalledVersion(translationResult.version || "");
         }
 
         // Verificar Steam Fix
@@ -188,6 +191,7 @@ function App() {
       setError("");
       await tauriInvoke("remove_translation", {});
       setStatus("idle");
+      setInstalledVersion("");
       toast.success("Tradução removida!");
     } catch (err) {
       setError(String(err));
@@ -202,8 +206,9 @@ function App() {
       const path = await tauriInvoke<string>("download_translation", { repoOwner, repoName, releaseTag });
       toast.success("Download concluído! Aplicando...");
       setStatus("applying");
-      await tauriInvoke<string>("apply_translation", { zipPath: path });
+      await tauriInvoke<string>("apply_translation", { zipPath: path, releaseTag });
       setStatus("applied");
+      setInstalledVersion(releaseTag);
       toast.success("Tradução aplicada!");
     } catch (err) {
       setError(String(err));
@@ -277,6 +282,7 @@ function App() {
 
           <DownloadCard
             status={status}
+            version={installedVersion}
             onDownload={handleDownload}
             onRemove={handleRemove}
           />

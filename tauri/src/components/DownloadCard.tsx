@@ -5,10 +5,12 @@ import type { Status } from "../types";
 
 export function DownloadCard({
   status,
+  version,
   onDownload,
   onRemove,
 }: {
   status: Status;
+  version?: string;
   onDownload: () => void;
   onRemove: () => void;
 }) {
@@ -69,6 +71,9 @@ export function DownloadCard({
             : status === "applying" ? "aplicando"
             : status === "applied" ? "aplicado"
             : "Download"}
+          {status === "applied" && version && (
+            <span className="ml-1 text-neutral-500 font-normal">v{version.replace(/^v/i, "")}</span>
+          )}
         </span>
         {status === "applied" && (
           <Tooltip>
