@@ -20,7 +20,7 @@ export function HeroCard({
       </div>
       <div className="space-y-1">
         <p className="text-4xl font-bold text-white">
-          {80}<span className="text-xl font-light text-white/60">%</span>
+          {94}<span className="text-xl font-light text-white/60">%</span>
         </p>
         <p className="text-sm text-white/80">traduzido</p>
       </div>
