@@ -1,4 +1,4 @@
-import { Download, Package, Check, Trash2 } from "lucide-react";
+import { Download, Package, Check, Trash2, RotateCw } from "lucide-react";
 import { Tooltip, TooltipTrigger, TooltipContent } from "./Tooltip";
 import { Spinner } from "./Spinner";
 import type { Status } from "../types";
@@ -6,13 +6,21 @@ import type { Status } from "../types";
 export function DownloadCard({
   status,
   version,
+  updateAvailable,
+  latestVersion,
+  checkingUpdate,
   onDownload,
   onRemove,
+  onCheckUpdate,
 }: {
   status: Status;
   version?: string;
+  updateAvailable?: boolean;
+  latestVersion?: string;
+  checkingUpdate?: boolean;
   onDownload: () => void;
   onRemove: () => void;
+  onCheckUpdate: () => void;
 }) {
   return (
     <div className="bg-neutral-900 border border-neutral-800 rounded-2xl">
@@ -52,29 +60,52 @@ export function DownloadCard({
           </TooltipContent>
         </Tooltip>
       </div>
-      <div className="px-4 pb-4 flex items-center justify-between">
+      <div className="px-4 pb-4 flex items-center gap-2">
         <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-neutral-800 text-neutral-400">
           <span className="relative flex w-1.5 h-1.5">
             {(status === "downloading" || status === "applying") && (
               <span className="absolute inline-flex w-full h-full rounded-full bg-amber-400 animate-ping opacity-75" />
             )}
-            {status === "applied" && (
+            {status === "applied" && !updateAvailable && (
               <span className="absolute inline-flex w-full h-full rounded-full bg-emerald-400 animate-ping opacity-75" />
             )}
+            {status === "applied" && updateAvailable && (
+              <span className="absolute inline-flex w-full h-full rounded-full bg-cyan-400 animate-ping opacity-75" />
+            )}
             <span className={`relative inline-flex w-1.5 h-1.5 rounded-full ${
-              status === "applied" ? "bg-emerald-400"
+              status === "applied" && updateAvailable ? "bg-cyan-400"
+              : status === "applied" ? "bg-emerald-400"
               : status === "downloading" || status === "applying" ? "bg-amber-400"
               : "bg-neutral-500"
             }`} />
           </span>
           {status === "downloading" ? "baixando"
             : status === "applying" ? "aplicando"
+            : status === "applied" && updateAvailable ? "nova versão"
             : status === "applied" ? "aplicado"
             : "Download"}
-          {status === "applied" && version && (
-            <span className="ml-1 text-neutral-500 font-normal">v{version.replace(/^v/i, "")}</span>
+          {status === "applied" && !updateAvailable && version && (
+            <span className="ml-0.5 text-neutral-500 font-normal">{version.replace(/^v/i, "")}</span>
+          )}
+          {status === "applied" && updateAvailable && latestVersion && (
+            <span className="ml-0.5 text-cyan-400 font-normal">{latestVersion.replace(/^v/i, "")}</span>
           )}
         </span>
+        {status === "applied" && (
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <button
+                onClick={onCheckUpdate}
+                disabled={checkingUpdate}
+                className="w-5 h-5 rounded-full flex items-center justify-center bg-neutral-800 hover:bg-neutral-700 text-neutral-500 hover:text-white transition-all flex-shrink-0 active:scale-[0.95] disabled:opacity-60 disabled:cursor-not-allowed"
+              >
+                <RotateCw className={`w-3 h-3 ${checkingUpdate ? "animate-spin" : ""}`} />
+              </button>
+            </TooltipTrigger>
+            <TooltipContent>Verificar atualização</TooltipContent>
+          </Tooltip>
+        )}
+        <div className="ml-auto" />
         {status === "applied" && (
           <Tooltip>
             <TooltipTrigger asChild>

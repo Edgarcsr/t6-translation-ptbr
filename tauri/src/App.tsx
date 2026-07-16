@@ -111,30 +111,61 @@ function App() {
   const [showSettings, setShowSettings] = useState(false);
   const [steamFixInstalled, setSteamFixInstalled] = useState(false);
   const [steamFixBusy, setSteamFixBusy] = useState(false);
+  const [checkingUpdate, setCheckingUpdate] = useState(false);
 
   const [bo2Path, setBo2Path] = useState(DF_BO2_PATH);
   const [plutoniumPath, setPlutoniumPath] = useState("%LOCALAPPDATA%\\Plutonium");
   const [bo2Detected, setBo2Detected] = useState(false);
   const [plutoniumDetected, setPlutoniumDetected] = useState(false);
 
+  const [latestVersion, setLatestVersion] = useState("");
+
+  const updateAvailable = status === "applied" && !!installedVersion && !!latestVersion && installedVersion !== latestVersion;
+
   const isBusy = status === "downloading" || status === "applying" || !releaseTag;
 
   useEffect(() => {
     (async () => {
       try {
-        // Buscar última release do GitHub
         const res = await fetch(`https://api.github.com/repos/${DF_REPO_OWNER}/${DF_REPO_NAME}/releases/latest`);
         if (res.ok) {
           const data = await res.json();
+          setLatestVersion(data.tag_name);
           setReleaseTag(data.tag_name);
         } else {
+          setLatestVersion(DF_RELEASE_TAG_FALLBACK);
           setReleaseTag(DF_RELEASE_TAG_FALLBACK);
         }
       } catch {
+        setLatestVersion(DF_RELEASE_TAG_FALLBACK);
         setReleaseTag(DF_RELEASE_TAG_FALLBACK);
       }
     })();
   }, []);
+
+  async function handleCheckUpdate() {
+    setCheckingUpdate(true);
+    try {
+      const res = await fetch(`https://api.github.com/repos/${DF_REPO_OWNER}/${DF_REPO_NAME}/releases/latest`);
+      if (res.ok) {
+        const data = await res.json();
+        const latest = data.tag_name as string;
+        setLatestVersion(latest);
+        setReleaseTag(latest);
+        if (installedVersion && installedVersion !== latest) {
+          toast.success(`Nova versão disponível: ${latest}`);
+        } else if (installedVersion) {
+          toast.success("Tradução está atualizada");
+        }
+      } else {
+        toast.error("Erro ao verificar atualizações");
+      }
+    } catch {
+      toast.error("Erro ao verificar atualizações");
+    } finally {
+      setCheckingUpdate(false);
+    }
+  }
 
   // Verificar status ao iniciar
   useEffect(() => {
@@ -283,8 +314,12 @@ function App() {
           <DownloadCard
             status={status}
             version={installedVersion}
+            updateAvailable={updateAvailable}
+            latestVersion={latestVersion}
             onDownload={handleDownload}
             onRemove={handleRemove}
+            checkingUpdate={checkingUpdate}
+            onCheckUpdate={handleCheckUpdate}
           />
 
           <SteamFixCard
