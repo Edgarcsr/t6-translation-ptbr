@@ -1,4 +1,7 @@
-import { Github } from "lucide-react";
+import { Github, QrCode } from "lucide-react";
+import { toast } from "sonner";
+
+const PIX_KEY = "edgar@exemplo.com"; // <-- COLOQUE SUA CHAVE PIX AQUI
 
 export function HeroCard({
   repoOwner,
@@ -7,6 +10,11 @@ export function HeroCard({
   repoOwner: string;
   repoName: string;
 }) {
+  function handleCopyPix() {
+    navigator.clipboard.writeText(PIX_KEY);
+    toast.success("Chave Pix copiada!");
+  }
+
   return (
     <div className="row-span-3 bg-brand rounded-2xl p-6 flex flex-col justify-between">
       <div>
@@ -24,15 +32,24 @@ export function HeroCard({
         </p>
         <p className="text-sm text-white/80">traduzido</p>
       </div>
-      <a
-        href="https://github.com/Edgarcsr/t6-translation-ptbr"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm transition-colors"
-      >
-        <Github className="w-4 h-4" />
-        {repoOwner}/{repoName}
-      </a>
+      <div className="space-y-3">
+        <button
+          onClick={handleCopyPix}
+          className="w-full inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white text-sm font-medium rounded-xl px-4 py-2.5 transition-colors"
+        >
+          <QrCode className="w-4 h-4" />
+          Doar via Pix
+        </button>
+        <a
+          href="https://github.com/Edgarcsr/t6-translation-ptbr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm transition-colors"
+        >
+          <Github className="w-4 h-4" />
+          {repoOwner}/{repoName}
+        </a>
+      </div>
     </div>
   );
 }
