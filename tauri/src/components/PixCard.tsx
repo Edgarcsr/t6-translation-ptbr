@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { QrCode, Copy, Check } from "lucide-react";
 import { toast } from "sonner";
 import QRCode from "qrcode";
-import { Dialog, DialogTrigger, DialogContent, DialogTitle } from "./Dialog";
+import { Dialog, DialogContent, DialogTitle } from "./Dialog";
 
 const PIX_KEY = "edgar@exemplo.com";
 
@@ -10,6 +10,8 @@ export function PixCard() {
   const [open, setOpen] = useState(false);
   const [qrDataUrl, setQrDataUrl] = useState("");
   const [copied, setCopied] = useState(false);
+  const [originStyle, setOriginStyle] = useState<React.CSSProperties>({});
+  const btnRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     QRCode.toDataURL(PIX_KEY, {
@@ -18,6 +20,20 @@ export function PixCard() {
       color: { dark: "#ffffff", light: "#171717" },
     }).then(setQrDataUrl);
   }, []);
+
+  function handleOpen() {
+    if (btnRef.current) {
+      const r = btnRef.current.getBoundingClientRect();
+      const cx = r.left + r.width / 2;
+      const cy = r.top + r.height / 2;
+      setOriginStyle({
+        "--origin-x": `${cx}px`,
+        "--origin-y": `${cy}px`,
+        transformOrigin: `calc(var(--origin-x) - 50vw + 50%) calc(var(--origin-y) - 50vh + 50%)`,
+      } as React.CSSProperties);
+    }
+    setOpen(true);
+  }
 
   function handleCopy() {
     navigator.clipboard.writeText(PIX_KEY);
@@ -28,13 +44,15 @@ export function PixCard() {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogTrigger asChild>
-        <button className="w-11 h-11 bg-neutral-900 border border-dashed border-neutral-700 rounded-2xl flex items-center justify-center text-neutral-400 hover:text-brand hover:border-brand/30 transition-all active:scale-[0.98]">
-          <QrCode className="w-5 h-5" />
-        </button>
-      </DialogTrigger>
+      <button
+        ref={btnRef}
+        onClick={handleOpen}
+        className="w-11 h-11 bg-neutral-900 border border-dashed border-neutral-700 rounded-2xl flex items-center justify-center text-neutral-400 hover:text-brand hover:border-brand/30 transition-all active:scale-[0.98]"
+      >
+        <QrCode className="w-5 h-5" />
+      </button>
 
-      <DialogContent>
+      <DialogContent style={originStyle}>
         <div className="flex flex-col items-center gap-4 pt-2">
           <DialogTitle>Doação via Pix</DialogTitle>
           {qrDataUrl && (
