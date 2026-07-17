@@ -1,4 +1,4 @@
-﻿// Dumped from fastfile "en_patch_zm".
+// Dumped from fastfile "en_patch_zm".
 // In their original format the strings might have been separated in multiple files.
 VERSION             "1"
 CONFIG              "C:/projects/cod/t6/bin/StringEd.cfg"
@@ -11,7 +11,7 @@ REFERENCE           CGAME_YOUREVIVED
 LANG_ENGLISH        "Você reviveu &&1"
 
 REFERENCE           MPUI_UCD_ERROR_EMAIL
-LANG_ENGLISH        "O servico UCD não pode aceitar o endereco de email fornecido."
+LANG_ENGLISH        "O servico UCD nao pode aceitar o endereco de email fornecido."
 
 REFERENCE           MPUI_LIVESTREAM_ELITE_MSG
 LANG_ENGLISH        "Black Ops 2 Live Stream requer que você tenha uma assinatura gratuita do Call of Duty ELITE."
@@ -44,7 +44,7 @@ REFERENCE           MENU_DLC2_MAP_PACK_NAME
 LANG_ENGLISH        "Uprising"
 
 REFERENCE           CGAME_NOSPECTATORVOICECHAT
-LANG_ENGLISH        "Não e possivel usar o chat de voz como espectador."
+LANG_ENGLISH        "Nao e possivel usar o chat de voz como espectador."
 
 REFERENCE           ZOMBIE_M72_LAW_UPGRADED
 LANG_ENGLISH        "M72 Anarchy"
@@ -113,10 +113,10 @@ REFERENCE           CGAME_COMPLAINTFILED
 LANG_ENGLISH        "Sua reclamacao foi registrada"
 
 REFERENCE           SCRIPT_HINTSTR_GRENADESFULL
-LANG_ENGLISH        "Você não pode carregar mais granadas."
+LANG_ENGLISH        "Você nao pode carregar mais granadas."
 
 REFERENCE           CGAME_SB_HEADSHOTS
-LANG_ENGLISH        "Tiros na Cabeca"
+LANG_ENGLISH        "Tiros na Cabeça"
 
 REFERENCE           SCRIPT_NIGHTVISION_USE
 LANG_ENGLISH        "Pressione^3 [{+actionslot 1}] ^7para usar o Visao Noturna."
@@ -125,7 +125,7 @@ REFERENCE           MPUI_IMPROVE_DESC
 LANG_ENGLISH        "Acesse inteligência e eleve seu jogo - estatísticas, mapas de calor, dicas de especialistas e mais."
 
 REFERENCE           CGAME_COMPLAINTSERVERHOST
-LANG_ENGLISH        "O Host do Servidor não pode ser denunciado"
+LANG_ENGLISH        "O Host do Servidor nao pode ser denunciado"
 
 REFERENCE           CGAME_SUICIDE
 LANG_ENGLISH        "suicidio"
@@ -173,7 +173,7 @@ REFERENCE           ZMUI_READYUP_DESC
 LANG_ENGLISH        "Prepare-se - e hora de jogar."
 
 REFERENCE           MENU_COD_PIRACY_PERM_BAN_PLAYER
-LANG_ENGLISH        "&&1 foi permanentemente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo não autorizado. Visite http://support.activision.com/blackops2."
+LANG_ENGLISH        "&&1 foi permanentemente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo nao autorizado. Visite http://support.activision.com/blackops2."
 
 REFERENCE           CGAME_SQUAD_MEMBERJOINED
 LANG_ENGLISH        "entrou no esquadrao"
@@ -227,7 +227,7 @@ REFERENCE           MENU_STORE_THEMES_CATEGORY
 LANG_ENGLISH        "TEMAS"
 
 REFERENCE           CGAME_PRESSYESNO
-LANG_ENGLISH        "Pressione '&&1' para SIM, ou '&&2' para Não"
+LANG_ENGLISH        "Pressione '&&1' para SIM, ou '&&2' para Nao"
 
 REFERENCE           ZOMBIE_EQUIP_TURBINE_PICKUP_HINT_STRING
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Turbina"
@@ -239,7 +239,7 @@ REFERENCE           CGAME_WAGER_SPEC_BET_ON_PLAYER
 LANG_ENGLISH        "Você apostou neste jogador."
 
 REFERENCE           SCRIPT_AM_BONUS_MOST_HEADSHOTS
-LANG_ENGLISH        "Mais Tiros na Cabeca +&&1"
+LANG_ENGLISH        "Mais Tiros na Cabeça +&&1"
 
 REFERENCE           MPUI_HYDRO_CAPS
 LANG_ENGLISH        "HYDRO"
@@ -284,10 +284,10 @@ REFERENCE           CGAME_YES
 LANG_ENGLISH        "SIM"
 
 REFERENCE           MENU_LIVESTREAM_YOUTUBE_ACCOUNT_NOT_FULLY_SETUP
-LANG_ENGLISH        "Sua conta não está totalmente configurada. Va para www.youtube.com e verifique sua conta para resolver este problema."
+LANG_ENGLISH        "Sua conta nao está totalmente configurada. Va para www.youtube.com e verifique sua conta para resolver este problema."
 
 REFERENCE           CGAME_NO
-LANG_ENGLISH        "Não"
+LANG_ENGLISH        "Nao"
 
 REFERENCE           ZOMBIE_HELICOPTER_X2_INBOUND
 LANG_ENGLISH        "HelicopteroX2 Aproximando"
@@ -482,7 +482,7 @@ REFERENCE           MPUI_FROSTBITE_CAPS
 LANG_ENGLISH        "FROST"
 
 REFERENCE           ZMUI_START_MATCH_MIN_TEAM_PLAYERS_DESC
-LANG_ENGLISH        "Não e possivel iniciar o jogo. Minimo de 1 jogador em cada equipe."
+LANG_ENGLISH        "Nao e possivel iniciar o jogo. Minimo de 1 jogador em cada equipe."
 
 REFERENCE           CGAME_SLIME
 LANG_ENGLISH        "lama"
@@ -527,7 +527,7 @@ REFERENCE           CGAME_YOUWEREREVIVED
 LANG_ENGLISH        "Revivido por &&1"
 
 REFERENCE           CGAME_HEAD_SHOT
-LANG_ENGLISH        "tiro na cabeca"
+LANG_ENGLISH        "NA CABEÇA"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_19
 LANG_ENGLISH        "Scales, Snake Bite"
@@ -551,7 +551,7 @@ REFERENCE           ZOMBIE_EARNED_DOGS
 LANG_ENGLISH        "Cachorros Obtidos"
 
 REFERENCE           CGAME_PRONE_BLOCKED_WEAPON
-LANG_ENGLISH        "Não e Possivel Ficar Deitado Com Esta Arma"
+LANG_ENGLISH        "Nao e Possivel Ficar Deitado Com Esta Arma"
 
 REFERENCE           SCRIPT_DOLLAR
 LANG_ENGLISH        "$"
@@ -572,13 +572,13 @@ REFERENCE           ZMUI_DOWNS_CAPS
 LANG_ENGLISH        "DERRUBAS"
 
 REFERENCE           MENU_CODTV_FOLDER_EMPTY_HINT
-LANG_ENGLISH        "Não ha itens disponiveis nesta categoria."
+LANG_ENGLISH        "Nao ha itens disponiveis nesta categoria."
 
 REFERENCE           ZOMBIE_ROUND_HELICOPTER
 LANG_ENGLISH        "Helicoptero disponivel na rodada &&1"
 
 REFERENCE           CGAME_THIS_WEAPON_HAS_NO_ALTERNATE
-LANG_ENGLISH        "Esta arma não tem modo alternativo para alternar."
+LANG_ENGLISH        "Esta arma nao tem modo alternativo para alternar."
 
 REFERENCE           MENU_COLOR_MIXER
 LANG_ENGLISH        "Misturador de Cores"
@@ -683,13 +683,13 @@ REFERENCE           ZOMBIE_BUILD_BRIDGE
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Construir Ponte [Custo: 1000]"
 
 REFERENCE           MENU_FRIENDS_FB_NONE
-LANG_ENGLISH        "Você não tem amigos que fizeram login no Facebook no Black Ops II no momento."
+LANG_ENGLISH        "Você nao tem amigos que fizeram login no Facebook no Black Ops II no momento."
 
 REFERENCE           ZM_BURIED_SQ_NFND
 LANG_ENGLISH        "Nada foi encontrado..."
 
 REFERENCE           SCRIPT_MISSIONFAIL_KILLTEAM_AMERICAN
-LANG_ENGLISH        "Fogo amigo não sera tolerado!"
+LANG_ENGLISH        "Fogo amigo nao sera tolerado!"
 
 REFERENCE           ZOMBIE_RANDOM_WEAPON_850
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para uma Arma Aleatoria [Custo: 850]"
@@ -815,7 +815,7 @@ REFERENCE           MPUI_DM_CAPS
 LANG_ENGLISH        "TODOS CONTRA TODOS"
 
 REFERENCE           CGAME_SB_ACCURACY
-LANG_ENGLISH        "Precisao"
+LANG_ENGLISH        "Precisão"
 
 REFERENCE           SCRIPT_AM_STREAK_COMPLETE
 LANG_ENGLISH        "Bonus Completo"
@@ -830,7 +830,7 @@ REFERENCE           CGAME_AM_IN_FIRST_PLACE
 LANG_ENGLISH        "&&1 assumiu a lideranca"
 
 REFERENCE           MENU_PRESTIGE_FRESH_START_DESC
-LANG_ENGLISH        "Selecionar Inicio Fresco redefinira toda a sua carreira, incluindo todas as estatísticas (Razão Abates/Mortes, Razão Vitorias/Derrotas e Pontos Por Minuto). Também bloqueara novamente tudo que você desbloqueou, incluindo armas, Scorestreaks, Emblemas, Camuflagens e Cartoes de Chamada. Em outras palavras, sera como se você estivesse iniciando o jogo pela primeira vez.\n\nUma vez que esta opção tenha sido selecionada, não pode ser desfeita. Tem certeza de que quer usar o Inicio Fresco?"
+LANG_ENGLISH        "Selecionar Inicio Fresco redefinira toda a sua carreira, incluindo todas as estatísticas (Razão Abates/Mortes, Razão Vitorias/Derrotas e Pontos Por Minuto). Também bloqueara novamente tudo que você desbloqueou, incluindo armas, Scorestreaks, Emblemas, Camuflagens e Cartões de Visita. Em outras palavras, sera como se você estivesse iniciando o jogo pela primeira vez.\n\nUma vez que esta opção tenha sido selecionada, nao pode ser desfeita. Tem certeza de que quer usar o Inicio Fresco?"
 
 REFERENCE           ZOMBIE_WEAPON_MPL
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para MPL [Custo: &&1]"
@@ -845,7 +845,7 @@ REFERENCE           MPUI_HINTTEXT_CONFIRMPASSWORD
 LANG_ENGLISH        "Por favor insira sua senha novamente."
 
 REFERENCE           MPUI_HINTTEXT_FIRSTNAME_ERROR
-LANG_ENGLISH        "O primeiro nome que você inseriu contem caracteres não suportados, por favor verifique se não contem numeros ou simbolos."
+LANG_ENGLISH        "O primeiro nome que você inseriu contem caracteres nao suportados, por favor verifique se nao contem numeros ou simbolos."
 
 REFERENCE           ZMUI_RECIPES
 LANG_ENGLISH        "Receitas"
@@ -893,7 +893,7 @@ REFERENCE           MENU_LINK_TWITCH_DESC
 LANG_ENGLISH        "Conectar/Desconectar Black Ops II da sua conta do Twitch."
 
 REFERENCE           PLATFORM_DISPLAY_MODE_DESC
-LANG_ENGLISH        "Selecione Janela, Tela Cheia ou Janela (Tela Cheia). Pressionando Alt+Enter alternara entre o modo janela padrao e a ultima tela cheia selecionada."
+LANG_ENGLISH        "Selecione Janelado, Tela Cheia ou Janelado (Tela Cheia). Pressionando Alt+Enter alternara entre o modo janela padrao e a ultima tela cheia selecionada."
 
 REFERENCE           ZOMBIE_COOP
 LANG_ENGLISH        "Co-Op"
@@ -911,7 +911,7 @@ REFERENCE           ZMWEAPON_BOWIE
 LANG_ENGLISH        "Bowie Knife"
 
 REFERENCE           MENU_NETWORK_QUALITY_GOOD_HINT
-LANG_ENGLISH        "Alguns problemas de rede, mas não impactaram a jogabilidade"
+LANG_ENGLISH        "Alguns problemas de rede, mas nao impactaram a jogabilidade"
 
 REFERENCE           ZMUI_STANDARD_FARM_2_PLAYERS_CAPS
 LANG_ENGLISH        "Sobrevivência FARM 2 JOGADORES"
@@ -977,7 +977,7 @@ REFERENCE           CGAME_SB_DEFUSES
 LANG_ENGLISH        "Desarmamentos"
 
 REFERENCE           MENU_PRESTIGE_UNLOCK_NOT_USED_WARNING
-LANG_ENGLISH        "Você não usou seu Desbloqueio Permanente para este Prestigio.\nEle sera perdido se você continuar. Se você gostaria de usar seu desbloqueio permanente, visite Scorestreaks ou Criar uma Classe e escolha um item para desbloquear permanentemente."
+LANG_ENGLISH        "Você nao usou seu Desbloqueio Permanente para este Prestigio.\nEle sera perdido se você continuar. Se você gostaria de usar seu desbloqueio permanente, visite Scorestreaks ou Criar uma Classe e escolha um item para desbloquear permanentemente."
 
 REFERENCE           MENU_USED_LAYER_DESC
 LANG_ENGLISH        "Edite está camada."
@@ -995,10 +995,10 @@ REFERENCE           MENU_LEAGUE_LADDER_TITLE_2
 LANG_ENGLISH        "Ladder da Liga"
 
 REFERENCE           MENU_PLAYERID_BACKGROUNDS_HINT
-LANG_ENGLISH        "Escolha um Cartao de Chamada. Desbloqueie Cartoes de Chamada completando desafios em Partidas Públicas."
+LANG_ENGLISH        "Escolha um Cartão de Visita. Desbloqueie Cartões de Visita completando desafios em Partidas Públicas."
 
 REFERENCE           MPUI_DLC_WARNING_YOU
-LANG_ENGLISH        "Você não tem os mesmos Pacotes DLC que outros jogadores no grupo. A busca de partida só procurara mapas que todos possuem."
+LANG_ENGLISH        "Você nao tem os mesmos Pacotes DLC que outros jogadores no grupo. A busca de partida só procurara mapas que todos possuem."
 
 REFERENCE           ZMUI_DESC_MAP_TRANSIT
 LANG_ENGLISH        "Descricao de Green Run"
@@ -1019,7 +1019,7 @@ REFERENCE           SCRIPT_MISSIONFAIL_KILLTEAM_RUSSIAN
 LANG_ENGLISH        "Você e um traidor para seus irmaos!"
 
 REFERENCE           SCRIPT_MISSIONFAIL_KILLTEAM_BRITISH
-LANG_ENGLISH        "Fogo amigo não sera tolerado!"
+LANG_ENGLISH        "Fogo amigo nao sera tolerado!"
 
 REFERENCE           SCRIPT_HINT_BIGDOG_CHARGED_SHOT
 LANG_ENGLISH        "Carregue seu tiro para penetrar a armadura corporal."
@@ -1061,7 +1061,7 @@ REFERENCE           ZOMBIE_BUILD_PIECE_GRAB
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Peca"
 
 REFERENCE           SCRIPT_HINT_CANT_OPEN_DOORS
-LANG_ENGLISH        "Esta porta não pode ser aberta. Você nunca precisa tentar abrir portas fechadas."
+LANG_ENGLISH        "Esta porta nao pode ser aberta. Você nunca precisa tentar abrir portas fechadas."
 
 REFERENCE           SCRIPT_COLLECTIBLE_PICKUP
 LANG_ENGLISH        "Segure^3 &&1 ^7para adquirir Inteligência"
@@ -1085,7 +1085,7 @@ REFERENCE           MENU_CLASS_SETS_UPGRADE_HINT
 LANG_ENGLISH        "Ate 10 Conjuntos de Classes com a compra do Pacote de Slots Extras."
 
 REFERENCE           MENU_NETWORK_QUALITY_DECLINE_HINT
-LANG_ENGLISH        "Eu não desejo participar desta pesquisa"
+LANG_ENGLISH        "Eu nao desejo participar desta pesquisa"
 
 REFERENCE           ZOMBIE_WEAPON_KIPARIS
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Dual Kiparis [Custo: &&1]"
@@ -1499,7 +1499,7 @@ REFERENCE           SCRIPT_MANTLE
 LANG_ENGLISH        "Pressione ^3[{+gostand}]^7 para "
 
 REFERENCE           ZOMBIE_BETTY_HOWTO
-LANG_ENGLISH        "Pressione ^3[{+actionslot 4}]^7 e depois ^3[{+attack}]^7 para colocar uma Bouncing Betty"
+LANG_ENGLISH        "Pressione ^3[{+actionslot 4}]^7 e depois ^3[{+attack}]^7 para colocar uma Mina-S"
 
 REFERENCE           SCRIPT_LEARN_M14_SWITCH
 LANG_ENGLISH        "Pressione ^3[{weapnext}]^7 para trocar para seu Rifle de Atirador de Elite M21"
@@ -1517,10 +1517,10 @@ REFERENCE           MENU_SPAWN_TEAMKILLED_PENALTY
 LANG_ENGLISH        "Penalidade por Matou Time"
 
 REFERENCE           MENU_COD_PIRACY_TEMP_BAN_CONSOLE
-LANG_ENGLISH        "Este console foi temporariamente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo não autorizado. Visite http://support.activision.com/blackops2."
+LANG_ENGLISH        "Este console foi temporariamente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo nao autorizado. Visite http://support.activision.com/blackops2."
 
 REFERENCE           MENU_CAC_IMPORT_FAILURE
-LANG_ENGLISH        "Não foi possivel importar classes do Call of Duty ELITE."
+LANG_ENGLISH        "Nao foi possivel importar classes do Call of Duty ELITE."
 
 REFERENCE           SCRIPT_LEARN_CLAYMORES
 LANG_ENGLISH        "Pressione ^3[{+actionslot 4}]^7 para usar claymores."
@@ -1691,7 +1691,7 @@ REFERENCE           SCRIPT_TOTAL_SCORE
 LANG_ENGLISH        "PONTUACAO TOTAL:"
 
 REFERENCE           EXE_COD_PIRACY_PERM_BAN_PLAYER
-LANG_ENGLISH        "Este perfil (&&1) foi permanentemente banido de jogar Call of Duty: Black Ops II online devido a deteccao de conteudo não autorizado, uma violacao da Politica de Seguranca e Aplicacao publicada. Para mais informacoes, visite http://support.activision.com/blackops2."
+LANG_ENGLISH        "Este perfil (&&1) foi permanentemente banido de jogar Call of Duty: Black Ops II online devido a deteccao de conteudo nao autorizado, uma violacao da Politica de Seguranca e Aplicacao publicada. Para mais informacoes, visite http://support.activision.com/blackops2."
 
 REFERENCE           ZMUI_CUSTOM_MATCH_DESC
 LANG_ENGLISH        "Você faz as regras! Jogue com outros sobreviventes e se una para lutar contra ondas interminaveis dos mortos-vivos."
@@ -1709,7 +1709,7 @@ REFERENCE           SCRIPT_GOD_ROD_OFFLINE
 LANG_ENGLISH        "Arma de Ataque Cinetico - Offline"
 
 REFERENCE           MPUI_CONFIRM_WEAPON_PRESTIGE_WARNING
-LANG_ENGLISH        "O prestige de arma não afeta o progresso em direcao a desafios ou camuflagem. Uma vez que você fizer o prestige desta arma, não ha volta. Tem certeza que deseja entrar no prestige de arma?"
+LANG_ENGLISH        "O prestige de arma nao afeta o progresso em direcao a desafios ou camuflagem. Uma vez que você fizer o prestige desta arma, nao ha volta. Tem certeza que deseja entrar no prestige de arma?"
 
 REFERENCE           SCRIPT_TIME_REMAINING
 LANG_ENGLISH        "TEMPO RESTANTE:"
@@ -1814,7 +1814,7 @@ REFERENCE           MPUI_MTX_WEAPON16
 LANG_ENGLISH        "Coyote Pack"
 
 REFERENCE           SCRIPT_HINT_BIGDOG_BULLET_DAMAGE
-LANG_ENGLISH        "Metralhadoras comuns e pistola não podem penetrar armadura corporal."
+LANG_ENGLISH        "Metralhadoras comuns e pistola nao podem penetrar armadura corporal."
 
 REFERENCE           ZOMBIE_LEADERBOARDS
 LANG_ENGLISH        "Classificacoes"
@@ -1841,7 +1841,7 @@ REFERENCE           PLATFORM_SERVER_LOCTATION_SEL_LABEL
 LANG_ENGLISH        "LOCALIZACAO PREFERIDA"
 
 REFERENCE           SCRIPT_HINT_CANT_DISMOUNT_HERE
-LANG_ENGLISH        "Não e possivel desmontar aqui."
+LANG_ENGLISH        "Nao e possivel desmontar aqui."
 
 REFERENCE           ZOMBIE_BUTTON_BUY_OPEN_AREA_1500
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Abrir Area [Custo: 1500]"
@@ -1949,10 +1949,10 @@ REFERENCE           SCRIPT_PLATFORM_OFF_TANK
 LANG_ENGLISH        "Pressione e segure ^3[{+activate}]^7 para descer do tanque"
 
 REFERENCE           ZMUI_HEADSHOTS_ONLY_DESC
-LANG_ENGLISH        "Apenas tiros na cabeca, se você sentir que tem as habilidades de atirador necessarias."
+LANG_ENGLISH        "Apenas tiros na cabeça, se você sentir que tem as habilidades de atirador necessarias."
 
 REFERENCE           MENU_RENDER_VIDEO_ACTIVATE_DESC
-LANG_ENGLISH        "Para postar seus videos renderizados do Black Ops II em sua conta do YouTube, siga estas instrucoes:\n\n1. Não saia desta tela, ela sera atualizada automaticamente apos a ativacao.\n2. No seu computador, va para &&1\n3. Insira o seguinte codigo"
+LANG_ENGLISH        "Para postar seus videos renderizados do Black Ops II em sua conta do YouTube, siga estas instrucoes:\n\n1. Nao saia desta tela, ela sera atualizada automaticamente apos a ativacao.\n2. No seu computador, va para &&1\n3. Insira o seguinte codigo"
 
 REFERENCE           ZOMBIE_LANDER_HAS_ARRIVED
 LANG_ENGLISH        "Pouso do Lander, pronto para usar"
@@ -2078,7 +2078,7 @@ REFERENCE           ZOMBIE_UNDEFINED
 LANG_ENGLISH        "INDEFINIDO!! POR FAVOR DEFINA O SCRIPT_HINT NO ENT CORRETAMENTE!"
 
 REFERENCE           MPUI_ELITE_NO
-LANG_ENGLISH        "Não"
+LANG_ENGLISH        "Nao"
 
 REFERENCE           ZOMBIE_BUILD_CATTLE_CATCHER
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para adicionar Peca"
@@ -2105,7 +2105,7 @@ REFERENCE           ZOMBIE_BUTTON_BUY_BACK_BARRIER_20
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para recomprar Barreira [Custo: 20]"
 
 REFERENCE           MPUI_UCD_ERROR_COUNTRY
-LANG_ENGLISH        "O servico UCD não conseguiu aceitar a selecao de pais fornecida."
+LANG_ENGLISH        "O servico UCD nao conseguiu aceitar a selecao de pais fornecida."
 
 REFERENCE           ZMWEAPON_ACIDGAT_UPGRADED
 LANG_ENGLISH        "Vitriolic Withering"
@@ -2333,7 +2333,7 @@ REFERENCE           ZOMBIE_WEAPON_PM63
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para PM63 [Custo: &&1]"
 
 REFERENCE           MENU_PRESTIGE_FRESH_START_WARNING
-LANG_ENGLISH        "Seriamente, usar Fresh Start redefinira completamente seu progresso e limpara sua ponte. Não ha volta uma vez que você usar Fresh Start. Você tem certeza absoluta de que deseja comecar do zero, como se estivesse jogando o jogo pela primeira vez?"
+LANG_ENGLISH        "Seriamente, usar Fresh Start redefinira completamente seu progresso e limpara sua ponte. Nao ha volta uma vez que você usar Fresh Start. Você tem certeza absoluta de que deseja comecar do zero, como se estivesse jogando o jogo pela primeira vez?"
 
 REFERENCE           ZOMBIE_POWERUP_INSTA_KILL
 LANG_ENGLISH        "Insta-Kill: "
@@ -2372,7 +2372,7 @@ REFERENCE           ZOMBIE_BUTTON_REWARD_BARRIER_30
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Reconstruir Barreira [Recompensa: 30]"
 
 REFERENCE           MPUI_HOLO_DESC
-LANG_ENGLISH        "Mira holografica. Fornece uma visao mais clara do alvo que uma reflex, mas com menos visao periferica."
+LANG_ENGLISH        "Mira Reflexo. Fornece uma visao mais clara do alvo que uma mira reflexo, mas com menos visao periferica."
 
 REFERENCE           ZOMBIE_GAME_OVER
 LANG_ENGLISH        "GAME OVER"
@@ -2423,10 +2423,10 @@ REFERENCE           ZOMBIE_BUTTON_BUY_OPEN_AREA_2500
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Abrir Area [Custo: 2500]"
 
 REFERENCE           ZOMBIE_BETTY_PURCHASE
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Bouncing Betty [Custo: 1000 - apenas uma vez]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Mina-S [Custo: 1000 - apenas uma vez]"
 
 REFERENCE           ZOMBIE_BETTY_ALREADY_PURCHASED
-LANG_ENGLISH        "Você ja comprou Bouncing Bettys"
+LANG_ENGLISH        "Você ja comprou Mina-S"
 
 REFERENCE           ZOMBIE_CLAYMORE_PURCHASE
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Claymore [Custo: 1000]"
@@ -2453,7 +2453,7 @@ REFERENCE           ZOMBIE_EARNED_HELICOPTER_X2
 LANG_ENGLISH        "HelicopteroX2 Ganho"
 
 REFERENCE           MPUI_HINTTEXT_UCD_ACCOUNT_NAME
-LANG_ENGLISH        "Este sera o seu identificador online para postar e avaliar comentarios. O máximo de caracteres e 20 e não sao permitidos caracteres especiais, exceto sublinhados."
+LANG_ENGLISH        "Este sera o seu identificador online para postar e avaliar comentarios. O máximo de caracteres e 20 e nao sao permitidos caracteres especiais, exceto sublinhados."
 
 REFERENCE           ZOMBIE_TURRET_NOT_AVAILABLE
 LANG_ENGLISH        "Torre Indisponível"
@@ -2480,7 +2480,7 @@ REFERENCE           ZOMBIE_ZIPLINE_USE
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para ativar o Zipline [Custo: 1500]"
 
 REFERENCE           ZOMBIE_BUTTON_TO_SUICIDE
-LANG_ENGLISH        "Pressione ^3[{+activate}]^7 [Por favor não alimente os zumbis]"
+LANG_ENGLISH        "Pressione ^3[{+activate}]^7 [Por favor nao alimente os zumbis]"
 
 REFERENCE           MENU_EMBLEM_LAYER_OPACITY_VALUE
 LANG_ENGLISH        "Opacidade: &&1%"
@@ -2519,7 +2519,7 @@ REFERENCE           ZOMBIE_RACE_GET_TO_FINISH
 LANG_ENGLISH        "Chegue a Linha de Chegada!"
 
 REFERENCE           MENU_SOCIAL
-LANG_ENGLISH        "CURTIR/Não CURTIR"
+LANG_ENGLISH        "CURTIR/Nao CURTIR"
 
 REFERENCE           MPUI_HCCONF
 LANG_ENGLISH        "Hardcore Kill Confirmed"
@@ -2528,13 +2528,13 @@ REFERENCE           ZOMBIE_START_TPAD
 LANG_ENGLISH        "Volte ao nucleo"
 
 REFERENCE           MENU_FILESHARE_VOTE_DISLIKEHINT
-LANG_ENGLISH        "Selecione para não curtir este arquivo."
+LANG_ENGLISH        "Selecione para nao curtir este arquivo."
 
 REFERENCE           MENU_FB_VOTE_MESSAGE
 LANG_ENGLISH        "Acabei de votar no Pacote de Personalizacao do Black Ops 2 &&1!"
 
 REFERENCE           EXE_SVBADCLANTAG
-LANG_ENGLISH        "Tag de clan proibida no servidor"
+LANG_ENGLISH        "Insígnia de clã proibida no servidor"
 
 REFERENCE           ZOMBIE_AUG_GL_UPGRADED
 LANG_ENGLISH        "AUG Grenade Launcher Melhorada"
@@ -2666,7 +2666,7 @@ REFERENCE           ZOMBIE_WEAPON_MP5K
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para MP5 [Custo: &&1]"
 
 REFERENCE           ZOMBIE_WEAPON_LOCKER_DENY
-LANG_ENGLISH        "Não e possivel colocar item no Armario"
+LANG_ENGLISH        "Nao e possivel colocar item no Armario"
 
 REFERENCE           ZOMBIE_WEAPON_MP40
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para MP40 [Custo: &&1]"
@@ -2690,7 +2690,7 @@ REFERENCE           ZOMBIE_WEAPON_ITHACA
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Stakeout [Custo: &&1]"
 
 REFERENCE           MENU_NOT_NOW
-LANG_ENGLISH        "Agora Não"
+LANG_ENGLISH        "Agora Nao"
 
 REFERENCE           ZMUI_NUKED_STARTLOC_CAPS
 LANG_ENGLISH        "NUKETOWN"
@@ -2822,13 +2822,13 @@ REFERENCE           ZOMBIE_VERSUS
 LANG_ENGLISH        "Versus"
 
 REFERENCE           MENU_LEAGUE_PRE_SEASON_MATCHES_DESC
-LANG_ENGLISH        "Partidas da Pre-Temporada não contam para o posicionamento de rank ou pontos de escada."
+LANG_ENGLISH        "Partidas da Pre-Temporada nao contam para o posicionamento de rank ou pontos de escada."
 
 REFERENCE           ZOMBIE_EQUIP_JETGUN
 LANG_ENGLISH        "Jet Gun"
 
 REFERENCE           MENU_RESET_STATS_HINT
-LANG_ENGLISH        "Redefine completamente todas as suas estatísticas e desbloqueios. Uma vez que Fresh Start tenha sido selecionado, não pode ser desfeito."
+LANG_ENGLISH        "Redefine completamente todas as suas estatísticas e desbloqueios. Uma vez que Fresh Start tenha sido selecionado, nao pode ser desfeito."
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_22
 LANG_ENGLISH        "Electroflex, Interface"
@@ -2855,7 +2855,7 @@ REFERENCE           MENU_FILESHARE_FILM_SMALL
 LANG_ENGLISH        "video"
 
 REFERENCE           MENU_CR_SUMMARY_SPECIAL_HINT
-LANG_ENGLISH        "Total de Tiros na Cabeca: &&1 Ganho"
+LANG_ENGLISH        "Total de Tiros na Cabeça: &&1 Ganho"
 
 REFERENCE           MENU_LINK_ACCOUNT
 LANG_ENGLISH        "Vincular Conta"
@@ -2888,7 +2888,7 @@ REFERENCE           ZMUI_ZCLEANSED_SHORT_CAPS
 LANG_ENGLISH        "VIRADO"
 
 REFERENCE           MPUI_CONFIRM_WEAPON_PRESTIGE_DESC
-LANG_ENGLISH        "Redefine o nivel desta arma para 1 e tranque novamente todos os acessorios. Em troca, você pode mostrar sua tag de clan na sua arma e ganhara recompensas de XP novamente para cada nivel da arma."
+LANG_ENGLISH        "Redefine o nivel desta arma para 1 e tranque novamente todos os acessorios. Em troca, você pode mostrar sua insígnia de clã na sua arma e ganhara recompensas de XP novamente para cada nivel da arma."
 
 REFERENCE           ZOMBIE_ROUND_ENDURANCE
 LANG_ENGLISH        "Resistencia disponivel na rodada &&1"
@@ -2930,7 +2930,7 @@ REFERENCE           ZOMBIE_HAS_ABILITY
 LANG_ENGLISH        "Você Ja Tem Esta Habilidade"
 
 REFERENCE           ZMUI_START_MATCH_DUALVIEW_DISABLED_DESC
-LANG_ENGLISH        "Não e possivel iniciar o jogo com mais de 2 jogadores quando a Visualizacao Dupla está habilitada."
+LANG_ENGLISH        "Nao e possivel iniciar o jogo com mais de 2 jogadores quando a Visualizacao Dupla está habilitada."
 
 REFERENCE           ZOMBIE_ABILITY_DOGS_USED
 LANG_ENGLISH        "Habilidade de Caes Usada"
@@ -2945,7 +2945,7 @@ REFERENCE           ZOMBIE_ABILITY_CLOAK_USED
 LANG_ENGLISH        "Habilidade de Camuflagem Usada"
 
 REFERENCE           MENU_DLC_DOWNLOAD_NOT_NOW
-LANG_ENGLISH        "AGORA Não"
+LANG_ENGLISH        "AGORA Nao"
 
 REFERENCE           ZOMBIE_PORTAL_NOT_AVAILABLE
 LANG_ENGLISH        "Portal Indisponível"
@@ -3164,7 +3164,7 @@ REFERENCE           ZMUI_TUNNEL_CAPS
 LANG_ENGLISH        "TUNEL"
 
 REFERENCE           ZOMBIE_ITEM_MEAT
-LANG_ENGLISH        "Você Não QUER ISSO"
+LANG_ENGLISH        "Você Nao QUER ISSO"
 
 REFERENCE           ZOMBIE_EQUIP_RIOTSHIELD_PICKUP_HINT_STRING
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Escudo Zombie"
@@ -3191,7 +3191,7 @@ REFERENCE           ZOMBIE_THROW_MEAT_HINT
 LANG_ENGLISH        "Pressione ^3[{+attack}]^7 para se livrar da Carne"
 
 REFERENCE           MPUI_JOIN_ELITE_CLAN
-LANG_ENGLISH        "Va ao Elite e crie ou entre em um clan."
+LANG_ENGLISH        "Va ao Elite e crie ou entre em um clã."
 
 REFERENCE           ZOMBIE_MEAT_PICKUP
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar a carne"
@@ -3221,7 +3221,7 @@ REFERENCE           ZOMBIE_PERK_DEADSHOT
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Deadshot Daiquiri [Custo: &&1]"
 
 REFERENCE           ZOMBIE_PERK_MARATHON
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Stamin-Up [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Vigorol [Custo: &&1]"
 
 REFERENCE           MENU_LB_CARD_TEXT_GUN
 LANG_ENGLISH        "Ranking de partida publica para Gun Game"
@@ -3284,7 +3284,7 @@ REFERENCE           ZOMBIE_EQUIP_TURRET
 LANG_ENGLISH        "Torre Automatizada"
 
 REFERENCE           ZMUI_HEADSHOTS_CAPS
-LANG_ENGLISH        "TIROS NA CABECA"
+LANG_ENGLISH        "TIROS NA CABEÇA"
 
 REFERENCE           MENU_WAITING_CAPS
 LANG_ENGLISH        "AGUARDANDO"
@@ -3299,7 +3299,7 @@ REFERENCE           ZOMBIE_EQUIP_TURRET_HOWTO
 LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para equipar Torre"
 
 REFERENCE           MENU_MTX_MEDIA_STORAGE_WARNING
-LANG_ENGLISH        "Este item não pode ser comprado enquanto assiste um video. Visite a loja do jogo para comprar mais dados com o Pacote de Slots Extras."
+LANG_ENGLISH        "Este item nao pode ser comprado enquanto assiste um video. Visite a loja do jogo para comprar mais dados com o Pacote de Slots Extras."
 
 REFERENCE           ZOMBIE_EQUIP_TURBINE_HOWTO
 LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para equipar Turbina"
@@ -3422,7 +3422,7 @@ REFERENCE           MPUI_RETICLE_HOLO_22
 LANG_ENGLISH        "HoloTron"
 
 REFERENCE           ZOMBIE_SUICIDING
-LANG_ENGLISH        "Não alimente os zumbis"
+LANG_ENGLISH        "Nao alimente os zumbis"
 
 REFERENCE           MPUI_EMAIL_REGISTRATION_POPUP_EMAIL_ADDRESS
 LANG_ENGLISH        "ENDERECO DE EMAIL:"
@@ -3464,7 +3464,7 @@ REFERENCE           ZOMBIE_WEAPON_QCW05
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para QCW-05 [Custo: &&1]"
 
 REFERENCE           MPUI_WELCOME_BACK_MSG
-LANG_ENGLISH        "Como membro retornando do Call of Duty ELITE, e um de nossos fas mais importantes, não esqueca que os seguintes itens serao desbloqueados para você no Call of Duty: Black Ops II:\n\nDesbloqueios exclusivos do Call of Duty ELITE:\n              + Camo de Arma\n              + Calling Card\n              + Emblema\n\nCertifique-se de conferir o Call of Duty ELITE para aproveitar ao máximo sua experiência no Call of Duty e manter-se atualizado com todas as últimas noticias."
+LANG_ENGLISH        "Como membro retornando do Call of Duty ELITE, e um de nossos fas mais importantes, nao esqueca que os seguintes itens serao desbloqueados para você no Call of Duty: Black Ops II:\n\nDesbloqueios exclusivos do Call of Duty ELITE:\n              + Camo de Arma\n              + Calling Card\n              + Emblema\n\nCertifique-se de conferir o Call of Duty ELITE para aproveitar ao máximo sua experiência no Call of Duty e manter-se atualizado com todas as últimas noticias."
 
 REFERENCE           ZOMBIE_WEAPON_SRM1216
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para M1216 [Custo: &&1]"
@@ -3620,7 +3620,7 @@ REFERENCE           ZMWEAPON_QCW05_UPGRADED
 LANG_ENGLISH        "Chicom Cataclysmic Quadruple Burst"
 
 REFERENCE           MENU_TWITCH_REGISTERATION_DISABLED_FOR_DUAL_PLAY
-LANG_ENGLISH        "O login do Twitch não pode ser concluido quando o Dual Play está habilitado."
+LANG_ENGLISH        "O login do Twitch nao pode ser concluido quando o Dual Play está habilitado."
 
 REFERENCE           MPUI_PERMANENT_UNLOCK_AVAILABLE
 LANG_ENGLISH        "&&1 Desbloqueio Permanente"
@@ -3794,7 +3794,7 @@ REFERENCE           MENU_BOTTOM_LAYER
 LANG_ENGLISH        "Camada Inferior"
 
 REFERENCE           ZMUI_ACCURACY_CAPS
-LANG_ENGLISH        "PRECISAO"
+LANG_ENGLISH        "PRECISÃO"
 
 REFERENCE           ZMUI_TRANSIT_CAPS
 LANG_ENGLISH        "GREEN RUN"
@@ -3863,7 +3863,7 @@ REFERENCE           ZMUI_CLASSIC
 LANG_ENGLISH        "TranZit"
 
 REFERENCE           MPUI_HINTTEXT_PASS_EMAIL_ERROR
-LANG_ENGLISH        "A senha não pode ser igual ao seu endereco de e-mail."
+LANG_ENGLISH        "A senha nao pode ser igual ao seu endereco de e-mail."
 
 REFERENCE           ZMUI_CANCEL_WARNING
 LANG_ENGLISH        "Voltar ao lobby enquanto o upload termina em segundo plano?"
@@ -3890,7 +3890,7 @@ REFERENCE           ZMUI_STANDARD_DESC_TRANSIT
 LANG_ENGLISH        "Sobreviva com armas limitadas e sem o Soco-em-lata ou qualquer perks. E o sonho de um masoquista. Vamos, nos desafiamos!"
 
 REFERENCE           MENU_SUBUSERS_NOTALLOWED
-LANG_ENGLISH        "Sub Usuarios não tem permissao para acessar esta funcionalidade"
+LANG_ENGLISH        "Sub Usuarios nao tem permissao para acessar esta funcionalidade"
 
 REFERENCE           MPUI_PRESTIGE_TOKEN_LB_RESET_FAILED
 LANG_ENGLISH        "O Token de Prestigio falhou ao ser aplicado, por favor tente novamente. Se o problema persistir, por favor entre em contato com o suporte."
@@ -3913,7 +3913,7 @@ LANG_ENGLISH        "SOBREVIVÊNCIA"
 REFERENCE           ZMUI_ZSTANDARD_SHORT_CAPS
 LANG_ENGLISH        "SOBREV"
 REFERENCE           MPUI_ELITE_APP_DOWNLOAD_DESC
-LANG_ENGLISH        "Elite e seu QG do Call of Duty! Como um servico GRATUITO para Call of Duty Black Ops II, Call of Duty ELITE leva sua capacidade de se conectar, competir e melhorar ao proximo nivel. Registre-se agora para desbloquear um Camo de Arma exclusivo e um Cartao de Chamada."
+LANG_ENGLISH        "Elite e seu QG do Call of Duty! Como um servico GRATUITO para Call of Duty Black Ops II, Call of Duty ELITE leva sua capacidade de se conectar, competir e melhorar ao proximo nivel. Registre-se agora para desbloquear um Camo de Arma exclusivo e um Cartão de Visita."
 
 REFERENCE           ZMUI_ZCONTAINMENT_SHORT_CAPS
 LANG_ENGLISH        "CONTAINMENT"
@@ -3990,7 +3990,7 @@ LANG_ENGLISH        "Descricao do local de inicio do milharal"
 REFERENCE           MPUI_HINTTEXT_LASTNAME
 LANG_ENGLISH        "Por favor digite seu sobrenome."
 REFERENCE           MPUI_REFLEX
-LANG_ENGLISH        "Reflex Sight"
+LANG_ENGLISH        "Mira Reflexo"
 
 REFERENCE           ZMUI_BUSTEST_LOC
 LANG_ENGLISH        "BLACK OPS II"
@@ -4002,25 +4002,25 @@ REFERENCE           ZMUI_THEATER_DESC
 LANG_ENGLISH        "Assista filmes de terror criados pela comunidade ou produza sua propria obra-prima de terror \"B\" para compartilhar com outros sobreviventes."
 
 REFERENCE           ZMUI_START_MATCH_MIN_TOTAL_PLAYERS_DESC
-LANG_ENGLISH        "Não e possivel iniciar o jogo. Minimo de &&1 jogadores."
+LANG_ENGLISH        "Nao e possivel iniciar o jogo. Minimo de &&1 jogadores."
 
 REFERENCE           ZMUI_START_MATCH_MAX_TOTAL_PLAYERS_DESC
-LANG_ENGLISH        "Não e possivel iniciar o jogo. Máximo de &&1 jogadores."
+LANG_ENGLISH        "Nao e possivel iniciar o jogo. Máximo de &&1 jogadores."
 
 REFERENCE           MENU_COD_PIRACY_PERM_BAN_CONSOLE
-LANG_ENGLISH        "Este console foi permanentemente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo não autorizado. Visite http://support.activision.com/blackops2."
+LANG_ENGLISH        "Este console foi permanentemente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo nao autorizado. Visite http://support.activision.com/blackops2."
 
 REFERENCE           MENU_VOTING_TITLE
 LANG_ENGLISH        "VOTE NO SEU CAMO FAVORITO"
 
 REFERENCE           ZMUI_START_MATCH_STEREOSCOPIC3D_DISABLED_DESC
-LANG_ENGLISH        "Não e possivel iniciar o jogo com mais de 2 jogadores quando o 3D Ativo / Passivo está habilitado."
+LANG_ENGLISH        "Nao e possivel iniciar o jogo com mais de 2 jogadores quando o 3D Ativo / Passivo está habilitado."
 
 REFERENCE           MENU_STORE_MAP_PACKS_CATEGORY
 LANG_ENGLISH        "PACOTES DE MAPAS"
 
 REFERENCE           ZMUI_START_MATCH_MAX_TEAM_PLAYERS_DESC
-LANG_ENGLISH        "Não e possivel iniciar o jogo. Máximo de &&1 jogadores em cada equipe."
+LANG_ENGLISH        "Nao e possivel iniciar o jogo. Máximo de &&1 jogadores em cada equipe."
 
 REFERENCE           ZMUI_POWER_DESC
 LANG_ENGLISH        "Descricao do local de inicio da estacao de energia"
@@ -4147,7 +4147,7 @@ REFERENCE           ZMUI_STARTING_ROUND_CAPS
 LANG_ENGLISH        "RODADA INICIAL"
 
 REFERENCE           ZMUI_HEADSHOTS_ONLY_CAPS
-LANG_ENGLISH        "SOMENTE CAPA"
+LANG_ENGLISH        "NA CABEÇA"
 
 REFERENCE           MPUI_DIG_CAPS
 LANG_ENGLISH        "DIG"
@@ -4304,7 +4304,7 @@ REFERENCE           MPUI_BARRACKS_DESC
 LANG_ENGLISH        "Edite seu Playercard, navegue pelos Desafios, veja seu Registro de Combate e mais."
 
 REFERENCE           MENU_NETWORK_QUALITY_EXCELLENT_HINT
-LANG_ENGLISH        "A jogabilidade não foi afetada por problemas de rede"
+LANG_ENGLISH        "A jogabilidade nao foi afetada por problemas de rede"
 
 REFERENCE           MENU_NETWORK_QUALITY_POOR
 LANG_ENGLISH        "RUIM"
@@ -4322,13 +4322,13 @@ REFERENCE           MPUI_MIRAGE_LOC
 LANG_ENGLISH        "GOBI DESERT, CHINA"
 
 REFERENCE           MENU_VOTING_NEVER_REMIND_AGAIN
-LANG_ENGLISH        "Não Me Lembre de Novo"
+LANG_ENGLISH        "Nao Me Lembre de Novo"
 
 REFERENCE           MENU_VOTING_OPTION_2
 LANG_ENGLISH        "Paladin"
 
 REFERENCE           MPUI_EMAIL_REGISTRATION_FAIL_BODY
-LANG_ENGLISH        "Desculpe, mas não foi possivel completar seu registro no Elite neste momento. Por favor tente novamente mais tarde."
+LANG_ENGLISH        "Desculpe, mas nao foi possivel completar seu registro no Elite neste momento. Por favor tente novamente mais tarde."
 
 REFERENCE           MENU_VOTING_OPTION_3
 LANG_ENGLISH        "Dragon"
@@ -4381,7 +4381,7 @@ REFERENCE           MENU_DW_PERM_BAN
 LANG_ENGLISH        "&&1 foi permanentemente banido de jogar nos servidores de Call of Duty: Black Ops II. Para mais informacoes, visite http://support.activision.com/blackops2."
 
 REFERENCE           MENU_COD_PIRACY_TEMP_BAN_PLAYER
-LANG_ENGLISH        "&&1 foi temporariamente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo não autorizado. Visite http://support.activision.com/blackops2."
+LANG_ENGLISH        "&&1 foi temporariamente banido dos servidores de Call of Duty: Black Ops II devido a deteccao de conteudo nao autorizado. Visite http://support.activision.com/blackops2."
 
 REFERENCE           MENU_LB_CARD_TEXT_OIC
 LANG_ENGLISH        "Ranking de Partida Publica para One in the Chamber"
@@ -4428,7 +4428,7 @@ REFERENCE           MENU_LB_CARD_TEXT_SAS
 LANG_ENGLISH        "Ranking de Partida Publica para Sticks and Stones"
 
 REFERENCE           MENU_PRESTIGE_FRESH_START_WARNING3
-LANG_ENGLISH        "Você não deveria ver esta tela. Reporte isto. Esta 4a tela de aviso precisa ser removida."
+LANG_ENGLISH        "Você nao deveria ver esta tela. Reporte isto. Esta 4a tela de aviso precisa ser removida."
 
 REFERENCE           MENU_EMBLEM_FIXED_SCALE
 LANG_ENGLISH        "Escala Fixa (Pressione ^BBUTTON_LUI_RIGHT_STICK^ para Escala Livre)"
@@ -4518,7 +4518,7 @@ REFERENCE           MENU_PRESTIGE_REFUND_DESC
 LANG_ENGLISH        "O Reembolso devolve todos os Tokens de Desbloqueio que você usou neste nivel de Prestigio e trava novamente qualquer conteudo que você usou um token. Use o Reembolso para experimentar diferentes tipos de armas e equipamentos."
 
 REFERENCE           MENU_CHALLENGE_TIER_DESC
-LANG_ENGLISH        "Nivel &&1 de &&2. Complete o Nivel &&3 para desbloquear este Cartao de Chamada."
+LANG_ENGLISH        "Nivel &&1 de &&2. Complete o Nivel &&3 para desbloquear este Cartão de Visita."
 
 REFERENCE           MENU_YES_USE_REFUND
 LANG_ENGLISH        "Sim, usar Reembolso"
@@ -4547,7 +4547,7 @@ REFERENCE           MENU_PRESTIGE_AWARDS_LOCKED_HINT
 LANG_ENGLISH        "Disponivel apos entrar no proximo Nivel de Prestigio."
 
 REFERENCE           MPUI_WELCOME_BACK_MSG_FOR_FOUNDERS
-LANG_ENGLISH        "Como membro Fundador do Call of Duty ELITE, e um dos nossos fas mais importantes, não esqueca que os seguintes itens exclusivos serao desbloqueados para você em Call of Duty: Black Ops II:\n\nDesbloqueios exclusivos do Call of Duty ELITE:\n              + Camo de Arma\n              + Cartao de Chamada\n              + Emblema\n              + Cartao de Chamada de Fundador\n              + Emblema de Fundador\n\nConfira o Call of Duty ELITE para aproveitar ao máximo sua experiência de Call of Duty e fique por dentro de todas as últimas noticias. "
+LANG_ENGLISH        "Como membro Fundador do Call of Duty ELITE, e um dos nossos fas mais importantes, nao esqueca que os seguintes itens exclusivos serao desbloqueados para você em Call of Duty: Black Ops II:\n\nDesbloqueios exclusivos do Call of Duty ELITE:\n              + Camo de Arma\n              + Cartão de Visita\n              + Emblema\n              + Cartão de Visita de Fundador\n              + Emblema de Fundador\n\nConfira o Call of Duty ELITE para aproveitar ao máximo sua experiência de Call of Duty e fique por dentro de todas as últimas noticias. "
 
 REFERENCE           MPUI_CONNECTION_NORMAL_CAPS
 LANG_ENGLISH        "NORMAL"
@@ -4622,7 +4622,7 @@ REFERENCE           MENU_EMBLEM_COLOR_PICKER_CAPS
 LANG_ENGLISH        "SELETOR DE COR"
 
 REFERENCE           MENU_FETCH_STATS_FAILED
-LANG_ENGLISH        "Jogador ainda não jogou nenhuma partida."
+LANG_ENGLISH        "Jogador ainda nao jogou nenhuma partida."
 
 REFERENCE           MENU_VIEW_TEAMMATE_PLAYERCARD
 LANG_ENGLISH        "Ver Playercard do companheiro"
@@ -4645,7 +4645,7 @@ REFERENCE           MENU_DLC2_DESC
 LANG_ENGLISH        "Uprising inclui quatro Mapas Multiplayer: Magma, Encore, Vertigo, e Studio: uma adaptacao reimaginada do mapa multiplayer favorito dos fas Firing Range. \n \nTambem incluido e Mob of the Dead, o novo Mapa de Zombies onde quatro gangsters da era da Proibicao sao forcados a se defenderem de hordas dos mortos-vivos enquanto estao presos na notoria Ilha de Alcatraz em San Francisco.\n"
 
 REFERENCE           MENU_FETCH_STATS_FAILED_TITLE
-LANG_ENGLISH        "Não foi possivel obter estatísticas"
+LANG_ENGLISH        "Nao foi possivel obter estatísticas"
 
 REFERENCE           MPUI_RETICLE_REFLEX_13
 LANG_ENGLISH        "Ka-Ching"
@@ -4773,10 +4773,10 @@ REFERENCE           MENU_PROBATION
 LANG_ENGLISH        "Probacao"
 
 REFERENCE           MENU_PROBATION_QUIT_WARNING
-LANG_ENGLISH        "Ao sair desta partida você sera colocado em probacao e não podera jogar temporariamente. Tem certeza?\n"
+LANG_ENGLISH        "Ao sair desta partida você sera colocado em probacao e nao podera jogar temporariamente. Tem certeza?\n"
 
 REFERENCE           MENU_PROBATION_DASHBOARD_WARNING
-LANG_ENGLISH        "Finalize completamente os jogos para evitar ser colocado em probacao. Se colocado em probacao, você temporariamente não podera jogar Partidas Públicas ou Jogos de Liga."
+LANG_ENGLISH        "Finalize completamente os jogos para evitar ser colocado em probacao. Se colocado em probacao, você temporariamente nao podera jogar Partidas Públicas ou Jogos de Liga."
 
 REFERENCE           MENU_PROBATION_JOIN_WARNING
 LANG_ENGLISH        "Novo texto"
@@ -4854,7 +4854,7 @@ REFERENCE           MENU_EMBLEM_OPTIONS_CAPS
 LANG_ENGLISH        "Opções DE EMBLEMA"
 
 REFERENCE           MENU_NEW_BACKGROUND
-LANG_ENGLISH        "Novo Cartao de Chamada"
+LANG_ENGLISH        "Novo Cartão de Visita"
 
 REFERENCE           MENU_EMBLEM_SET_IDENTITY
 LANG_ENGLISH        "APLICAR AO PLAYERCARD"
@@ -4878,7 +4878,7 @@ REFERENCE           MENU_EMBLEM_DELETE_WAIT
 LANG_ENGLISH        "Por favor, aguarde enquanto o emblema e excluido."
 
 REFERENCE           MPUI_LEAGUE_NOGUESTS_DESC
-LANG_ENGLISH        "Não sao permitidos convidados nesta liga."
+LANG_ENGLISH        "Nao sao permitidos convidados nesta liga."
 
 REFERENCE           MENU_EMBLEM_DELETE_CONFIRMATION
 LANG_ENGLISH        "Tem certeza que deseja excluir este emblema?"
@@ -4893,7 +4893,7 @@ REFERENCE           MENU_EMBLEM_UPLOAD_SUCCESS
 LANG_ENGLISH        "O emblema foi salvo com sucesso."
 
 REFERENCE           MENU_FILESHARE_LIKEDISLIKE_HINT
-LANG_ENGLISH        "Curtir ou não curtir este filme."
+LANG_ENGLISH        "Curtir ou nao curtir este filme."
 
 REFERENCE           PLATFORM_VOICECHAT_RECORD_LEVEL
 LANG_ENGLISH        "NIVEL DE GRAVACAO DO CHAT DE VOZ"
@@ -4959,7 +4959,7 @@ REFERENCE           MENU_EMBLEM_SAVE_CHANGES
 LANG_ENGLISH        "Salvar"
 
 REFERENCE           MPUI_NO_FRIENDS
-LANG_ENGLISH        "Você não tem amigos."
+LANG_ENGLISH        "Você nao tem amigos."
 
 REFERENCE           MENU_FILESHARE_MODE
 LANG_ENGLISH        "Modo: &&1"
@@ -5016,7 +5016,7 @@ REFERENCE           MENU_VIEW_LEAGUE_RULES
 LANG_ENGLISH        "Ver Regras da Serie"
 
 REFERENCE           MENU_EMBLEM_COPY_NOT_ALLOWED_HINT
-LANG_ENGLISH        "Não ha espacos de emblema disponiveis para copiar."
+LANG_ENGLISH        "Nao ha espacos de emblema disponiveis para copiar."
 
 REFERENCE           MENU_EMBLEM_DELETE_HINT
 LANG_ENGLISH        "Excluir este emblema."
@@ -5079,7 +5079,7 @@ REFERENCE           MENU_SAVE_AS_NEW_HINT
 LANG_ENGLISH        "Salvar uma nova versao deste &&1."
 
 REFERENCE           MENU_SAVE_CHANGES_HINT
-LANG_ENGLISH        "Salvar alteracoes neste &&1. Isso redefinira suas curtidas e não curtidas."
+LANG_ENGLISH        "Salvar alteracoes neste &&1. Isso redefinira suas curtidas e nao curtidas."
 
 REFERENCE           MENU_LEAGUES_CAPS
 LANG_ENGLISH        "SELECIONAR SERIE"
@@ -5130,22 +5130,22 @@ REFERENCE           MENU_LEAGUE_FRIENDS_NONE
 LANG_ENGLISH        "Torne-se membro de uma equipe de liga no League Play e seus companheiros de equipe serao exibidos aqui."
 
 REFERENCE           MENU_PLAYERID_BACKGROUNDS_CAPS
-LANG_ENGLISH        "Cartoes de Chamada"
+LANG_ENGLISH        "Cartões de Visita"
 
 REFERENCE           MENU_BACKGROUND_EDIT_DESC
-LANG_ENGLISH        "Selecione um cartao de chamada unico."
+LANG_ENGLISH        "Selecione um cartão de visita único."
 
 REFERENCE           MENU_EMBLEM_SELECT_BACKGROUND_CAPS
-LANG_ENGLISH        "EDITAR PLAYERCARD / CARTAO DE CHAMADA"
+LANG_ENGLISH        "EDITAR PLAYERCARD / CARTÃO DE VISITA"
 
 REFERENCE           MENU_EMBLEM_BACKGROUND_CLASSIFIED_TOOLTIP
-LANG_ENGLISH        "Desclassificado apos &&1 compras de cartoes de chamada."
+LANG_ENGLISH        "Desclassificado apos &&1 compras de cartões de visita."
 
 REFERENCE           MPUI_PAINTBALL
 LANG_ENGLISH        "Rush"
 
 REFERENCE           MENU_CHALLENGES_WEAPON_MASTERY_HINT
-LANG_ENGLISH        "Veja desafios que desbloqueiam cartoes de chamada e emblemas ao dominar a &&1."
+LANG_ENGLISH        "Veja desafios que desbloqueiam cartões de visita e emblemas ao dominar a &&1."
 
 REFERENCE           MENU_CHALLENGE_CATEGORY_BOOTCAMP_HINT
 LANG_ENGLISH        "Complete o basico."
@@ -5181,7 +5181,7 @@ REFERENCE           MENU_CHALLENGE_CATEGORY_OPERATIONS_HINT
 LANG_ENGLISH        "Complete desafios em varios modos de jogo."
 
 REFERENCE           MENU_LIVESTREAMING_ACTIVATE_DESC
-LANG_ENGLISH        "Para ativar a transmissao ao vivo no Black Ops II com sua Conta do YouTube, siga estas instrucoes:\n\n1. Não saia desta tela, ela sera atualizada automaticamente apos a ativacao.\n2. No seu computador, va para &&1\n3. Digite o seguinte codigo"
+LANG_ENGLISH        "Para ativar a transmissao ao vivo no Black Ops II com sua Conta do YouTube, siga estas instrucoes:\n\n1. Nao saia desta tela, ela sera atualizada automaticamente apos a ativacao.\n2. No seu computador, va para &&1\n3. Digite o seguinte codigo"
 
 REFERENCE           MENU_LIVESTREAMING_CODE
 LANG_ENGLISH        "CODIGO: &&1"
@@ -5211,7 +5211,7 @@ REFERENCE           MENU_LIVESTREAM_ERROR
 LANG_ENGLISH        "Ocorreu um erro ao tentar transmitir ao vivo. Por favor, tente novamente mais tarde ou visite http://www.callofduty.com/blackops2/status para atualizacoes."
 
 REFERENCE           MENU_LIVESTREAM_YOUTUBE_ERROR_STRIKES
-LANG_ENGLISH        "Sua conta não tem permissoes para transmitir. Va para www.youtube.com e verifique sua conta para resolver este problema."
+LANG_ENGLISH        "Sua conta nao tem permissoes para transmitir. Va para www.youtube.com e verifique sua conta para resolver este problema."
 
 REFERENCE           MENU_FILESHARE_YOUTUBE_DESC
 LANG_ENGLISH        "&&1 em &&2 por &&3 - Clip de Jogo do Black Ops II"
@@ -5268,7 +5268,7 @@ REFERENCE           MENU_CHALLENGES_PRIMARY_WEAPON_HINT
 LANG_ENGLISH        "Uma colecao de desafios de Partida Publica para Armas Primarias."
 
 REFERENCE           MENU_FILESHARE_SAVE_WARNING
-LANG_ENGLISH        "Esta ação não pode ser realizada enquanto o filme está sendo baixado."
+LANG_ENGLISH        "Esta ação nao pode ser realizada enquanto o filme está sendo baixado."
 
 REFERENCE           MENU_LIVESTREAM_FACEBOOK_LINK_TITLE
 LANG_ENGLISH        "Black Ops II"
@@ -5277,7 +5277,7 @@ REFERENCE           MENU_LIVESTREAM_FACEBOOK_LINK_CAPTION
 LANG_ENGLISH        "Transmissao ao Vivo Multiplayer"
 
 REFERENCE           MPUI_DLC_WARNING_PARTY_MISSING_MAP_PACK
-LANG_ENGLISH        "Alguns jogadores não possuem o Map Pack DLC necessario."
+LANG_ENGLISH        "Alguns jogadores nao possuem o Map Pack DLC necessario."
 
 REFERENCE           MENU_LIVESTREAM_YOUTUBE_BROADCAST_TITLE
 LANG_ENGLISH        "&&1 - Transmissao ao Vivo Multiplayer do Black Ops II"
@@ -5301,7 +5301,7 @@ REFERENCE           MENU_LIVESTREAM_DW_ERROR_SERVICE_UNAVAILABLE
 LANG_ENGLISH        "Estamos com problemas para nos comunicar com o YouTube. Por favor, tente novamente mais tarde."
 
 REFERENCE           MENU_LIVESTREAM_DW_ERROR_NO_LINKED_ACCOUNT
-LANG_ENGLISH        "Você não vinculou uma conta do YouTube ou ha um problema com seu canal. Por favor, visite www.google.com para fazer login na sua conta do Google e garantir que o YouTube esteja ativado, que você tenha ativado a transmissao ao vivo do YouTube e que você tenha configurado corretamente um canal do YouTube."
+LANG_ENGLISH        "Você nao vinculou uma conta do YouTube ou ha um problema com seu canal. Por favor, visite www.google.com para fazer login na sua conta do Google e garantir que o YouTube esteja ativado, que você tenha ativado a transmissao ao vivo do YouTube e que você tenha configurado corretamente um canal do YouTube."
 
 REFERENCE           MENU_NOTICE
 LANG_ENGLISH        "AVISO"
@@ -5310,13 +5310,13 @@ REFERENCE           MENU_NO_DATA
 LANG_ENGLISH        "Vazio"
 
 REFERENCE           MENU_NO_DATA_HINT
-LANG_ENGLISH        "Não ha arquivos nesta categoria."
+LANG_ENGLISH        "Nao ha arquivos nesta categoria."
 
 REFERENCE           PLATFORM_STEAM_AUTH_DENIED_NO_LICENSE
 LANG_ENGLISH        "Autorizacao do Steam falhou, sem licenca para o jogo."
 
 REFERENCE           MENU_FILESHARE_DISLIKE
-LANG_ENGLISH        "Não CURTIR"
+LANG_ENGLISH        "Nao CURTIR"
 
 REFERENCE           MENU_EMBLEM_DEFAULT_TITLE
 LANG_ENGLISH        "Emblema Personalizado"
@@ -5343,7 +5343,7 @@ REFERENCE           MENU_STORE_ERROR_HINT
 LANG_ENGLISH        "Ocorreu um erro ao recuperar itens da Loja."
 
 REFERENCE           MENU_LIVESTREAMING_DISABLED_FOR_3D
-LANG_ENGLISH        "A transmissao ao vivo não está disponivel quando o 3D Ativo/Passivo está ativado."
+LANG_ENGLISH        "A transmissao ao vivo nao está disponivel quando o 3D Ativo/Passivo está ativado."
 
 REFERENCE           PLATFORM_FR_LOC
 LANG_ENGLISH        "France"
@@ -5421,7 +5421,7 @@ REFERENCE           MPUI_LEAGUE_MAPS_NOT_ENABLED
 LANG_ENGLISH        "Nem todos no seu grupo tem o conteudo necessario para jogar nesta liga."
 
 REFERENCE           MENU_YOUTUBE_ACTIVATE_DESC
-LANG_ENGLISH        "Para vincular o Black Ops II a sua Conta do YouTube, siga estas instrucoes:\n\n1. Não saia desta tela, ela sera atualizada automaticamente apos a ativacao.\n2. No seu computador, va para &&1\n3. Digite o seguinte codigo"
+LANG_ENGLISH        "Para vincular o Black Ops II a sua Conta do YouTube, siga estas instrucoes:\n\n1. Nao saia desta tela, ela sera atualizada automaticamente apos a ativacao.\n2. No seu computador, va para &&1\n3. Digite o seguinte codigo"
 
 REFERENCE           MENU_TWITTER_DW_ERROR_TOO_MANY_POSTS
 LANG_ENGLISH        "Mensagem ja publicada no Twitter. "
@@ -5436,7 +5436,7 @@ REFERENCE           MPUI_SKATE_LOC
 LANG_ENGLISH        "VENICE BEACH, U.S.A."
 
 REFERENCE           MENU_COD_TV_DISABLED_DUE_TO_LIVE_STREAM
-LANG_ENGLISH        "O COD TV não está disponivel quando a Transmissao ao Vivo está ativada."
+LANG_ENGLISH        "O COD TV nao está disponivel quando a Transmissao ao Vivo está ativada."
 
 REFERENCE           MENU_LINK_TO_TWITTER_CAPS
 LANG_ENGLISH        "VINCULAR COM O TWITTER"
@@ -5487,7 +5487,7 @@ REFERENCE           MENU_SENDING_TO_TWITTER
 LANG_ENGLISH        "Enviando para o Twitter"
 
 REFERENCE           MENU_TWITCH_REGISTERATION_DISABLED_FOR_3D
-LANG_ENGLISH        "O login do Twitch não pode ser concluido quando o 3D Ativo/Passivo está ativado."
+LANG_ENGLISH        "O login do Twitch nao pode ser concluido quando o 3D Ativo/Passivo está ativado."
 
 REFERENCE           MENU_PURCHASE_SEASON_PASS
 LANG_ENGLISH        "Comprar Season Pass"
@@ -5553,7 +5553,7 @@ REFERENCE           MENU_RENDER_SUCCESS
 LANG_ENGLISH        "Seu video foi enviado com sucesso! Visite &&1 para assistir seu video e ver outros da comunidade do Call of Duty."
 
 REFERENCE           MENU_CANNOT_PLACE_SEGMENT_IN_TIMELINE
-LANG_ENGLISH        "Não e possivel colocar &&1 neste ponto da linha do tempo."
+LANG_ENGLISH        "Nao e possivel colocar &&1 neste ponto da linha do tempo."
 
 REFERENCE           MENU_LIVESTREAM_TWITCH_SESSION_EXPIRED
 LANG_ENGLISH        "Sua sessao do Twitch expirou. Por favor, faca login novamente."
@@ -5562,7 +5562,7 @@ REFERENCE           MENU_RENDER_CANCELLED
 LANG_ENGLISH        "A operacao de renderizacao do video foi cancelada pelo usuario."
 
 REFERENCE           MPUI_UNDERAGE_REGISTRATION
-LANG_ENGLISH        "Desculpe, mas você não e elegivel para se registrar no Call of Duty ELITE. Por favor, revise o Acordo de Servico do Call of Duty ELITE para requisitos de elegibilidade ou visite www.activision.com/support."
+LANG_ENGLISH        "Desculpe, mas você nao e elegivel para se registrar no Call of Duty ELITE. Por favor, revise o Acordo de Servico do Call of Duty ELITE para requisitos de elegibilidade ou visite www.activision.com/support."
 
 REFERENCE           MPUI_MAP_CATEGORY_DLC_DESC
 LANG_ENGLISH        "Escolha entre o conteudo para download do Black Ops II que você comprou."
@@ -5574,7 +5574,7 @@ REFERENCE           MENU_GO_TO_STORE
 LANG_ENGLISH        "Ir para a Loja"
 
 REFERENCE           MENU_LIKEDISLIKE_EMBLEM
-LANG_ENGLISH        "Curtir/Não Curtir Emblema"
+LANG_ENGLISH        "Curtir/Nao Curtir Emblema"
 
 REFERENCE           ZOMBIE_RANDOM_WEAPON_COST
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para a Mystery Box [Custo: &&1]"
@@ -5583,16 +5583,16 @@ REFERENCE           MENU_FILM_OPTIONS
 LANG_ENGLISH        "Opções DO FILME"
 
 REFERENCE           MPUI_EMAIL_REGISTRATION_ALREADYREGISTERED
-LANG_ENGLISH        "Desculpe, mas não foi possivel atualizar uma conta existente com credenciais de login incorretas."
+LANG_ENGLISH        "Desculpe, mas nao foi possivel atualizar uma conta existente com credenciais de login incorretas."
 
 REFERENCE           MENU_FILESHARE_SAVE_FILM_HINT
 LANG_ENGLISH        "Salve este filme no seu canal."
 
 REFERENCE           MENU_FILESHARE_LIKEDISLIKE_ERROR
-LANG_ENGLISH        "Você não pode curtir ou não curtir um filme de partida recente."
+LANG_ENGLISH        "Você nao pode curtir ou nao curtir um filme de partida recente."
 
 REFERENCE           MENU_FILM_OPTIONS_HINT
-LANG_ENGLISH        "Salve, curta ou não curta o filme."
+LANG_ENGLISH        "Salve, curta ou nao curta o filme."
 
 REFERENCE           MENU_TWITCH_DW_ERROR_SERVICE_UNAVAILABLE
 LANG_ENGLISH        "Estamos com problemas para nos comunicar com o Twitch. Por favor, tente novamente mais tarde."
@@ -5664,10 +5664,10 @@ REFERENCE           PLATFORM_RU_MOSCOW_CITY_MOSCOW_LOC
 LANG_ENGLISH        "Russian Federation"
 
 REFERENCE           MENU_RENDER_TOO_MANY_PLAYERS
-LANG_ENGLISH        "Você não pode renderizar video quando tem mais de um jogador no seu lobby."
+LANG_ENGLISH        "Você nao pode renderizar video quando tem mais de um jogador no seu lobby."
 
 REFERENCE           MENU_LIVESTREAMING_DISABLED_FOR_MORE_THAN_ONE_LOCAL_PLAYER
-LANG_ENGLISH        "A transmissao ao vivo não está disponivel quando você tem mais de um jogador local no seu grupo."
+LANG_ENGLISH        "A transmissao ao vivo nao está disponivel quando você tem mais de um jogador local no seu grupo."
 
 REFERENCE           MENU_TEXTURE_PACK_CONFIRMATION_TITLE
 LANG_ENGLISH        "Multiplos Erros de Leitura Detectados"
@@ -5724,7 +5724,7 @@ REFERENCE           MENU_FLAG_RESPAWN_TIME_HINT
 LANG_ENGLISH        "O tempo necessario para a bandeira voltar a sua posicao neutra apos ser capturada."
 
 REFERENCE           MENU_BOTS_NOT_SUPPORTED_ONEFLAG
-LANG_ENGLISH        "Bots não sao suportados no One Flag CTF."
+LANG_ENGLISH        "Bots nao sao suportados no One Flag CTF."
 
 REFERENCE           MENU_LB_CARD_TEXT_ONEFLAG
 LANG_ENGLISH        "Leaderboard de Partida Publica para One Flag CTF."
@@ -5784,19 +5784,19 @@ REFERENCE           MPUI_TOS_SUBTITLE
 LANG_ENGLISH        "Para se tornar membro do Call of Duty ELITE, você deve aceitar o Acordo de Licenca de Produto e Servico e a Politica de Privacidade abaixo"
 
 REFERENCE           MPUI_UCD_ERROR_ZIP
-LANG_ENGLISH        "O servico UCD não conseguiu aceitar o codigo postal fornecido."
+LANG_ENGLISH        "O servico UCD nao conseguiu aceitar o codigo postal fornecido."
 
 REFERENCE           MPUI_UCD_ERROR_DOB
-LANG_ENGLISH        "O servico UCD não conseguiu aceitar a data de nascimento fornecida."
+LANG_ENGLISH        "O servico UCD nao conseguiu aceitar a data de nascimento fornecida."
 
 REFERENCE           MPUI_UCD_ERROR_LASTNAME
-LANG_ENGLISH        "O servico UCD não conseguiu aceitar o sobrenome fornecido."
+LANG_ENGLISH        "O servico UCD nao conseguiu aceitar o sobrenome fornecido."
 
 REFERENCE           MPUI_UCD_ERROR_FIRSTNAME
-LANG_ENGLISH        "O servico UCD não conseguiu aceitar o nome fornecido."
+LANG_ENGLISH        "O servico UCD nao conseguiu aceitar o nome fornecido."
 
 REFERENCE           MPUI_AUTOFILL_MSG2
-LANG_ENGLISH        "Ao aceitar, você concorda que a Activision pode usar suas informacoes para preencher automaticamente seu formulario de registro. A Activision não coletara ou retera essas informacoes ate que você revise suas informacoes de registro e concorde com o acordo de servico e politica de privacidade da Activision."
+LANG_ENGLISH        "Ao aceitar, você concorda que a Activision pode usar suas informacoes para preencher automaticamente seu formulario de registro. A Activision nao coletara ou retera essas informacoes ate que você revise suas informacoes de registro e concorde com o acordo de servico e politica de privacidade da Activision."
 
 REFERENCE           MPUI_WELCOME_BACK_TITLE
 LANG_ENGLISH        "Bem-vindo de volta &&1,"
@@ -5811,7 +5811,7 @@ REFERENCE           MPUI_ELITE_BENEFITS_2
 LANG_ENGLISH        "Call of Duty ELITE envolve acesso a conteudo classificado: incluindo ESRB (EUA) \"Mature\" 17; PEGI (UE excluindo Alemanha) 18; USK (Alemanha) 18; OFLC (Australia) 15; OFLC (Nova Zelandia) 16. "
 
 REFERENCE           MPUI_FIRE_RATE_CAPS
-LANG_ENGLISH        "TAXA DE FOGO"
+LANG_ENGLISH        "CADÊNCIA"
 
 REFERENCE           MPUI_STATS_ABSENT
 LANG_ENGLISH        "Ocorreu um erro ao acessar dados de ranking persistente (&&1)."
@@ -5850,16 +5850,16 @@ REFERENCE           MPUI_AUTOFILL_UCDACCOUNT_DETECTED_2
 LANG_ENGLISH        "Para vincula-lo a este jogo, por favor, digite a senha da sua conta:"
 
 REFERENCE           MPUI_HINTTEXT_PASS_MATCH_ERROR
-LANG_ENGLISH        "A senha que você digitou não corresponde a que você digitou novamente, por favor, verifique novamente."
+LANG_ENGLISH        "A senha que você digitou nao corresponde a que você digitou novamente, por favor, verifique novamente."
 
 REFERENCE           MPUI_HINTTEXT_PASS_SEQUENTIAL_ERROR
-LANG_ENGLISH        "A senha não pode conter caracteres sequenciais. (3 ou mais caracteres em sequencia, por exemplo, \"abc\", \"12345\", etc)"
+LANG_ENGLISH        "A senha nao pode conter caracteres sequenciais. (3 ou mais caracteres em sequencia, por exemplo, \"abc\", \"12345\", etc)"
 
 REFERENCE           MPUI_BURIED
 LANG_ENGLISH        "Buried"
 
 REFERENCE           MPUI_HINTTEXT_PASS_REPEAT_ERROR
-LANG_ENGLISH        "A senha não pode repetir o mesmo caractere 3 vezes seguidas."
+LANG_ENGLISH        "A senha nao pode repetir o mesmo caractere 3 vezes seguidas."
 
 REFERENCE           MPUI_HINTTEXT_PASS_LETTERNUMBER_ERROR
 LANG_ENGLISH        "A senha deve conter tanto uma letra quanto um numero."
@@ -5868,7 +5868,7 @@ REFERENCE           ZMWEAPON_MP40_STALKER
 LANG_ENGLISH        "MP-40 Adjustable Stock"
 
 REFERENCE           MPUI_HINTTEXT_PASSWORD
-LANG_ENGLISH        "Por favor, defina sua senha. (Diferencia maiusculas de minusculas). Caracteres aceitaveis: a-z, A-Z, 0-9 e qualquer um de !@#$%^&* A senha precisa ter 8-20 caracteres; deve conter uma letra e um numero; não pode repetir o mesmo caractere 3 vezes seguidas; não pode conter 3 ou mais caracteres sequenciais e não pode ser a mesma que seu endereco de email."
+LANG_ENGLISH        "Por favor, defina sua senha. (Diferencia maiusculas de minusculas). Caracteres aceitaveis: a-z, A-Z, 0-9 e qualquer um de !@#$%^&* A senha precisa ter 8-20 caracteres; deve conter uma letra e um numero; nao pode repetir o mesmo caractere 3 vezes seguidas; nao pode conter 3 ou mais caracteres sequenciais e nao pode ser a mesma que seu endereco de email."
 
 REFERENCE           MPUI_HINTTEXT_DD
 LANG_ENGLISH        "Por favor, selecione o dia da sua data de nascimento."
@@ -5877,10 +5877,10 @@ REFERENCE           MPUI_DESC_MAP_VERTIGO
 LANG_ENGLISH        "Lute e tome controle do predio mais alto do mundo, no coracao da India."
 
 REFERENCE           MPUI_HINTTEXT_LASTNAME_ERROR
-LANG_ENGLISH        "O sobrenome que você digitou contem caracteres não suportados, por favor, verifique se não contem numeros ou simbolos."
+LANG_ENGLISH        "O sobrenome que você digitou contem caracteres nao suportados, por favor, verifique se nao contem numeros ou simbolos."
 
 REFERENCE           MPUI_HINTTEXT_UCD_ACCOUNT_NAME_ERROR
-LANG_ENGLISH        "O nome que você digitou contem caracteres não suportados, por favor, verifique se não contem simbolos."
+LANG_ENGLISH        "O nome que você digitou contem caracteres nao suportados, por favor, verifique se nao contem simbolos."
 
 REFERENCE           MPUI_HINTTEXT_FIRSTNAME
 LANG_ENGLISH        "Por favor, digite seu nome."
@@ -5928,10 +5928,10 @@ REFERENCE           MPUI_CONNECTION_BEST_DESC
 LANG_ENGLISH        "Procure apenas partidas com as melhores conexoes. Isso requer uma conexao de internet de alta velocidade. Os tempos de busca podem ser estendidos."
 
 REFERENCE           MPUI_CONNECTION_ANY_DESC
-LANG_ENGLISH        "Isso permitira que você entre em partidas mais rapidamente, mas pode não resultar na melhor qualidade de conexao. (Recomendado apenas para usuarios com baixa qualidade de conexao que experimentam tempos de busca prolongados.)"
+LANG_ENGLISH        "Isso permitira que você entre em partidas mais rapidamente, mas pode nao resultar na melhor qualidade de conexao. (Recomendado apenas para usuarios com baixa qualidade de conexao que experimentam tempos de busca prolongados.)"
 
 REFERENCE           MPUI_DW_DESC
-LANG_ENGLISH        "Carregue duas pistolas, uma em cada mao. Não pode mirar com a visora ou ser combinada com qualquer outro acessorio."
+LANG_ENGLISH        "Carregue duas pistolas, uma em cada mao. Nao pode mirar com a visora ou ser combinada com qualquer outro acessorio."
 
 REFERENCE           MPUI_ONE_LIFE_LEFT
 LANG_ENGLISH        "1 Vida Restante"
@@ -6003,7 +6003,7 @@ REFERENCE           PLATFORM_BR_SAO_PAULO_SAO_PAULO_LOC
 LANG_ENGLISH        "Brasil"
 
 REFERENCE           MPUI_FIRE_RATE
-LANG_ENGLISH        "Taxa de Fogo"
+LANG_ENGLISH        "Cadência"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_5
 LANG_ENGLISH        "Drop Shot, Trilux"
@@ -6093,7 +6093,7 @@ REFERENCE           MPUI_PRISON_STARTLOC
 LANG_ENGLISH        "Sunset Strip"
 
 REFERENCE           MPUI_DLC_WARNING_OTHER_PLAYERS
-LANG_ENGLISH        "Os jogadores nesta festa não possuem os mesmos Map Packs de DLC. O matchmaking só ira buscar mapas que todos possuem."
+LANG_ENGLISH        "Os jogadores nesta festa nao possuem os mesmos Map Packs de DLC. O matchmaking só ira buscar mapas que todos possuem."
 
 REFERENCE           MPUI_DLC_WARNING_OTHER_PLAYERS_SHORT
 LANG_ENGLISH        "A busca sera limitada aos mapas que você possui."
@@ -6102,13 +6102,13 @@ REFERENCE           MPUI_MISSING_MAP_PACKS
 LANG_ENGLISH        "Map Packs de DLC ausentes:"
 
 REFERENCE           MPUI_DLC_WARNING_PARTY_MISSING_MAP_PACK_THEATER
-LANG_ENGLISH        "Alguns jogadores não possuem o Map Pack de DLC necessario para assistir a este filme."
+LANG_ENGLISH        "Alguns jogadores nao possuem o Map Pack de DLC necessario para assistir a este filme."
 
 REFERENCE           MPUI_MTX_CALLINGCARD3
 LANG_ENGLISH        "Europe Pack"
 
 REFERENCE           ZOMBIE_PERK_CHUGABUD
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Who's Who [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Quem é Quem [Custo: &&1]"
 
 REFERENCE           MPUI_MAP_IN_PLAYER_COLUMN
 LANG_ENGLISH        "Mapa Na Coluna Do Jogador"
@@ -6405,7 +6405,7 @@ REFERENCE           ZMUI_TOMB_LOC
 LANG_ENGLISH        "Norte da Franca, 1918"
 
 REFERENCE           PLATFORM_COULDNT_INIT_STEAM_SERVER
-LANG_ENGLISH        "O sistema de seguranca do host da Steam não pode ser inicializado. Você não pode hospedar partidas."
+LANG_ENGLISH        "O sistema de seguranca do host da Steam nao pode ser inicializado. Você nao pode hospedar partidas."
 
 REFERENCE           PLATFORM_MAX_PING
 LANG_ENGLISH        "PING Máximo"
@@ -6441,7 +6441,7 @@ REFERENCE           PLATFORM_GETTING_STEAM_TICKET
 LANG_ENGLISH        "Obtendo dados da Steam..."
 
 REFERENCE           PLATFORM_STEAM_AUTH_DENIED_NOT_SIGNED_IN
-LANG_ENGLISH        "Autorizacao da Steam falhou, não conectado a Steam"
+LANG_ENGLISH        "Autorizacao da Steam falhou, nao conectado a Steam"
 
 REFERENCE           PLATFORM_LIVE_LEADERBOARD
 LANG_ENGLISH        "Você precisa estar conectado a Steam e ter uma conexao valida com a Internet para ver os Rankings."
@@ -6465,10 +6465,10 @@ REFERENCE           PLATFORM_MAX_FPS_DESC
 LANG_ENGLISH        "Defina o máximo de quadros por segundo. Sincronizar Todos os Quadros deve estar desativado para ajustar Max FPS. Partida Publica Multijogador e Jogo da Liga tem um limite máximo de 200 FPS."
 
 REFERENCE           PLATFORM_VACBANNED
-LANG_ENGLISH        "Você está banido do VAC. Você não pode jogar ONLINE."
+LANG_ENGLISH        "Você está banido do VAC. Você nao pode jogar ONLINE."
 
 REFERENCE           PLATFORM_MISSINGMAP
-LANG_ENGLISH        "Você não possui este mapa ou seu conteudo está danificado. Visite a Steam Store para verificar se este mapa está disponivel para download."
+LANG_ENGLISH        "Você nao possui este mapa ou seu conteudo está danificado. Visite a Steam Store para verificar se este mapa está disponivel para download."
 
 REFERENCE           PLATFORM_BANNED
 LANG_ENGLISH        "Esta conta foi permanentemente banida de jogar nos servidores de Call of Duty: Black Ops II."
@@ -6918,3 +6918,4 @@ REFERENCE           ZM_PRISON_CONVERT_PICKUP
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar sua arma convertida"
 
 ENDMARKER
+

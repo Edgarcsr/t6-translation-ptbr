@@ -50,6 +50,7 @@ Pronto. As strings são carregadas automaticamente — sem mods, sem compilaçã
 
 - **Modo Solo em Zombies:** ao iniciar uma partida solo, os textos não são traduzidos por motivo ainda não identificado.
 - **Campanha:** a tradução é baseada no sistema RAW do Plutonium, que não suporta os arquivos de campanha. Isso fica para um momento futuro.
+- **Conquistas Steam:** não é possível desbloquear conquistas na Steam, infelizmente.
 
 ## Documentação
 
