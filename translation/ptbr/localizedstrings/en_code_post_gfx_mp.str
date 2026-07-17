@@ -115,7 +115,7 @@ REFERENCE           CHALLENGE_HIGH_VOLTAGE_DESC
 LANG_ENGLISH        "Within 5 seconds, kill the enemy who impacted you with a Shock Charge."
 
 REFERENCE           KEY_UNBOUND
-LANG_ENGLISH        "UNBOUND"
+LANG_ENGLISH        "NÃO ASSOCIADO"
 
 REFERENCE           WEAPON_BOUNCING_BETTY
 LANG_ENGLISH        "Bouncing Betty"
@@ -205,7 +205,7 @@ REFERENCE           WEAPON_BERETTA93R_STEADYAIM
 LANG_ENGLISH        "B23R Mira Laser"
 
 REFERENCE           KEY_SPACE
-LANG_ENGLISH        "SPACE"
+LANG_ENGLISH        "ESPAÇO"
 
 REFERENCE           CHALLENGE_GM_DM_CRUSH_DESC
 LANG_ENGLISH        "Win &&1 matches of &&2 with at least a 7 kill lead."
@@ -286,7 +286,7 @@ REFERENCE           MPTIP_ADS_TIP
 LANG_ENGLISH        "Atirar mirando pela mira aumenta sua precisao."
 
 REFERENCE           PLATFORM_WINDOWED_FULLSCREEN
-LANG_ENGLISH        "Janelado (Tela Cheia)"
+LANG_ENGLISH        "Tela Cheia (Em Janela)"
 
 REFERENCE           PLATFORM_NEXT_SCORE_STREAK_CAPS
 LANG_ENGLISH        "PROXIMA SERIE DE PONTUACAO"
@@ -331,7 +331,7 @@ REFERENCE           MPUI_RETICLE_ACOG_3
 LANG_ENGLISH        "Queda em Alcance Alvo"
 
 REFERENCE           MP_IWNOTALLOWED
-LANG_ENGLISH        "Voce nao esta autorizado a usar a Marca de Cla IW"
+LANG_ENGLISH        "Voce não esta autorizado a usar a Marca de Cla IW"
 
 REFERENCE           MPUI_GRIP_SHORT
 LANG_ENGLISH        "Fore Grip"
@@ -691,7 +691,7 @@ REFERENCE           RANK_KILL_STREAK_N
 LANG_ENGLISH        "&&1 tem uma sequencia de abates de &&2!"
 
 REFERENCE           EXE_ERR_COULDNT_OPEN_URL
-LANG_ENGLISH        "Nao foi possivel abrir a url: '&&1'"
+LANG_ENGLISH        "Não foi possivel abrir a url: '&&1'"
 
 REFERENCE           CLASS_SLOT6
 LANG_ENGLISH        "Custom 6"
@@ -790,7 +790,7 @@ REFERENCE           EXE_COD_PIRACY_TEMP_BAN_CONSOLE
 LANG_ENGLISH        "This console has been temporarily banned from the Call of Duty: Black Ops II servers due to detection of unauthorized content. Visit www.callofduty.com/blackops/status."
 
 REFERENCE           MENU_NO_INVITE
-LANG_ENGLISH        "Voce nao tem convites de jogo."
+LANG_ENGLISH        "Voce não tem convites de jogo."
 
 REFERENCE           KEY_F9
 LANG_ENGLISH        "F9"
@@ -955,7 +955,7 @@ REFERENCE           PLATFORM_WHILE_LOOKING_THROUGH
 LANG_ENGLISH        "Ao olhar pelos binoculos, pressione ^3&&1^7 para solicitar artilharia."
 
 REFERENCE           MPUI_NO
-LANG_ENGLISH        "Nao"
+LANG_ENGLISH        "Não"
 
 REFERENCE           MPUI_CAC_PLAYER_TOOLTIP
 LANG_ENGLISH        "Personalize sua aparencia"
@@ -1363,7 +1363,7 @@ REFERENCE           WEAPON_LSAT_ACOG
 LANG_ENGLISH        "LSAT ACOG"
 
 REFERENCE           PLATFORM_NEXT_WEAPON_CAPS
-LANG_ENGLISH        "NEXT WEAPON"
+LANG_ENGLISH        "ARMA POSTERIOR"
 
 REFERENCE           WEAPON_FLASHLIGHT_TOKAREV
 LANG_ENGLISH        "Tokarev and Flashlight"
@@ -2071,7 +2071,7 @@ REFERENCE           EM_RANK_LCPL
 LANG_ENGLISH        "Cabo"
 
 REFERENCE           MP_CTF_OVERTIME_TIME_NOT_BEATEN
-LANG_ENGLISH        "Tempo nao superado"
+LANG_ENGLISH        "Tempo não superado"
 
 REFERENCE           WEAPON_SARITCH_SF
 LANG_ENGLISH        "SMR Fogo Seletivo"
@@ -2527,7 +2527,7 @@ REFERENCE           MENU_DEMO_CONTROLS_PAUSE_MENU
 LANG_ENGLISH        "Pausa / Menu"
 
 REFERENCE           EXE_ERR_COULDNT_LOAD
-LANG_ENGLISH        "Nao foi possivel carregar &&1"
+LANG_ENGLISH        "Não foi possivel carregar &&1"
 
 REFERENCE           MENU_1152864
 LANG_ENGLISH        "1152*864"
@@ -2854,7 +2854,7 @@ REFERENCE           WEAPON_TAR21_DUALOPTIC
 LANG_ENGLISH        "MTAR Mira Hibrida"
 
 REFERENCE           MP_UNAVAILABLE_FOR_N
-LANG_ENGLISH        "Serie de Pontuacao nao pode ser usada para"
+LANG_ENGLISH        "Serie de Pontuacao não pode ser usada para"
 
 REFERENCE           EM_BG_BACKING041
 LANG_ENGLISH        "Cova Rasa"
@@ -3268,7 +3268,7 @@ REFERENCE           MPUI_RANGEFINDER_SHORT_CAPS
 LANG_ENGLISH        "BUSCA-ALVOS"
 
 REFERENCE           MENU_LOOK_DOWN_CAPS
-LANG_ENGLISH        "LOOK DOWN"
+LANG_ENGLISH        "OLHAR BAIXO"
 
 REFERENCE           PLATFORM_INVITE_FRIEND_OFFLINE
 LANG_ENGLISH        "Your friend is offline."
@@ -3715,7 +3715,7 @@ REFERENCE           PLATFORM_XONLINE_E_SESSION_WRONG_STATE
 LANG_ENGLISH        "The session is in the wrong state for the requested operation to be performed."
 
 REFERENCE           MENU_INVALID_EMAIL
-LANG_ENGLISH        "O texto nao e um endereco de email valido."
+LANG_ENGLISH        "O texto não e um endereco de email valido."
 
 REFERENCE           CHALLENGE_TYPE_WEAPON_LAUNCHER
 LANG_ENGLISH        "Launcher"
@@ -3829,7 +3829,7 @@ REFERENCE           MP_OBJ_SPECTATOR_ALLIESATTACKING
 LANG_ENGLISH        "Allies: Destroy target A or B by planting explosives at either location.\n\nAxis: Protect target A and B from being destroyed. If explosives are planted at either location, defuse them before they explode."
 
 REFERENCE           PERKS_ACROBAT_DESC
-LANG_ENGLISH        "Nao sofra dano de queda."
+LANG_ENGLISH        "Não sofra dano de queda."
 
 REFERENCE           MP_WAR_TEAMS_WERE_EVEN
 LANG_ENGLISH        "Teams were even"
@@ -3862,7 +3862,7 @@ REFERENCE           MP_ATTACK_PLAY
 LANG_ENGLISH        "Jogada de Ataque"
 
 REFERENCE           MENU_DIFF_VETERAN_DESC
-LANG_ENGLISH        "Voce nao sobrevivera."
+LANG_ENGLISH        "Voce não sobrevivera."
 
 REFERENCE           MENU_CLAN_RECOMMENDATIONS
 LANG_ENGLISH        "Clan Recommendations"
@@ -4174,7 +4174,7 @@ REFERENCE           MP_PURGATORY_ENEMY_COUNT
 LANG_ENGLISH        "Inimigos Vivos:  "
 
 REFERENCE           MPUI_ELITE_APP_DOWNLOAD_NO
-LANG_ENGLISH        "Nao, Obrigado"
+LANG_ENGLISH        "Não, Obrigado"
 
 REFERENCE           MENU_THIS_WILL_APPLY_THE
 LANG_ENGLISH        "This will apply the"
@@ -4270,7 +4270,7 @@ REFERENCE           MENU_EMBLEM_LAYER_CAPS
 LANG_ENGLISH        "LAYER &&1"
 
 REFERENCE           EXE_ERR_NOT_A_DEMO_SERVER
-LANG_ENGLISH        "O servidor nao e um servidor de demonstracao."
+LANG_ENGLISH        "O servidor não e um servidor de demonstracao."
 
 REFERENCE           CHALLENGE_MASTERY_EXPERT_DESC
 LANG_ENGLISH        "Complete all Camo unlocks for the &&2."
@@ -9022,7 +9022,7 @@ REFERENCE           EXE_CDKEYVALID
 LANG_ENGLISH        "O código da chave parece ser válido."
 
 REFERENCE           PLATFORM_THIRDPERSON
-LANG_ENGLISH        "Visao em 3 Pessoa"
+LANG_ENGLISH        "Visão em 3 Pessoa"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_PREVIEWING
 LANG_ENGLISH        "VISUALIZANDO"
@@ -9202,7 +9202,7 @@ REFERENCE           PLATFORM_MONITOR_DESC
 LANG_ENGLISH        "Selecione qual monitor usar para exibicao multimonitor. Disponivel apenas em Tela Cheia e Janela(Tela Cheia)"
 
 REFERENCE           MPUI_VEHICLEMAP_NO
-LANG_ENGLISH        "Mapa de Veiculo: Nao"
+LANG_ENGLISH        "Mapa de Veiculo: Não"
 
 REFERENCE           MPUI_SPECTATING_PRE
 LANG_ENGLISH        "Espectando:"
@@ -9241,7 +9241,7 @@ REFERENCE           EXE_SERVER_DISCONNECTED
 LANG_ENGLISH        "Servidor Desconectado"
 
 REFERENCE           MENU_BOTS_NOT_SUPPORTED_OIC
-LANG_ENGLISH        "Bots nao sao suportados em One in the Chamber."
+LANG_ENGLISH        "Bots não sao suportados em One in the Chamber."
 
 REFERENCE           WEAPON_GALIL_DUALCLIP
 LANG_ENGLISH        "Galil Carregador Rapido"
@@ -9253,7 +9253,7 @@ REFERENCE           MPUI_COMMUNITY_DESC
 LANG_ENGLISH        "Navegue por Filmes, Clipes, Capturas de Tela e Modos de Jogo Personalizados."
 
 REFERENCE           EXE_ERR_MSS_INIT_FAILED_MP
-LANG_ENGLISH        "Falha na inicializacao do sistema de som Miles.\nO jogo single player nao funciona corretamente sem som.\nCertifiquese de ter os drivers mais recentes da placa de som e o DirectX instalados."
+LANG_ENGLISH        "Falha na inicializacao do sistema de som Miles.\nO jogo single player não funciona corretamente sem som.\nCertifiquese de ter os drivers mais recentes da placa de som e o DirectX instalados."
 
 REFERENCE           EXE_ERR_CORRECT_FOLDER
 LANG_ENGLISH        "Certifique-se de que Call of Duty esteja sendo executado da pasta correta."
@@ -9277,7 +9277,7 @@ REFERENCE           PLATFORM_DYK_COOP_MSG23
 LANG_ENGLISH        "Quando os Caes forem soltos, encontre um canto e preparese para a luta."
 
 REFERENCE           EXE_ERR_COULDNT_REGISTER_WINDOW
-LANG_ENGLISH        "Nao foi possivel registrar uma classe de janela. Este e um erro do Microsoft Windows(TM). Pode ser necessario reiniciar."
+LANG_ENGLISH        "Não foi possivel registrar uma classe de janela. Este e um erro do Microsoft Windows(TM). Pode ser necessario reiniciar."
 
 REFERENCE           WEAPON_SIG556_GRIP
 LANG_ENGLISH        "SIG556 Empunhadura Dianteira"
@@ -9292,7 +9292,7 @@ REFERENCE           CHALLENGE_ACTIONABLE_INTEL_DESC
 LANG_ENGLISH        "Elimine &&1 inimigos enquanto seu VANT está no ar."
 
 REFERENCE           PLATFORM_DIFFEXE_NOT_FRIEND_NOT_JOINABLE
-LANG_ENGLISH        "Este convite nao e de um amigo. Voce so pode aceitar um convite para um jogo diferente se forem amigos. Isso evita que nao amigos entrem em seus jogos."
+LANG_ENGLISH        "Este convite não e de um amigo. Voce so pode aceitar um convite para um jogo diferente se forem amigos. Isso evita que não amigos entrem em seus jogos."
 
 REFERENCE           EXE_ERR_JOURNAL_FILE_READ
 LANG_ENGLISH        "Erro ao ler arquivo de registro"
@@ -9304,7 +9304,7 @@ REFERENCE           WEAPON_SVU_STEADYAIM
 LANG_ENGLISH        "SVUAS Mira Laser"
 
 REFERENCE           EXE_ERR_NOT_FOUND
-LANG_ENGLISH        "&&1 nao encontrado."
+LANG_ENGLISH        "&&1 não encontrado."
 
 REFERENCE           EM_HANDPRINT01
 LANG_ENGLISH        "Marca de Mao"
@@ -9463,7 +9463,7 @@ REFERENCE           EXE_SV_INFO_VERSION
 LANG_ENGLISH        "Versao"
 
 REFERENCE           MENU_PS3_INSTALL_INPROGRESS
-LANG_ENGLISH        "Instalando texturas no HD. Nao saia do jogo ou desligue o sistema."
+LANG_ENGLISH        "Instalando texturas no HD. Não saia do jogo ou desligue o sistema."
 
 REFERENCE           EXE_SV_INFO_FLOODPROTECT
 LANG_ENGLISH        "Proteção Contra Flood"
@@ -9544,7 +9544,7 @@ REFERENCE           CHALLENGE_WEAPON_REVENGE_DESC
 LANG_ENGLISH        "Ganhe &&1 medalhas de Vinganca com a &&2"
 
 REFERENCE           GAME_NEXTMAPNOTSET
-LANG_ENGLISH        "nextmap nao definido."
+LANG_ENGLISH        "nextmap não definido."
 
 REFERENCE           CH_GM_HCSD_SHUT_OUT_DESC
 LANG_ENGLISH        "Venza &&1 rodadas de Search & Destroy Hardcore sem ninguém da sua equipe morrer."
@@ -9748,7 +9748,7 @@ REFERENCE           GAME_NOTARGETOFF
 LANG_ENGLISH        "notarget DESLIGADO"
 
 REFERENCE           EXE_CANNOT_FIND_ZONE
-LANG_ENGLISH        "O conteudo que voce esta tentando carregar nao foi encontrado ou e de uma regiao incorreta. Certifiquese de que seu disco esta limpo e que voce tem o conteudo para download correto."
+LANG_ENGLISH        "O conteudo que voce esta tentando carregar não foi encontrado ou e de uma regiao incorreta. Certifiquese de que seu disco esta limpo e que voce tem o conteudo para download correto."
 
 REFERENCE           EXE_SCRIPTS_OUT_OF_DATE
 LANG_ENGLISH        "Os dados salvos sao incompativeis com a versao atual do jogo. Voce pode continuar do inicio da sua missao mais recente ou sair para os menus."
@@ -9793,7 +9793,7 @@ REFERENCE           CHALLENGE_GM_DM_CRUSH
 LANG_ENGLISH        "Vitoria Esmagadora"
 
 REFERENCE           EXE_ERR_CANNOTJOININPROGRESS
-LANG_ENGLISH        "Nao e possivel entrar em um jogo em andamento"
+LANG_ENGLISH        "Não e possivel entrar em um jogo em andamento"
 
 REFERENCE           KILLSTREAK_NAPALM_CRATE
 LANG_ENGLISH        "Segure ^3&&1^7 para Ataque Napalm"
@@ -9805,10 +9805,10 @@ REFERENCE           EXE_SYNCHRONIZING
 LANG_ENGLISH        "Sincronizando"
 
 REFERENCE           EXE_PARTYNOTHOSTING
-LANG_ENGLISH        "Nao esta hospedando"
+LANG_ENGLISH        "Não esta hospedando"
 
 REFERENCE           MPUI_DOUBLE_DOWN_NOT_ALLOWED
-LANG_ENGLISH        "Voce nao tem COD Points suficientes para dobrar a aposta. (^BCP^ &&1 necessario)"
+LANG_ENGLISH        "Voce não tem COD Points suficientes para dobrar a aposta. (^BCP^ &&1 necessario)"
 
 REFERENCE           PLATFORM_SCOREBOARD_TOGGLE_CAPS
 LANG_ENGLISH        "ALTERNAR PLACAR"
@@ -9829,7 +9829,7 @@ REFERENCE           KILLSTREAK_RECON
 LANG_ENGLISH        "UAV"
 
 REFERENCE           MPUI_AAR_NO_NEW_STATS_MILESTONES
-LANG_ENGLISH        "Voce nao completou nenhum Desafio."
+LANG_ENGLISH        "Voce não completou nenhum Desafio."
 
 REFERENCE           PLATFORM_SPOT_SHADOW_QUALITY_CAPS
 LANG_ENGLISH        "QUALIDADE DA SOMBRA LOCAL"
@@ -10966,7 +10966,7 @@ REFERENCE           GAME_PLAYING
 LANG_ENGLISH        "Jogando"
 
 REFERENCE           MENU_TOGGLE_CROUCH_CAPS
-LANG_ENGLISH        "TOGGLE AGACHAR"
+LANG_ENGLISH        "ALTERNAR AGACHAR"
 
 REFERENCE           GAME_CHAT_MESSAGE
 LANG_ENGLISH        "&&1&&2[&&3-&&4]:&&5"
@@ -11020,7 +11020,7 @@ REFERENCE           WEAPON_SIG556_ACOG
 LANG_ENGLISH        "SIG556 ACOG"
 
 REFERENCE           PLATFORM_SWITCH_WEAPON_CAPS
-LANG_ENGLISH        "PREVIOUS ARMA"
+LANG_ENGLISH        "ARMA ANTEIOR"
 
 REFERENCE           PLATFORM_DEPTH_OF_FIELD_DESC
 LANG_ENGLISH        "Define o nível de qualidade do efeito de profundidade de campo."
@@ -11164,7 +11164,7 @@ REFERENCE           MPUI_MATCHMAKING_OPTIONS_CAPS
 LANG_ENGLISH        "SEARCH PREFERENCES"
 
 REFERENCE           PLATFORM_DISPLAY_MODE_DESC
-LANG_ENGLISH        "Selecione Janelado, Tela Cheia ou Janelado (Tela Cheia). Pressing Alt + Enter will toggle between fullscreen and windowed modes."
+LANG_ENGLISH        "Selecione Janela, Tela Cheia ou Tela Cheoa (Em janela). Pressing Alt + Enter will toggle between fullscreen and windowed modes."
 
 REFERENCE           CHALLENGE_HK_SWARM_KILLS_DESC
 LANG_ENGLISH        "Elimine &&1 com o Enxame."
@@ -11224,7 +11224,7 @@ REFERENCE           WEAPON_SENSOR_GRENADE
 LANG_ENGLISH        "Sensor Granada"
 
 REFERENCE           PLATFORM_WINDOWED
-LANG_ENGLISH        "Janelado"
+LANG_ENGLISH        "Janela"
 
 REFERENCE           PLATFORM_RAGDOLL_CAPS
 LANG_ENGLISH        "RAGDOLL"
@@ -11824,7 +11824,7 @@ REFERENCE           PLATFORM_SAVECUSTOMMODE
 LANG_ENGLISH        "^BBUTTON_CANCEL^ Salvar / Voltar"
 
 REFERENCE           MPUI_X_POINTS_TO_WIN_CAPS
-LANG_ENGLISH        "&&1PONTOS TO WIN"
+LANG_ENGLISH        "&&1 PONTOS PARA VENCER"
 
 REFERENCE           PLATFORM_PRESS_TO_SET_COMLINK
 LANG_ENGLISH        "Pressione ^3[{+attack}]^7 para call in stealth helicóptero"
@@ -13531,7 +13531,7 @@ REFERENCE           CHALLENGE_TOP3
 LANG_ENGLISH        "Superior&&3"
 
 REFERENCE           MENU_CANT_SWITCH_PROFILES_INGAME
-LANG_ENGLISH        "Nao e possivel trocar perfis de jogador durante a partida."
+LANG_ENGLISH        "Não e possivel trocar perfis de jogador durante a partida."
 
 REFERENCE           WEAPON_XM8_MMS
 LANG_ENGLISH        "M8A1 MMS"
@@ -13744,7 +13744,7 @@ REFERENCE           MPUI_FASTRELOAD_CAPS
 LANG_ENGLISH        "MIRA DE FERRO"
 
 REFERENCE           KILLSTREAK_AUTO_TURRET_NOT_AVAILABLE
-LANG_ENGLISH        "Sentry Gun nao disponivel"
+LANG_ENGLISH        "Sentry Gun não disponivel"
 
 REFERENCE           WEAPON_M60_GRIP
 LANG_ENGLISH        "M60 Empunhadura"
@@ -13768,7 +13768,7 @@ REFERENCE           WEAPON_M72_LAW
 LANG_ENGLISH        "M72 LAW"
 
 REFERENCE           MENU_DEMO_UNUPLOADED_CLIP
-LANG_ENGLISH        "Voce tem um filme editado nao salvo."
+LANG_ENGLISH        "Voce tem um filme editado não salvo."
 
 REFERENCE           WEAPON_M72_LAW_DESC
 LANG_ENGLISH        "Lancador de foguetes."
@@ -14092,7 +14092,7 @@ REFERENCE           WEAPON_M2FRAGGRENADE
 LANG_ENGLISH        "Granada"
 
 REFERENCE           WEAPON_CANT_PLANT_EQUIPMENT
-LANG_ENGLISH        "Nao e Possivel Plantar Aqui"
+LANG_ENGLISH        "Não e Possivel Plantar Aqui"
 
 REFERENCE           MENU_EMBLEM_SELECTOR_TYPE_TAB
 LANG_ENGLISH        "TIPO"
@@ -14101,7 +14101,7 @@ REFERENCE           MPTIP_DOMINATION_TIP
 LANG_ENGLISH        "No modo de jogo Domination, quanto mais objetivos voce segurar, mais pontos sua equipe ganha."
 
 REFERENCE           WEAPON_CANT_EQUIP_WHILE_PRONE
-LANG_ENGLISH        "Nao e possivel equipar esta arma deitado."
+LANG_ENGLISH        "Não e possivel equipar esta arma deitado."
 
 REFERENCE           WEAPON_MP7
 LANG_ENGLISH        "MP7"
@@ -14236,7 +14236,7 @@ REFERENCE           MENU_LFE_DESC
 LANG_ENGLISH        "Ajuste o Trim do Alto-falante para o LFE."
 
 REFERENCE           KILLSTREAK_REMOTE_MISSILE_NOT_USABLE
-LANG_ENGLISH        "Hellstorm Missile nao pode ser usado neste local"
+LANG_ENGLISH        "Hellstorm Missile não pode ser usado neste local"
 
 REFERENCE           MENU_SAVELOADGAME
 LANG_ENGLISH        "Salvar/Carregar Jogo"
@@ -14305,7 +14305,7 @@ REFERENCE           MPTIP_SUPPRESSOR_TIP
 LANG_ENGLISH        "Acessorios Supressor impedem que voce apareca no mini-mapa do inimigo ao atirar."
 
 REFERENCE           MENU_BOTS_NOT_SUPPORTED_HACK
-LANG_ENGLISH        "Bots nao sao suportados no Hacker."
+LANG_ENGLISH        "Bots não sao suportados no Hacker."
 
 REFERENCE           MENU_HIT_MARKERS_ENABLED
 LANG_ENGLISH        "ATIVADO"
@@ -14329,7 +14329,7 @@ REFERENCE           MPUI_WAGER_YOUR_CP
 LANG_ENGLISH        "Voce tem &&1 ^BCP^"
 
 REFERENCE           KILLSTREAK_SATELLITE_NOT_AVAILABLE
-LANG_ENGLISH        "Orbital VSAT nao disponivel"
+LANG_ENGLISH        "Orbital VSAT não disponivel"
 
 REFERENCE           WEAPON_TAR21_SILENCER
 LANG_ENGLISH        "MTAR Supressor"
@@ -14929,7 +14929,7 @@ REFERENCE           WEAPON_SCAR_RANGEFINDER
 LANG_ENGLISH        "SCAR-H Target Finder"
 
 REFERENCE           MENU_BOTS_NOT_SUPPORTED_GUN
-LANG_ENGLISH        "Bots nao sao suportados no Gun Game."
+LANG_ENGLISH        "Bots não sao suportados no Gun Game."
 
 REFERENCE           WEAPON_SIG556_RANGEFINDER
 LANG_ENGLISH        "SIG556 Target Finder"
@@ -15172,7 +15172,7 @@ REFERENCE           WEAPON_EVOSKORPION_STEADYAIM
 LANG_ENGLISH        "Skorpion Evo III Mira Laser"
 
 REFERENCE           XBOXLIVE_ATLEASTONENONGUESTACCOUNT
-LANG_ENGLISH        "Deve haver pelo menos uma conta nao-convidada no grupo."
+LANG_ENGLISH        "Deve haver pelo menos uma conta não-convidada no grupo."
 
 REFERENCE           RANK_CPL_FULL
 LANG_ENGLISH        "Corporal"
@@ -15676,7 +15676,7 @@ REFERENCE           WEAPON_QBB95_DUALOPTIC
 LANG_ENGLISH        "QBB LSW Mira Hibrida"
 
 REFERENCE           KILLSTREAK_MISSILE_DRONE_NOT_AVAILABLE
-LANG_ENGLISH        "Hunter Killer nao Disponivel"
+LANG_ENGLISH        "Hunter Killer não Disponivel"
 
 REFERENCE           WEAPON_QBB95_RANGEFINDER
 LANG_ENGLISH        "QBB LSW Target Finder"
@@ -15745,7 +15745,7 @@ REFERENCE           WEAPON_KARD_EXTCLIP
 LANG_ENGLISH        "KAP-40 Carregador Estendido"
 
 REFERENCE           KILLSTREAK_AIRSPACE_FULL
-LANG_ENGLISH        "Suporte Aereo nao esta disponivel"
+LANG_ENGLISH        "Suporte Aereo não esta disponivel"
 
 REFERENCE           PERKS_TOSS_BACK
 LANG_ENGLISH        "Jogar de Volta"
@@ -15862,7 +15862,7 @@ REFERENCE           WEAPON_BALLISTA_FASTADS
 LANG_ENGLISH        "Ballista Empunhadura Quickdraw"
 
 REFERENCE           KILLSTREAK_SATELLITE_DESC
-LANG_ENGLISH        "Mostra posicao e direcao do inimigo no mini-mapa. Nao pode ser abatido."
+LANG_ENGLISH        "Mostra posicao e direcao do inimigo no mini-mapa. Não pode ser abatido."
 
 REFERENCE           WEAPON_BALLISTA_DUAL_ATTACH
 LANG_ENGLISH        "Ballista Personalizada"
@@ -15871,7 +15871,7 @@ REFERENCE           CHALLENGE_PERK_FLAK_DESC
 LANG_ENGLISH        "Sobreviva a &&1 explosivos enquanto usa Flak Jacket."
 
 REFERENCE           MPUI_NOTSAMECLAN
-LANG_ENGLISH        "Nem todos os membros do grupo pertencem ao mesmo cla. Nao e possivel trocar para Partida de Cla."
+LANG_ENGLISH        "Nem todos os membros do grupo pertencem ao mesmo cla. Não e possivel trocar para Partida de Cla."
 
 REFERENCE           MENU_TIME_LIMIT_HINT_FFA
 LANG_ENGLISH        "A duracao da partida. O jogador com mais pontos ao final do limite de tempo vence."
@@ -16030,7 +16030,7 @@ REFERENCE           WEAPON_SRM1216_FASTADS
 LANG_ENGLISH        "M1216 Empunhadura Quickdraw"
 
 REFERENCE           MENU_RECENTGAMES_ACCESSERROR
-LANG_ENGLISH        "Nao e Possivel Acessar Partidas Recentes"
+LANG_ENGLISH        "Não e Possivel Acessar Partidas Recentes"
 
 REFERENCE           WEAPON_JUDGE_REFLEX
 LANG_ENGLISH        "Executioner Reflex"
@@ -16339,7 +16339,7 @@ REFERENCE           WEAPON_TROPHY_SYSTEM_DESC
 LANG_ENGLISH        "Destroi projeteis inimigos a 10 metros. Misseis de veiculos tem chance de penetrar."
 
 REFERENCE           WEAPON_SENSOR_GRENADE_DESC
-LANG_ENGLISH        "Detecta soldados inimigos dentro da linha de visao."
+LANG_ENGLISH        "Detecta soldados inimigos dentro da linha de visão."
 
 REFERENCE           MENU_JUMP
 LANG_ENGLISH        "Pular"
@@ -16444,7 +16444,7 @@ REFERENCE           MENU_EXPERIMENTAL
 LANG_ENGLISH        "Experimental"
 
 REFERENCE           MPTIP_GROUND_WEAPONS_TIP
-LANG_ENGLISH        "Voce pode substituir sua arma primaria ou secundaria por armas que encontrar no chao."
+LANG_ENGLISH        "Voce pode substituir sua arma primária ou secundaria por armas que encontrar no chao."
 
 REFERENCE           MENU_FAILED_DW_FILE
 LANG_ENGLISH        "Falha ao buscar arquivo DW"
@@ -16486,7 +16486,7 @@ REFERENCE           RANK_LCPL_FULL2
 LANG_ENGLISH        "Lance Corporal II"
 
 REFERENCE           MPTIP_COMBAT_TRAINING_TIP
-LANG_ENGLISH        "Voce joga contra inimigos nao jogadores com seus amigos no Combat Training.  Combat Training concede XP para ajudar a subir de nivel."
+LANG_ENGLISH        "Voce joga contra inimigos não jogadores com seus amigos no Combat Training.  Combat Training concede XP para ajudar a subir de nivel."
 
 REFERENCE           PRESENCE_KARMA
 LANG_ENGLISH        "Karma"
@@ -16522,7 +16522,7 @@ REFERENCE           CHALLENGE_GM_MASTER_DESC
 LANG_ENGLISH        "Todos os destravamentos de &&2 concluidos."
 
 REFERENCE           MENU_PROGRESS_WILL_BE_LOST
-LANG_ENGLISH        "Carregar um nivel fara com que voce perca seu progresso em um nivel que ainda nao concluiu."
+LANG_ENGLISH        "Carregar um nivel fara com que voce perca seu progresso em um nivel que ainda não concluiu."
 
 REFERENCE           CHALLENGE_TYPE_HCDM
 LANG_ENGLISH        "Hardcore Free-For-All"
@@ -16675,7 +16675,7 @@ REFERENCE           MPUI_CONTRACT_PROGRESS_SHORT
 LANG_ENGLISH        "&&1 / &&2  (&&3%)"
 
 REFERENCE           KILLSTREAK_TURRET_KNIFED
-LANG_ENGLISH        "Corpo a Corpo Nao Tem Efeito"
+LANG_ENGLISH        "Corpo a Corpo Não Tem Efeito"
 
 REFERENCE           MPUI_AMOUNT_SPENT_CAPS
 LANG_ENGLISH        "VALOR GASTO"
@@ -16735,10 +16735,10 @@ REFERENCE           MPUI_CHANGE_RULES
 LANG_ENGLISH        "Alterar Regras"
 
 REFERENCE           BONUSCARD_OVERKILL_DESC
-LANG_ENGLISH        "Substitua a secundaria por qualquer primaria nao em uso."
+LANG_ENGLISH        "Substitua a secundaria por qualquer primária não em uso."
 
 REFERENCE           PERKS_LIGHTWEIGHT_DESC
-LANG_ENGLISH        "Mova-se mais rapido. Nao sofra dano ao cair."
+LANG_ENGLISH        "Mova-se mais rapido. Não sofra dano ao cair."
 
 REFERENCE           BONUSCARD_DANGER_CLOSE
 LANG_ENGLISH        "Perigo Proximo"
@@ -16855,7 +16855,7 @@ REFERENCE           CHALLENGE_MILESTONE_DEST_2AIR_QUICK_AWARD
 LANG_ENGLISH        "Destravado: &&1 Camuflagem"
 
 REFERENCE           CHALLENGE_PRIMARY_MASTERY_DESC
-LANG_ENGLISH        "Alcance maestria em toda Arma Primaria."
+LANG_ENGLISH        "Alcance maestria em toda Arma Primária."
 
 REFERENCE           CHALLENGE_MILESTONE_DEST_AIRCRAFT_RPG
 LANG_ENGLISH        "Destruir aeronave usando RPG"
@@ -16894,7 +16894,7 @@ REFERENCE           EM_BG_BACKING055
 LANG_ENGLISH        "Comando"
 
 REFERENCE           KILLSTREAK_RCBOMB_NOT_PLACEABLE
-LANG_ENGLISH        "Nao e possivel colocar o RC-XD aqui"
+LANG_ENGLISH        "Não e possivel colocar o RC-XD aqui"
 
 REFERENCE           MPUI_PLAYLIST_MAPS_NOT_ENABLED
 LANG_ENGLISH        "Nem todos no seu grupo tem o conteudo necessario para jogar este mapa."
@@ -16909,7 +16909,7 @@ REFERENCE           PRESENCE_YEMEN
 LANG_ENGLISH        "Véu de Aquiles"
 
 REFERENCE           MENU_PROFILE_DELETION_FAILED
-LANG_ENGLISH        "Falha ao excluir perfil.\n\nPode haver arquivos somente leitura,\nou voce pode nao ter privilegios de escrita.\n"
+LANG_ENGLISH        "Falha ao excluir perfil.\n\nPode haver arquivos somente leitura,\nou voce pode não ter privilegios de escrita.\n"
 
 REFERENCE           MENU_PLACE_SEGMENT_AT_TIMELINE_POSITION
 LANG_ENGLISH        "Coloque &&1 no marcador de timeline &&2."
@@ -16978,7 +16978,7 @@ REFERENCE           CH_GM_HCSD_SHUT_OUT
 LANG_ENGLISH        "Rodada Shutout"
 
 REFERENCE           MENU_CHALLENGES_WEAPON_HINTTEXT_UNLOCK
-LANG_ENGLISH        "Voce nao destravou esta arma. Visite Crie uma Classe para destravar esta arma."
+LANG_ENGLISH        "Voce não destravou esta arma. Visite Crie uma Classe para destravar esta arma."
 
 REFERENCE           CHALLENGE_WEAPON_REVENGE
 LANG_ENGLISH        "Vinganca"
@@ -17191,7 +17191,7 @@ REFERENCE           MPUI_RULES_8MINUTES_CAPS
 LANG_ENGLISH        "8 MINUTOS"
 
 REFERENCE           MENU_WARNING_NO_SAVE_DEVICE
-LANG_ENGLISH        "Nenhum dispositivo de armazenamento selecionado ou encontrado. Se nenhum dispositivo estiver disponivel, o progresso nao sera salvo."
+LANG_ENGLISH        "Nenhum dispositivo de armazenamento selecionado ou encontrado. Se nenhum dispositivo estiver disponivel, o progresso não sera salvo."
 
 REFERENCE           MENU_ZOMBIES
 LANG_ENGLISH        "Zumbis"
@@ -17218,7 +17218,7 @@ REFERENCE           CHALLENGE_WEAPON_MASTERY
 LANG_ENGLISH        "Alcance Maestria Total para &&2 completando todos os destravamentos."
 
 REFERENCE           CHALLENGE_X_RAY_VISION
-LANG_ENGLISH        "Visao de Raio X&&3"
+LANG_ENGLISH        "Visão de Raio X&&3"
 
 REFERENCE           KILLSTREAK_EARNED_AUTO_TURRET
 LANG_ENGLISH        "Pressione ^3[{+actionslot 4}]^7 para Sentry Gun"
@@ -17383,7 +17383,7 @@ REFERENCE           CHALLENGE_CHOPPER_HUNTER
 LANG_ENGLISH        "Cacador de Helicopteros"
 
 REFERENCE           KILLSTREAK_NAPALM_NOT_AVAILABLE
-LANG_ENGLISH        "Napalm Strike nao disponivel"
+LANG_ENGLISH        "Napalm Strike não disponivel"
 
 REFERENCE           MENU_FILESHARE_SORTING
 LANG_ENGLISH        "Ordenar Por"
@@ -17434,10 +17434,10 @@ REFERENCE           CHALLENGE_SITUATION_CRITICAL
 LANG_ENGLISH        "Situacao Critica"
 
 REFERENCE           MENU_FILESHARE_ACCESSERROR
-LANG_ENGLISH        "Nao e Possivel Acessar o Compartilhamento de Arquivos"
+LANG_ENGLISH        "Não e Possivel Acessar o Compartilhamento de Arquivos"
 
 REFERENCE           CHALLENGE_FAR_SIGHTED
-LANG_ENGLISH        "Visao Longa"
+LANG_ENGLISH        "Visão Longa"
 
 REFERENCE           KILLSTREAK_M202_FLASH_DROP_DESC
 LANG_ENGLISH        "Lancador de foguetes semiautomatico com capacidade de travamento."
@@ -17755,7 +17755,7 @@ REFERENCE           CHALLENGE_SNIPER_MASTERY_DESC
 LANG_ENGLISH        "Alcance maestria em todos os Fuzis de Precisao."
 
 REFERENCE           CHALLENGE_PRIMARY_MASTERY
-LANG_ENGLISH        "Maestria Primaria"
+LANG_ENGLISH        "Maestria Primária"
 
 REFERENCE           CHALLENGE_SECONDARY_MASTERY
 LANG_ENGLISH        "Maestria Secundaria"
@@ -17782,7 +17782,7 @@ REFERENCE           CHALLENGE_WEAPONS_MASTERY
 LANG_ENGLISH        "Maestria em Armas"
 
 REFERENCE           CHALLENGE_WEAPONS_MASTERY_DESC
-LANG_ENGLISH        "Complete a maestria de armas primarias e secundarias para ganhar sua Camuflagem Diamante para Faca de Combate."
+LANG_ENGLISH        "Complete a maestria de armas primárias e secundarias para ganhar sua Camuflagem Diamante para Faca de Combate."
 
 REFERENCE           MPUI_UNLIMITED_TIME_CAPS
 LANG_ENGLISH        "Sem Limite de Tempo"
@@ -22555,7 +22555,7 @@ REFERENCE           MENU_WAITING_FOR_PLAYERS_TO_BE_READY
 LANG_ENGLISH        "Precisa de &&1 jogadores prontos..."
 
 REFERENCE           MPUI_WAGERMATCH_NOT_ENOUGH_CP
-LANG_ENGLISH        "Voce nao tem Pontos COD suficientes para jogar. (^BCP^ &&1 necessario)"
+LANG_ENGLISH        "Voce não tem Pontos COD suficientes para jogar. (^BCP^ &&1 necessario)"
 
 REFERENCE           MENU_PLAYERMATCH_PLAYLISTS
 LANG_ENGLISH        "Playlists de Partida de Jogador"
@@ -22819,7 +22819,7 @@ REFERENCE           MPUI_WKH_CAPS
 LANG_ENGLISH        "ESTRANHO"
 
 REFERENCE           MENU_SAVEDATA_CORRUPTED
-LANG_ENGLISH        "Nao foi possivel retomar o nivel atual porque os dados de save estao corrompidos. Reinicie o nivel em \"Selecao de Missao\"."
+LANG_ENGLISH        "Não foi possivel retomar o nivel atual porque os dados de save estao corrompidos. Reinicie o nivel em \"Selecao de Missao\"."
 
 REFERENCE           MPUI_ON1
 LANG_ENGLISH        " em "
@@ -22882,7 +22882,7 @@ REFERENCE           MPUI_MINUTE_CAPS
 LANG_ENGLISH        "MINUTO"
 
 REFERENCE           MPUI_PREV_DISABLED_CAPS
-LANG_ENGLISH        "VOTACAO NAO PERMITIDA"
+LANG_ENGLISH        "VOTACAO NÃO PERMITIDA"
 
 REFERENCE           MENU_THIS_WILL_APPLY_VIDEO
 LANG_ENGLISH        "Isso aplicara o video"
@@ -22987,10 +22987,10 @@ REFERENCE           MPUI_LB_WAYPOINT_FLAG_RUSH
 LANG_ENGLISH        "&&1 Corrida de Bandeira &&2"
 
 REFERENCE           XBOXLIVE_NOTSIGNEDIN
-LANG_ENGLISH        "Nao esta conectado a um perfil"
+LANG_ENGLISH        "Não esta conectado a um perfil"
 
 REFERENCE           XBOXLIVE_PARTYENDED
-LANG_ENGLISH        "O grupo nao esta mais ativo"
+LANG_ENGLISH        "O grupo não esta mais ativo"
 
 REFERENCE           MPUI_CASHPOT
 LANG_ENGLISH        "Pote de Dinheiro"
@@ -23011,7 +23011,7 @@ REFERENCE           MPUI_MULTI_EVENTS_WON_CAPS
 LANG_ENGLISH        "MULTI EVENTOS VENCIDOS"
 
 REFERENCE           MPUI_SECOND_PRIMARY_WEAPON_CAPS
-LANG_ENGLISH        "SEGUNDA ARMA PRIMARIA"
+LANG_ENGLISH        "SEGUNDA ARMA PRIMÁRIA"
 
 REFERENCE           MPUI_COMBAT_RECORD_VIEW_NUMBER
 LANG_ENGLISH        "&&1 de &&2"
@@ -23767,7 +23767,7 @@ REFERENCE           MPUI_ALLOW_PLAYER_KILLSTREAKS_CAPS
 LANG_ENGLISH        "PERMITIR SEQUENCIAS DE ABATES"
 
 REFERENCE           MPUI_NO_KILLSTREAKS_CAPS
-LANG_ENGLISH        "NAO PERMITIR SEQUENCIAS DE ABATES"
+LANG_ENGLISH        "NÃO PERMITIR SEQUENCIAS DE ABATES"
 
 REFERENCE           MPUI_CUSTOM_KILLSTREAKS_CAPS
 LANG_ENGLISH        "SEQUENCIAS DE ABATES PERSONALIZADAS"
@@ -23803,7 +23803,7 @@ REFERENCE           EM_BG_BACKING179
 LANG_ENGLISH        "Aviso"
 
 REFERENCE           MPUI_SELECT_WEAPON_CAPS
-LANG_ENGLISH        "ARMA PRIMARIA"
+LANG_ENGLISH        "ARMA PRIMÁRIA"
 
 REFERENCE           MPUI_ATTACHMENTS_CAPS
 LANG_ENGLISH        "ACESSORIOS"
@@ -23812,7 +23812,7 @@ REFERENCE           MPUI_BUY_SECOND_ATTACHMENT_CAPS
 LANG_ENGLISH        "COMPRAR 2o PONTO DE ACESSORIO"
 
 REFERENCE           MPUI_NOT_APPLICABLE_IN_COMBAT_TRAINING
-LANG_ENGLISH        "Nao aplicavel no Treinamento de Combate."
+LANG_ENGLISH        "Não aplicavel no Treinamento de Combate."
 
 REFERENCE           MPUI_WEAPON_ASSAULT_CAPS
 LANG_ENGLISH        "FUZIS DE ASSALTO"
@@ -23866,7 +23866,7 @@ REFERENCE           MPUI_EMBLEM_EDITOR_DESC
 LANG_ENGLISH        "Personalize seu Cartao de Jogador. Destrave e compre novas imagens e camadas para mais customizacao."
 
 REFERENCE           MPUI_COMBAT_RECORD_LOCKED_FOR_FRIEND
-LANG_ENGLISH        "&&1 ainda nao destravou o Registro de Combate."
+LANG_ENGLISH        "&&1 ainda não destravou o Registro de Combate."
 
 REFERENCE           MPUI_CLAN_TAG_DESC
 LANG_ENGLISH        "Personalize o texto e a cor da sua Tag de Cla de quatro letras."
@@ -23962,13 +23962,13 @@ REFERENCE           MPUI_NEW_WEAPON_UNLOCKED_CAPS
 LANG_ENGLISH        "NOVA ARMA DESTRAVADA"
 
 REFERENCE           MPUI_AAR_NO_NEW_PERSONAL_BESTS
-LANG_ENGLISH        "Voce nao superou nenhum dos seus recordes pessoais."
+LANG_ENGLISH        "Voce não superou nenhum dos seus recordes pessoais."
 
 REFERENCE           MPUI_AAR_NO_NEW_CONTRACTS
-LANG_ENGLISH        "Voce nao tem nenhum Contrato ativo."
+LANG_ENGLISH        "Voce não tem nenhum Contrato ativo."
 
 REFERENCE           MPUI_AAR_NO_CONTRACTS_FOR_PRIVATE_MATCH
-LANG_ENGLISH        "Voce nao pode completar Contratos em partidas privadas."
+LANG_ENGLISH        "Voce não pode completar Contratos em partidas privadas."
 
 REFERENCE           MPUI_CR_EQUIPMENT_THROWN
 LANG_ENGLISH        "&&1 arremessadas"
@@ -23983,7 +23983,7 @@ REFERENCE           MPUI_CR_EQUIPMENT_FLASHED
 LANG_ENGLISH        "&&1 cegados"
 
 REFERENCE           MENU_BOTS_NOT_SUPPORTED_SD
-LANG_ENGLISH        "Bots nao sao suportados em Busca & Destruicao."
+LANG_ENGLISH        "Bots não sao suportados em Busca & Destruicao."
 
 REFERENCE           MPUI_CR_EQUIPMENT_DEPLOYED
 LANG_ENGLISH        "&&1 implantados"
@@ -24103,7 +24103,7 @@ REFERENCE           MPUI_CLANTAG_BLUE_DESC
 LANG_ENGLISH        "Adicione uma cor azul a sua Tag do Cla."
 
 REFERENCE           MPTIP_PAUSE_MENU_MAP_TIP
-LANG_ENGLISH        "O mini-mapa no Menu de Pausa mostra uma visao ampliada da batalha."
+LANG_ENGLISH        "O mini-mapa no Menu de Pausa mostra uma visão ampliada da batalha."
 
 REFERENCE           MPUI_CLANTAG_CYAN
 LANG_ENGLISH        "Tag do Cla Ciano"
@@ -24265,7 +24265,7 @@ REFERENCE           MPUI_PERK3_CAPS
 LANG_ENGLISH        "PERICIA 3"
 
 REFERENCE           MPUI_PRIMARY_CAPS
-LANG_ENGLISH        "PRIMARIA"
+LANG_ENGLISH        "PRIMÁRIA"
 
 REFERENCE           MPUI_SECONDARY_CAPS
 LANG_ENGLISH        "SECUNDARIA"
@@ -24289,7 +24289,7 @@ REFERENCE           MPUI_CONTRACT_COOLDOWN_PREFIX
 LANG_ENGLISH        "Voce pode comprar este Contrato novamente em"
 
 REFERENCE           MENU_ACCOUNT_NOT_AVAILABLE
-LANG_ENGLISH        "A conta nao pode ser criada. O nome inserido nao esta disponivel."
+LANG_ENGLISH        "A conta não pode ser criada. O nome inserido não esta disponivel."
 
 REFERENCE           MENU_LAUNCH
 LANG_ENGLISH        "Iniciar"
@@ -24310,7 +24310,7 @@ REFERENCE           MPUI_MATCH_XP_CAPS
 LANG_ENGLISH        "XP DA PARTIDA"
 
 REFERENCE           MPUI_CAC_ATTACHMENTS_CLEARED
-LANG_ENGLISH        "Voce esta prestes a desmarcar Warlord e isso removera todos os seus acessorios da sua arma primaria. Tem certeza?"
+LANG_ENGLISH        "Voce esta prestes a desmarcar Warlord e isso removera todos os seus acessorios da sua arma primária. Tem certeza?"
 
 REFERENCE           MPUI_KILLSTREAKS_DESC
 LANG_ENGLISH        "Configure suas recompensas por obter multiplos abates sem morrer."
@@ -24331,7 +24331,7 @@ REFERENCE           MPUI_PER_MINUTE
 LANG_ENGLISH        "Por Minuto"
 
 REFERENCE           MENU_MENU_COULDNT_BE_FOUND
-LANG_ENGLISH        "Menu nao encontrado!"
+LANG_ENGLISH        "Menu não encontrado!"
 
 REFERENCE           MENU_TEAM_BARRACKS_CAPS
 LANG_ENGLISH        "ALOJAMENTO DO TIME"
@@ -24403,7 +24403,7 @@ REFERENCE           MPUI_RETICLE_COLOR_5
 LANG_ENGLISH        "Azul-petroleo"
 
 REFERENCE           MPUI_GUN_HAS_NO_ATTACHMENTS
-LANG_ENGLISH        "A arma selecionada nao tem acessorios."
+LANG_ENGLISH        "A arma selecionada não tem acessorios."
 
 REFERENCE           MPUI_NEED_RETICLE_ATTACHMENT
 LANG_ENGLISH        "Equipe uma Mira de Ponto Vermelho ou Mira Reflex para personalizar a mira."
@@ -24481,13 +24481,13 @@ REFERENCE           MENU_VIEW_FULL
 LANG_ENGLISH        "Ver Completo:"
 
 REFERENCE           MENU_CONFIRMNOPROFILE_Q_CAPS
-LANG_ENGLISH        "Voce nao esta conectado a um perfil e nao podera salvar o progresso da campanha.\n\nGostaria de continuar?"
+LANG_ENGLISH        "Voce não esta conectado a um perfil e não podera salvar o progresso da campanha.\n\nGostaria de continuar?"
 
 REFERENCE           MPUI_ELITE_APP_LAUNCH_TITLE
 LANG_ENGLISH        "INICIAR ELITE"
 
 REFERENCE           MPUI_EMAIL_REJECTED
-LANG_ENGLISH        "O email inserido nao parece ser valido. Verifique se ha erros e tente novamente."
+LANG_ENGLISH        "O email inserido não parece ser valido. Verifique se ha erros e tente novamente."
 
 REFERENCE           MPUI_ESCROW_RETURNED_CAPS
 LANG_ENGLISH        "FUNDOS DEVOLVIDOS"
@@ -24589,7 +24589,7 @@ REFERENCE           MPUI_TEAM_DEATHMATCH
 LANG_ENGLISH        "Equipes Morte Subita"
 
 REFERENCE           MENU_SAVE_ERROR
-LANG_ENGLISH        "Nao foi possivel gravar no dispositivo de save padrao."
+LANG_ENGLISH        "Não foi possivel gravar no dispositivo de save padrao."
 
 REFERENCE           MPUI_X2SCORE_CAPS
 LANG_ENGLISH        "x2 PONTUACAO"
@@ -24943,7 +24943,7 @@ REFERENCE           MPUI_SILO
 LANG_ENGLISH        "Silo"
 
 REFERENCE           MPUI_THEATER_PARTY_MISSING_MAP
-LANG_ENGLISH        "Um ou mais membros do seu grupo nao tem este mapa. "
+LANG_ENGLISH        "Um ou mais membros do seu grupo não tem este mapa. "
 
 REFERENCE           MPUI_ZOO
 LANG_ENGLISH        "Zoologico"
@@ -24967,7 +24967,7 @@ REFERENCE           MPUI_AREA51_CAPS
 LANG_ENGLISH        "HANGAR 18"
 
 REFERENCE           MPUI_DESC_MAP_AREA51
-LANG_ENGLISH        "Este mapa nao existe."
+LANG_ENGLISH        "Este mapa não existe."
 
 REFERENCE           EM_BG_BACKING065
 LANG_ENGLISH        "Austria"
@@ -25144,10 +25144,10 @@ REFERENCE           MPUI_MEAT_DEAD_POOL
 LANG_ENGLISH        "Carne na Pista (Morte Subita)"
 
 REFERENCE           MENU_TOGGLE_PRONE
-LANG_ENGLISH        "Alternar Deitado"
+LANG_ENGLISH        "Alternar Deitar"
 
 REFERENCE           MENU_TOGGLE_PRONE_CAPS
-LANG_ENGLISH        "ALTERNAR DEITADO"
+LANG_ENGLISH        "ALTERNAR DEITAR"
 
 REFERENCE           MPUI_MEAT_DEAD_POOL_CAPS
 LANG_ENGLISH        "MEAT ON THE TARMAC (DEAD POOL)"
@@ -25306,7 +25306,7 @@ REFERENCE           MENU_ONLINE_STATS
 LANG_ENGLISH        "Estatisticas Online"
 
 REFERENCE           MENU_STATERROR_TITLE
-LANG_ENGLISH        "Nao e possivel comparar estatisticas"
+LANG_ENGLISH        "Não e possivel comparar estatisticas"
 
 REFERENCE           MPUI_GUN_XP_REQUIRED
 LANG_ENGLISH        "&&1 XP de Arma Necessario"
@@ -25633,7 +25633,7 @@ REFERENCE           MENU_LADDER_RESULTS
 LANG_ENGLISH        "Resultados da Escada"
 
 REFERENCE           MPUI_SECOND_PRIMARY_CAPS
-LANG_ENGLISH        "SEGUNDA PRIMARIA"
+LANG_ENGLISH        "SEGUNDA PRIMÁRIA"
 
 REFERENCE           MPUI_VILLAGE_LOC
 LANG_ENGLISH        "CIDADE FRONTEIRICA, QUIRGUISTAO"
@@ -25651,7 +25651,7 @@ REFERENCE           MENU_RULES_DIFFICULTY_HARD
 LANG_ENGLISH        "Dificil"
 
 REFERENCE           MPUI_RULES_DRONE_DESTROY_UNHACKED_CAPS
-LANG_ENGLISH        "DRONES NAO INVADIDOS"
+LANG_ENGLISH        "DRONES NÃO INVADIDOS"
 
 REFERENCE           MPUI_KEEP
 LANG_ENGLISH        "MANTER"
@@ -25882,7 +25882,7 @@ REFERENCE           MPUI_LISTEN_IN_OFF
 LANG_ENGLISH        "Alternar Escuta"
 
 REFERENCE           MENU_UNMUTE_ERROR
-LANG_ENGLISH        "Nao foi possivel ativar o som do jogador"
+LANG_ENGLISH        "Não foi possivel ativar o som do jogador"
 
 REFERENCE           MPUI_TOKEN
 LANG_ENGLISH        "TOKEN"
@@ -25903,7 +25903,7 @@ REFERENCE           MPUI_SHOUTCASTER_NUMBER_PLAYERS
 LANG_ENGLISH        "&&1 Jogadores"
 
 REFERENCE           MPUI_DEMO_DOWNLOAD_IN_PROGRESS
-LANG_ENGLISH        "Nao e possivel realizar o upload quando um download de filme de jogo esta em andamento. Voce baixou &&1% do filme. Tente novamente mais tarde."
+LANG_ENGLISH        "Não e possivel realizar o upload quando um download de filme de jogo esta em andamento. Voce baixou &&1% do filme. Tente novamente mais tarde."
 
 REFERENCE           EM_MP5
 LANG_ENGLISH        "MP5k"
@@ -26005,7 +26005,7 @@ REFERENCE           MENU_BRIGHTNESS_EASILY_VISIBLE
 LANG_ENGLISH        "Facilmente Visivel"
 
 REFERENCE           MPUI_THIRD_PERSON_VIEW
-LANG_ENGLISH        "Visao em 3a Pessoa"
+LANG_ENGLISH        "Visão em 3a Pessoa"
 
 REFERENCE           MPUI_RESPEC_CAPS
 LANG_ENGLISH        "REEMBOLSO"
@@ -26077,7 +26077,7 @@ REFERENCE           MENU_ON_SMALL
 LANG_ENGLISH        "em"
 
 REFERENCE           MPUI_NO_FRIENDS
-LANG_ENGLISH        "Voce nao tem amigos"
+LANG_ENGLISH        "Voce não tem amigos"
 
 REFERENCE           MENU_PLAYERID_CROPPING_EDITOR_CAPS
 LANG_ENGLISH        "EDITOR DE CORTE"
@@ -26134,7 +26134,7 @@ REFERENCE           CLASS_PRESTIGE1
 LANG_ENGLISH        "Personalizado 6"
 
 REFERENCE           MENU_SCORE_STREAKS_DISABLED
-LANG_ENGLISH        "Sequencias de Pontuacao nao estao disponiveis nesta liga. "
+LANG_ENGLISH        "Sequencias de Pontuacao não estao disponiveis nesta liga. "
 
 REFERENCE           CLASS_PRESTIGE2
 LANG_ENGLISH        "Personalizado 7"
@@ -26173,7 +26173,7 @@ REFERENCE           CLASS_PRESTIGE_LOCK_DESC
 LANG_ENGLISH        "Bloqueado no Nivel de Prestigio &&1."
 
 REFERENCE           MENU_DISABLE_THIRD_PERSON_SPECTATING_HINT
-LANG_ENGLISH        "Desabilita a capacidade de um jogador alternar para a visao em 3a pessoa ao observar outro jogador enquanto espera para renascer."
+LANG_ENGLISH        "Desabilita a capacidade de um jogador alternar para a visão em 3a pessoa ao observar outro jogador enquanto espera para renascer."
 
 REFERENCE           MENU_EMBLEM_BACKGROUND_WEAPONSTAB
 LANG_ENGLISH        "ARMAS"
@@ -26551,7 +26551,7 @@ REFERENCE           MENU_PASSWORD1
 LANG_ENGLISH        "Senha:  "
 
 REFERENCE           MPTIP_KILLSTREAKS_STAY_TIP
-LANG_ENGLISH        "Recompensas de Sequencia de Pontuacao nao desaparecem ate serem usadas, mesmo entre rodadas."
+LANG_ENGLISH        "Recompensas de Sequencia de Pontuacao não desaparecem ate serem usadas, mesmo entre rodadas."
 
 REFERENCE           MENU_RESET_TO_DEFAULTS
 LANG_ENGLISH        "Redefinir para o Padrao"
@@ -26611,7 +26611,7 @@ REFERENCE           MENU_SHOW_CAPS
 LANG_ENGLISH        "MOSTRAR"
 
 REFERENCE           MENU_CENTER_VIEW
-LANG_ENGLISH        "Centralizar Visao"
+LANG_ENGLISH        "Centralizar Visão"
 
 REFERENCE           MENU_QUICK_SAVE
 LANG_ENGLISH        "Salvar Rapido"
@@ -26623,7 +26623,7 @@ REFERENCE           MPTIP_SCORESTREAK_OBJECTIVE_TIP
 LANG_ENGLISH        "Completar objetivos como capturar bandeiras ou plantar a bomba da pontuacao significativa para ganhar suas Sequencias de Pontuacao."
 
 REFERENCE           MENU_FORWARD
-LANG_ENGLISH        "Frente"
+LANG_ENGLISH        "AVANÇAR"
 
 REFERENCE           MENU_FILESHARE_FILENOTFOUND
 LANG_ENGLISH        "O arquivo que voce esta procurando pode ter sido removido, modificado ou esta temporariamente indisponivel."
@@ -26632,7 +26632,7 @@ REFERENCE           MENU_BACKPEDAL
 LANG_ENGLISH        "Recuar"
 
 REFERENCE           MENU_PRONE
-LANG_ENGLISH        "Deitado"
+LANG_ENGLISH        "DEITAR"
 
 REFERENCE           EM_M16
 LANG_ENGLISH        "M16"
@@ -26647,7 +26647,7 @@ REFERENCE           MENU_HOLD_DOWN_PRONE
 LANG_ENGLISH        "Segurar Deitado"
 
 REFERENCE           MENU_BONUSCARD_OVERKILL_DESC
-LANG_ENGLISH        "Pegue uma arma primaria como sua segunda arma."
+LANG_ENGLISH        "Pegue uma arma primária como sua segunda arma."
 
 REFERENCE           MENU_TURN_RIGHT
 LANG_ENGLISH        "Virar a Direita"
@@ -26863,10 +26863,10 @@ REFERENCE           MENU_LOAD_SELECTED_GAME
 LANG_ENGLISH        "Carregar partida selecionada?"
 
 REFERENCE           CH_BASIC_PENETRATION_KILLS
-LANG_ENGLISH        "Visao de Raio-X"
+LANG_ENGLISH        "Visão de Raio-X"
 
 REFERENCE           MENU_VOTE_NO
-LANG_ENGLISH        "Votar Nao"
+LANG_ENGLISH        "Votar Não"
 
 REFERENCE           MENU_SHOW_BLOOD
 LANG_ENGLISH        "Mostrar Sangue"
@@ -26974,7 +26974,7 @@ REFERENCE           MENU_FORCE_RESPAWNING
 LANG_ENGLISH        "Forcar Renascimento:  "
 
 REFERENCE           MENU_NOT_FRIENDS_YET
-LANG_ENGLISH        "Esta pessoa ainda nao e amiga. Voce nao pode convida-lo(a) para uma partida."
+LANG_ENGLISH        "Esta pessoa ainda não e amiga. Voce não pode convida-lo(a) para uma partida."
 
 REFERENCE           MENU_FRIENDLY_INDICATORS
 LANG_ENGLISH        "Indicadores Amigaveis:  "
@@ -26986,7 +26986,7 @@ REFERENCE           MENU_DEMO_SLOT_SELECTION
 LANG_ENGLISH        "Selecionar Slot"
 
 REFERENCE           MENU_NOT_USED
-LANG_ENGLISH        "Nao Utilizado"
+LANG_ENGLISH        "Não Utilizado"
 
 REFERENCE           MENU_GO_TO_SINGLE_PLAYER_CALL_OF_DUTY
 LANG_ENGLISH        "Ir para Campanha Call of Duty?"
@@ -27190,7 +27190,7 @@ REFERENCE           MENU_CUSTOM_MATCH_STANDARD
 LANG_ENGLISH        "Partida Personalizada: Padrao"
 
 REFERENCE           MENU_PLAY_A_CUSTOM_MATCH_WHICH_WILL_NOT_AFFECT_YOUR_RANK
-LANG_ENGLISH        "Jogue uma Partida Personalizada que nao afetara seu Ranque"
+LANG_ENGLISH        "Jogue uma Partida Personalizada que não afetara seu Ranque"
 
 REFERENCE           MENU_CUSTOM_MATCH_RANKED
 LANG_ENGLISH        "Partida Personalizada: Ranqueada"
@@ -27340,7 +27340,7 @@ REFERENCE           MENU_NEXT_MISSION_CAPS
 LANG_ENGLISH        "PROXIMA MISSAO"
 
 REFERENCE           MENU_PROFILE_WARNING
-LANG_ENGLISH        "Voce nao esta conectado a um perfil. Se nao conectar, nao podera salvar seu progresso. Deseja continuar?"
+LANG_ENGLISH        "Voce não esta conectado a um perfil. Se não conectar, não podera salvar seu progresso. Deseja continuar?"
 
 REFERENCE           MENU_QUIT_WARNING
 LANG_ENGLISH        "Tem certeza que deseja sair?"
@@ -27370,7 +27370,7 @@ REFERENCE           MENU_SERVER_INFORMATION
 LANG_ENGLISH        "Informacoes do Servidor"
 
 REFERENCE           MENU_WARNING_AUTOSAVE
-LANG_ENGLISH        "Este jogo salva dados automaticamente em certos pontos. Nao desligue quando o indicador de acesso ao HDD estiver piscando."
+LANG_ENGLISH        "Este jogo salva dados automaticamente em certos pontos. Não desligue quando o indicador de acesso ao HDD estiver piscando."
 
 REFERENCE           MENU_FILESHARE_TITLE_UPLOADING
 LANG_ENGLISH        "Enviando Arquivo"
@@ -27436,7 +27436,7 @@ REFERENCE           MENU_FIND_STANDARD_GAME
 LANG_ENGLISH        "Encontrar Partida Padrao"
 
 REFERENCE           MENU_UNRANKED_DESCRIPTION
-LANG_ENGLISH        "Encontre uma partida nao ranqueada onde voce possa convidar amigos."
+LANG_ENGLISH        "Encontre uma partida não ranqueada onde voce possa convidar amigos."
 
 REFERENCE           MENU_SPECIAL_FEATURES
 LANG_ENGLISH        "Recursos Especiais"
@@ -27484,7 +27484,7 @@ REFERENCE           MENU_CONGRATULATIONS
 LANG_ENGLISH        "Parabens"
 
 REFERENCE           MENU_CAN_NOT_CHANGE_SETTINGS
-LANG_ENGLISH        "Nao e possivel alterar configuracoes"
+LANG_ENGLISH        "Não e possivel alterar configuracoes"
 
 REFERENCE           MENU_SHADOWS
 LANG_ENGLISH        "Sombras"
@@ -27691,7 +27691,7 @@ REFERENCE           MENU_CHEAT_POINTS
 LANG_ENGLISH        "Voce coletou &&1 peca(s) de informacao inimiga."
 
 REFERENCE           MENU_NO_SAVE_DEVICE_WARNING
-LANG_ENGLISH        "Nenhum dispositivo de salvamento selecionado; voce nao podera salvar seu progresso."
+LANG_ENGLISH        "Nenhum dispositivo de salvamento selecionado; voce não podera salvar seu progresso."
 
 REFERENCE           MENU_NO_SAVE_DEVICE_WARNING_NOW_OKAY
 LANG_ENGLISH        "Voce agora pode salvar seu progresso de jogo."
@@ -27709,7 +27709,7 @@ REFERENCE           MENU_FILESHARE_DOWNLOADERROR
 LANG_ENGLISH        "Ocorreu um erro ao baixar o arquivo."
 
 REFERENCE           MENU_PRIMARY_ATTRIBUTES
-LANG_ENGLISH        "Atributos da Arma Primaria"
+LANG_ENGLISH        "Atributos da Arma Primária"
 
 REFERENCE           MENU_KILL_PLAYERS_ON_THE_OPPOSING
 LANG_ENGLISH        "Team Deathmatch direto em todos os mapas. Use trabalho em equipe para abater inimigos e atingir o limite de pontos."
@@ -27739,7 +27739,7 @@ REFERENCE           MENU_CHALLENGE_CATEGORY_KILLER
 LANG_ENGLISH        "Assassino"
 
 REFERENCE           MENU_SAVE_CORRUPTED
-LANG_ENGLISH        "Salvamento corrompido e nao pode ser usado. Inicie um novo jogo. Dados anteriores serao sobrescritos."
+LANG_ENGLISH        "Salvamento corrompido e não pode ser usado. Inicie um novo jogo. Dados anteriores serao sobrescritos."
 
 REFERENCE           MENU_WARNING_CHECKPOINT_RESET2
 LANG_ENGLISH        "Se continuar, o progresso da missao atual sera sobrescrito."
@@ -27748,10 +27748,10 @@ REFERENCE           MENU_PRESTIGE_RESET_WARNING1
 LANG_ENGLISH        "Troque todas as suas conquistas por um pouco de prestigio.\n\nOutros jogadores vera seu novo icone de Prestigio no lobby, Rankings e jogo."
 
 REFERENCE           MENU_PRESTIGE_RESET_WARNING2
-LANG_ENGLISH        "Prestigio tem um preco: Voce reiniciara no nivel 1 e TUDO sera resetado. Apenas seu Playercard, rankings, Tag do Cla e playlists nao serao afetados."
+LANG_ENGLISH        "Prestigio tem um preco: Voce reiniciara no nivel 1 e TUDO sera resetado. Apenas seu Playercard, rankings, Tag do Cla e playlists não serao afetados."
 
 REFERENCE           MENU_PRESTIGE_RESET_WARNING3
-LANG_ENGLISH        "Nao ha como voltar atras."
+LANG_ENGLISH        "Não ha como voltar atras."
 
 REFERENCE           MENU_READING_SAVE_DEVICE_CAPS
 LANG_ENGLISH        "LENDO DISPOSITIVO DE SALVAMENTO"
@@ -27847,7 +27847,7 @@ REFERENCE           MENU_GAS
 LANG_ENGLISH        "Gas"
 
 REFERENCE           MENU_LSP_ERROR
-LANG_ENGLISH        "Suas estatisticas desta sessao nao serao salvas para esta sessao. "
+LANG_ENGLISH        "Suas estatisticas desta sessao não serao salvas para esta sessao. "
 
 REFERENCE           MENU_LSP_ERROR_TITLE
 LANG_ENGLISH        "Erro de LSP"
@@ -27943,7 +27943,7 @@ REFERENCE           MENU_INVITE_SENT
 LANG_ENGLISH        "Convite para entrar em um jogo foi enviado ao amigo."
 
 REFERENCE           MENU_WARNING_DISABLE_MATURE_CONTENT
-LANG_ENGLISH        "Tem certeza que deseja reduzir o conteudo grafico?\n\nNota: O conteudo grafico nao sera reduzido durante o jogo online."
+LANG_ENGLISH        "Tem certeza que deseja reduzir o conteudo grafico?\n\nNota: O conteudo grafico não sera reduzido durante o jogo online."
 
 REFERENCE           MENU_CONNECTING_DW
 LANG_ENGLISH        "Conectando ao Servico Online"
@@ -28045,7 +28045,7 @@ REFERENCE           MENU_LOBBY_CHAT
 LANG_ENGLISH        "Chat do Lobby"
 
 REFERENCE           MENU_NO_SELF_REQUEST_ALLOWED
-LANG_ENGLISH        "Nao e possivel enviar solicitacoes para si mesmo."
+LANG_ENGLISH        "Não e possivel enviar solicitacoes para si mesmo."
 
 REFERENCE           MENU_RESETCUSTOMCLASSES
 LANG_ENGLISH        "Suas classes personalizadas foram redefinidas."
@@ -28156,7 +28156,7 @@ REFERENCE           MENU_GETTING_CLAN_INFO_CAPS
 LANG_ENGLISH        "OBTENDO INFORMACOES DO CLA"
 
 REFERENCE           MENU_MEMBER_NOT_PART_OF_CLAN
-LANG_ENGLISH        "Jogador nao faz parte de um cla."
+LANG_ENGLISH        "Jogador não faz parte de um cla."
 
 REFERENCE           MENU_CLAN_INVITE_SENT
 LANG_ENGLISH        "Convite de Cla Enviado."
@@ -28282,7 +28282,7 @@ REFERENCE           MENU_UNMUTE_ERROR_FRIENDS_ONLY
 LANG_ENGLISH        "Suas preferencias atuais permitem falar apenas com amigos."
 
 REFERENCE           MENU_UNMUTE_ERROR_NOBODY
-LANG_ENGLISH        "Suas preferencias atuais nao permitem falar com ninguem."
+LANG_ENGLISH        "Suas preferencias atuais não permitem falar com ninguem."
 
 REFERENCE           CH_KILLS_COOKED
 LANG_ENGLISH        "Master Chef"
@@ -28294,7 +28294,7 @@ REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_SETTINGS
 LANG_ENGLISH        "Configuracoes do Reel de Destaques"
 
 REFERENCE           MENU_SELECT_WEAPON
-LANG_ENGLISH        "Arma Primaria"
+LANG_ENGLISH        "Arma Primária"
 
 REFERENCE           MENU_SIGHTS
 LANG_ENGLISH        "Miras"
@@ -28366,7 +28366,7 @@ REFERENCE           MENU_POWERSHOT
 LANG_ENGLISH        "Tiro Poderoso"
 
 REFERENCE           MENU_WAGER_NO_FUNDS
-LANG_ENGLISH        "Fundos insuficientes. Voce nao tem ^BCP^ suficiente para jogar uma partida com aposta."
+LANG_ENGLISH        "Fundos insuficientes. Voce não tem ^BCP^ suficiente para jogar uma partida com aposta."
 
 REFERENCE           MENU_WINNING_CAPS
 LANG_ENGLISH        "VENCENDO"
@@ -28606,7 +28606,7 @@ REFERENCE           MENU_FILESHARE_LOADING
 LANG_ENGLISH        "Carregando.."
 
 REFERENCE           MENU_DIVISION_TRANSFER_DESC
-LANG_ENGLISH        "Sua equipe foi movida para uma nova divisao."
+LANG_ENGLISH        "Sua equipe foi movida para uma nova divisão."
 
 REFERENCE           MENU_TIME
 LANG_ENGLISH        "Tempo"
@@ -28684,7 +28684,7 @@ REFERENCE           MENU_EMBLEM_CONFIRM_SAVE_CAPS
 LANG_ENGLISH        "SALVAR ALTERACOES DO PLAYERCARD?"
 
 REFERENCE           MENU_EMBLEM_EXIT_CAPS
-LANG_ENGLISH        "NAO SALVAR"
+LANG_ENGLISH        "NÃO SALVAR"
 
 REFERENCE           MENU_EMBLEM_EDIT_DESC
 LANG_ENGLISH        "Edite a posicao e cor da camada &&1."
@@ -28756,7 +28756,7 @@ REFERENCE           MENU_LOSSES_CAPS
 LANG_ENGLISH        "DERROTAS"
 
 REFERENCE           MENU_FILESHARE_NORESULTS
-LANG_ENGLISH        "Nao encontramos resultados correspondentes a esse criterio."
+LANG_ENGLISH        "Não encontramos resultados correspondentes a esse criterio."
 
 REFERENCE           MENU_FILESHARE_INFOUPDATED
 LANG_ENGLISH        "Informacoes do Arquivo Atualizadas"
@@ -28768,7 +28768,7 @@ REFERENCE           MENU_NO_SALE_CAPS
 LANG_ENGLISH        "SEM VENDA"
 
 REFERENCE           MENU_CANNOT_SELL
-LANG_ENGLISH        "Voce nao pode vender &&1 porque ainda esta equipado."
+LANG_ENGLISH        "Voce não pode vender &&1 porque ainda esta equipado."
 
 REFERENCE           MENU_USE_GUEST
 LANG_ENGLISH        "Jogar como convidado"
@@ -28801,7 +28801,7 @@ REFERENCE           MENU_DEMO_DVR_SCREENSHOT
 LANG_ENGLISH        "CAPTURA DE TELA"
 
 REFERENCE           MENU_NO_CAPS
-LANG_ENGLISH        "NAO"
+LANG_ENGLISH        "NÃO"
 
 REFERENCE           CH_FINAL_KILLCAM_STUCK_BOLT
 LANG_ENGLISH        "Flecha Final"
@@ -28936,7 +28936,7 @@ REFERENCE           MENU_SERVER_SETTINGS_DESC
 LANG_ENGLISH        "Editar configuracoes do servidor."
 
 REFERENCE           MENU_THEATER_FILM_NOT_SELECTED
-LANG_ENGLISH        "&&1 nao selecionou um Filme."
+LANG_ENGLISH        "&&1 não selecionou um Filme."
 
 REFERENCE           MENU_EMAIL_KEYBOARD_TITLE_CAPS
 LANG_ENGLISH        "INSERIR ENDERECO DE EMAIL"
@@ -28996,7 +28996,7 @@ REFERENCE           MENU_PS3_INSTALL_CONFIRM_POST
 LANG_ENGLISH        " de espaco livre. Continuar?"
 
 REFERENCE           MENU_PS3_INSTALL_NEEDSPACE
-LANG_ENGLISH        "Nao ha espaco suficiente no HDD. Para criar dados, pelo menos &&1 MB adicionais sao necessarios. Saia do jogo e obtenha o espaco necessario."
+LANG_ENGLISH        "Não ha espaco suficiente no HDD. Para criar dados, pelo menos &&1 MB adicionais sao necessarios. Saia do jogo e obtenha o espaco necessario."
 
 REFERENCE           MENU_PS3_INSTALL_SUCCESS
 LANG_ENGLISH        "Instalacao bem-sucedida."
@@ -29008,7 +29008,7 @@ REFERENCE           MENU_PS3_INSTALL_FAILED
 LANG_ENGLISH        "Instalacao falhou. Saia do jogo e exclua estes dados de jogo."
 
 REFERENCE           MENU_PS3_INSTALL_INCOMPLETE
-LANG_ENGLISH        "Os dados de jogo instalados estao incompletos e nao serao usados. Saia do jogo e exclua estes dados."
+LANG_ENGLISH        "Os dados de jogo instalados estao incompletos e não serao usados. Saia do jogo e exclua estes dados."
 
 REFERENCE           MENU_PRESTIGE_HINT
 LANG_ENGLISH        "Voce Prestigiou. Agora e hora de provar suas habilidades com equipamentos, perks e wildcards em Partida Publica. "
@@ -29143,7 +29143,7 @@ REFERENCE           MENU_LEAVE_GAME_WAGER
 LANG_ENGLISH        "Aviso: Sair cedo do jogo cancelara sua aposta."
 
 REFERENCE           MENU_SERVER_BROWSER_DESC
-LANG_ENGLISH        "Encontre partidas Ranqueadas, Nao Ranqueadas, com Aposta e mais no Navegador de Servidores."
+LANG_ENGLISH        "Encontre partidas Ranqueadas, Não Ranqueadas, com Aposta e mais no Navegador de Servidores."
 
 REFERENCE           MENU_RANKED_MATCH_DESC
 LANG_ENGLISH        "Entrar em uma Partida Ranqueada."
@@ -29173,10 +29173,10 @@ REFERENCE           EM_MORTAR_SHELL
 LANG_ENGLISH        "Projetil de Morteiro"
 
 REFERENCE           MENU_WAGER_FAIL_DESC
-LANG_ENGLISH        "Se os jogadores restantes nao concluirem a Partida com Aposta, sua aposta sera reembolsada em breve."
+LANG_ENGLISH        "Se os jogadores restantes não concluirem a Partida com Aposta, sua aposta sera reembolsada em breve."
 
 REFERENCE           MENU_NOT_XBOXLIVE_PARTY_MEMBER
-LANG_ENGLISH        "Voce nao faz parte de um Grupo do Xbox LIVE."
+LANG_ENGLISH        "Voce não faz parte de um Grupo do Xbox LIVE."
 
 REFERENCE           MENU_SAVE_INFORMATION_CAPS
 LANG_ENGLISH        "INFORMACOES DE SALVAMENTO"
@@ -29209,7 +29209,7 @@ REFERENCE           MENU_EVERYONE_JOINED_GAME
 LANG_ENGLISH        "Todos do seu grupo entraram no jogo."
 
 REFERENCE           MENU_MIN_ONE_REMOTE
-LANG_ENGLISH        "Voce precisa de pelo menos um jogador nao local no lobby para iniciar a partida."
+LANG_ENGLISH        "Voce precisa de pelo menos um jogador não local no lobby para iniciar a partida."
 
 REFERENCE           MENU_X_OPTICS
 LANG_ENGLISH        "&&1 Miras"
@@ -29230,7 +29230,7 @@ REFERENCE           MENU_MOUSE_LOOK_CAPS
 LANG_ENGLISH        "OLHAR DO MOUSE"
 
 REFERENCE           MENU_CENTER_VIEW_CAPS
-LANG_ENGLISH        "CENTRALIZAR VISAO"
+LANG_ENGLISH        "CENTRALIZAR VISÃO"
 
 REFERENCE           MENU_INVERT_MOUSE_CAPS
 LANG_ENGLISH        "INVERTER MOUSE"
@@ -29251,7 +29251,7 @@ REFERENCE           MENU_QUICK_SAVE_CAPS
 LANG_ENGLISH        "SALVAMENTO RAPIDO"
 
 REFERENCE           MENU_FORWARD_CAPS
-LANG_ENGLISH        "FRENTE"
+LANG_ENGLISH        "AVANÇAR"
 
 REFERENCE           MENU_BACKPEDAL_CAPS
 LANG_ENGLISH        "RECUAR"
@@ -29266,13 +29266,13 @@ REFERENCE           MENU_LEAN_LEFT_CAPS
 LANG_ENGLISH        "INCLINAR ESQUERDA"
 
 REFERENCE           MENU_GUEST_SIGNOUT_WARNING
-LANG_ENGLISH        "Sair da conta de convidado limpara todo o progresso, incluindo equipamentos personalizados. A conta principal nao e afetada. Tem certeza?"
+LANG_ENGLISH        "Sair da conta de convidado limpara todo o progresso, incluindo equipamentos personalizados. A conta principal não e afetada. Tem certeza?"
 
 REFERENCE           MENU_LEAN_RIGHT_CAPS
 LANG_ENGLISH        "INCLINAR DIREITA"
 
 REFERENCE           MENU_PRONE_CAPS
-LANG_ENGLISH        "DEITADO"
+LANG_ENGLISH        "DEITAR"
 
 REFERENCE           MENU_CLASS_OPTIONS
 LANG_ENGLISH        "Opcoes de Classe"
@@ -29302,7 +29302,7 @@ REFERENCE           MENU_PLAYER_NAME_CAPS
 LANG_ENGLISH        "NOME DO JOGADOR"
 
 REFERENCE           MENU_STANDJUMP_CAPS
-LANG_ENGLISH        "EM PE/PULAR"
+LANG_ENGLISH        "EM PÉ/PULAR"
 
 REFERENCE           MENU_GO_TO_PRONE_CAPS
 LANG_ENGLISH        "DEITAR"
@@ -29521,7 +29521,7 @@ REFERENCE           MENU_SYSINFO_Q
 LANG_ENGLISH        "Q: &&1"
 
 REFERENCE           MENU_STORE_EMPTY
-LANG_ENGLISH        "Nao ha itens na loja no momento."
+LANG_ENGLISH        "Não ha itens na loja no momento."
 
 REFERENCE           MENU_STORE_CONNECTING
 LANG_ENGLISH        "Conectando..."
@@ -29599,7 +29599,7 @@ REFERENCE           MENU_CONNECTING_TO_DW
 LANG_ENGLISH        "Conectando..."
 
 REFERENCE           MENU_NO_FRIENDS
-LANG_ENGLISH        "Voce nao tem amigos."
+LANG_ENGLISH        "Voce não tem amigos."
 
 REFERENCE           MENU_DEMO_DOLLYCAM_MAX_POINTS
 LANG_ENGLISH        "Voce atingiu o numero maximo de marcadores permitidos."
@@ -29638,7 +29638,7 @@ REFERENCE           MENU_CLAN_NAME
 LANG_ENGLISH        "Nome do Cla"
 
 REFERENCE           MENU_VOTE_NO_CAPS
-LANG_ENGLISH        "VOTAR NAO"
+LANG_ENGLISH        "VOTAR NÃO"
 
 REFERENCE           MENU_DEMO_DOLLYCAM_MARKER_EDIT
 LANG_ENGLISH        "Editar Marcador de Camera Dolly # &&1"
@@ -29647,7 +29647,7 @@ REFERENCE           MENU_DEMO_DOLLYCAM_MARKER_REMOVE_ALL
 LANG_ENGLISH        "Remover Todos os Marcadores"
 
 REFERENCE           MENU_DEMO_DOLLYCAM_NO_MARKERS
-LANG_ENGLISH        "Voce mudou para a Camera Dolly, mas nao colocou marcadores. Coloque marcadores no Modo de Edicao de Camera. "
+LANG_ENGLISH        "Voce mudou para a Camera Dolly, mas não colocou marcadores. Coloque marcadores no Modo de Edicao de Camera. "
 
 REFERENCE           MENU_STORE_PS3_CAPS
 LANG_ENGLISH        "PlayStation®Store"
@@ -29863,7 +29863,7 @@ REFERENCE           MENU_USERNAME
 LANG_ENGLISH        "Nome de Usuario"
 
 REFERENCE           MENU_NOT_JOINABLE_CAPS
-LANG_ENGLISH        "NAO PODE ENTRAR"
+LANG_ENGLISH        "NÃO PODE ENTRAR"
 
 REFERENCE           MENU_CAREER_STATS_VS_CAPS
 LANG_ENGLISH        "ESTATISTICAS DE CARREIRA VS"
@@ -29932,7 +29932,7 @@ REFERENCE           MENU_CUSTOMIZE_CAPS
 LANG_ENGLISH        "PERSONALIZAR"
 
 REFERENCE           MENU_LEAGUE_FIND_MATCH_INVALID_TEAM_DESC
-LANG_ENGLISH        "Equipes nao podem jogar nesta liga."
+LANG_ENGLISH        "Equipes não podem jogar nesta liga."
 
 REFERENCE           MENU_LOADOUTS_CAPS
 LANG_ENGLISH        "EQUIPAMENTOS"
@@ -29953,7 +29953,7 @@ REFERENCE           MENU_SUBUSER_SIGNOUT_WARNING
 LANG_ENGLISH        "Tem certeza que deseja sair desta subconta?"
 
 REFERENCE           XBOXLIVE_SAMECLAN
-LANG_ENGLISH        "Entrar em sessao em andamento nao e permitido quando membros do mesmo cla tentam entrar na partida no lobby do cla."
+LANG_ENGLISH        "Entrar em sessao em andamento não e permitido quando membros do mesmo cla tentam entrar na partida no lobby do cla."
 
 REFERENCE           MENU_DAYS_ABBREVIATION
 LANG_ENGLISH        "d"
@@ -29992,7 +29992,7 @@ REFERENCE           MENU_LAST_GAME_RESULT
 LANG_ENGLISH        "Resultado da Ultima Partida:"
 
 REFERENCE           MENU_OVERVIEW_CAPS
-LANG_ENGLISH        "VISAO GERAL"
+LANG_ENGLISH        "VISÃO GERAL"
 
 REFERENCE           MENU_STATS_CAPS
 LANG_ENGLISH        "ESTATISTICAS"
@@ -30010,7 +30010,7 @@ REFERENCE           MENU_TURN_ON_HUD
 LANG_ENGLISH        "Ligar HUD"
 
 REFERENCE           MENU_NO_LEADERBOARDS
-LANG_ENGLISH        "NAO FOI POSSIVEL OBTER RANKINGS"
+LANG_ENGLISH        "NÃO FOI POSSIVEL OBTER RANKINGS"
 
 REFERENCE           MENU_PLAYER_CAPS
 LANG_ENGLISH        "JOGADOR"
@@ -30115,7 +30115,7 @@ REFERENCE           MENU_NEW_RANK
 LANG_ENGLISH        "Ranque"
 
 REFERENCE           MENU_NEW_DIVISION
-LANG_ENGLISH        "Divisao"
+LANG_ENGLISH        "Divisão"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_STYLE_SETTINGS_DESC
 LANG_ENGLISH        "Defina o tipo de eventos que deseja incluir no Reel de Destaques. "
@@ -30130,7 +30130,7 @@ REFERENCE           MENU_BUFFERING
 LANG_ENGLISH        "Bufferizando"
 
 REFERENCE           MENU_BONUSCARD_PRIMARY_GUNFIGHTER_DESC
-LANG_ENGLISH        "Pegue um 3o acessorio para sua arma primaria."
+LANG_ENGLISH        "Pegue um 3o acessorio para sua arma primária."
 
 REFERENCE           MENU_BONUSCARD_SECONDARY_GUNFIGHTER_DESC
 LANG_ENGLISH        "Pegue um 2o acessorio para sua arma secundaria."
@@ -30208,7 +30208,7 @@ REFERENCE           MENU_DEMO_CUSTOMIZE_HIGHLIGHT_REEL
 LANG_ENGLISH        "Personalizar Reel de Destaques"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_NO_EVENTS
-LANG_ENGLISH        "O sistema de reel de destaques nao encontrou eventos que correspondam aos seus criterios de filtro. Tente alterar os parametros e regerar o reel de destaques."
+LANG_ENGLISH        "O sistema de reel de destaques não encontrou eventos que correspondam aos seus criterios de filtro. Tente alterar os parametros e regerar o reel de destaques."
 
 REFERENCE           EM_E01
 LANG_ENGLISH        "Letra E"
@@ -30262,10 +30262,10 @@ REFERENCE           MENU_HACKER_DESC
 LANG_ENGLISH        "Hackeie A.G.R.s inimigos para pontuacao massiva!"
 
 REFERENCE           MENU_BONUSCARD_SECONDARY_GUNFIGHTER_NA
-LANG_ENGLISH        "Wildcard indisponivel quando acessorios nao estao disponiveis para arma secundaria."
+LANG_ENGLISH        "Wildcard indisponivel quando acessorios não estao disponiveis para arma secundaria."
 
 REFERENCE           MENU_BONUSCARD_PRIMARY_GUNFIGHTER_NA
-LANG_ENGLISH        "Wildcard indisponivel quando acessorios nao estao disponiveis para arma primaria."
+LANG_ENGLISH        "Wildcard indisponivel quando acessorios não estao disponiveis para arma primária."
 
 REFERENCE           MENU_BONUSCARDS_CAPS
 LANG_ENGLISH        "CARTOES DE BONUS"
@@ -30361,7 +30361,7 @@ REFERENCE           MENU_ENEMY_BOTS
 LANG_ENGLISH        "Bots que lutarao pela equipe inimiga."
 
 REFERENCE           MENU_LEAGUE_NO_TEAMS_DESC
-LANG_ENGLISH        "Voce nao se posicionou em nenhuma Liga. Suas Ladders Solo e Equipes de Liga aparecerao apos se posicionar em uma Liga. "
+LANG_ENGLISH        "Voce não se posicionou em nenhuma Liga. Suas Ladders Solo e Equipes de Liga aparecerao apos se posicionar em uma Liga. "
 
 REFERENCE           MENU_DRONE_HACK_TIME
 LANG_ENGLISH        "A quantidade de tempo necessaria para hackear um Robo Terrestre Autonomo."
@@ -30385,7 +30385,7 @@ REFERENCE           MENU_UNAVAILABLE_CAPS
 LANG_ENGLISH        "INDISPONIVEL"
 
 REFERENCE           MENU_CAREER_OVERVIEW_CAPS
-LANG_ENGLISH        "VISAO GERAL DA CARREIRA"
+LANG_ENGLISH        "VISÃO GERAL DA CARREIRA"
 
 REFERENCE           MENU_STUN_KILLS_CAPS
 LANG_ENGLISH        "ABATES COM ATORDOAMENTO"
@@ -30481,7 +30481,7 @@ REFERENCE           MENU_CAPTURE_TIME_HINT
 LANG_ENGLISH        "A quantidade de tempo para capturar um objetivo."
 
 REFERENCE           MENU_MATCHES_REMAINING_SOLO
-LANG_ENGLISH        "Partidas restantes ate ser posicionado em uma Divisao"
+LANG_ENGLISH        "Partidas restantes ate ser posicionado em uma Divisão"
 
 REFERENCE           CH_KILLS_NO_MISSES_PISTOL
 LANG_ENGLISH        "Pistol Perfectionist"
@@ -30706,7 +30706,7 @@ REFERENCE           MENU_NEW_SECONDARY
 LANG_ENGLISH        "Nova Arma Secundaria"
 
 REFERENCE           MENU_NEW_PRIMARY
-LANG_ENGLISH        "Nova Arma Primaria"
+LANG_ENGLISH        "Nova Arma Primária"
 
 REFERENCE           MENU_NEW_BACKGROUND
 LANG_ENGLISH        "Novo Plano de Fundo"
@@ -30991,7 +30991,7 @@ REFERENCE           MENU_EMBLEM_LAYER_CHANGE_ICON
 LANG_ENGLISH        "Alterar Emblema"
 
 REFERENCE           MENU_SETBACKS_SAS_HINT
-LANG_ENGLISH        "Quantos pontos um jogador perde quando abatido com a arma Setback. Se nenhuma arma for definida, nao tera impacto. A pontuacao nunca pode ser menor que zero."
+LANG_ENGLISH        "Quantos pontos um jogador perde quando abatido com a arma Setback. Se nenhuma arma for definida, não tera impacto. A pontuacao nunca pode ser menor que zero."
 
 REFERENCE           MENU_EMBLEM_LAYER_EDIT_CONTROLS
 LANG_ENGLISH        "Controles de Edicao de Camada"
@@ -31102,10 +31102,10 @@ REFERENCE           MENU_FILESHARE_NEWDESCRIPTION
 LANG_ENGLISH        "Descricao"
 
 REFERENCE           MENU_LEAGUE_FIND_MATCH_INVALID_SOLO_DESC
-LANG_ENGLISH        "Jogadores solo nao podem jogar nesta liga."
+LANG_ENGLISH        "Jogadores solo não podem jogar nesta liga."
 
 REFERENCE           MENU_LEAGUE_FIND_MATCH_INVALID_TEAMSIZE_DESC
-LANG_ENGLISH        "O tamanho da sua equipe nao e valido para esta liga."
+LANG_ENGLISH        "O tamanho da sua equipe não e valido para esta liga."
 
 REFERENCE           MENU_NEXT
 LANG_ENGLISH        "Proximo"
@@ -31192,7 +31192,7 @@ REFERENCE           MENU_DEMO_CONTROLS_TOGGLE_CONTROLS
 LANG_ENGLISH        "Alternar Controles"
 
 REFERENCE           MENU_FILESHARE_ONLY_HOST_ALLOWED_TO_LOAD
-LANG_ENGLISH        "Nao e possivel carregar este arquivo no Teatro pois voce nao e o host deste lobby."
+LANG_ENGLISH        "Não e possivel carregar este arquivo no Teatro pois voce não e o host deste lobby."
 
 REFERENCE           MENU_TOP_X
 LANG_ENGLISH        "Top &&1"
@@ -31228,7 +31228,7 @@ REFERENCE           MENU_OUTCOME_CAPS
 LANG_ENGLISH        "RESULTADO"
 
 REFERENCE           MENU_SUBDIVISION
-LANG_ENGLISH        "Subdivisao"
+LANG_ENGLISH        "Subdivisão"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_STYLE_SETTINGS_ZM_SAVIOR_AND_SINNER
 LANG_ENGLISH        "Salvador e Pecador"
@@ -31291,7 +31291,7 @@ REFERENCE           XBOXLIVE_SIGNEDOUT
 LANG_ENGLISH        "Seu perfil foi desconectado"
 
 REFERENCE           MENU_FILESHARE_LIKEDISLIKE
-LANG_ENGLISH        "Curtir/Nao Curtir"
+LANG_ENGLISH        "Curtir/Não Curtir"
 
 REFERENCE           MENU_TEAM_SCORE_PER_HEADSHOT_HINT
 LANG_ENGLISH        "Pontos extras concedidos se o abate for um tiro na cabeca, alem dos pontos por abate."
@@ -31330,7 +31330,7 @@ REFERENCE           MENU_PICKUP_TIME_HINT
 LANG_ENGLISH        "A quantidade de tempo para pegar a bandeira inimiga."
 
 REFERENCE           MENU_MATCH_NOT_FOUND_CAPS
-LANG_ENGLISH        "PARTIDA NAO ENCONTRADA"
+LANG_ENGLISH        "PARTIDA NÃO ENCONTRADA"
 
 REFERENCE           MENU_SFAVAILABLE_CAPS
 LANG_ENGLISH        "Uma nova Missao Strike Force esta disponivel."
@@ -31339,7 +31339,7 @@ REFERENCE           MENU_SFAVAILABLE_DESC1
 LANG_ENGLISH        "A missao '&&1' estara disponivel apenas por &&2 nivel(is) de campanha."
 
 REFERENCE           MENU_SFAVAILABLE_DESC2
-LANG_ENGLISH        "A missao '&&1' nao estara disponivel apos concluir o proximo nivel da campanha."
+LANG_ENGLISH        "A missao '&&1' não estara disponivel apos concluir o proximo nivel da campanha."
 
 REFERENCE           MENU_SETBACKS
 LANG_ENGLISH        "Contratempos"
@@ -31369,7 +31369,7 @@ REFERENCE           MENU_GUNLIST_5
 LANG_ENGLISH        "Aleatorio"
 
 REFERENCE           MENU_CHANGEHISTORY_Q_CAPS
-LANG_ENGLISH        "Rewind Story permite reproduzir o jogo a partir deste ponto e fazer escolhas diferentes para mudar sua historia. Esta acao resetara seu progresso para esta missao e sobrescrevera seu salvamento. Isso nao pode ser desfeito. Tem certeza?"
+LANG_ENGLISH        "Rewind Story permite reproduzir o jogo a partir deste ponto e fazer escolhas diferentes para mudar sua historia. Esta acao resetara seu progresso para esta missao e sobrescrevera seu salvamento. Isso não pode ser desfeito. Tem certeza?"
 
 REFERENCE           MENU_CHANGE_HISTORY
 LANG_ENGLISH        "REBOBINAR HISTORIA"
@@ -31399,7 +31399,7 @@ REFERENCE           MENU_FILESHARE_TITLE_FILE_DELETED
 LANG_ENGLISH        "Arquivo Excluido"
 
 REFERENCE           MENU_SERVER_NOT_AVAILABLE_TRY_LATER
-LANG_ENGLISH        "O servidor do Call of Duty nao esta disponivel no momento. Tente novamente mais tarde."
+LANG_ENGLISH        "O servidor do Call of Duty não esta disponivel no momento. Tente novamente mais tarde."
 
 REFERENCE           MENU_HELP_CAPS
 LANG_ENGLISH        "AJUDA"
@@ -31465,7 +31465,7 @@ REFERENCE           MENU_MOVING_SEGMENT_SELECT_NEW_SPOT
 LANG_ENGLISH        "Movendo &&1.\nSelecione um novo ponto na linha do tempo para colocar o clipe."
 
 REFERENCE           MENU_CANNOT_PLACE_SEGMENT_IN_TIMELINE
-LANG_ENGLISH        "Nao e possivel colocar &&1 neste ponto da linha do tempo."
+LANG_ENGLISH        "Não e possivel colocar &&1 neste ponto da linha do tempo."
 
 REFERENCE           MENU_SEGMENT_OPTIONS_DESC
 LANG_ENGLISH        "O que deseja fazer com este clipe?"

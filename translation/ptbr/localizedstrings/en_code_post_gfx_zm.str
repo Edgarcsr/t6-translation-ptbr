@@ -64,7 +64,7 @@ REFERENCE           MPUI_SANDSTORM_CAPS
 LANG_ENGLISH        "SANDSTORM"
 
 REFERENCE           KEY_UNBOUND
-LANG_ENGLISH        "UNBOUND"
+LANG_ENGLISH        "NÃO ASSOCIADO"
 
 REFERENCE           WEAPON_BOUNCING_BETTY
 LANG_ENGLISH        "Bouncing Betty"
@@ -181,7 +181,7 @@ REFERENCE           KEY_ENTER
 LANG_ENGLISH        "ENTER"
 
 REFERENCE           PLATFORM_WINDOWED_FULLSCREEN
-LANG_ENGLISH        "Janelado (Tela Cheia)"
+LANG_ENGLISH        "Tela Cheia (Em janela)"
 
 REFERENCE           MPUI_NVA
 LANG_ENGLISH        "NVA"
@@ -1156,7 +1156,7 @@ REFERENCE           WEAPON_LSAT_ACOG
 LANG_ENGLISH        "LSAT ACOG"
 
 REFERENCE           PLATFORM_NEXT_WEAPON_CAPS
-LANG_ENGLISH        "NEXT WEAPON"
+LANG_ENGLISH        "PRÓXIMA ARMA"
 
 REFERENCE           WEAPON_FLASHLIGHT_TOKAREV
 LANG_ENGLISH        "Tokarev e Flashlight"
@@ -5326,7 +5326,7 @@ REFERENCE           WEAPON_SIG556_ACOG
 LANG_ENGLISH        "SIG556 ACOG"
 
 REFERENCE           PLATFORM_SWITCH_WEAPON_CAPS
-LANG_ENGLISH        "ARMA ANTERIOR"
+LANG_ENGLISH        "TROCAR ARMA"
 
 REFERENCE           MENU_SAVEQUIT_TEXT_1
 LANG_ENGLISH        "Se você salvar agora, "
@@ -5452,7 +5452,7 @@ REFERENCE           MPUI_RULES_2_5SECONDS_CAPS
 LANG_ENGLISH        "2.5 SEGUNDOS"
 
 REFERENCE           PLATFORM_DISPLAY_MODE_DESC
-LANG_ENGLISH        "Selecione Janelado, Tela Cheia ou Janelado (Tela Cheia). Pressionar Alt + Enter alternará entre os modos tela cheia e janelado."
+LANG_ENGLISH        "Selecione Janela, Tela Cheia ou Tela Cheia (Em janela). Pressionar Alt + Enter alternará entre os modos tela cheia e janela."
 
 REFERENCE           PLATFORM_TEXTURE_QUALITY_DESC
 LANG_ENGLISH        "Ajuste as resoluções das texturas usadas pelo jogo."
@@ -5503,7 +5503,7 @@ REFERENCE           WEAPON_SENSOR_GRENADE
 LANG_ENGLISH        "Granada Sensora"
 
 REFERENCE           PLATFORM_WINDOWED
-LANG_ENGLISH        "Janelado"
+LANG_ENGLISH        "Janela"
 
 REFERENCE           PLATFORM_RAGDOLL_CAPS
 LANG_ENGLISH        "RAGDOLL"
