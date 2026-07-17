@@ -1058,7 +1058,7 @@ REFERENCE           MENU_N_PLAYERCARD_CAPS
 LANG_ENGLISH        "PLAYERCARD DE &&1"
 
 REFERENCE           MENU_PLAYER_IDENTITY
-LANG_ENGLISH        "Playercard"
+LANG_ENGLISH        "Cartão de Jogador"
 
 REFERENCE           EXE_SIGNINTIMEOUT
 LANG_ENGLISH        "Login expirou"
@@ -1199,7 +1199,7 @@ REFERENCE           MPUI_RETICLE_HOLO_32
 LANG_ENGLISH        "Ceifador"
 
 REFERENCE           EM_BACK_DJIBOUTI
-LANG_ENGLISH        "Djibouti"
+LANG_ENGLISH        "Djibuti"
 
 REFERENCE           MENU_TWITTER_REGISTERATION_ERROR
 LANG_ENGLISH        "Ocorreu um erro ao tentar vincular sua conta do Twitter."
@@ -1469,7 +1469,7 @@ REFERENCE           MENU_BEST_WIN_STREAK
 LANG_ENGLISH        "Melhor Sequência de Vitórias"
 
 REFERENCE           MEDAL_HEADSHOT
-LANG_ENGLISH        "Headshot"
+LANG_ENGLISH        "Tiro na Cabeça"
 
 REFERENCE           MEDAL_KILL_ENEMY_AFTER_DEATH
 LANG_ENGLISH        "Pós-Vida"
@@ -3963,7 +3963,7 @@ REFERENCE           EM_BACK_ANTIGUA
 LANG_ENGLISH        "Antígua"
 
 REFERENCE           MENU_DLCZM0_MAP_PACK_NAME
-LANG_ENGLISH        "Nuketown Zombies"
+LANG_ENGLISH        "Nuketown Zumbis"
 
 REFERENCE           MPUI_DOWNHILL_CAPS
 LANG_ENGLISH        "DOWNHILL"
