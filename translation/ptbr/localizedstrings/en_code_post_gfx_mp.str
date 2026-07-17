@@ -13,7 +13,7 @@ REFERENCE           MENU_OUTOFSFUNITS_CAPS
 LANG_ENGLISH        "You have no more STRIKE FORCE TEAMS available. Completing Story levels will unlock additional TEAMS."
 
 REFERENCE           MPUI_AMMOPACK
-LANG_ENGLISH        "Pacote de Municao"
+LANG_ENGLISH        "Pacote de Munição"
 
 REFERENCE           CHALLENGE_PERK_TOUGHNESS_DESC
 LANG_ENGLISH        "Kill &&1 enemies after taking damage while using Toughness."
@@ -289,7 +289,7 @@ REFERENCE           PLATFORM_WINDOWED_FULLSCREEN
 LANG_ENGLISH        "Tela Cheia (Em Janela)"
 
 REFERENCE           PLATFORM_NEXT_SCORE_STREAK_CAPS
-LANG_ENGLISH        "PROXIMA SERIE DE PONTUACAO"
+LANG_ENGLISH        "PROXIMA SERIE DE PONTUAÇÃO"
 
 REFERENCE           PLATFORM_YES
 LANG_ENGLISH        "^BBUTTON_YES^ Sim"
@@ -478,7 +478,7 @@ REFERENCE           GAME_OPFOR
 LANG_ENGLISH        "Oposicao"
 
 REFERENCE           WEAPON_QCW05_DESC_SP
-LANG_ENGLISH        "Submetralhadora totalmente automatica. Alta taxa de disparo com um carregador grande."
+LANG_ENGLISH        "Submetralhadora totalmente automática. Alta taxa de disparo com um carregador grande."
 
 REFERENCE           MP_TEAM_ASSIST
 LANG_ENGLISH        "Assistencia de Equipe"
@@ -631,7 +631,7 @@ REFERENCE           CHALLENGE_TYPE_HCDOM
 LANG_ENGLISH        "Dominacao Hardcore"
 
 REFERENCE           MPUI_SCORE
-LANG_ENGLISH        "Pontuacao"
+LANG_ENGLISH        "Pontuação"
 
 REFERENCE           KEY_MOUSE1
 LANG_ENGLISH        "LEFT MOUSE"
@@ -670,7 +670,7 @@ REFERENCE           MPUI_RULES_FREE_CAPS
 LANG_ENGLISH        "GRATIS"
 
 REFERENCE           MENU_AUDIO_SETTINGS_CAPS
-LANG_ENGLISH        "CONFIGURACOES DE AUDIO"
+LANG_ENGLISH        "CONFIGURAÇÕES DE AUDIO"
 
 REFERENCE           CHALLENGE_WEAPON_KILLS_AWARD
 LANG_ENGLISH        "Unlocked: &&1 Camo"
@@ -946,7 +946,7 @@ REFERENCE           KEY_LEFT_RIGHT_ARROWS
 LANG_ENGLISH        "LEFT/RIGHT ARROWS"
 
 REFERENCE           WEAPON_LSAT_AMMOPACK
-LANG_ENGLISH        "LSAT Pacote de Municao"
+LANG_ENGLISH        "LSAT Pacote de Munição"
 
 REFERENCE           MPUI_RETICLE_ACOG_10
 LANG_ENGLISH        "3ARC"
@@ -1741,7 +1741,7 @@ REFERENCE           WEAPON_QCW05_RANGEFINDER
 LANG_ENGLISH        "Chicom CQB Busca-Alvos"
 
 REFERENCE           MPUI_DESC_FIND_GAME_LOCKED
-LANG_ENGLISH        "Apenas o anfitriao do grupo pode encontrar partidas."
+LANG_ENGLISH        "Apenas o anfitrião do grupo pode encontrar partidas."
 
 REFERENCE           RANK_LTCOL
 LANG_ENGLISH        "LtCol."
@@ -1849,10 +1849,10 @@ REFERENCE           PERKS_INTRUDER_DESC
 LANG_ENGLISH        "Intruder description."
 
 REFERENCE           PLATFORM_ZOMBIE_WAVES_CAPS
-LANG_ENGLISH        "^BBUTTON_CAC_PREV^ PONTUACAO MAXIMA ^BBUTTON_CAC_NEXT^"
+LANG_ENGLISH        "^BBUTTON_CAC_PREV^ PONTUAÇÃO MAXIMA ^BBUTTON_CAC_NEXT^"
 
 REFERENCE           MP_SCORE_LIMIT_REACHED
-LANG_ENGLISH        "Limite de pontuacao atingido"
+LANG_ENGLISH        "Limite de pontuação atingido"
 
 REFERENCE           MPUI_COUNTRY_POLAND
 LANG_ENGLISH        "Polonia"
@@ -1909,7 +1909,7 @@ REFERENCE           MP_ROUND_LIMIT_REACHED
 LANG_ENGLISH        "Limite de rodadas atingido"
 
 REFERENCE           MENU_RATIO
-LANG_ENGLISH        "Razao"
+LANG_ENGLISH        "Razão"
 
 REFERENCE           WEAPON_FIVESEVEN_DESC
 LANG_ENGLISH        "Pistola semiautomatica. Versatil e forte no geral com um carregador grande."
@@ -1996,7 +1996,7 @@ REFERENCE           MP_VOTEFAILED
 LANG_ENGLISH        "Votacao falhou"
 
 REFERENCE           MENU_AIM_DOWN_THE_SIGHT_AUTOAIM
-LANG_ENGLISH        "Mira Automatica ao Mirar pela Alca"
+LANG_ENGLISH        "Mira Automática ao Mirar pela Alca"
 
 REFERENCE           MPUI_PLAYER_MATCH
 LANG_ENGLISH        "Player Match"
@@ -2164,7 +2164,7 @@ REFERENCE           MENU_LANGUAGE_CHANGE_AND_RETURN
 LANG_ENGLISH        "language change and return"
 
 REFERENCE           CHALLENGE_TYPE_KILLSTREAK
-LANG_ENGLISH        "Serie de Pontuacao"
+LANG_ENGLISH        "Serie de Pontuação"
 
 REFERENCE           MPUI_WAGER_ADVANCE
 LANG_ENGLISH        "You advanced to tier &&1!"
@@ -2248,7 +2248,7 @@ REFERENCE           MP_AUTOBALANCE_SECONDS
 LANG_ENGLISH        "Teams will be auto-balanced in &&1 seconds"
 
 REFERENCE           MENU_DEMO_DOLLYCAM_MARKER_SPEED
-LANG_ENGLISH        "Configuracoes de Velocidade"
+LANG_ENGLISH        "Configurações de Velocidade"
 
 REFERENCE           EXE_ERR_NOT_RECEIVED
 LANG_ENGLISH        "Requested a command not received."
@@ -2311,7 +2311,7 @@ REFERENCE           EXE_ERR_VIDEOCARD_MISSING_FEATURE
 LANG_ENGLISH        "Your video card appears to be missing one or more features required to run Call of Duty."
 
 REFERENCE           KILLSTREAK_SUPPLY_DROP_DESC
-LANG_ENGLISH        "Lancar uma Serie de Pontuacao aleatoria."
+LANG_ENGLISH        "Lancar uma Serie de Pontuação aleatoria."
 
 REFERENCE           MP_VOTE_CALLED
 LANG_ENGLISH        "Votacao Convocada:  "
@@ -2338,7 +2338,7 @@ REFERENCE           MP_NEUTRAL
 LANG_ENGLISH        "Neutral:  "
 
 REFERENCE           MP_HOST_ENDED_GAME
-LANG_ENGLISH        "Anfitriao encerrou a partida"
+LANG_ENGLISH        "Anfitrião encerrou a partida"
 
 REFERENCE           EM_BG_BACKING163
 LANG_ENGLISH        "Op 40"
@@ -2755,7 +2755,7 @@ REFERENCE           EM_J01
 LANG_ENGLISH        "Letra J"
 
 REFERENCE           PLATFORM_JOINAUTOOFF
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Entrada Automatica Desligada"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Entrada Automática Desligada"
 
 REFERENCE           PLATFORM_CLICK_TO_CONTINUE
 LANG_ENGLISH        "click to continue."
@@ -2854,7 +2854,7 @@ REFERENCE           WEAPON_TAR21_DUALOPTIC
 LANG_ENGLISH        "MTAR Mira Hibrida"
 
 REFERENCE           MP_UNAVAILABLE_FOR_N
-LANG_ENGLISH        "Serie de Pontuacao não pode ser usada para"
+LANG_ENGLISH        "Serie de Pontuação não pode ser usada para"
 
 REFERENCE           EM_BG_BACKING041
 LANG_ENGLISH        "Cova Rasa"
@@ -2905,7 +2905,7 @@ REFERENCE           MPUI_ANY_LOCALE_CAPS
 LANG_ENGLISH        "PADRAO"
 
 REFERENCE           XBOXLIVE_LEAVELOBBY
-LANG_ENGLISH        "Sair do Lobby?"
+LANG_ENGLISH        "Sair da sala?"
 
 REFERENCE           MP_N_REMAINING
 LANG_ENGLISH        "(&&1 remaining)"
@@ -3526,7 +3526,7 @@ REFERENCE           EXE_SV_INFO_CLIENT_CONSOLE
 LANG_ENGLISH        "Client Console"
 
 REFERENCE           MPUI_HOST_DISBAND_PRIVATE_LOBBY
-LANG_ENGLISH        "Dissolver Lobby Privado"
+LANG_ENGLISH        "Dissolver Sala Privada"
 
 REFERENCE           MP_WAR_CAPTURING_ARTILLERY
 LANG_ENGLISH        "Capturando artilharia"
@@ -3724,7 +3724,7 @@ REFERENCE           EM_HAND
 LANG_ENGLISH        "Hand"
 
 REFERENCE           MPUI_KILLSTREAK
-LANG_ENGLISH        "Serie de Pontuacao"
+LANG_ENGLISH        "Serie de Pontuação"
 
 REFERENCE           MP_SEALS_NAME
 LANG_ENGLISH        "SEALs"
@@ -4048,7 +4048,7 @@ REFERENCE           MPUI_2_AMERICAN
 LANG_ENGLISH        "2. American"
 
 REFERENCE           MPUI_START_LOBBY_CAPS
-LANG_ENGLISH        "INICIAR LOBBY"
+LANG_ENGLISH        "INICIAR SALA"
 
 REFERENCE           MENU_VOICE_VOLUME_DESC
 LANG_ENGLISH        "Ajusta o volume das vozes no jogo."
@@ -4189,7 +4189,7 @@ REFERENCE           MP_QRDRONE_ACTIVE
 LANG_ENGLISH        "MQ-7 Wasp Active"
 
 REFERENCE           MENU_RESET_SYSTEM_DEFAULTS_CAPS
-LANG_ENGLISH        "CONFIGURACOES OTIMIZADAS DO SISTEMA"
+LANG_ENGLISH        "CONFIGURAÇÕES OTIMIZADAS DO SISTEMA"
 
 REFERENCE           MPTIP_TRAINING_XP_TIP
 LANG_ENGLISH        "You get XP for kills, completing matches, and finishing Challenges."
@@ -4276,7 +4276,7 @@ REFERENCE           CHALLENGE_MASTERY_EXPERT_DESC
 LANG_ENGLISH        "Complete all Camo unlocks for the &&2."
 
 REFERENCE           WEAPON_FIVESEVEN_DW_DESC
-LANG_ENGLISH        "Pistolas Duais com Alta capacidade de municao"
+LANG_ENGLISH        "Pistolas Duais com Alta capacidade de munição"
 
 REFERENCE           MP_YOUR_FLAG_WAS_RETURNED
 LANG_ENGLISH        "Sua bandeira foi devolvida"
@@ -4375,7 +4375,7 @@ REFERENCE           MPUI_RULES_ITEM_3LIVES_CAPS
 LANG_ENGLISH        "3 LIVES"
 
 REFERENCE           PLATFORM_AMMO_CRATE_GAMBLER
-LANG_ENGLISH        "Segure ^3&&1^7 para Municao OU Toque Duplo ^3[{+reload}]^7 para Tentar Novamente"
+LANG_ENGLISH        "Segure ^3&&1^7 para Munição OU Toque Duplo ^3[{+reload}]^7 para Tentar Novamente"
 
 REFERENCE           MPUI_PLAYER_MATCH_DESC
 LANG_ENGLISH        "Play online to earn Experience (XP)."
@@ -8230,7 +8230,7 @@ REFERENCE           MP_CAPTURE_HQ
 LANG_ENGLISH        "CAPTURE O QG"
 
 REFERENCE           MPUI_TEAM_DEATHMATCH_CAPS
-LANG_ENGLISH        "MORTE EM EQUIPE"
+LANG_ENGLISH        "MATA-MATA EQUIPE"
 
 REFERENCE           MP_HOST_COMMS_FAILURE
 LANG_ENGLISH        "Falha de comunicação com o anfitrião."
@@ -9112,7 +9112,7 @@ REFERENCE           WEAPON_BOUNCINGBETTY_DESC
 LANG_ENGLISH        "Mina de proximidade que se lanca ao ar antes de detonar. Pode ser evitada agachandose ou deitando."
 
 REFERENCE           MENU_SCORESTREAKS
-LANG_ENGLISH        "Series de Pontuacao"
+LANG_ENGLISH        "Series de Pontuação"
 
 REFERENCE           EXE_LOSTRELIABLECOMMANDS
 LANG_ENGLISH        "Comandos confiaveis perdidos"
@@ -9448,7 +9448,7 @@ REFERENCE           EXE_SV_INFO_GAMETYPE
 LANG_ENGLISH        "Tipo de Jogo"
 
 REFERENCE           PLATFORM_CREATELOBBY
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ criar lobby"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ criar sala"
 
 REFERENCE           MPUI_IR_SHORT
 LANG_ENGLISH        "Banda Dupla"
@@ -9817,7 +9817,7 @@ REFERENCE           MENU_DEMO_CONTROLS_JUMP_BACK
 LANG_ENGLISH        "Pular Voltar"
 
 REFERENCE           PLATFORM_LEAVELOBBY
-LANG_ENGLISH        "^BBUTTON_CANCEL^ sair do lobby"
+LANG_ENGLISH        "^BBUTTON_CANCEL^ sair da sala"
 
 REFERENCE           EXE_DISCONNECT
 LANG_ENGLISH        "Desconectado"
@@ -10105,7 +10105,7 @@ REFERENCE           PLATFORM_TOW_TURRET_GAMBLER
 LANG_ENGLISH        "Segure ^3&&1^7 for SAM Battery OR Double Tap ^3[{+reload}]^7 para try again"
 
 REFERENCE           MENU_TIED_CAPS
-LANG_ENGLISH        "TIED"
+LANG_ENGLISH        "EMPATADO"
 
 REFERENCE           EXE_CONFIGSTRINGMISMATCH2
 LANG_ENGLISH        "Ocorreu um erro ao conectar ao anfitrião."
@@ -10948,7 +10948,7 @@ REFERENCE           CHALLENGE_STALKING_PREY
 LANG_ENGLISH        "Stalking Prey&&3"
 
 REFERENCE           MENU_KILLSTREAK_DELAY_HINT
-LANG_ENGLISH        "Delay attacking Series de Pontuacao at the start of the round."
+LANG_ENGLISH        "Delay attacking Series de Pontuação at the start of the round."
 
 REFERENCE           MPUI_RULES_CRATE_CAPTURE_TIME_CAPS
 LANG_ENGLISH        "TEMPO DE CAPTURA DO CAIXOTE"
@@ -11320,7 +11320,7 @@ REFERENCE           MPUI_CAMO_GHOSTEK
 LANG_ENGLISH        "Ghostex: Delta 6"
 
 REFERENCE           PLATFORM_STEAM_JOIN_FAIL
-LANG_ENGLISH        "Falhou to entrar Steam lobby."
+LANG_ENGLISH        "Falhou to entrar na sala Steam."
 
 REFERENCE           PLATFORM_DYK_COOP_MSG6
 LANG_ENGLISH        "Fire Sale spawns all de the Mystery Boxes and slashes prices across the board!"
@@ -11347,7 +11347,7 @@ REFERENCE           MPUI_HITS
 LANG_ENGLISH        "Acertos"
 
 REFERENCE           FEATURE_KILLSTREAKS
-LANG_ENGLISH        "Series de Pontuacao"
+LANG_ENGLISH        "Series de Pontuação"
 
 REFERENCE           MENU_X_POINTS
 LANG_ENGLISH        "&&1Pontos"
@@ -11521,7 +11521,7 @@ REFERENCE           PLATFORM_SCOREBOARD_CAPS
 LANG_ENGLISH        "PLACAR"
 
 REFERENCE           CHALLENGE_SCORE_STREAKS_MASTERY
-LANG_ENGLISH        "Series de Pontuacao Mastery"
+LANG_ENGLISH        "Series de Pontuação Mastery"
 
 REFERENCE           PLATFORM_SCOREBOARD
 LANG_ENGLISH        "^BBUTTON_MP_SCOREBOARD^ Pontuação"
@@ -12808,7 +12808,7 @@ REFERENCE           PLATFORM_EMP_GAMBLER
 LANG_ENGLISH        "Segure ^3&&1^7 for EMP Systems OR Double Tap ^3[{+reload}]^7 para try again"
 
 REFERENCE           MENU_SCORE_TIED
-LANG_ENGLISH        "Tied&&1-&&2"
+LANG_ENGLISH        "Empatado&&1-&&2"
 
 REFERENCE           EM_SOLDIER04_BLACK
 LANG_ENGLISH        "Soldier 4 Black"
@@ -13615,7 +13615,7 @@ REFERENCE           WEAPON_BROWNINGHP_FMJ
 LANG_ENGLISH        "Browning HP FMJ"
 
 REFERENCE           WEAPON_M14_DESC
-LANG_ENGLISH        "Tiro unico com alta potencia. Eficaz em alcance medio a longo."
+LANG_ENGLISH        "Tiro unico com alta potencia. Eficaz em alcance médio a longo."
 
 REFERENCE           MENU_ALLOW_SNIPER_RIFLES
 LANG_ENGLISH        "Permitir Fuzis de Precisao:  "
@@ -13663,7 +13663,7 @@ REFERENCE           CHALLENGE_GM_KOTH_CRUSH_DESC
 LANG_ENGLISH        "Venca &&1 partidas de &&2 com pelo menos 70 pontos de vantagem na equipe."
 
 REFERENCE           WEAPON_M16_DESC
-LANG_ENGLISH        "Fuzil de assalto automatico. Eficaz em alcance medio a longo."
+LANG_ENGLISH        "Fuzil de assalto automatico. Eficaz em alcance médio a longo."
 
 REFERENCE           MENU_TAB_STORE_THEMES
 LANG_ENGLISH        "THEMES"
@@ -13732,7 +13732,7 @@ REFERENCE           WEAPON_M60_ACOG
 LANG_ENGLISH        "M60 ACOG"
 
 REFERENCE           WEAPON_M60_BIGAMMO
-LANG_ENGLISH        "M60 Municao Grande"
+LANG_ENGLISH        "M60 Munição Grande"
 
 REFERENCE           WEAPON_M60_DUAL_ATTACH
 LANG_ENGLISH        "M60 Multiplos Acessorios"
@@ -13819,7 +13819,7 @@ REFERENCE           WEAPON_DUALOPTIC
 LANG_ENGLISH        "Hibrido"
 
 REFERENCE           WEAPON_MP5K_DESC
-LANG_ENGLISH        "Automatica com boa precisao. Eficaz em alcance curto a medio."
+LANG_ENGLISH        "Automática com boa precisao. Eficaz em alcance curto a médio."
 
 REFERENCE           MPUI_RETICLE_REFLEX_3
 LANG_ENGLISH        "Queda de Alvo"
@@ -13840,7 +13840,7 @@ REFERENCE           WEAPON_MP5K_REFLEX
 LANG_ENGLISH        "MP5 Reflex"
 
 REFERENCE           WEAPON_NO_AMMO
-LANG_ENGLISH        "Sem Municao"
+LANG_ENGLISH        "Sem Munição"
 
 REFERENCE           MENU_ATTACH_POINT_TRIGGER
 LANG_ENGLISH        "Ponto de Anexo do Clipe"
@@ -13891,7 +13891,7 @@ REFERENCE           MPUI_HUD_CAPS
 LANG_ENGLISH        "HUD"
 
 REFERENCE           MENU_CLICK_FOR_AUTOUPDATE
-LANG_ENGLISH        "Clique para Atualizacao Automatica"
+LANG_ENGLISH        "Clique para Atualizacao Automática"
 
 REFERENCE           MPUI_LEAVE_WITH_PARTY
 LANG_ENGLISH        "Sair com o Grupo"
@@ -13930,7 +13930,7 @@ REFERENCE           MENU_LB_DENIES
 LANG_ENGLISH        "Negacoes"
 
 REFERENCE           MENU_ZOMBIES_POINTS
-LANG_ENGLISH        "Pontuacao Maxima"
+LANG_ENGLISH        "Pontuação Maxima"
 
 REFERENCE           MENU_LB_TIME_PLAYED
 LANG_ENGLISH        "Tempo de Jogo"
@@ -13954,7 +13954,7 @@ REFERENCE           MENU_BOTS_HINT
 LANG_ENGLISH        "Defina o numero de bots com que deseja jogar e sua dificuldade."
 
 REFERENCE           WEAPON_ROTTWEIL72_DESC
-LANG_ENGLISH        "Escopeta side-by-side. Eficaz em alcance medio a curto."
+LANG_ENGLISH        "Escopeta side-by-side. Eficaz em alcance médio a curto."
 
 REFERENCE           WEAPON_SIG556_STEADYAIM
 LANG_ENGLISH        "SIG556 Mira Laser"
@@ -13975,7 +13975,7 @@ REFERENCE           WEAPON_SPAS
 LANG_ENGLISH        "SPAS-12"
 
 REFERENCE           MENU_GRAPHICS_WARNING
-LANG_ENGLISH        "Recomendamos usar \"Configuracoes Otimizadas do Sistema.\"  Alterar configuracoes manualmente pode resultar em baixo desempenho."
+LANG_ENGLISH        "Recomendamos usar \"Configurações Otimizadas do Sistema.\"  Alterar configurações manualmente pode resultar em baixo desempenho."
 
 REFERENCE           MPUI_DESC_MAP_STADIUM
 LANG_ENGLISH        "Combate frenetico dentro e ao redor da pista de hockey no Chance Stadium."
@@ -14152,7 +14152,7 @@ REFERENCE           CH_KILLS_ENTIRE_TEAM
 LANG_ENGLISH        "Casa Limpa"
 
 REFERENCE           CHALLENGE_FFA_OLDSCHOOL_DESC
-LANG_ENGLISH        "Termine em 1 lugar em uma partida FFA sem usar Series de Pontuacao ou Perks."
+LANG_ENGLISH        "Termine em 1 lugar em uma partida FFA sem usar Series de Pontuação ou Perks."
 
 REFERENCE           CHALLENGE_WEAPON_ONE_BULLET_SHOTGUN_DESC
 LANG_ENGLISH        "Consiga &&1 Abates de Um Golpe com &&2."
@@ -14206,7 +14206,7 @@ REFERENCE           WEAPON_MP7_RANGEFINDER
 LANG_ENGLISH        "MP7 Target Finder"
 
 REFERENCE           WEAPON_MK48_DESC
-LANG_ENGLISH        "Metralhadora leve automatica. Dano e alcance aumentados."
+LANG_ENGLISH        "Metralhadora leve automática. Dano e alcance aumentados."
 
 REFERENCE           WEAPON_HK416_SF
 LANG_ENGLISH        "M27 Select Fire"
@@ -14248,7 +14248,7 @@ REFERENCE           WEAPON_VECTOR_REFLEX
 LANG_ENGLISH        "Vector K10 Reflex"
 
 REFERENCE           MPUI_1_AUTOASSIGN
-LANG_ENGLISH        "1. Designacao Automatica"
+LANG_ENGLISH        "1. Designacao Automática"
 
 REFERENCE           WEAPON_VECTOR_SILENCER
 LANG_ENGLISH        "Vector K10 Supressor"
@@ -14446,7 +14446,7 @@ REFERENCE           WEAPON_RIOTSHIELD
 LANG_ENGLISH        "Escudo de Assalto"
 
 REFERENCE           PERKS_SPEC_INCREASEDAMMOCAP_DESC
-LANG_ENGLISH        "Maior capacidade maxima de municao."
+LANG_ENGLISH        "Maior capacidade maxima de munição."
 
 REFERENCE           MENU_LOOK_SENSITIVITY_DESC
 LANG_ENGLISH        "Ajuste a sensibilidade dos analogicos do seu controle."
@@ -14500,7 +14500,7 @@ REFERENCE           WEAPON_SRM1216
 LANG_ENGLISH        "M1216"
 
 REFERENCE           WEAPON_LSAT_DESC
-LANG_ENGLISH        "Metralhadora leve automatica. Versatil e forte em geral."
+LANG_ENGLISH        "Metralhadora leve automática. Versatil e forte em geral."
 
 REFERENCE           WEAPON_PROXIMITY_GRENADE_DESC
 LANG_ENGLISH        "Mina de proximidade que eletrocuta e atordoa inimigos proximos."
@@ -14800,10 +14800,10 @@ REFERENCE           EM_BG_BACKING081
 LANG_ENGLISH        "Guatemala"
 
 REFERENCE           WEAPON_KARD_DESC
-LANG_ENGLISH        "Pistola automatica. Incorpora tecnologia de mitigacao de recuo."
+LANG_ENGLISH        "Pistola automática. Incorpora tecnologia de mitigacao de recuo."
 
 REFERENCE           WEAPON_SRM1216_DESC
-LANG_ENGLISH        "Escopeta automatica com recamara a cada 4 tiros."
+LANG_ENGLISH        "Escopeta automática com recamara a cada 4 tiros."
 
 REFERENCE           MPUI_CONTRACT_CATEGORY_DESC1
 LANG_ENGLISH        "Contratos para obter abates e Sequencias de Abates."
@@ -14827,7 +14827,7 @@ REFERENCE           MPUI_START_MATCH_CAPS
 LANG_ENGLISH        "INICIAR PARTIDA"
 
 REFERENCE           WEAPON_XM8_EXTRAMAGS
-LANG_ENGLISH        "M8A1 Colete de Municao"
+LANG_ENGLISH        "M8A1 Colete de Munição"
 
 REFERENCE           MENU_WAITING_FOR_HOST
 LANG_ENGLISH        "Aguardando o host."
@@ -14851,7 +14851,7 @@ REFERENCE           CHALLENGE_GM_DOUBLE_DENIED
 LANG_ENGLISH        "Negacao Dupla"
 
 REFERENCE           MENU_SCORE_STREAKS_HINT
-LANG_ENGLISH        "Uma colecao de desafios de Partidas Publicas para Series de Pontuacao."
+LANG_ENGLISH        "Uma colecao de desafios de Partidas Publicas para Series de Pontuação."
 
 REFERENCE           WEAPON_MP7_DUALCLIP
 LANG_ENGLISH        "MP7 Carregador Rapido"
@@ -14977,13 +14977,13 @@ REFERENCE           MENU_CHALLENGE_CATEGORY_HUMILIATION
 LANG_ENGLISH        "Humilhacao"
 
 REFERENCE           WEAPON_EVOSKORPION_DESC
-LANG_ENGLISH        "Submetralhadora automatica. Maior taxa de tiro da classe."
+LANG_ENGLISH        "Submetralhadora automática. Maior taxa de tiro da classe."
 
 REFERENCE           MENU_RANK_PLAYER_WAS_PROMOTED_N_CAPS
 LANG_ENGLISH        "RANK_PLAYER_WAS_PROMOTED_N"
 
 REFERENCE           WEAPON_INSAS_DESC
-LANG_ENGLISH        "Submetralhadora automatica. Alcance aumentado e recuo reduzido."
+LANG_ENGLISH        "Submetralhadora automática. Alcance aumentado e recuo reduzido."
 
 REFERENCE           WEAPON_SAIGA12_DESC
 LANG_ENGLISH        "Escopeta semiautomatica. Mortal em curto alcance."
@@ -15016,16 +15016,16 @@ REFERENCE           MENU_STATUS_CLOSE_DESC_CAPS
 LANG_ENGLISH        "Fechado"
 
 REFERENCE           WEAPON_HAMR_DESC
-LANG_ENGLISH        "Metralhadora leve automatica. Reduz a taxa de tiro com o tempo, tornando-se mais precisa."
+LANG_ENGLISH        "Metralhadora leve automática. Reduz a taxa de tiro com o tempo, tornando-se mais precisa."
 
 REFERENCE           WEAPON_QBB95_DESC
-LANG_ENGLISH        "Metralhadora leve automatica. Maior taxa de tiro da classe."
+LANG_ENGLISH        "Metralhadora leve automática. Maior taxa de tiro da classe."
 
 REFERENCE           EM_SHIELD07
 LANG_ENGLISH        "Orelhas de Morcego"
 
 REFERENCE           WEAPON_RPD_DESC
-LANG_ENGLISH        "Automatica com boa potencia e tiro rapido. Eficaz em alcance medio a longo."
+LANG_ENGLISH        "Automática com boa potencia e tiro rapido. Eficaz em alcance médio a longo."
 
 REFERENCE           WEAPON_BARRETM82_DESC
 LANG_ENGLISH        "Fuzil de precisao semiautomatico de alto calibre. Eficaz em longo alcance."
@@ -15046,7 +15046,7 @@ REFERENCE           WEAPON_PEACEMAKER_DESC
 LANG_ENGLISH        "Revólver de acao simples. Eficaz em curto alcance."
 
 REFERENCE           WEAPON_FNFAL_DESC
-LANG_ENGLISH        "Fuzil de assalto automatico de alto dano. Eficaz em alcance medio a longo."
+LANG_ENGLISH        "Fuzil de assalto automatico de alto dano. Eficaz em alcance médio a longo."
 
 REFERENCE           CHALLENGE_THREAT_NEUTRALIZED_DESC
 LANG_ENGLISH        "Mate 2 ou mais inimigos capturando um objetivo com um Lightning Strike ou Hellstorm Missile."
@@ -15094,7 +15094,7 @@ REFERENCE           MPUI_RENAME
 LANG_ENGLISH        "Rename"
 
 REFERENCE           WEAPON_HAMR_AMMOPACK
-LANG_ENGLISH        "HAMR Pacote de Municao"
+LANG_ENGLISH        "HAMR Pacote de Munição"
 
 REFERENCE           MPUI_4_SPECTATE
 LANG_ENGLISH        "4. Espectar"
@@ -15292,7 +15292,7 @@ REFERENCE           WEAPON_XM8_GRIP
 LANG_ENGLISH        "M8A1 Empunhadura Dianteira"
 
 REFERENCE           MENU_MEDIUM
-LANG_ENGLISH        "Medio"
+LANG_ENGLISH        "Médio"
 
 REFERENCE           CHALLENGE_DEFUSES
 LANG_ENGLISH        "Desarmador de Bomba&&3"
@@ -15436,7 +15436,7 @@ REFERENCE           MPUI_EXTBARREL_SHORT
 LANG_ENGLISH        "Cano Longo"
 
 REFERENCE           MENU_LB_WINLOSS_RATIO
-LANG_ENGLISH        "Razao V/D"
+LANG_ENGLISH        "Razão V/D"
 
 REFERENCE           MENU_MULTI_BOMB_HINT
 LANG_ENGLISH        "Cada jogador atacante recebe uma bomba."
@@ -15805,7 +15805,7 @@ REFERENCE           MENU_EMBLEM_LAYER_CHANGE_ICON_COLOR
 LANG_ENGLISH        "Editar Cor e Opacidade"
 
 REFERENCE           MENU_CHALLENGES_SCORE_CAPS
-LANG_ENGLISH        "PONTUACAO DE DESAFIOS"
+LANG_ENGLISH        "PONTUAÇÃO DE DESAFIOS"
 
 REFERENCE           WEAPON_TOW
 LANG_ENGLISH        "Lancador Valkyrie"
@@ -15880,7 +15880,7 @@ REFERENCE           WEAPON_AS50_DUAL_ATTACH
 LANG_ENGLISH        "XPR-50 Personalizada"
 
 REFERENCE           MPUI_3_AUTOASSIGN
-LANG_ENGLISH        "3. Designacao Automatica"
+LANG_ENGLISH        "3. Designacao Automática"
 
 REFERENCE           RANK_SGT_FULL3
 LANG_ENGLISH        "Sergeant III"
@@ -16066,7 +16066,7 @@ REFERENCE           WEAPON_TYPE95_SF
 LANG_ENGLISH        "Type 25 Select Fire"
 
 REFERENCE           MENU_LATEST_SCORE_CAPS
-LANG_ENGLISH        "ULTIMA PONTUACAO"
+LANG_ENGLISH        "ULTIMA PONTUAÇÃO"
 
 REFERENCE           WEAPON_VECTOR_RANGEFINDER
 LANG_ENGLISH        "Vector K10  Target Finder"
@@ -16195,7 +16195,7 @@ REFERENCE           MENU_FILESHARE_VOTING
 LANG_ENGLISH        "Aguarde enquanto o voto e salvo."
 
 REFERENCE           MENU_SETTINGS_CAPS
-LANG_ENGLISH        "CONFIGURACOES"
+LANG_ENGLISH        "CONFIGURAÇÕES"
 
 REFERENCE           WEAPON_INSAS_SF
 LANG_ENGLISH        "MSMC Select Fire"
@@ -16351,7 +16351,7 @@ REFERENCE           MENU_FILESHARE_DOWNLOAD
 LANG_ENGLISH        "Download"
 
 REFERENCE           MPUI_TOO_MANY_STREAKS_CAPS
-LANG_ENGLISH        "LIMITE DE SERIES DE PONTUACAO ATINGIDO"
+LANG_ENGLISH        "LIMITE DE SERIES DE PONTUAÇÃO ATINGIDO"
 
 REFERENCE           HEAD_JESTER
 LANG_ENGLISH        "Bobo da Corte"
@@ -16369,7 +16369,7 @@ REFERENCE           WEAPON_XM9
 LANG_ENGLISH        "XM9"
 
 REFERENCE           MPUI_DESC_LEADERBOARD_KILLS
-LANG_ENGLISH        "Veja seus abates totais, mortes, razao A/M e melhor sequencia de abates."
+LANG_ENGLISH        "Veja seus abates totais, mortes, razão A/M e melhor sequencia de abates."
 
 REFERENCE           WEAPON_ACOG
 LANG_ENGLISH        "ACOG"
@@ -16693,7 +16693,7 @@ REFERENCE           WEAPON_SARITCH_DESC_SP
 LANG_ENGLISH        "Fuzil de assalto automatico. Alto dano com baixa taxa de tiro."
 
 REFERENCE           WEAPON_KSG_DESC_SP
-LANG_ENGLISH        "Escopeta de bombeamento. Alta capacidade de municao e forte dano."
+LANG_ENGLISH        "Escopeta de bombeamento. Alta capacidade de munição e forte dano."
 
 REFERENCE           MPUI_CLANTAG_CYLON
 LANG_ENGLISH        "Cor de Nome Cylon"
@@ -16714,7 +16714,7 @@ REFERENCE           MENU_HC_KILL_EVERYONE_FIRST_PLAYER
 LANG_ENGLISH        "Cada um por si. HUD limitado. Dano extra de balas. Sem regeneracao de vida. Sem Insergoes Taticas."
 
 REFERENCE           WEAPON_HAMR_DESC_SP
-LANG_ENGLISH        "Metralhadora leve automatica. Reduz o recuo durante fogo continuo."
+LANG_ENGLISH        "Metralhadora leve automática. Reduz o recuo durante fogo continuo."
 
 REFERENCE           WEAPON_MINIGUN_80S
 LANG_ENGLISH        "Minigun"
@@ -16834,13 +16834,13 @@ REFERENCE           EM_BG_BACKING106
 LANG_ENGLISH        "Taiwan"
 
 REFERENCE           CHALLENGE_MILESTONE_DEST_CONTROLLED_STREAK
-LANG_ENGLISH        "Destruir Serie de Pontuacao Controlada"
+LANG_ENGLISH        "Destruir Serie de Pontuação Controlada"
 
 REFERENCE           MPTIP_TRAINING_FLAK_JACKET
 LANG_ENGLISH        "A Perk Flak Jacket reduz dano de explosivos."
 
 REFERENCE           CHALLENGE_MILESTONE_DEST_CONTROLLED_STREAK_DESC
-LANG_ENGLISH        "Destrua &&1 Serie de Pontuacao controlada por jogador com &&2."
+LANG_ENGLISH        "Destrua &&1 Serie de Pontuação controlada por jogador com &&2."
 
 REFERENCE           CHALLENGE_MILESTONE_BLOCKED_DAMAGE_AWARD
 LANG_ENGLISH        "Destravado: &&1 Camuflagem"
@@ -17047,7 +17047,7 @@ REFERENCE           CHALLENGE_PERK_BLIND_EYE_DESC
 LANG_ENGLISH        "Destrua &&1 aeronaves controladas por IA inimiga enquanto usa Blind Eye."
 
 REFERENCE           CHALLENGE_PERK_HARDLINE_DESC
-LANG_ENGLISH        "Ganhe &&1 Series de Pontuacao usando Hardline."
+LANG_ENGLISH        "Ganhe &&1 Series de Pontuação usando Hardline."
 
 REFERENCE           CHALLENGE_PERK_COLD_BLOODED_DESC
 LANG_ENGLISH        "Mate &&1 inimigos enquanto usa Cold Blooded."
@@ -17272,7 +17272,7 @@ REFERENCE           MPTIP_CROSSBOW_TIP
 LANG_ENGLISH        "Setas de Besta com ponta explosiva grudam em inimigos e superficies."
 
 REFERENCE           PERKS_SPEC_UNIVERSALAMMOPICKUP
-LANG_ENGLISH        "Recarga de Municao"
+LANG_ENGLISH        "Recarga de Munição"
 
 REFERENCE           CHALLENGE_DOUBLE_KILLER
 LANG_ENGLISH        "Assassino Duplo&&3"
@@ -17458,7 +17458,7 @@ REFERENCE           CHALLENGE_PISTOLEER
 LANG_ENGLISH        "Pistoleiro"
 
 REFERENCE           MENU_SETUP_INSTRUCTIONS
-LANG_ENGLISH        "Configure seu sistema para a experiencia ideal.\n\nEssas configuracoes podem ser alteradas a qualquer momento no menu OPCOES."
+LANG_ENGLISH        "Configure seu sistema para a experiencia ideal.\n\nEssas configurações podem ser alteradas a qualquer momento no menu OPCOES."
 
 REFERENCE           CHALLENGE_CLOSE_QUARTERS_EXPERT
 LANG_ENGLISH        "Expert em Combate Fechado"
@@ -17539,7 +17539,7 @@ REFERENCE           MPUI_NEXT_MAP
 LANG_ENGLISH        "Proximo Mapa"
 
 REFERENCE           MPUI_RULES_DIFFICULTY_EASY_CAPS
-LANG_ENGLISH        "FACIL"
+LANG_ENGLISH        "FÁCIL"
 
 REFERENCE           CHALLENGE_DESTRUCTIONS
 LANG_ENGLISH        "Destruidor&&3"
@@ -17596,7 +17596,7 @@ REFERENCE           CHALLENGE_GM_HARD_TO_KILL
 LANG_ENGLISH        "Dificil de Matar"
 
 REFERENCE           CHALLENGE_GM_NUKED_OUT_DESC
-LANG_ENGLISH        "Ganhou uma Medalha Nuclear no FFA sem usar Series de Pontuacao."
+LANG_ENGLISH        "Ganhou uma Medalha Nuclear no FFA sem usar Series de Pontuação."
 
 REFERENCE           CHALLENGE_GM_LAST_MAN_STANDING
 LANG_ENGLISH        "Ultimo Sobrevivente"
@@ -17770,7 +17770,7 @@ REFERENCE           CHALLENGE_SECONDARY_MASTERY_DESC
 LANG_ENGLISH        "Alcance maestria em toda Arma Secundaria."
 
 REFERENCE           CHALLENGE_SCORE_STREAKS_MASTERY_DESC
-LANG_ENGLISH        "Alcance maestria em todas as Series de Pontuacao."
+LANG_ENGLISH        "Alcance maestria em todas as Series de Pontuação."
 
 REFERENCE           CHALLENGE_GOLD_CLUB_DESC
 LANG_ENGLISH        "Ganhe camuflagem dourada para qualquer arma."
@@ -17899,7 +17899,7 @@ REFERENCE           CHALLENGE_BRUTAL_KILLER_DESC
 LANG_ENGLISH        "Ganhe uma medalha Brutal (25 abates sem morrer)."
 
 REFERENCE           PERKS_SPEC_UNIVERSALAMMOPICKUP_DESC
-LANG_ENGLISH        "Reabasteca municao e granadas de todos os inimigos abatidos."
+LANG_ENGLISH        "Reabasteca munição e granadas de todos os inimigos abatidos."
 
 REFERENCE           CHALLENGE_DOUBLE_KILLER_DESC
 LANG_ENGLISH        "Ganhe &&1 medalhas de Abate Duplo (2 abates rapidos)."
@@ -22699,7 +22699,7 @@ REFERENCE           MPUI_TOTAL_XP_CAPS
 LANG_ENGLISH        "XP TOTAL"
 
 REFERENCE           MPUI_KILL_DEATH_RATIO_CAPS
-LANG_ENGLISH        "ABATE / MORTE (RAZAO)"
+LANG_ENGLISH        "ABATE / MORTE (RAZÃO)"
 
 REFERENCE           MENU_VIEW_RTS_TUTORIAL
 LANG_ENGLISH        "VER CONTROLES DA FORCA DE ATAQUE"
@@ -22765,7 +22765,7 @@ REFERENCE           MPUI_WDOM_CAPS
 LANG_ENGLISH        "DOMINACAO MUNDIAL"
 
 REFERENCE           MPUI_GIVE_SCORE
-LANG_ENGLISH        "Dar Pontuacao"
+LANG_ENGLISH        "Dar Pontuação"
 
 REFERENCE           MPUI_POINTS
 LANG_ENGLISH        "Pontos"
@@ -22903,7 +22903,7 @@ REFERENCE           MPUI_CONTRACT_EMPTY_CAPS
 LANG_ENGLISH        "SELECIONE UM CONTRATO"
 
 REFERENCE           MPUI_CUSTOM_CLASS_MOVEMENT
-LANG_ENGLISH        "Configuracoes de Movimento Personalizadas"
+LANG_ENGLISH        "Configurações de Movimento Personalizadas"
 
 REFERENCE           EM_UZI
 LANG_ENGLISH        "Uzi"
@@ -23083,7 +23083,7 @@ REFERENCE           MPUI_HCDOM_CAPS
 LANG_ENGLISH        "DOMINACAO HARDCORE"
 
 REFERENCE           MPTIP_WAGER_STICKS_TOMAHAWK
-LANG_ENGLISH        "Mate um jogador com o Machado de Combate em Sticks and Stones para zerar a pontuacao dele."
+LANG_ENGLISH        "Mate um jogador com o Machado de Combate em Sticks and Stones para zerar a pontuação dele."
 
 REFERENCE           MPUI_HCKOTH_SHORT_CAPS
 LANG_ENGLISH        "HC RPC"
@@ -23101,10 +23101,10 @@ REFERENCE           MPUI_KOTH_CAPS
 LANG_ENGLISH        "PONTOS DE APOIO"
 
 REFERENCE           MENU_SCORE_LIMIT
-LANG_ENGLISH        "Limite de Pontuacao"
+LANG_ENGLISH        "Limite de Pontuação"
 
 REFERENCE           MPUI_STREAK_REQ_CONFLICT_DESC
-LANG_ENGLISH        "Voce ja tem uma Sequencia de Pontuacao neste nivel de requisito. Substitui-la?"
+LANG_ENGLISH        "Voce ja tem uma Sequencia de Pontuação neste nivel de requisito. Substitui-la?"
 
 REFERENCE           MPUI_HCDEM_CAPS
 LANG_ENGLISH        "DEMOLICAO HARDCORE"
@@ -23179,7 +23179,7 @@ REFERENCE           MPUI_PERSONAL_BESTS_CAPS
 LANG_ENGLISH        "RECORDES PESSOAIS"
 
 REFERENCE           MPUI_HIGHEST_SCORE
-LANG_ENGLISH        "Melhor Pontuacao"
+LANG_ENGLISH        "Melhor Pontuação"
 
 REFERENCE           MPUI_KILL_STREAK
 LANG_ENGLISH        "Maior Sequencia de Abates"
@@ -23233,7 +23233,7 @@ REFERENCE           MPUI_WAGERMATCH_TOTAL_POT
 LANG_ENGLISH        "Pote Total:"
 
 REFERENCE           MENU_AUTOAIM
-LANG_ENGLISH        "Mira Automatica"
+LANG_ENGLISH        "Mira Automática"
 
 REFERENCE           EM_TRIANGLE03
 LANG_ENGLISH        "Triangulo Fino"
@@ -23266,7 +23266,7 @@ REFERENCE           MENU_LOOK_CAPS
 LANG_ENGLISH        "OLHAR"
 
 REFERENCE           MPUI_SCORE_STREAKS
-LANG_ENGLISH        "Sequencias de Pontuacao"
+LANG_ENGLISH        "Sequencias de Pontuação"
 
 REFERENCE           MENU_16BIT
 LANG_ENGLISH        "16 bits"
@@ -23317,7 +23317,7 @@ REFERENCE           MPUI_RUSSIAN_URBAN_SHORT
 LANG_ENGLISH        "Spetsnaz Urbano"
 
 REFERENCE           MPUI_CUSTOM_CLASS_HEALTH
-LANG_ENGLISH        "Configuracoes de Saude Personalizadas"
+LANG_ENGLISH        "Configurações de Saude Personalizadas"
 
 REFERENCE           MPUI_PLANTS_CAPS
 LANG_ENGLISH        "PLANTAS"
@@ -23353,7 +23353,7 @@ REFERENCE           MPUI_LONGSHOTS_CAPS
 LANG_ENGLISH        "TIROS DE LONGA DISTANCIA"
 
 REFERENCE           MENU_TEXTURE_SETTINGS
-LANG_ENGLISH        "Configuracoes de Textura"
+LANG_ENGLISH        "Configurações de Textura"
 
 REFERENCE           MPUI_PATTERN_COLOR_3
 LANG_ENGLISH        "Azul"
@@ -23491,7 +23491,7 @@ REFERENCE           MENU_CHAT
 LANG_ENGLISH        "Chat"
 
 REFERENCE           MENU_HOST_CHANGING_SETTINGS_CAPS
-LANG_ENGLISH        "O ANFITRIAO ESTA ALTERANDO AS CONFIGURACOES DA PARTIDA"
+LANG_ENGLISH        "O ANFITRIÃO ESTA ALTERANDO AS CONFIGURAÇÕES DA PARTIDA"
 
 REFERENCE           CH_FINAL_KILLCAM_SUPPLYDROP
 LANG_ENGLISH        "Queda Final"
@@ -23827,7 +23827,7 @@ REFERENCE           MPUI_WEAPON_SNIPER_CAPS
 LANG_ENGLISH        "FUZIS DE PRECISAO"
 
 REFERENCE           MPUI_TOO_MANY_STREAKS_DESC
-LANG_ENGLISH        "Voce tem o maximo de 3 selecionados. Escolha uma Sequencia de Pontuacao para substituir."
+LANG_ENGLISH        "Voce tem o maximo de 3 selecionados. Escolha uma Sequencia de Pontuação para substituir."
 
 REFERENCE           MPUI_WEAPON_SHOTGUN_CAPS
 LANG_ENGLISH        "ESCOPETA"
@@ -23860,7 +23860,7 @@ REFERENCE           MPUI_WEAPON_SNIPER_WITH_S
 LANG_ENGLISH        "Fuzis de Precisao"
 
 REFERENCE           MPUI_SCORE_PER_CAPS
-LANG_ENGLISH        "PONTUACAO POR"
+LANG_ENGLISH        "PONTUAÇÃO POR"
 
 REFERENCE           MPUI_EMBLEM_EDITOR_DESC
 LANG_ENGLISH        "Personalize seu Cartao de Jogador. Destrave e compre novas imagens e camadas para mais customizacao."
@@ -23875,7 +23875,7 @@ REFERENCE           MPUI_PRESTIGE_LEADERBOARDS_DESC
 LANG_ENGLISH        "Veja os rankings de todos os tempos, mensais e semanais dos melhores jogadores do mundo."
 
 REFERENCE           MPUI_AAR_KDRATIO_CAPS
-LANG_ENGLISH        "RAZAO A/M"
+LANG_ENGLISH        "RAZÃO A/M"
 
 REFERENCE           EM_BG_BACKING148
 LANG_ENGLISH        "Cerejas"
@@ -23935,7 +23935,7 @@ REFERENCE           MPUI_EXPIRATION_PLAYTIME_SUFFIX
 LANG_ENGLISH        "de tempo vivo na partida"
 
 REFERENCE           MPUI_WAITING_TO_AUTO_JOIN_CAPS
-LANG_ENGLISH        "AGUARDANDO ENTRADA AUTOMATICA"
+LANG_ENGLISH        "AGUARDANDO ENTRADA AUTOMÁTICA"
 
 REFERENCE           MPUI_UNLOCKS_CAPS
 LANG_ENGLISH        "DESTRAVAMENTOS"
@@ -24034,22 +24034,22 @@ REFERENCE           MPUI_CR_HEATMAPS_NO_HEATMAP_DATA
 LANG_ENGLISH        "Nenhum dado de mapa de calor disponivel para a partida atual. "
 
 REFERENCE           MPUI_CHANGETEAMDESC
-LANG_ENGLISH        "Mude seu time, atribuicao automatica ou seja um CODcaster."
+LANG_ENGLISH        "Mude seu time, atribuição automática ou seja um CODcaster."
 
 REFERENCE           MPUI_CHOOSETEAMDESC
-LANG_ENGLISH        "Escolha seu time, atribuicao automatica ou assista a acao como um CODcaster."
+LANG_ENGLISH        "Escolha seu time, atribuição automática ou assista a acao como um CODcaster."
 
 REFERENCE           MPUI_PLAYERSRATIO_CAPS
 LANG_ENGLISH        "&&1/&&2 JOGADORES"
 
 REFERENCE           MPUI_SCORE_INGAME
-LANG_ENGLISH        "Pontuacao"
+LANG_ENGLISH        "Pontuação"
 
 REFERENCE           EM_BG_BACKING178
 LANG_ENGLISH        "Woody"
 
 REFERENCE           MPUI_AUTOASSIGN_CAPS
-LANG_ENGLISH        "ATRIBUICAO AUTOMATICA"
+LANG_ENGLISH        "ATRIBUIÇÃO AUTOMÁTICA"
 
 REFERENCE           EM_BG_BACKING082
 LANG_ENGLISH        "Hong Kong"
@@ -24091,7 +24091,7 @@ REFERENCE           MPUI_CLANTAG_RED
 LANG_ENGLISH        "Tag do Cla Vermelha"
 
 REFERENCE           MPUI_EDIT_GAME_OPTIONS_DESC
-LANG_ENGLISH        "Personalize as regras e configuracoes da partida."
+LANG_ENGLISH        "Personalize as regras e configurações da partida."
 
 REFERENCE           MPUI_CLANTAG_GREEN
 LANG_ENGLISH        "Tag do Cla Verde"
@@ -24325,7 +24325,7 @@ REFERENCE           MPUI_LEVEL
 LANG_ENGLISH        "Nivel"
 
 REFERENCE           MPUI_RATIO
-LANG_ENGLISH        "Razao"
+LANG_ENGLISH        "Razão"
 
 REFERENCE           MPUI_PER_MINUTE
 LANG_ENGLISH        "Por Minuto"
@@ -24382,7 +24382,7 @@ REFERENCE           MENU_WAR_STATUS_TAKEN
 LANG_ENGLISH        "Os &&1 Tomaram &&2"
 
 REFERENCE           MPUI_BASICTRAINING_SETTINGS_CAPS
-LANG_ENGLISH        "CONFIGURACOES DE TREINAMENTO DE COMBATE"
+LANG_ENGLISH        "CONFIGURAÇÕES DE TREINAMENTO DE COMBATE"
 
 REFERENCE           MPUI_ENEMY_PRACTICE_DUMMIES_DESC
 LANG_ENGLISH        "Indica o numero de humanos e alvos de treino jogando contra voce."
@@ -24580,7 +24580,7 @@ REFERENCE           EM_BG_BACKING165
 LANG_ENGLISH        "Arco-Iris"
 
 REFERENCE           MPUI_X2SCORE
-LANG_ENGLISH        "x2 Pontuacao"
+LANG_ENGLISH        "x2 Pontuação"
 
 REFERENCE           MPUI_HUMILIATED_CAPS
 LANG_ENGLISH        "CONTRATEMPOS"
@@ -24592,7 +24592,7 @@ REFERENCE           MENU_SAVE_ERROR
 LANG_ENGLISH        "Não foi possivel gravar no dispositivo de save padrao."
 
 REFERENCE           MPUI_X2SCORE_CAPS
-LANG_ENGLISH        "x2 PONTUACAO"
+LANG_ENGLISH        "x2 PONTUAÇÃO"
 
 REFERENCE           MPUI_CR_COMPARING_WITH
 LANG_ENGLISH        "Comparando com:"
@@ -25054,16 +25054,16 @@ REFERENCE           MENU_ATTACK_CAPS
 LANG_ENGLISH        "ATACAR"
 
 REFERENCE           MENU_RULES_DIFFICULTY_EASY
-LANG_ENGLISH        "Facil"
+LANG_ENGLISH        "Fácil"
 
 REFERENCE           MPUI_LABC_CAPS
 LANG_ENGLISH        "LABC"
 
 REFERENCE           MPUI_LA
-LANG_ENGLISH        "Consequencias"
+LANG_ENGLISH        "Aftermath"
 
 REFERENCE           MPUI_LA_CAPS
-LANG_ENGLISH        "CONSEQUENCIAS"
+LANG_ENGLISH        "AFTERMATH"
 
 REFERENCE           MPUI_DESC_MAP_LA
 LANG_ENGLISH        "Centro de Los Angeles. Combates fechados dentro e fora dos escombros de ataques de Drones."
@@ -25111,7 +25111,7 @@ REFERENCE           MPUI_RANGEFINDER
 LANG_ENGLISH        "Localizador de Alvos"
 
 REFERENCE           MPUI_AMMOPACK_DESC
-LANG_ENGLISH        "Mochila com grande quantidade de municao para nunca precisar recarregar."
+LANG_ENGLISH        "Mochila com grande quantidade de munição para nunca precisar recarregar."
 
 REFERENCE           MENU_RESTRICT_PRIMARYGRENADE_CAPS
 LANG_ENGLISH        "RESTRINGIR LETAIS"
@@ -25267,7 +25267,7 @@ REFERENCE           MPUI_STEADYAIM_DESC
 LANG_ENGLISH        "Aumenta a precisao do disparo de quadril."
 
 REFERENCE           MPUI_EXTRAMAGS_DESC
-LANG_ENGLISH        "Comece com mais municao."
+LANG_ENGLISH        "Comece com mais munição."
 
 REFERENCE           MENU_FILESHARE_MOSTRECENT
 LANG_ENGLISH        "Mais Recentes"
@@ -25297,7 +25297,7 @@ REFERENCE           MPUI_AAR_KILLS_CAPS
 LANG_ENGLISH        "ABATE(S)"
 
 REFERENCE           MPUI_AAR_SCORE_CAPS
-LANG_ENGLISH        "PONTUACAO"
+LANG_ENGLISH        "PONTUAÇÃO"
 
 REFERENCE           MENU_GAME_STARTING_IN
 LANG_ENGLISH        "Partida comecando em &&1"
@@ -25702,10 +25702,10 @@ REFERENCE           MPUI_CATEGORY_CUSTOM_DESC
 LANG_ENGLISH        "Carregue qualquer modo de jogo personalizado anteriormente."
 
 REFERENCE           MPUI_GAME_MODE_SETTINGS_CAPS
-LANG_ENGLISH        "&&1 CONFIGURACOES"
+LANG_ENGLISH        "&&1 CONFIGURAÇÕES"
 
 REFERENCE           MPUI_GENERAL_SETTINGS_CAPS
-LANG_ENGLISH        "CONFIGURACOES GERAIS"
+LANG_ENGLISH        "CONFIGURAÇÕES GERAIS"
 
 REFERENCE           MPUI_RULES_CAPS
 LANG_ENGLISH        "&&1 REGRAS"
@@ -25795,7 +25795,7 @@ REFERENCE           EM_NEWREF1
 LANG_ENGLISH        "Quarto de Circulo"
 
 REFERENCE           MPUI_SCORE_PANEL
-LANG_ENGLISH        "Painel de Pontuacao"
+LANG_ENGLISH        "Painel de Pontuação"
 
 REFERENCE           MPUI_NAME_PLATE
 LANG_ENGLISH        "Placa de Nome"
@@ -25813,10 +25813,10 @@ REFERENCE           MPUI_PERKS_DESC
 LANG_ENGLISH        "Escolha se deseja mostrar as Pericias do jogador ao spawn, nunca ou o tempo todo."
 
 REFERENCE           MPUI_SCORE_STREAKS_DESC
-LANG_ENGLISH        "Escolha se voce pode ver as Sequencias de Pontuacao equipadas atualmente pelo jogador."
+LANG_ENGLISH        "Escolha se voce pode ver as Sequencias de Pontuação equipadas atualmente pelo jogador."
 
 REFERENCE           MPUI_SCORE_STREAKS_NOTIFICATIONS
-LANG_ENGLISH        "Notificacoes de Sequencia de Pontuacao"
+LANG_ENGLISH        "Notificacoes de Sequencia de Pontuação"
 
 REFERENCE           MENU_TARGET_ASSIST_CAPS
 LANG_ENGLISH        "AUXILIO DE MIRA"
@@ -25831,10 +25831,10 @@ REFERENCE           MPUI_ISA_SHORT_CAPS
 LANG_ENGLISH        "ISA"
 
 REFERENCE           MPUI_TEAM_SCORE
-LANG_ENGLISH        "Pontuacao do Time"
+LANG_ENGLISH        "Pontuação do Time"
 
 REFERENCE           MPUI_TEAM_SCORE_DESC
-LANG_ENGLISH        "Escolha se deseja exibir a pontuacao padrao do time no HUD do jogo."
+LANG_ENGLISH        "Escolha se deseja exibir a pontuação padrao do time no HUD do jogo."
 
 REFERENCE           MPUI_PLAYER_NOTIFICATIONS_DESC
 LANG_ENGLISH        "Escolha se deseja mostrar Medalhas, Subidas de Nivel e notificacoes similares."
@@ -26038,7 +26038,7 @@ REFERENCE           MPUI_CAMO_KRYPTEK
 LANG_ENGLISH        "Kryptek: Typhon"
 
 REFERENCE           MPUI_STREAK_REQ_CONFLICT_CAPS
-LANG_ENGLISH        "CONFLITO DE REQUISITO DE SEQUENCIA DE PONTUACAO"
+LANG_ENGLISH        "CONFLITO DE REQUISITO DE SEQUENCIA DE PONTUAÇÃO"
 
 REFERENCE           MENU_SPEEDBOOST
 LANG_ENGLISH        "Aumento de Velocidade"
@@ -26089,7 +26089,7 @@ REFERENCE           MENU_APPLY
 LANG_ENGLISH        "Aplicar"
 
 REFERENCE           MENU_DIFFICULTY_SCORE_CAPS
-LANG_ENGLISH        "PONTUACAO DE DIFICULDADE"
+LANG_ENGLISH        "PONTUAÇÃO DE DIFICULDADE"
 
 REFERENCE           MPUI_RESPEC
 LANG_ENGLISH        "Reembolso"
@@ -26134,7 +26134,7 @@ REFERENCE           CLASS_PRESTIGE1
 LANG_ENGLISH        "Personalizado 6"
 
 REFERENCE           MENU_SCORE_STREAKS_DISABLED
-LANG_ENGLISH        "Sequencias de Pontuacao não estao disponiveis nesta liga. "
+LANG_ENGLISH        "Sequencias de Pontuação não estao disponiveis nesta liga. "
 
 REFERENCE           CLASS_PRESTIGE2
 LANG_ENGLISH        "Personalizado 7"
@@ -26251,7 +26251,7 @@ REFERENCE           MENU_LB_DESTRUCTIONS
 LANG_ENGLISH        "Destruicoes"
 
 REFERENCE           MENU_SETTINGS_AND_RETURN
-LANG_ENGLISH        "configuracoes e retornar"
+LANG_ENGLISH        "configurações e retornar"
 
 REFERENCE           MENU_LB_DOORS_PURCHASED
 LANG_ENGLISH        "Portas"
@@ -26305,7 +26305,7 @@ REFERENCE           MENU_ALLOW_KILLCAM
 LANG_ENGLISH        "Killcam"
 
 REFERENCE           MENU_LB_SCORE
-LANG_ENGLISH        "Pontuacao"
+LANG_ENGLISH        "Pontuação"
 
 REFERENCE           MENU_LB_FILTER_PLAYERS
 LANG_ENGLISH        "Jogadores"
@@ -26410,7 +26410,7 @@ REFERENCE           MENU_EMBLEM_RGB_BLUE
 LANG_ENGLISH        "Azul"
 
 REFERENCE           MENU_STEREO_3D_SETTINGS_CAPS
-LANG_ENGLISH        "CONFIGURACOES 3D ATIVO / PASSIVO"
+LANG_ENGLISH        "CONFIGURAÇÕES 3D ATIVO / PASSIVO"
 
 REFERENCE           MENU_MANAGEFRIENDS_CAPS
 LANG_ENGLISH        "GERENCIAR AMIGOS"
@@ -26545,13 +26545,13 @@ REFERENCE           MENU_INTERFERENCE_CAPS
 LANG_ENGLISH        "INTERFERENCIA"
 
 REFERENCE           MENU_RESET_SYSTEM_DEFAULTS
-LANG_ENGLISH        "Configuracoes Ideais do Sistema"
+LANG_ENGLISH        "Configurações Ideais do Sistema"
 
 REFERENCE           MENU_PASSWORD1
 LANG_ENGLISH        "Senha:  "
 
 REFERENCE           MPTIP_KILLSTREAKS_STAY_TIP
-LANG_ENGLISH        "Recompensas de Sequencia de Pontuacao não desaparecem ate serem usadas, mesmo entre rodadas."
+LANG_ENGLISH        "Recompensas de Sequencia de Pontuação não desaparecem ate serem usadas, mesmo entre rodadas."
 
 REFERENCE           MENU_RESET_TO_DEFAULTS
 LANG_ENGLISH        "Redefinir para o Padrao"
@@ -26620,7 +26620,7 @@ REFERENCE           MENU_QUICK_LOAD
 LANG_ENGLISH        "Carregar Rapido"
 
 REFERENCE           MPTIP_SCORESTREAK_OBJECTIVE_TIP
-LANG_ENGLISH        "Completar objetivos como capturar bandeiras ou plantar a bomba da pontuacao significativa para ganhar suas Sequencias de Pontuacao."
+LANG_ENGLISH        "Completar objetivos como capturar bandeiras ou plantar a bomba da pontuação significativa para ganhar suas Sequencias de Pontuação."
 
 REFERENCE           MENU_FORWARD
 LANG_ENGLISH        "AVANÇAR"
@@ -26674,7 +26674,7 @@ REFERENCE           MENU_TOGGLE_SEMIAUTOMATIC
 LANG_ENGLISH        "Alternar Semiautomatico "
 
 REFERENCE           MENU_AUTOASSIGN
-LANG_ENGLISH        "Atribuicao Automatica"
+LANG_ENGLISH        "Atribuição Automática"
 
 REFERENCE           MENU_SELECT_FIRST_WEAPON
 LANG_ENGLISH        "Selecionar Primeira Arma"
@@ -26932,10 +26932,10 @@ REFERENCE           MENU_ZOMBIES_POINTS_TOTAL
 LANG_ENGLISH        "Pontos Ganhos"
 
 REFERENCE           MENU_GAME_TYPE_SETTINGS
-LANG_ENGLISH        "Configuracoes de Tipo de Jogo"
+LANG_ENGLISH        "Configurações de Tipo de Jogo"
 
 REFERENCE           MENU_SERVER_SETTINGS
-LANG_ENGLISH        "Configuracoes do Servidor"
+LANG_ENGLISH        "Configurações do Servidor"
 
 REFERENCE           EM_BG_BACKING076
 LANG_ENGLISH        "El Salvador"
@@ -26965,10 +26965,10 @@ REFERENCE           HEAD_NULL
 LANG_ENGLISH        "Faca uma selecao"
 
 REFERENCE           MENU_SCORE_LIMIT_PLAYER_POINTS
-LANG_ENGLISH        "Limite de Pontuacao (pontos do jogador):  "
+LANG_ENGLISH        "Limite de Pontuação (pontos do jogador):  "
 
 REFERENCE           MENU_SCORE_LIMIT_TEAM_POINTS
-LANG_ENGLISH        "Limite de Pontuacao (pontos do time):  "
+LANG_ENGLISH        "Limite de Pontuação (pontos do time):  "
 
 REFERENCE           MENU_FORCE_RESPAWNING
 LANG_ENGLISH        "Forcar Renascimento:  "
@@ -27031,7 +27031,7 @@ REFERENCE           MENU_ALLOW_VOTING
 LANG_ENGLISH        "Permitir Votacao:  "
 
 REFERENCE           MENU_AUTO_UPDATE
-LANG_ENGLISH        "Atualizacao Automatica"
+LANG_ENGLISH        "Atualizacao Automática"
 
 REFERENCE           MENU_ALLOW_PANZERFAUSTS
 LANG_ENGLISH        "Permitir Panzerfausts:  "
@@ -27292,7 +27292,7 @@ REFERENCE           MENU_VOICE_CHAT_WILL_BE_DISABLED_BECAUSE
 LANG_ENGLISH        "O chat de voz sera desativado porque"
 
 REFERENCE           MENU_YOUR_NETWORK_SETTINGS
-LANG_ENGLISH        "suas configuracoes de rede"
+LANG_ENGLISH        "suas configurações de rede"
 
 REFERENCE           MENU_ARE_TOO_LOW_TO_SUPPORT_VOICE_CHAT
 LANG_ENGLISH        "sao muito baixas para suportar chat de voz."
@@ -27304,7 +27304,7 @@ REFERENCE           MENU_CHANGE_WEAPON
 LANG_ENGLISH        "Trocar Arma"
 
 REFERENCE           MENU_APPLY_LANGUAGE_SETTINGS
-LANG_ENGLISH        "Aplicar Configuracoes de Idioma?"
+LANG_ENGLISH        "Aplicar Configurações de Idioma?"
 
 REFERENCE           CH_FINAL_KILLCAM_RCBOMB
 LANG_ENGLISH        "Explosao Final"
@@ -27388,7 +27388,7 @@ REFERENCE           MENU_CHALLENGE_CATEGORY_SPECIALOPTICS
 LANG_ENGLISH        "Oticas Especializadas"
 
 REFERENCE           MENU_COMPLETED_EASY
-LANG_ENGLISH        "Facil Concluido"
+LANG_ENGLISH        "Fácil Concluido"
 
 REFERENCE           MENU_TAB_MAP_CAPS
 LANG_ENGLISH        "MAPA"
@@ -27484,7 +27484,7 @@ REFERENCE           MENU_CONGRATULATIONS
 LANG_ENGLISH        "Parabens"
 
 REFERENCE           MENU_CAN_NOT_CHANGE_SETTINGS
-LANG_ENGLISH        "Não e possivel alterar configuracoes"
+LANG_ENGLISH        "Não e possivel alterar configurações"
 
 REFERENCE           MENU_SHADOWS
 LANG_ENGLISH        "Sombras"
@@ -27505,10 +27505,10 @@ REFERENCE           MENU_INGAME_DIFFICULTY_CHANGING
 LANG_ENGLISH        "Alterar a dificuldade reiniciara o nivel atual."
 
 REFERENCE           MENU_DESCRIPTION_QUICKMATCH
-LANG_ENGLISH        "Entre em uma partida rapidamente. As configuracoes sao escolhidas aleatoriamente."
+LANG_ENGLISH        "Entre em uma partida rapidamente. As configurações sao escolhidas aleatoriamente."
 
 REFERENCE           MENU_DESCRIPTION_CUSTOMMATCH
-LANG_ENGLISH        "Encontre uma sessao com as configuracoes que voce especificar."
+LANG_ENGLISH        "Encontre uma sessao com as configurações que voce especificar."
 
 REFERENCE           MENU_SELECT_MATCH_TYPE
 LANG_ENGLISH        "Selecionar Tipo de Partida"
@@ -27613,10 +27613,10 @@ REFERENCE           MENU_COMBAT_CAPS
 LANG_ENGLISH        "COMBATE"
 
 REFERENCE           MENU_ACTION_INVENTORY
-LANG_ENGLISH        "Acessorios/Municao Especial"
+LANG_ENGLISH        "Acessorios/Munição Especial"
 
 REFERENCE           MPTIP_TRAINING_SCAVENGER
-LANG_ENGLISH        "A Perk Scavenger permite reabastecer sua municao.\n"
+LANG_ENGLISH        "A Perk Scavenger permite reabastecer sua munição.\n"
 
 REFERENCE           MENU_MY_SPECOPS
 LANG_ENGLISH        "Meu Spec Ops"
@@ -27640,7 +27640,7 @@ REFERENCE           MENU_LEAVEMPGAMEWARNING
 LANG_ENGLISH        "Se aceitar este convite, saira do lobby atual. Aceitar convite?"
 
 REFERENCE           MENU_SCORE_STREAK_CAPS
-LANG_ENGLISH        "SERIE DE PONTUACAO"
+LANG_ENGLISH        "SERIE DE PONTUAÇÃO"
 
 REFERENCE           MENU_LEAVEMPGAMEWARNINGSQUADLEADER
 LANG_ENGLISH        "Se entrar em outra sessao, seu grupo sera dissolvido. Dissolver grupo?"
@@ -27811,7 +27811,7 @@ REFERENCE           MENU_CUSTOM_N
 LANG_ENGLISH        "Personalizado (&&1)"
 
 REFERENCE           MENU_SENSITIVITY_MEDIUM_CAPS
-LANG_ENGLISH        "(MEDIO) 4"
+LANG_ENGLISH        "(MÉDIO) 4"
 
 REFERENCE           MENU_RANK_AND_CHALLENGES
 LANG_ENGLISH        "Ranque & Desafios"
@@ -27913,7 +27913,7 @@ REFERENCE           MENU_LEVEL_NEEDS_TO_BE_COMPLETED
 LANG_ENGLISH        "Este nivel precisa ser concluido na Campanha antes de jogar em tela dividida."
 
 REFERENCE           MENU_RULES_COMPETITIVESCORING
-LANG_ENGLISH        "Pontuacao Competitiva"
+LANG_ENGLISH        "Pontuação Competitiva"
 
 REFERENCE           MENU_SENDREQUEST
 LANG_ENGLISH        "Enviar Solicitacao..."
@@ -28291,7 +28291,7 @@ REFERENCE           MENU_UNMUTE_ERROR_FROM_LIVE
 LANG_ENGLISH        "O jogador foi silenciado pelo Cartao de Jogador, e deve ser ativado de la."
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_SETTINGS
-LANG_ENGLISH        "Configuracoes do Reel de Destaques"
+LANG_ENGLISH        "Configurações do Reel de Destaques"
 
 REFERENCE           MENU_SELECT_WEAPON
 LANG_ENGLISH        "Arma Primária"
@@ -28897,7 +28897,7 @@ REFERENCE           MENU_SETUP_CAPS
 LANG_ENGLISH        "Bem-vindo ao Call of Duty®: Black Ops II"
 
 REFERENCE           MENU_MATURE_CONTENT_DESC
-LANG_ENGLISH        "Altere suas configuracoes de conteudo grafico."
+LANG_ENGLISH        "Altere suas configurações de conteudo grafico."
 
 REFERENCE           MENU_DOYOUWANT_MATURE_CONTENT
 LANG_ENGLISH        "Call of Duty®: Black Ops II contem conteudo grafico, filmagens historicas e linguagem que alguns jogadores podem achar perturbadores. Discricao do jogador e aconselhada.\n\nDeseja ativar o conteudo grafico?"
@@ -28915,7 +28915,7 @@ REFERENCE           MENU_BASICTRAINING_FU_CAPS
 LANG_ENGLISH        "VETERANO"
 
 REFERENCE           MENU_BETA_SETUP_INSTRUCTIONS
-LANG_ENGLISH        "Siga estas etapas para configurar o jogo para visualizacao ideal. Voce pode alterar essas configuracoes a qualquer momento pelo menu OPCOES."
+LANG_ENGLISH        "Siga estas etapas para configurar o jogo para visualizacao ideal. Voce pode alterar essas configurações a qualquer momento pelo menu OPCOES."
 
 REFERENCE           EM_SHARK
 LANG_ENGLISH        "Tubarao"
@@ -28933,7 +28933,7 @@ REFERENCE           MENU_CREATE_NAME
 LANG_ENGLISH        "Criar Nome"
 
 REFERENCE           MENU_SERVER_SETTINGS_DESC
-LANG_ENGLISH        "Editar configuracoes do servidor."
+LANG_ENGLISH        "Editar configurações do servidor."
 
 REFERENCE           MENU_THEATER_FILM_NOT_SELECTED
 LANG_ENGLISH        "&&1 não selecionou um Filme."
@@ -28984,7 +28984,7 @@ REFERENCE           MENU_FILESHARE_SCREENSHOTS
 LANG_ENGLISH        "Capturas de Tela"
 
 REFERENCE           MENU_GRAPHICS_SETTINGS_DESC
-LANG_ENGLISH        "Ajuste a area segura, brilho e configuracoes 3D."
+LANG_ENGLISH        "Ajuste a area segura, brilho e configurações 3D."
 
 REFERENCE           MENU_PS3_INSTALL_DESC
 LANG_ENGLISH        "Instalar texturas no HDD."
@@ -29014,10 +29014,10 @@ REFERENCE           MENU_PRESTIGE_HINT
 LANG_ENGLISH        "Voce Prestigiou. Agora e hora de provar suas habilidades com equipamentos, perks e wildcards em Partida Publica. "
 
 REFERENCE           MENU_GRAPHICS_SETTINGS_CAPS
-LANG_ENGLISH        "CONFIGURACOES GRAFICAS"
+LANG_ENGLISH        "CONFIGURAÇÕES GRAFICAS"
 
 REFERENCE           MENU_CONTROLLER_SETTINGS_DESC
-LANG_ENGLISH        "Ajustar configuracoes do controle."
+LANG_ENGLISH        "Ajustar configurações do controle."
 
 REFERENCE           MENU_EXTRA_CAC_HINT
 LANG_ENGLISH        "Fornece um slot extra de Crie uma Classe. Pode ser feito uma vez por Prestigio."
@@ -29440,7 +29440,7 @@ REFERENCE           MENU_STEREO_3D_SETTINGS_DESC
 LANG_ENGLISH        "3D Ativo / Passivo. TV 3D Necessaria."
 
 REFERENCE           MPTIP_TRANSPORT_HELI_TIP
-LANG_ENGLISH        "Helicopteros trazendo Care Packages e outros carregamentos de Series de Pontuacao aparecem no mini-mapa de todos."
+LANG_ENGLISH        "Helicopteros trazendo Care Packages e outros carregamentos de Series de Pontuação aparecem no mini-mapa de todos."
 
 REFERENCE           MENU_CONTINUE_CAPS
 LANG_ENGLISH        "CONTINUAR"
@@ -29542,7 +29542,7 @@ REFERENCE           MENU_LEAGUE_PROTIP
 LANG_ENGLISH        "DICA: Fique ate a Contagem Regressiva se quiser continuar jogando com os jogadores solo da sua equipe."
 
 REFERENCE           MENU_HOST_CHANGING_SETTINGS
-LANG_ENGLISH        "O host esta alterando as configuracoes do jogo..."
+LANG_ENGLISH        "O host esta alterando as configurações do jogo..."
 
 REFERENCE           MENU_REMATCHMAKING
 LANG_ENGLISH        "Encontrando nova competicao em"
@@ -29593,7 +29593,7 @@ REFERENCE           MENU_RENDERING_ALREADY_EXISTS
 LANG_ENGLISH        "Seu video renderizado anteriormente sera sobrescrito. Tem certeza?"
 
 REFERENCE           MENU_DOWNLOADING_GAME_SETTINGS_CAPS
-LANG_ENGLISH        "Baixando Configuracoes do Jogo"
+LANG_ENGLISH        "Baixando Configurações do Jogo"
 
 REFERENCE           MENU_CONNECTING_TO_DW
 LANG_ENGLISH        "Conectando..."
@@ -29803,7 +29803,7 @@ REFERENCE           MENU_MULTIPLIER_X
 LANG_ENGLISH        "x&&1"
 
 REFERENCE           MENU_TOTAL_SCORE_CAPS
-LANG_ENGLISH        "PONTUACAO TOTAL"
+LANG_ENGLISH        "PONTUAÇÃO TOTAL"
 
 REFERENCE           MENU_ONLINE_CAPS
 LANG_ENGLISH        "ONLINE"
@@ -29872,7 +29872,7 @@ REFERENCE           MENU_YOU_CAPS
 LANG_ENGLISH        "VOCE"
 
 REFERENCE           MENU_KDRATIO_CAPS
-LANG_ENGLISH        "RAZAO A/M"
+LANG_ENGLISH        "RAZÃO A/M"
 
 REFERENCE           MENU_ACCURACY_CAPS
 LANG_ENGLISH        "PRECISAO"
@@ -29968,7 +29968,7 @@ REFERENCE           MENU_CYCLE_TEAM
 LANG_ENGLISH        "ALTERNAR EQUIPE"
 
 REFERENCE           MENU_COST_X_OF_SCORE_CAPS
-LANG_ENGLISH        "CUSTO &&1 DE PONTUACAO"
+LANG_ENGLISH        "CUSTO &&1 DE PONTUAÇÃO"
 
 REFERENCE           MENU_EDITING_GAME_OPTIONS
 LANG_ENGLISH        "Editando Regras do Jogo"
@@ -30046,7 +30046,7 @@ REFERENCE           MENU_CHALLENGES_TO_UNLOCK
 LANG_ENGLISH        "desafios para destravar"
 
 REFERENCE           MENU_ROUND_SCORE_CARRY
-LANG_ENGLISH        "PONTUACAO ACUMULADA ENTRE RODADAS"
+LANG_ENGLISH        "PONTUAÇÃO ACUMULADA ENTRE RODADAS"
 
 REFERENCE           MENU_TEAM_KILL_PUNISH_COUNT
 LANG_ENGLISH        "CONTAGEM DE PUNICAO POR ABATE DE EQUIPE"
@@ -30169,16 +30169,16 @@ REFERENCE           MENU_MISSION_BRIEFING_CAPS
 LANG_ENGLISH        "BRIEFING DA MISSAO"
 
 REFERENCE           MENU_REFETCH_WAD_CONFIRMATION_TITLE
-LANG_ENGLISH        "As Configuracoes do Jogo Mudaram"
+LANG_ENGLISH        "As Configurações do Jogo Mudaram"
 
 REFERENCE           MENU_REFETCH_WAD_CONFIRMATION_MESSAGE
-LANG_ENGLISH        "As Configuracoes do Jogo mudaram. Atualizar para as configuracoes mais recentes levara voce ao menu principal."
+LANG_ENGLISH        "As Configurações do Jogo mudaram. Atualizar para as configurações mais recentes levara voce ao menu principal."
 
 REFERENCE           MENU_UNLOCK_CAPS
 LANG_ENGLISH        "DESTRAVAR"
 
 REFERENCE           MENU_SCORE_STREAK_REQ
-LANG_ENGLISH        "Requisito de Serie de Pontuacao"
+LANG_ENGLISH        "Requisito de Serie de Pontuação"
 
 REFERENCE           MENU_SELECT_PERKS_CAPS
 LANG_ENGLISH        "SELECIONAR PERKS"
@@ -30244,7 +30244,7 @@ REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_STYLE_SETTINGS_GUN_KILLS_ONLY
 LANG_ENGLISH        "Abates com Armas e Corpo a Corpo"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_STYLE_SETTINGS_GUN_KILL_AND_EVENTS
-LANG_ENGLISH        "Armas, Corpo a Corpo e Pontuacao do Modo"
+LANG_ENGLISH        "Armas, Corpo a Corpo e Pontuação do Modo"
 
 REFERENCE           MENU_REJOIN_SESSION
 LANG_ENGLISH        "Gostaria de tentar reconectar a sessao anterior?"
@@ -30259,7 +30259,7 @@ REFERENCE           MENU_LEAGUES_CAPS
 LANG_ENGLISH        "SELECIONAR LIGA"
 
 REFERENCE           MENU_HACKER_DESC
-LANG_ENGLISH        "Hackeie A.G.R.s inimigos para pontuacao massiva!"
+LANG_ENGLISH        "Hackeie A.G.R.s inimigos para pontuação massiva!"
 
 REFERENCE           MENU_BONUSCARD_SECONDARY_GUNFIGHTER_NA
 LANG_ENGLISH        "Wildcard indisponivel quando acessorios não estao disponiveis para arma secundaria."
@@ -30346,13 +30346,13 @@ REFERENCE           MENU_TEAM_LIMIT
 LANG_ENGLISH        "O numero de equipes que jogarao a partida."
 
 REFERENCE           MENU_ROUNDS_LIMIT
-LANG_ENGLISH        "O numero de rodadas que serao jogadas. Usado quando Pontuacao Acumulada esta ativada."
+LANG_ENGLISH        "O numero de rodadas que serao jogadas. Usado quando Pontuação Acumulada esta ativada."
 
 REFERENCE           MENU_ROUND_WIN_LIMIT_HINT
 LANG_ENGLISH        "O numero de rodadas que uma equipe precisa vencer antes do jogo terminar."
 
 REFERENCE           MENU_ROUND_SCORE_CARRY_OPTION
-LANG_ENGLISH        "Quando ativado, a pontuacao sera acumulada entre rodadas.  "
+LANG_ENGLISH        "Quando ativado, a pontuação sera acumulada entre rodadas.  "
 
 REFERENCE           MENU_FRIENDLY_BOTS
 LANG_ENGLISH        "Bots que lutarao na equipe inicial do lider do grupo."
@@ -30454,7 +30454,7 @@ REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_SEGMENT_NUMBER
 LANG_ENGLISH        "Clipe #: &&1"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_SEGMENT_SCORE
-LANG_ENGLISH        "Pontuacao: &&1"
+LANG_ENGLISH        "Pontuação: &&1"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_SEGMENT_RATING
 LANG_ENGLISH        "Avaliacao: "
@@ -30544,7 +30544,7 @@ REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_STARS_THREE
 LANG_ENGLISH        "3 e Acima"
 
 REFERENCE           MENU_SCORE_CAPS
-LANG_ENGLISH        "PONTUACAO"
+LANG_ENGLISH        "PONTUAÇÃO"
 
 REFERENCE           MENU_PLACE_SEGMENT
 LANG_ENGLISH        "Colocar Clipe"
@@ -30652,7 +30652,7 @@ REFERENCE           MENU_POST_GAME_LOBBY
 LANG_ENGLISH        "Lobby Pos-partida"
 
 REFERENCE           MENU_HEADSHOTSONLY_HINT
-LANG_ENGLISH        "Tiros na cabeca serao necessarios para causar dano com armas de bala. Dano de explosivos, corpo a corpo ou Series de Pontuacao funciona normalmente."
+LANG_ENGLISH        "Tiros na cabeca serao necessarios para causar dano com armas de bala. Dano de explosivos, corpo a corpo ou Series de Pontuação funciona normalmente."
 
 REFERENCE           MENU_HEALTH_HINT
 LANG_ENGLISH        "A quantidade de vida que um jogador tem."
@@ -30700,7 +30700,7 @@ REFERENCE           MENU_NEW_TACTICAL_GRENADE
 LANG_ENGLISH        "Nova Tatica"
 
 REFERENCE           MENU_NEW_SCORESTREAK
-LANG_ENGLISH        "Nova Serie de Pontuacao"
+LANG_ENGLISH        "Nova Serie de Pontuação"
 
 REFERENCE           MENU_NEW_SECONDARY
 LANG_ENGLISH        "Nova Arma Secundaria"
@@ -30745,7 +30745,7 @@ REFERENCE           MENU_HIT_MARKERS_HINT
 LANG_ENGLISH        "Exibir indicadores na mira quando um oponente e danificado."
 
 REFERENCE           MENU_SPAWN_SETTINGS_CAPS
-LANG_ENGLISH        "CONFIGURACOES DE SURGIMENTO"
+LANG_ENGLISH        "CONFIGURAÇÕES DE SURGIMENTO"
 
 REFERENCE           MENU_ANNOUNCER_HINT
 LANG_ENGLISH        "Anunciar acoes da equipe inimiga."
@@ -30886,7 +30886,7 @@ REFERENCE           MENU_SETUP_BOTS_CAPS
 LANG_ENGLISH        "CONFIGURAR BOTS"
 
 REFERENCE           MENU_SCORE_LIMIT_OPTION_FFA
-LANG_ENGLISH        "O primeiro jogador a atingir o limite de pontuacao vence o jogo."
+LANG_ENGLISH        "O primeiro jogador a atingir o limite de pontuação vence o jogo."
 
 REFERENCE           MENU_BOMB_TIMER_HINT
 LANG_ENGLISH        "A quantidade de tempo antes da bomba detonar."
@@ -30907,7 +30907,7 @@ REFERENCE           MENU_BOMB_TIMER
 LANG_ENGLISH        "Temporizador da Bomba"
 
 REFERENCE           MENU_SCORING
-LANG_ENGLISH        "Pontuacao"
+LANG_ENGLISH        "Pontuação"
 
 REFERENCE           MENU_ENEMY_CARRIER_HINT
 LANG_ENGLISH        "Como e se o inimigo aparece no minimapa."
@@ -30919,7 +30919,7 @@ REFERENCE           CH_KILLS_ENTIRE_TEAM_DESC
 LANG_ENGLISH        "Mate cada jogador da equipe inimiga pelo menos uma vez. Minimo de 4 pessoas."
 
 REFERENCE           MENU_FLAG_RETURN_TIME
-LANG_ENGLISH        "Tempo de Devolucao Automatica"
+LANG_ENGLISH        "Tempo de Devolucao Automática"
 
 REFERENCE           MENU_OFF_FOR_TACTICALS
 LANG_ENGLISH        "Desligado para Taticas"
@@ -30991,7 +30991,7 @@ REFERENCE           MENU_EMBLEM_LAYER_CHANGE_ICON
 LANG_ENGLISH        "Alterar Emblema"
 
 REFERENCE           MENU_SETBACKS_SAS_HINT
-LANG_ENGLISH        "Quantos pontos um jogador perde quando abatido com a arma Setback. Se nenhuma arma for definida, não tera impacto. A pontuacao nunca pode ser menor que zero."
+LANG_ENGLISH        "Quantos pontos um jogador perde quando abatido com a arma Setback. Se nenhuma arma for definida, não tera impacto. A pontuação nunca pode ser menor que zero."
 
 REFERENCE           MENU_EMBLEM_LAYER_EDIT_CONTROLS
 LANG_ENGLISH        "Controles de Edicao de Camada"
@@ -31177,10 +31177,10 @@ REFERENCE           MENU_BONUSCARD_DANGER_CLOSE_NA
 LANG_ENGLISH        "Selecionar isso substituira Tactician."
 
 REFERENCE           MENU_SCORESTREAK_SELECTION
-LANG_ENGLISH        "Selecao de Serie de Pontuacao"
+LANG_ENGLISH        "Selecao de Serie de Pontuação"
 
 REFERENCE           MENU_USE_SCORESTREAK
-LANG_ENGLISH        "Usar Serie de Pontuacao"
+LANG_ENGLISH        "Usar Serie de Pontuação"
 
 REFERENCE           MENU_EQUIP_CLAYMORES
 LANG_ENGLISH        "Equipar Claymores"
@@ -31318,7 +31318,7 @@ REFERENCE           MENU_RTS_QUIT_WARNING_DESC
 LANG_ENGLISH        "Se sair, voce tera uma equipe Strike Force a menos disponivel para missoes futuras"
 
 REFERENCE           MENU_KILLSTREAK_DELAY
-LANG_ENGLISH        "Atraso de Serie de Pontuacao"
+LANG_ENGLISH        "Atraso de Serie de Pontuação"
 
 REFERENCE           MENU_EXPLOSIVE_DELAY_HINT
 LANG_ENGLISH        "Atrasar o uso de armas explosivas no inicio da rodada."
@@ -31417,7 +31417,7 @@ REFERENCE           MENU_DEMO_START_HIGHLIGHT_REEL
 LANG_ENGLISH        "Iniciar Reel de Destaques"
 
 REFERENCE           MENU_DEMO_CUSTOMIZE_HIGHLIGHT_REEL_DESC
-LANG_ENGLISH        "Ajuste as configuracoes e filtros usados para criar seu Reel de Destaques.\nVoce deve ter pelo menos 1 clipe disponivel para iniciar."
+LANG_ENGLISH        "Ajuste as configurações e filtros usados para criar seu Reel de Destaques.\nVoce deve ter pelo menos 1 clipe disponivel para iniciar."
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_NUMBER_OF_SEGMENTS_DESC
 LANG_ENGLISH        "Altere o numero de clipes que deseja ter no Reel de Destaques."

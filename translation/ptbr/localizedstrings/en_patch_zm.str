@@ -536,7 +536,7 @@ REFERENCE           MENU_VIEW_PLAYERCARD_HINT
 LANG_ENGLISH        "Veja o Playercard deste jogador."
 
 REFERENCE           CGAME_PRONE_BLOCKED
-LANG_ENGLISH        "Deitado Bloqueado"
+LANG_ENGLISH        "Deitar Bloqueado"
 
 REFERENCE           ZMWEAPON_DIESELDRONE
 LANG_ENGLISH        "Maxis Drone"
@@ -1091,7 +1091,7 @@ REFERENCE           ZOMBIE_WEAPON_KIPARIS
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Dual Kiparis [Custo: &&1]"
 
 REFERENCE           SCRIPT_HINT_PICKUPAMMOKEY
-LANG_ENGLISH        "Para pegar municao de outra arma, caminhe perto dela ou olhe para ela e pressione USAR [&&1]."
+LANG_ENGLISH        "Para pegar munição de outra arma, caminhe perto dela ou olhe para ela e pressione USAR [&&1]."
 
 REFERENCE           ZOMBIE_WEAPON_USRPG
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para RPG [Custo: &&1]"
@@ -1187,7 +1187,7 @@ REFERENCE           ZMUI_CLEANSED_DESC_STREET
 LANG_ENGLISH        "Fome? Solte o zumbi dentro de você e alimente-se de seus rivais humanos..."
 
 REFERENCE           SCRIPT_AMMO_REFILL
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para reabastecer sua municao"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para reabastecer sua munição"
 
 REFERENCE           SCRIPT_ELIMINATE_THE_FLAK_88_DONE
 LANG_ENGLISH        "Elimine as tripulacoes do Flak 88."
@@ -1346,7 +1346,7 @@ REFERENCE           ZOMBIE_EARNED_PORTAL
 LANG_ENGLISH        "Portal Ganho"
 
 REFERENCE           MENU_CHALLENGE_CATEGORY_COMBAT_HINT
-LANG_ENGLISH        "Complete desafios para eficiencia de combate em sequencias de pontuacao e armas."
+LANG_ENGLISH        "Complete desafios para eficiencia de combate em sequencias de pontuação e armas."
 
 REFERENCE           ZOMBIE_EQUIP_ELECTRICTRAP_PICKUP_HINT_STRING
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Armadilha Eletrica"
@@ -1586,7 +1586,7 @@ REFERENCE           MPUI_RETICLE_HOLO_29
 LANG_ENGLISH        "Splice"
 
 REFERENCE           MENU_CR_SCORESTREAKS_HINT
-LANG_ENGLISH        "Navegue pelas estatísticas de sequencia de pontuacao para Partida Publica."
+LANG_ENGLISH        "Navegue pelas estatísticas de sequencia de pontuação para Partida Publica."
 
 REFERENCE           MENU_TWITTER_PASSWORD
 LANG_ENGLISH        "Senha do Twitter"
@@ -1631,10 +1631,10 @@ REFERENCE           ZMUI_ZPITTED_SHORT_CAPS
 LANG_ENGLISH        "PITTED"
 
 REFERENCE           ZOMBIE_WEAPONCOSTAMMO_UPGRADE
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 Arma [&&1], Municao [&&2],   \n             Municao Melhorada [4500]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 Arma [&&1], Munição [&&2],   \n             Munição Melhorada [4500]"
 
 REFERENCE           ZOMBIE_POWERUP_MAX_AMMO
-LANG_ENGLISH        "Municao Maxima!"
+LANG_ENGLISH        "Maxima de munição!"
 
 REFERENCE           SCRIPT_AM_SUICIDE_KICKED
 LANG_ENGLISH        "Você foi expulso por cometer suicidios demais"
@@ -1643,7 +1643,7 @@ REFERENCE           MPUI_RETICLE_DUALOPTIC_24
 LANG_ENGLISH        "O que e isso...?, KABUM!"
 
 REFERENCE           SCRIPT_AM_LOW_SCORE_WARNING
-LANG_ENGLISH        "AVISO: Você sera expulso por pontuacao negativa baixa"
+LANG_ENGLISH        "AVISO: Você sera expulso por pontuação negativa baixa"
 
 REFERENCE           ZMUI_DINER
 LANG_ENGLISH        "Diner"
@@ -1655,7 +1655,7 @@ REFERENCE           ZMWEAPON_MP44_UPGRADED
 LANG_ENGLISH        "Spatz-447 +"
 
 REFERENCE           SCRIPT_AM_MISSION_SCORE
-LANG_ENGLISH        "Pontuacao da Missao"
+LANG_ENGLISH        "Pontuação da Missao"
 
 REFERENCE           ZMUI_PLAYER_NUM_3
 LANG_ENGLISH        "P3"
@@ -1685,10 +1685,10 @@ REFERENCE           ZOMBIE_GRAB_RIOTSHIELD
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Zombie Shield"
 
 REFERENCE           SCRIPT_AM_NEW_HIGH_SCORE
-LANG_ENGLISH        "NOVA PONTUACAO MAIS ALTA!"
+LANG_ENGLISH        "NOVA PONTUAÇÃO MAIS ALTA!"
 
 REFERENCE           SCRIPT_TOTAL_SCORE
-LANG_ENGLISH        "PONTUACAO TOTAL:"
+LANG_ENGLISH        "PONTUAÇÃO TOTAL:"
 
 REFERENCE           EXE_COD_PIRACY_PERM_BAN_PLAYER
 LANG_ENGLISH        "Este perfil (&&1) foi permanentemente banido de jogar Call of Duty: Black Ops II online devido a deteccao de conteudo não autorizado, uma violacao da Politica de Seguranca e Aplicacao publicada. Para mais informacoes, visite http://support.activision.com/blackops2."
@@ -2027,7 +2027,7 @@ REFERENCE           ZOMBIE_BOUGHT_TURBINE
 LANG_ENGLISH        "Pegou Turbine"
 
 REFERENCE           ZOMBIE_WEAPONCOSTAMMO
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 Arma [&&1], Municao [&&2]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 Arma [&&1], Munição [&&2]"
 
 REFERENCE           MPUI_ENTER_UCD_ACCOUNT_NAME
 LANG_ENGLISH        "Digite o Nome da Comunidade"
@@ -2549,7 +2549,7 @@ REFERENCE           ZOMBIE_PROJ_DOOR
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Abrir Porta"
 
 REFERENCE           ZOMBIE_AUTO_TURRET
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para ativar Torre automatica [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para ativar Torre automática [Custo: &&1]"
 
 REFERENCE           MPUI_RENDERING
 LANG_ENGLISH        "Renderizando Video"
@@ -2996,7 +2996,7 @@ REFERENCE           ZOMBIE_CZ75_UPGRADED
 LANG_ENGLISH        "Calamity"
 
 REFERENCE           MENU_DEMO_CUSTOMIZE_HIGHLIGHT_REEL_DESC
-LANG_ENGLISH        "Ajuste as configuracoes e filtros usados para criar seu Highlight Reel.\nVoce precisa ter pelo menos 1 clipe disponivel para iniciar a criacao do Highlight Reel."
+LANG_ENGLISH        "Ajuste as configurações e filtros usados para criar seu Highlight Reel.\nVoce precisa ter pelo menos 1 clipe disponivel para iniciar a criacao do Highlight Reel."
 
 REFERENCE           ZOMBIE_ROTTWEIL72_UPGRADED
 LANG_ENGLISH        "Hades"
@@ -4073,7 +4073,7 @@ REFERENCE           MENU_FB_LINK
 LANG_ENGLISH        "Entrar no Facebook"
 
 REFERENCE           ZOMBIE_WEAPONAMMOONLY
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para municao [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para munição [Custo: &&1]"
 
 REFERENCE           ZMUI_CLEANSED_DINER_3_PLAYERS_CAPS
 LANG_ENGLISH        "CLEANSED DINER 3 PLAYERS"
@@ -4408,7 +4408,7 @@ REFERENCE           MENU_SOLO_HOMEPAGE
 LANG_ENGLISH        "Inicio Solo"
 
 REFERENCE           MENU_PRESTIGE_MODE_DESC_2
-LANG_ENGLISH        "Entrar no Prestigio comeca você no Nivel 1 do proximo Nivel de Prestigio. \n\nTambem trava novamente os itens de Criar-uma-Classe e Sequencias de Pontuacao, e você precisara desbloquea-los novamente atraves do progresso de nivel. Isso permite que você decida se quer desbloquear os mesmos itens novamente ou experimentar algo completamente novo da proxima vez."
+LANG_ENGLISH        "Entrar no Prestigio comeca você no Nivel 1 do proximo Nivel de Prestigio. \n\nTambem trava novamente os itens de Criar-uma-Classe e Sequencias de Pontuação, e você precisara desbloquea-los novamente atraves do progresso de nivel. Isso permite que você decida se quer desbloquear os mesmos itens novamente ou experimentar algo completamente novo da proxima vez."
 
 REFERENCE           MPUI_LEAGUE_REQUIRES_DLC
 LANG_ENGLISH        "Conteudo para download deve ser comprado para jogar nesta liga."
@@ -4630,7 +4630,7 @@ REFERENCE           MPUI_ELITE_APP_LAUNCH_MSG
 LANG_ENGLISH        "Isso fara com que você saia do jogo e inicie o aplicativo Call of Duty ELITE. Tem certeza?"
 
 REFERENCE           MENU_CR_SCORESTREAKS_SPECIAL_HINT
-LANG_ENGLISH        "Sequencia de Pontuacao Mais Usada: &&1"
+LANG_ENGLISH        "Sequencia de Pontuação Mais Usada: &&1"
 
 REFERENCE           MPUI_X2SCORE_CAPS
 LANG_ENGLISH        "x2 PONTOS"
@@ -5361,7 +5361,7 @@ REFERENCE           MENU_DLC3_MAP_PACK_NAME
 LANG_ENGLISH        "Vengeance"
 
 REFERENCE           MENU_FB_ACCOUNT_IN_USE
-LANG_ENGLISH        "Esta conta do Facebook ja está em uso. Para desconectar, visite www.facebook.com e atualize suas configuracoes de privacidade."
+LANG_ENGLISH        "Esta conta do Facebook ja está em uso. Para desconectar, visite www.facebook.com e atualize suas configurações de privacidade."
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_3
 LANG_ENGLISH        "Target Range Drop"
@@ -6045,7 +6045,7 @@ REFERENCE           MPUI_DESC_MAP_MAGMA
 LANG_ENGLISH        "Combates intensos nesta cidade japonesa tomada pela lava."
 
 REFERENCE           MPUI_X2SCORE
-LANG_ENGLISH        "x2 Pontuacao"
+LANG_ENGLISH        "x2 Pontuação"
 
 REFERENCE           MPUI_RETICLE_ACOG_19
 LANG_ENGLISH        "Snake Bite"
