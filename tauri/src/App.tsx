@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { AlertCircle, PackageOpen, Gamepad2, FolderOpen, ExternalLink } from "lucide-react";
+import { PackageOpen, Gamepad2, FolderOpen, ExternalLink } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { tauriInvoke } from "./lib/tauri";
 import { open } from "@tauri-apps/plugin-dialog";
@@ -22,7 +22,7 @@ const LAUNCHER_REPO_URL = "https://github.com/Edgarcsr/t6-translation-ptbr/relea
 function App() {
   const [status, setStatus] = useState<Status>("idle");
   const [installedVersion, setInstalledVersion] = useState("");
-  const [error, setError] = useState("");
+
   const [repoOwner] = useState(DF_REPO_OWNER);
   const [repoName] = useState(DF_REPO_NAME);
   const [releaseTag, setReleaseTag] = useState("");
@@ -31,8 +31,8 @@ function App() {
   const [checkingUpdate, setCheckingUpdate] = useState(false);
   const [launcherState, setLauncherState] = useState<{ current: string; latest: string | null; update_available: boolean } | null>(null);
 
-  const [bo2Path, setBo2Path] = useState(DF_BO2_PATH);
-  const [plutoniumPath, setPlutoniumPath] = useState("%LOCALAPPDATA%\\Plutonium");
+  const [bo2Path, setBo2Path] = useState("");
+  const [plutoniumPath, setPlutoniumPath] = useState("");
   const [bo2Detected, setBo2Detected] = useState(false);
   const [plutoniumDetected, setPlutoniumDetected] = useState(false);
 
@@ -94,9 +94,15 @@ function App() {
   useEffect(() => {
     (async () => {
       try {
-        // Verificar caminhos
-        setBo2Detected(await tauriInvoke<boolean>("check_path", { path: bo2Path }));
-        setPlutoniumDetected(await tauriInvoke<boolean>("check_path", { path: plutoniumPath }));
+        // Verificar caminhos padrão e preencher se detectado
+        const bo2Default = DF_BO2_PATH;
+        const plutoniumDefault = "%LOCALAPPDATA%\\Plutonium";
+        const bo2Ok = await tauriInvoke<boolean>("check_path", { path: bo2Default, contains: "steamapps\\common" });
+        const plutoniumOk = await tauriInvoke<boolean>("check_path", { path: plutoniumDefault });
+        if (bo2Ok) setBo2Path(bo2Default);
+        if (plutoniumOk) setPlutoniumPath(plutoniumDefault);
+        setBo2Detected(bo2Ok);
+        setPlutoniumDetected(plutoniumOk);
 
         // Verificar tradução
         const translationResult = await tauriInvoke<{
@@ -111,9 +117,9 @@ function App() {
           setInstalledVersion(translationResult.version || "");
         }
 
-        // Verificar Steam Fix
+        // Verificar Steam Fix (usa o path detectado ou o padrão como fallback)
         const steamFixResult = await tauriInvoke<boolean>("check_steam_fix_status", {
-          bo2Path,
+          bo2Path: bo2Ok ? bo2Default : DF_BO2_PATH,
         });
         setSteamFixInstalled(steamFixResult);
       } catch (err) {
@@ -142,20 +148,17 @@ function App() {
 
   async function handleRemove() {
     try {
-      setError("");
       await tauriInvoke("remove_translation", {});
       setStatus("idle");
       setInstalledVersion("");
       toast.success("Tradução removida!");
     } catch (err) {
-      setError(String(err));
-      toast.error("Erro ao remover tradução");
+      toast.error(String(err));
     }
   }
 
   async function handleDownload() {
     try {
-      setError("");
       setStatus("downloading");
       const path = await tauriInvoke<string>("download_translation", { repoOwner, repoName, releaseTag });
       toast.success("Download concluído! Aplicando...");
@@ -165,15 +168,13 @@ function App() {
       setInstalledVersion(releaseTag);
       toast.success("Tradução aplicada!");
     } catch (err) {
-      setError(String(err));
       setStatus("error");
-      toast.error("Erro ao aplicar tradução");
+      toast.error(String(err));
     }
   }
 
   async function handleSteamFixToggle() {
     setSteamFixBusy(true);
-    setError("");
     try {
       if (steamFixInstalled) {
         await tauriInvoke("steam_fix_uninstall", { bo2Path });
@@ -185,8 +186,7 @@ function App() {
         toast.success("Steam Launch Fix aplicado!");
       }
     } catch (err) {
-      setError(String(err));
-      toast.error("Erro ao aplicar Steam Launch Fix");
+      toast.error(String(err));
     } finally {
       setSteamFixBusy(false);
     }
@@ -271,15 +271,6 @@ function App() {
             </div>
           </div>
         </div>
-
-        {error && (
-          <div className="mt-4">
-            <div className="flex items-start gap-2 p-3 bg-red-900/20 border border-red-800/40 rounded-xl">
-              <AlertCircle className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
-              <p className="text-xs text-red-400/80 break-all">{error}</p>
-            </div>
-          </div>
-        )}
 
         <div className="grid grid-cols-2 gap-4 mt-4">
           <PathCard

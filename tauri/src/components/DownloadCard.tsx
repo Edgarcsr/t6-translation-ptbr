@@ -117,12 +117,17 @@ export function DownloadCard({
             <TooltipTrigger asChild>
               <button
                 onClick={onRemove}
-                className="w-7 h-7 rounded-lg flex items-center justify-center bg-neutral-800 hover:bg-neutral-700 text-neutral-500 hover:text-red-400 transition-all flex-shrink-0 active:scale-[0.95]"
+                disabled={!plutoniumDetected}
+                className={`w-7 h-7 rounded-lg flex items-center justify-center transition-all flex-shrink-0 active:scale-[0.95] ${
+                  plutoniumDetected
+                    ? "bg-neutral-800 hover:bg-neutral-700 text-neutral-500 hover:text-red-400"
+                    : "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                }`}
               >
                 <Trash2 className="w-3.5 h-3.5" />
               </button>
             </TooltipTrigger>
-            <TooltipContent>Remover tradução</TooltipContent>
+            <TooltipContent>{plutoniumDetected ? "Remover tradução" : "Plutonium não detectado"}</TooltipContent>
           </Tooltip>
         )}
       </div>

@@ -138,26 +138,40 @@ async fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
         .await
         .map_err(|e| format!("Erro ao obter plutonium.exe: {}", e))?;
 
-    // Executáveis a substituir
-    let exes = vec!["t6mp.exe", "t6sp.exe", "t6zm.exe"];
+    // Executáveis a substituir (apenas MP e ZM, não tocar na campanha)
+    let exes = vec!["t6mp.exe", "t6zm.exe"];
     let mut backed_up = 0;
+    let plutonium_size = fs::metadata(&plutonium_exe).map(|m| m.len()).unwrap_or(0);
 
     for exe_name in &exes {
         let exe_path = bo2_dir.join(exe_name);
 
-        // Se arquivo original existe, fazer backup
-        if exe_path.exists() {
-            let backup_path = backup_dir.join(exe_name);
-            if !backup_path.exists() {
-                fs::copy(&exe_path, &backup_path)
-                    .map_err(|e| format!("Erro ao fazer backup de {}: {}", exe_name, e))?;
-                backed_up += 1;
+        if !exe_path.exists() {
+            continue;
+        }
+
+        let backup_path = backup_dir.join(exe_name);
+
+        // Só faz backup se ainda não existe
+        if !backup_path.exists() {
+            // Verifica se o arquivo atual não é o próprio plutonium (backup corrompido de instalação anterior)
+            if let Ok(meta) = fs::metadata(&exe_path) {
+                if meta.len() == plutonium_size {
+                    return Err(format!(
+                        "{} já parece ser o Plutonium. Remova o Steam Fix primeiro.",
+                        exe_name
+                    ));
+                }
             }
 
-            // Substituir pelo plutonium.exe
-            fs::copy(&plutonium_exe, &exe_path)
-                .map_err(|e| format!("Erro ao copiar plutonium.exe para {}: {}", exe_name, e))?;
+            fs::copy(&exe_path, &backup_path)
+                .map_err(|e| format!("Erro ao fazer backup de {}: {}", exe_name, e))?;
+            backed_up += 1;
         }
+
+        // Substituir pelo plutonium.exe
+        fs::copy(&plutonium_exe, &exe_path)
+            .map_err(|e| format!("Erro ao copiar plutonium.exe para {}: {}", exe_name, e))?;
     }
 
     Ok(format!(
@@ -168,7 +182,6 @@ async fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
          \n\
          ✓ {} executável(is) substituído(s):\n\
          • t6mp.exe (Multiplayer)\n\
-         • t6sp.exe (Single Player)\n\
          • t6zm.exe (Zombies)\n\
          \n\
          Agora ao clicar em \"Play\" no Steam, rodará Plutonium!",
@@ -178,8 +191,16 @@ async fn steam_fix_install(bo2_path: &str) -> Result<String, String> {
 }
 
 #[tauri::command]
-fn check_path(path: &str) -> bool {
-    Path::new(path).exists()
+fn check_path(path: &str, contains: Option<&str>) -> bool {
+    let expanded = path.replace("%LOCALAPPDATA%", &env::var("LOCALAPPDATA").unwrap_or_default());
+    let p = Path::new(&expanded);
+    if !p.exists() {
+        return false;
+    }
+    if let Some(pattern) = contains {
+        return expanded.contains(pattern);
+    }
+    true
 }
 
 #[tauri::command]
@@ -191,35 +212,36 @@ fn steam_fix_uninstall(bo2_path: &str) -> Result<String, String> {
         return Err("Nenhum backup encontrado. Verifique se o Steam Fix foi instalado corretamente.".to_string());
     }
 
-    let exes = vec!["t6mp.exe", "t6sp.exe", "t6zm.exe"];
+    let exes = vec!["t6mp.exe", "t6zm.exe"];
     let mut restored = 0;
+    let mut errors = Vec::new();
 
     for exe_name in &exes {
         let exe_path = bo2_dir.join(exe_name);
         let backup_path = backup_dir.join(exe_name);
 
-        if backup_path.exists() {
-            fs::copy(&backup_path, &exe_path)
-                .map_err(|e| format!("Erro ao restaurar {}: {}", exe_name, e))?;
-            restored += 1;
+        if !backup_path.exists() {
+            errors.push(format!("Backup de {} não encontrado", exe_name));
+            continue;
         }
+
+        fs::copy(&backup_path, &exe_path)
+            .map_err(|e| format!("Erro ao restaurar {}: {}", exe_name, e))?;
+        restored += 1;
     }
 
-    // Remover diretório de backup
-    fs::remove_dir_all(&backup_dir)
-        .map_err(|e| format!("Erro ao remover backup: {}", e))?;
+    // Só remove o backup se todos os arquivos foram restaurados
+    if restored == exes.len() {
+        fs::remove_dir_all(&backup_dir)
+            .map_err(|e| format!("Erro ao remover backup: {}", e))?;
+    }
 
-    Ok(format!(
-        "✅ Plutonium Steam Fix removido!\n\
-         \n\
-         ✓ {} executável(is) restaurado(s):\n\
-         • t6mp.exe\n\
-         • t6sp.exe\n\
-         • t6zm.exe\n\
-         \n\
-         Agora o jogo rodará com o executável original!",
-        restored,
-    ))
+    let mut msg = format!("✅ Steam Fix removido!\n\n✓ {} executável(is) restaurado(s):\n• t6mp.exe\n• t6zm.exe", restored);
+    if !errors.is_empty() {
+        msg.push_str(&format!("\n\n⚠️ {}:\n{}", errors.len(), errors.join("\n")));
+    }
+    msg.push_str("\n\nAgora o jogo rodará com o executável original!");
+    Ok(msg)
 }
 
 fn get_plutonium_strings_dir() -> Result<PathBuf, String> {

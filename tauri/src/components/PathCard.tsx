@@ -15,17 +15,21 @@ export function PathCard({
   onPick?: () => void;
 }) {
   return (
-    <div className="bg-neutral-900 border border-neutral-800 rounded-2xl p-4">
+    <div className={`bg-neutral-900 rounded-2xl p-4 ${detected ? "border border-neutral-800" : "border border-rose-800/50"}`}>
       <div className="flex items-center justify-between mb-1.5">
         <div className="flex items-center gap-2">
           {icon}
           <p className="text-[10px] text-neutral-500 uppercase tracking-wider font-medium">{label}</p>
         </div>
         <div className="flex items-center gap-1.5">
-          {detected && (
+          {detected ? (
             <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-neutral-800 text-neutral-400">
               <Zap className="w-3 h-3 text-neutral-500" />
               detectado
+            </span>
+          ) : (
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-rose-950/30 text-rose-400/70">
+              não encontrado
             </span>
           )}
           {onPick && (
@@ -43,7 +47,11 @@ export function PathCard({
           )}
         </div>
       </div>
-      <p className="text-[11px] text-neutral-400 font-mono break-all">{path}</p>
+      {path ? (
+        <p className="text-[11px] text-neutral-400 font-mono break-all">{path}</p>
+      ) : (
+        <p className="text-[11px] text-rose-400/50 italic">Nenhum caminho configurado</p>
+      )}
     </div>
   );
 }
