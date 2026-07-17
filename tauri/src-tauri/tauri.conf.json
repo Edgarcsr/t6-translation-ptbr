@@ -27,6 +27,11 @@
   "bundle": {
     "active": true,
     "targets": "all",
+    "windows": {
+      "certificateThumbprint": "23B08B32FE17AE7B28DCA1DE60F5941AFEB14424",
+      "digestAlgorithm": "sha256",
+      "timestampUrl": "http://timestamp.digicert.com"
+    },
     "icon": [
       "icons/app-icon.svg",
       "icons/32x32.png",

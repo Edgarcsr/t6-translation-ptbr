@@ -33,6 +33,15 @@ jobs:
         working-directory: tauri
         run: npm ci
 
+      - name: Import code signing certificate
+        run: |
+          $pfxBytes = [Convert]::FromBase64String("${{ secrets.WINDOWS_CERTIFICATE }}")
+          $certPath = "$env:RUNNER_TEMP\certificate.pfx"
+          [IO.File]::WriteAllBytes($certPath, $pfxBytes)
+          $securePwd = ConvertTo-SecureString -String "${{ secrets.WINDOWS_CERTIFICATE_PASSWORD }}" -Force -AsPlainText
+          Import-PfxCertificate -FilePath $certPath -CertStoreLocation Cert:\CurrentUser\My -Password $securePwd
+          Remove-Item $certPath -Force
+
       - name: Build Tauri app
         working-directory: tauri
         run: npm run tauri build
