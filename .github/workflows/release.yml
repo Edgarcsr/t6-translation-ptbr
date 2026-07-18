@@ -9,12 +9,38 @@ permissions:
   contents: write
 
 jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      app_changed: ${{ steps.check.outputs.app_changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check what changed since last tag
+        id: check
+        shell: pwsh
+        run: |
+          $prevTag = git describe --tags --abbrev=0 HEAD^ 2>$null
+          if (-not $prevTag) {
+            "app_changed=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          } else {
+            $changed = git diff --name-only "$prevTag" HEAD
+            $appChanged = $changed | Where-Object { $_ -notlike "translation/*" }
+            if ($appChanged) {
+              "app_changed=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+            }
+          }
+
   build:
+    needs: changes
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Setup Node.js
+        if: needs.changes.outputs.app_changed == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -22,18 +48,22 @@ jobs:
           cache-dependency-path: tauri/package-lock.json
 
       - name: Setup Rust
+        if: needs.changes.outputs.app_changed == 'true'
         uses: dtolnay/rust-toolchain@stable
 
       - name: Cache Rust
+        if: needs.changes.outputs.app_changed == 'true'
         uses: swatinem/rust-cache@v2
         with:
           workspaces: tauri/src-tauri
 
       - name: Install JS dependencies
+        if: needs.changes.outputs.app_changed == 'true'
         working-directory: tauri
         run: npm ci
 
       - name: Import code signing certificate
+        if: needs.changes.outputs.app_changed == 'true'
         run: |
           $pfxBytes = [Convert]::FromBase64String("${{ secrets.WINDOWS_CERTIFICATE }}")
           $certPath = "$env:RUNNER_TEMP\certificate.pfx"
@@ -43,6 +73,7 @@ jobs:
           Remove-Item $certPath -Force
 
       - name: Build Tauri app
+        if: needs.changes.outputs.app_changed == 'true'
         working-directory: tauri
         run: npm run tauri build
 
@@ -52,11 +83,15 @@ jobs:
           cd translation/ptbr/localizedstrings
           Compress-Archive -Path *.str -DestinationPath "$env:GITHUB_WORKSPACE\dist\translation.zip" -Force
 
-      - name: Upload artifacts to release
+      - name: Upload translation zip
         uses: softprops/action-gh-release@v2
         with:
-          files: |
-            dist/translation.zip
-            tauri/src-tauri/target/release/*.exe
+          files: dist/translation.zip
           generate_release_notes: true
           make_latest: true
+
+      - name: Upload app installer
+        if: needs.changes.outputs.app_changed == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: tauri/src-tauri/target/release/*.exe
