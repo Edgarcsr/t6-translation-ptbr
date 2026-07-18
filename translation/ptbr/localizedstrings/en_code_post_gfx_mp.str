@@ -325,7 +325,7 @@ REFERENCE           KILLSTREAK_EARNED_REMOTE_MORTAR
 LANG_ENGLISH        "Pressione ^3[{+actionslot 4}]^7 para Lodestar"
 
 REFERENCE           PLATFORM_RAGDOLL_DESC
-LANG_ENGLISH        "Ativar ou Desativar fisica de ragdoll."
+LANG_ENGLISH        "Ativar ou Desativar física de ragdoll."
 
 REFERENCE           MPUI_RETICLE_ACOG_3
 LANG_ENGLISH        "Queda em Alcance Alvo"
@@ -11567,7 +11567,7 @@ REFERENCE           MPUI_EDIT_GAME_RULES_DESC
 LANG_ENGLISH        "Personalize suas proprias regras para o modo de jogo."
 
 REFERENCE           MENU_STATUS_OPEN_DESC_CAPS
-LANG_ENGLISH        "Abrir"
+LANG_ENGLISH        "Aberto"
 
 REFERENCE           PLATFORM_REINSERT_CONTROLLER
 LANG_ENGLISH        "reinsira o controle e"
@@ -11897,7 +11897,7 @@ REFERENCE           PLATFORM_PICK_UP_DOUBLE_TAP
 LANG_ENGLISH        "Segure ^3&&1^7 para pick up double tap"
 
 REFERENCE           MENU_STATUS_OPEN_FRIENDS_DESC_CAPS
-LANG_ENGLISH        "Amigos Only"
+LANG_ENGLISH        "Apenas Amigos"
 
 REFERENCE           WEAPON_SARITCH_FMJ
 LANG_ENGLISH        "SMR FMJ"
@@ -27872,7 +27872,7 @@ REFERENCE           MENU_STATUS_INVITE_ONLY_DESC_CAPS
 LANG_ENGLISH        "Apenas Convite"
 
 REFERENCE           MENU_STATUS_OPEN_CLAN_DESC
-LANG_ENGLISH        "Privacidade do Grupo: Apenas Membros do Cla"
+LANG_ENGLISH        "Privacidade do Grupo: Apenas Membros do Clã"
 
 REFERENCE           MENU_WAR_STATUS_WERE_RAISING
 LANG_ENGLISH        "Estamos capturando &&1"

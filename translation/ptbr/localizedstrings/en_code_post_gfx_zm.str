@@ -232,7 +232,7 @@ REFERENCE           MENU_PURCHASE_BOTTOM
 LANG_ENGLISH        "Comprar Inferior Attach Point"
 
 REFERENCE           PLATFORM_RAGDOLL_DESC
-LANG_ENGLISH        "Ativar ou Desativar ragdoll physics."
+LANG_ENGLISH        "Ativar ou Desativar física de ragdoll."
 
 REFERENCE           MPUI_RETICLE_ACOG_3
 LANG_ENGLISH        "Alvo Alcance Drop"
@@ -5824,7 +5824,7 @@ REFERENCE           MPUI_EDIT_GAME_RULES_DESC
 LANG_ENGLISH        "Personalize suas próprias regras para o modo de jogo."
 
 REFERENCE           MENU_STATUS_OPEN_DESC_CAPS
-LANG_ENGLISH        "Abrir"
+LANG_ENGLISH        "Aberto"
 
 REFERENCE           MPUI_SHOTGUNS
 LANG_ENGLISH        "Escopetas"

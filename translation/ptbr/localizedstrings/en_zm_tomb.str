@@ -1,0 +1,241 @@
+VERSION             "1"
+CONFIG              "ptbr_translation"
+
+REFERENCE           ZM_TOMB_SHAG
+LANG_ENGLISH        "Você só pode carregar uma pá"
+
+REFERENCE           ZM_TOMB_EHT
+LANG_ENGLISH        "Pressione ^3[{+activate}]^7 para sair da Cabeça de Robô"
+
+REFERENCE           ZM_TOMB_BOR
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Para-raios"
+
+REFERENCE           ZM_TOMB_PUIS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para trocar pelo Cajado de Gelo"
+
+REFERENCE           ZM_TOMB_PERK_ONEINCH
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar One Inch Punch [Custo: &&1]"
+
+REFERENCE           ZM_TOMB_NS
+LANG_ENGLISH        "Precisa de pá para cavar"
+
+REFERENCE           ZM_TOMB_PUAS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para trocar pelo Cajado de Vento"
+
+REFERENCE           ZM_TOMB_PUFS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para trocar pelo Cajado de Fogo"
+
+REFERENCE           ZM_TOMB_ZOMBIE_STAFF_PICKUP
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Cajado"
+
+REFERENCE           ZM_TOMB_DIHO
+LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para usar o Drone Maxis"
+
+REFERENCE           ZM_TOMB_X2D
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Cavar"
+
+REFERENCE           ZM_TOMB_PULS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para trocar pelo Cajado de Relâmpago"
+
+REFERENCE           ZM_TOMB_TELEPORT_BUY
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para acessar o Teletransportador [Custo: &&1]"
+
+REFERENCE           ZM_TOMB_GREL
+LANG_ENGLISH        "Gramofone está colocado em outro lugar"
+
+REFERENCE           ZM_TOMB_X2CT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para chamar o Tanque [Custo: &&1]"
+
+REFERENCE           ZM_TOMB_QUADROTOR
+LANG_ENGLISH        "Drone Maxis"
+
+REFERENCE           ZM_TOMB_RU
+LANG_ENGLISH        "Disco Correto Indisponível"
+
+REFERENCE           ZM_TOMB_CH1
+LANG_ENGLISH        "Faça 115 Headshots em Zumbis Normais"
+
+REFERENCE           ZM_TOMB_RPP
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para beber Perk-a-Cola"
+
+REFERENCE           ZM_TOMB_CRS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado"
+
+REFERENCE           ZM_TOMB_INLS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir Cajado de Relâmpago"
+
+REFERENCE           ZM_TOMB_PLAY_RECORD
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Tocar Disco"
+
+REFERENCE           ZM_TOMB_PUGR
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Pegar Gramofone"
+
+REFERENCE           ZM_TOMB_PLGR
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Colocar Gramofone"
+
+REFERENCE           ZM_TOMB_CRF
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado de Fogo"
+
+REFERENCE           ZM_TOMB_RPE
+LANG_ENGLISH        "Orbe Wunderfizz está atualmente em outra localização"
+
+REFERENCE           ZM_TOMB_X2PU
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para &&1"
+
+REFERENCE           ZM_TOMB_X2AT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para ativar o Tanque [Custo: &&1]"
+
+REFERENCE           ZM_TOMB_INAS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir Cajado de Vento"
+
+REFERENCE           ZM_TOMB_INFS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir Cajado de Fogo"
+
+REFERENCE           ZM_TOMB_RPB
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Perk-a-Cola [Custo: &&1]"
+
+REFERENCE           ZM_TOMB_CRA
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado de Vento"
+
+REFERENCE           ZM_TOMB_CRB
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Sinalizador de Artilharia"
+
+REFERENCE           ZM_TOMB_INWS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir Cajado de Gelo"
+
+REFERENCE           ZM_TOMB_INS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir o Cristal Elemental"
+
+REFERENCE           ZM_TOMB_CRRO
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Para-raios"
+
+REFERENCE           ZM_TOMB_CH3
+LANG_ENGLISH        "Gaste 30000 Pontos"
+
+REFERENCE           ZM_TOMB_CRQ
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Drone Maxis"
+
+REFERENCE           ZM_TOMB_ZC
+LANG_ENGLISH        "A energia deve estar ligada"
+
+REFERENCE           ZM_TOMB_CAP
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para energizar a área usando o gerador 115 [Custo: &&1]"
+
+REFERENCE           ZM_TOMB_CRRI
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Escudo de Zumbi"
+
+REFERENCE           ZM_TOMB_TAKE_BEACON
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Sinalizador de Artilharia"
+
+REFERENCE           ZM_TOMB_TQ
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Drone Maxis"
+
+REFERENCE           ZM_TOMB_BOF
+LANG_ENGLISH        "Você recebeu o Cajado de Fogo"
+
+REFERENCE           ZM_TOMB_PRESS_X_TO_TELEPORT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Ejetar"
+
+REFERENCE           ZM_TOMB_DIHS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Drone Maxis"
+
+REFERENCE           ZM_TOMB_CRW
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado de Gelo"
+
+REFERENCE           ZM_TOMB_CRL
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado de Relâmpago"
+
+REFERENCE           ZM_TOMB_BOW
+LANG_ENGLISH        "Você recebeu o Cajado de Gelo"
+
+REFERENCE           ZM_TOMB_BOL
+LANG_ENGLISH        "Você recebeu o Cajado de Relâmpago"
+
+REFERENCE           ZM_TOMB_ZCIP
+LANG_ENGLISH        "Um gerador de conversão 115 está sendo energizado"
+
+REFERENCE           ZM_TOMB_BOA
+LANG_ENGLISH        "Você recebeu o Cajado de Vento"
+
+REFERENCE           ZM_TOMB_PUCT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Tablete"
+
+REFERENCE           ZM_TOMB_EQUIPMENT
+LANG_ENGLISH        "Peças Musicais"
+
+REFERENCE           ZM_TOMB_STAFF_PARTS
+LANG_ENGLISH        "Peças do Cajado"
+
+REFERENCE           ZM_TOMB_ZOMBIE_SHIELD
+LANG_ENGLISH        "Escudo de Zumbi"
+
+REFERENCE           ZM_TOMB_SHPU
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar a Pá"
+
+REFERENCE           ZM_TOMB_TNKC
+LANG_ENGLISH        "Motor do tanque esfriando"
+
+REFERENCE           ZM_TOMB_ZONE_RECAPTURE_IN_PROGRESS
+LANG_ENGLISH        "Um gerador de conversão 115 está sendo atacado"
+
+REFERENCE           ZM_TOMB_QUADROTOR_IN_USE
+LANG_ENGLISH        "Drone Maxis em uso"
+
+REFERENCE           ZM_TOMB_OSO
+LANG_ENGLISH        "Você só pode carregar um cajado"
+
+REFERENCE           ZM_TOMB_TNKM
+LANG_ENGLISH        "O tanque está em movimento"
+
+REFERENCE           ZM_TOMB_CH_V
+LANG_ENGLISH        "Olhe para a medalha para ver o desafio"
+
+REFERENCE           ZM_TOMB_CH2
+LANG_ENGLISH        "Capture 6 Geradores"
+
+REFERENCE           ZM_TOMB_TELE
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para acessar o Teletransportador"
+
+REFERENCE           ZM_TOMB_RPU
+LANG_ENGLISH        "A energia deve estar ligada"
+
+REFERENCE           ZM_TOMB_CHT
+LANG_ENGLISH        "Encha 4 baús até a capacidade"
+
+REFERENCE           ZM_TOMB_X2ATF
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para ativar o Tanque"
+
+REFERENCE           ZM_TOMB_PUBT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Tablete\n"
+
+REFERENCE           ZM_TOMB_RPT
+LANG_ENGLISH        "Você só pode carregar &&1 perks"
+
+REFERENCE           ZM_TOMB_PLBT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para colocar Tablete"
+
+REFERENCE           ZM_TOMB_PLCT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para colocar Tablete"
+
+REFERENCE           ZM_TOMB_RECAPTURE_LOCK
+LANG_ENGLISH        "Defenda os geradores de ataques"
+
+REFERENCE           ZM_TOMB_CH_G
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar recompensa"
+
+REFERENCE           ZM_TOMB_CH_S
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para selecionar esta recompensa"
+
+REFERENCE           ZM_TOMB_CH_O
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para abrir caixa"
+
+REFERENCE           ZM_TOMB_MAXIS_AUDIOLOG
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para reproduzir Gravação de Áudio"
+
+REFERENCE           ZM_CRAFTABLES_CHANGE_BUILD
+LANG_ENGLISH        "Pressione [{+actionslot 1}] ou [{+actionslot 2}] para mudar de item"
+
+REFERENCE           ZM_CRAFTABLES_PIECE_NO_SWITCH
+LANG_ENGLISH        "Já está carregando uma peça."
+
+ENDMARKER

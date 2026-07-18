@@ -1,0 +1,163 @@
+VERSION             "1"
+CONFIG              "ptbr_translation"
+
+REFERENCE           ZM_BURIED_SQ_SWIT_U
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para usar a Alavanca"
+
+REFERENCE           ZM_BURIED_EQ_SP_HTS
+LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para equipar Trample Steam"
+
+REFERENCE           ZM_BURIED_EQ_HC
+LANG_ENGLISH        "Cortador de Cabeças"
+
+REFERENCE           ZM_BURIED_PU_870MCS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Remington 870 MCS Giz"
+
+REFERENCE           ZM_BURIED_WB_AN94
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar AN-94 na parede"
+
+REFERENCE           ZM_BURIED_EQ_SP
+LANG_ENGLISH        "Trample Steam"
+
+REFERENCE           ZM_BURIED_WB_TAZER
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Galvaknuckles na parede"
+
+REFERENCE           ZM_BURIED_EQ_HC_PHS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Cortador de Cabeças"
+
+REFERENCE           ZM_BURIED_EQ_HC_HTS
+LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para equipar Cortador de Cabeças"
+
+REFERENCE           ZM_BURIED_WB_STICKY
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Semtex na parede"
+
+REFERENCE           ZM_BURIED_EQ_SW
+LANG_ENGLISH        "Ressonador Subterrâneo"
+
+REFERENCE           ZM_BURIED_WB_MP5K
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar MP5 na parede"
+
+REFERENCE           ZM_BURIED_KEYS_BL
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para destrancar"
+
+REFERENCE           ZM_BURIED_EQ_SW_PHS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Ressonador Subterrâneo"
+
+REFERENCE           ZM_BURIED_EQ_SW_HTS
+LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para equipar Ressonador Subterrâneo"
+
+REFERENCE           ZM_BURIED_SQ_EGM_BUT
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para usar o Botão"
+
+REFERENCE           ZM_BURIED_EQ_SP_PHS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Trample Steam"
+
+REFERENCE           ZM_BURIED_BOOZE_GV
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para dar Bebida"
+
+REFERENCE           ZM_BURIED_KEY_G
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Chave"
+
+REFERENCE           ZM_BURIED_BOOZE_G
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Bebida"
+
+REFERENCE           ZM_BURIED_CANDY_G
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Doce"
+
+REFERENCE           ZM_BURIED_BOOZE_B
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Bebida [Custo: &&1]"
+
+REFERENCE           ZM_BURIED_GIVING
+LANG_ENGLISH        "Dando..."
+
+REFERENCE           ZM_BURIED_WB_M16
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Colt M16A1 na parede"
+
+REFERENCE           ZM_BURIED_UNLOCKING
+LANG_ENGLISH        "Destrancando..."
+
+REFERENCE           ZM_BURIED_SQ_SEARCHING
+LANG_ENGLISH        "Procurando..."
+
+REFERENCE           ZM_BURIED_CANDY_GV
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para dar Doce"
+
+REFERENCE           ZM_BURIED_PU_AK74U
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para AK74u Giz"
+
+REFERENCE           ZM_BURIED_CANDY_B
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Doce [Custo: &&1]"
+
+REFERENCE           ZM_BURIED_SQ_GL_HB
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar peça"
+
+REFERENCE           ZM_BURIED_DRAW
+LANG_ENGLISH        "Sacando..."
+
+REFERENCE           ZM_BURIED_WALLBUILD
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Giz personalizado na parede"
+
+REFERENCE           ZM_BURIED_WB
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para &&1 Giz"
+
+REFERENCE           ZM_BURIED_WB_AK74U
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar AK74u na parede"
+
+REFERENCE           ZM_BURIED_SQ_FOUNT_U
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para fazer um pedido"
+
+REFERENCE           ZM_BURIED_WB_BERETTA93R
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar B23R na parede"
+
+REFERENCE           ZM_BURIED_WB_PDW57
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar PDW-57 na parede"
+
+REFERENCE           ZM_BURIED_WB_SVU
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar SVU-AS na parede"
+
+REFERENCE           ZM_BURIED_WB_M14
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar M14 na parede"
+
+REFERENCE           ZM_BURIED_WB_USRPG
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar RPG na parede"
+
+REFERENCE           ZM_BURIED_PU_SVU
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para SVU-AS Giz"
+
+REFERENCE           ZM_BURIED_WB_BOWIE
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Faca Bowie na parede"
+
+REFERENCE           ZM_BURIED_WB_CLAYMORE
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Claymore na parede"
+
+REFERENCE           ZM_BURIED_WB_870MCS
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Remington 870 MCS na parede"
+
+REFERENCE           ZM_BURIED_PU_AN94
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para AN-94 Giz"
+
+REFERENCE           ZM_BURIED_PU_PDW57
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para PDW-57 Giz"
+
+REFERENCE           ZM_BURIED_SQ_BUT_U
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para usar o Sino"
+
+REFERENCE           ZM_BURIED_PU_TAZER
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Galvaknuckles Giz"
+
+REFERENCE           ZM_BURIED_SQ_LANTERN_G
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Lanterna"
+
+REFERENCE           ZM_BURIED_HINT_GHOST_PIANO
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para dar gorjeta [Custo: &&1]"
+
+REFERENCE           ZM_BURIED_SQ_SCH
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para revistar corpo"
+
+REFERENCE           ZM_BURIED_SQ_FND
+LANG_ENGLISH        "Um interruptor foi encontrado"
+
+REFERENCE           ZM_BURIED_SQ_NFND
+LANG_ENGLISH        "Nada foi encontrado..."
+
+ENDMARKER
