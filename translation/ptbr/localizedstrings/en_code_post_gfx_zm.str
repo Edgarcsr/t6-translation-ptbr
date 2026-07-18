@@ -1,4 +1,4 @@
-VERSION             "1"
+﻿VERSION             "1"
 
 REFERENCE           MP_YOU_WILL_SPAWN_ALLIED_WITH_AN
 LANG_ENGLISH        "Você terá um &&1 na próxima reaparição Aliada"
@@ -10,10 +10,10 @@ REFERENCE           MENU_CHALLENGES_GAMEMODES
 LANG_ENGLISH        "Modos de Jogo"
 
 REFERENCE           KEY_OR
-LANG_ENGLISH        "OR"
+LANG_ENGLISH        "OU"
 
 REFERENCE           KEY_BACKSPACE
-LANG_ENGLISH        "BACKSPACE"
+LANG_ENGLISH        "RETROCESSO"
 
 REFERENCE           WEAPON_DESERTTAC_DUAL_ATTACH
 LANG_ENGLISH        "Desert Tático Multiple Acessórios"
@@ -37,7 +37,7 @@ REFERENCE           KEY_TAB
 LANG_ENGLISH        "TAB"
 
 REFERENCE           KEY_MOUSE2
-LANG_ENGLISH        "RIGHT MOUSE"
+LANG_ENGLISH        "MOUSE DIREITO"
 
 REFERENCE           MENU_FILESHARE_VOTE_WARNING
 LANG_ENGLISH        "Este votar tem já submitted."
@@ -49,7 +49,7 @@ REFERENCE           MP_ACOUSTIC_SENSOR_PICKUP
 LANG_ENGLISH        "Segure ^3&&1^7 para Pegar Sensor de Movimento"
 
 REFERENCE           MENU_FILESHARE_TOTALVOTES
-LANG_ENGLISH        "NUMBER OF VOTES"
+LANG_ENGLISH        "NÚMERO DE VOTOS"
 
 REFERENCE           MP_MARINE_WIN
 LANG_ENGLISH        "SOG vitória!"
@@ -61,7 +61,7 @@ REFERENCE           MP_WAR_SATELLITE_EXPIRED_ENEMY
 LANG_ENGLISH        "Inimigo Blackbird expirado"
 
 REFERENCE           MPUI_SANDSTORM_CAPS
-LANG_ENGLISH        "SANDSTORM"
+LANG_ENGLISH        "TEMPESTADE DE AREIA"
 
 REFERENCE           KEY_UNBOUND
 LANG_ENGLISH        "NÃO ASSOCIADO"
@@ -100,10 +100,10 @@ REFERENCE           EXE_FRIENDS
 LANG_ENGLISH        "Amigos"
 
 REFERENCE           MENU_VOTE_NO_CAPS
-LANG_ENGLISH        "VOTE NO"
+LANG_ENGLISH        "VOTAR NÃO"
 
 REFERENCE           KEY_MOUSE3
-LANG_ENGLISH        "MIDDLE MOUSE"
+LANG_ENGLISH        "MEIO DO MOUSE"
 
 REFERENCE           EXE_SV_INFO_MINPING
 LANG_ENGLISH        "Mín Ping"
@@ -118,16 +118,16 @@ REFERENCE           MP_FRIENDLY_FLAG_TAKEN
 LANG_ENGLISH        "Took our bandeira!"
 
 REFERENCE           MPUI_MK_DESC
-LANG_ENGLISH        "Trocar para burst ou automatic atirar com ^3[{+actionslot 3}]^7. Automático atirar always tem more recuo."
+LANG_ENGLISH        "Alternar entre tiro em rajada ou automático com ^3[{+actionslot 3}]^7. O tiro automático sempre terá mais recuo."
 
 REFERENCE           KEY_PGUP
 LANG_ENGLISH        "PAGE UP"
 
 REFERENCE           EXE_ESTIMATING
-LANG_ENGLISH        "estimating"
+LANG_ENGLISH        "estimando"
 
 REFERENCE           MPUI_RULES_30POINTS_CAPS
-LANG_ENGLISH        "30 POINTS"
+LANG_ENGLISH        "30 PONTOS"
 
 REFERENCE           MPUI_VZOOM_SHORT
 LANG_ENGLISH        "Zoom"
@@ -136,13 +136,13 @@ REFERENCE           WEAPON_BERETTA93R_STEADYAIM
 LANG_ENGLISH        "B23R Mira um Laser"
 
 REFERENCE           KEY_SPACE
-LANG_ENGLISH        "SPACE"
+LANG_ENGLISH        "ESPAÇO"
 
 REFERENCE           MP_RPS_ROCKET_ARMOR
 LANG_ENGLISH        "Armadura: Flak Jacket"
 
 REFERENCE           MPUI_WEAPON_PISTOL_CAPS
-LANG_ENGLISH        "PISTOLS"
+LANG_ENGLISH        "PISTOLAS"
 
 REFERENCE           MENU_PRESS_START_TO_CONTINUE
 LANG_ENGLISH        "Pressione START para continue"
@@ -151,10 +151,10 @@ REFERENCE           MP_VOTE_YES
 LANG_ENGLISH        "(F1) Sim:"
 
 REFERENCE           KEY_PAUSE
-LANG_ENGLISH        "PAUSE"
+LANG_ENGLISH        "PAUSA"
 
 REFERENCE           MPUI_MK_CAPS
-LANG_ENGLISH        "SELECT FIRE"
+LANG_ENGLISH        "TIRO SELETIVO"
 
 REFERENCE           MENU_OFFENSIVETEXT
 LANG_ENGLISH        "Texto prohibited due para profanity."
@@ -169,7 +169,7 @@ REFERENCE           WEAPON_AK74U_DUALCLIP
 LANG_ENGLISH        "AK74u Carregador Rápido"
 
 REFERENCE           MPUI_COUNTRY_SWITZERLAND
-LANG_ENGLISH        "Switzerland"
+LANG_ENGLISH        "Suíça"
 
 REFERENCE           MENU_EMBLEM_SWATCH_CHANGE_OPACITY
 LANG_ENGLISH        "Mudar Opacity"
@@ -190,13 +190,13 @@ REFERENCE           MPUI_SILO_CAPS
 LANG_ENGLISH        "SILO"
 
 REFERENCE           MPUI_EQUIPPED
-LANG_ENGLISH        "Equipped"
+LANG_ENGLISH        "Equipado"
 
 REFERENCE           MP_TEMP_DRAW
-LANG_ENGLISH        "Draw"
+LANG_ENGLISH        "Empate"
 
 REFERENCE           PLATFORM_NEXT_SCORE_STREAK_CAPS
-LANG_ENGLISH        "NEXT SCORESTREAK"
+LANG_ENGLISH        "PRÓXIMA SEQUÊNCIA DE PONTOS"
 
 REFERENCE           PLATFORM_YES
 LANG_ENGLISH        "^BBUTTON_YES^ Sim"
@@ -220,13 +220,13 @@ REFERENCE           KEY_ESCAPE
 LANG_ENGLISH        "ESCAPE"
 
 REFERENCE           KEY_UPARROW
-LANG_ENGLISH        "UP ARROW"
+LANG_ENGLISH        "SETA PARA CIMA"
 
 REFERENCE           XBOXLIVE_RESTRICTEDCLAN
 LANG_ENGLISH        "Este servidor apenas allows jogadores de certain clans para jogar aqui."
 
 REFERENCE           MPUI_RPS
-LANG_ENGLISH        "Rock, Paper, Scissors"
+LANG_ENGLISH        "Pedra, Papel, Tesoura"
 
 REFERENCE           MENU_PURCHASE_BOTTOM
 LANG_ENGLISH        "Comprar Inferior Attach Point"
@@ -256,43 +256,43 @@ REFERENCE           MENU_FILESHARE_FILE_ACTION
 LANG_ENGLISH        "O que would você gostar para fazer com este arquivo?"
 
 REFERENCE           MENU_EMBLEM_LOCKED_LAYER_CAPS
-LANG_ENGLISH        "LOCKED"
+LANG_ENGLISH        "BLOQUEADO"
 
 REFERENCE           EXE_DW_PERM_BAN
 LANG_ENGLISH        "&&1 tem permanently banned de playing em o Call de Duty: Black Ops II servidores. For more information, visit www.callofduty.com/blackops2/status."
 
 REFERENCE           MENU_REFRESH_CAPS
-LANG_ENGLISH        "REFRESH"
+LANG_ENGLISH        "ATUALIZAR"
 
 REFERENCE           WEAPON_AK74U_EXTCLIP
 LANG_ENGLISH        "AK74u Carregador Estendido"
 
 REFERENCE           MENU_FILESHARE_DEFEAT
-LANG_ENGLISH        "DEFEAT"
+LANG_ENGLISH        "DERROTA"
 
 REFERENCE           WEAPON_METALSTORM
 LANG_ENGLISH        "Storm PSR"
 
 REFERENCE           MENU_AUDIO_SPEAKERS_SETTINGS_CAPS
-LANG_ENGLISH        "AUDIO SPEAKER SETUP"
+LANG_ENGLISH        "CONFIGURAÇÃO DE CAIXAS DE SOM"
 
 REFERENCE           MENU_VIEWING_COD_TV
-LANG_ENGLISH        "Browsing CODTV"
+LANG_ENGLISH        "Navegando na CODTV"
 
 REFERENCE           KEY_F12
 LANG_ENGLISH        "F12"
 
 REFERENCE           KEY_DOWNARROW
-LANG_ENGLISH        "DOWN ARROW"
+LANG_ENGLISH        "SETA PARA BAIXO"
 
 REFERENCE           MENU_LOD
 LANG_ENGLISH        "LOD:"
 
 REFERENCE           MENU_ENGLISH
-LANG_ENGLISH        "English"
+LANG_ENGLISH        "Inglês"
 
 REFERENCE           EXE_SECONDS
-LANG_ENGLISH        "sec"
+LANG_ENGLISH        "seg"
 
 REFERENCE           MP_DOM_LOSING_FLAG
 LANG_ENGLISH        "Losing Bandeira!"
@@ -301,13 +301,13 @@ REFERENCE           MENU_LEVEL_MYANMAR_DESC
 LANG_ENGLISH        "Mason's son David leads JSOC's elite counter terrorist forçar investigating Menendez' links para um revolutionary novo microchip criado de Raro Earth Element Celerium"
 
 REFERENCE           MPUI_DESERT_BROWN
-LANG_ENGLISH        "Desert Brown"
+LANG_ENGLISH        "Marrom Deserto"
 
 REFERENCE           MENU_FREE_FOR_ALL
 LANG_ENGLISH        "Grátis para Todos"
 
 REFERENCE           KEY_LEFTARROW
-LANG_ENGLISH        "LEFT ARROW"
+LANG_ENGLISH        "SETA PARA ESQUERDA"
 
 REFERENCE           MP_ENEMY_FLAG_CAPTURED
 LANG_ENGLISH        "Captured inimigo bandeira!"
@@ -316,16 +316,16 @@ REFERENCE           WEAPON_HK416
 LANG_ENGLISH        "M27"
 
 REFERENCE           PRESENCE_SO_OVERFLOW
-LANG_ENGLISH        "Dispatch"
+LANG_ENGLISH        "Despacho"
 
 REFERENCE           MPUI_CARBON
-LANG_ENGLISH        "Carbon Fiber"
+LANG_ENGLISH        "Fibra de Carbono"
 
 REFERENCE           KEY_HOME
 LANG_ENGLISH        "HOME"
 
 REFERENCE           MPUI_SNIPER_RIFLES_DESC
-LANG_ENGLISH        "Sniper Rifles"
+LANG_ENGLISH        "Fuzis de Precisão"
 
 REFERENCE           MP_SAS_ELIMINATED_SUB
 LANG_ENGLISH        "Você tem taken their bonuses!"
@@ -340,16 +340,16 @@ REFERENCE           WEAPON_TAR21_EXTCLIP
 LANG_ENGLISH        "MTAR Extended Clipe"
 
 REFERENCE           MP_OPFOR_WIN_MATCH
-LANG_ENGLISH        "The Oposição tem won o match!"
+LANG_ENGLISH        "A Oposição venceu a partida!"
 
 REFERENCE           MPUI_EARNINGS_STATEMENT
-LANG_ENGLISH        "Earnings Statement"
+LANG_ENGLISH        "Extrato de Ganhos"
 
 REFERENCE           PLATFORM_EMBLEM_SELECT
 LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Selecionar"
 
 REFERENCE           XBOXLIVE_PLAYLISTISOLD
-LANG_ENGLISH        "Seu playlist dados é older than o anfitrião's. Você must restart o game ou reconnect para Steam in ordem para obter o novo playlist dados."
+LANG_ENGLISH        "Seus dados de playlist são mais antigos do que os do anfitrião. Você deve reiniciar o jogo ou reconectar ao Steam para obter os novos dados de playlist."
 
 REFERENCE           WEAPON_SCAR_ACOG
 LANG_ENGLISH        "SCAR-H ACOG"
@@ -358,7 +358,7 @@ REFERENCE           WEAPON_MK
 LANG_ENGLISH        "MK"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_STARS
-LANG_ENGLISH        "Stars"
+LANG_ENGLISH        "Estrelas"
 
 REFERENCE           MP_NOVOTEINPROGRESS
 LANG_ENGLISH        "Não votar in progresso"
@@ -367,7 +367,7 @@ REFERENCE           GAME_OPFOR
 LANG_ENGLISH        "Oposição"
 
 REFERENCE           WEAPON_QCW05_DESC_SP
-LANG_ENGLISH        "Fully automatic submachine gun. High taxa de atirar com um large magazine."
+LANG_ENGLISH        "Submetralhadora totalmente automática. Alta taxa de tiro com um carregador grande."
 
 REFERENCE           MP_TEAM_ASSIST
 LANG_ENGLISH        "Hora Assist"
@@ -376,37 +376,37 @@ REFERENCE           EXE_CONSOLE_STATS_CHECK_ALERT_TITLE
 LANG_ENGLISH        "Security Alerta"
 
 REFERENCE           MENU_INVITE_CAPS
-LANG_ENGLISH        "INVITE"
+LANG_ENGLISH        "CONVIDAR"
 
 REFERENCE           MENU_ON
-LANG_ENGLISH        "On"
+LANG_ENGLISH        "Ligado"
 
 REFERENCE           MENU_RECOMMEND_TO_CLAN_CAPS
-LANG_ENGLISH        "RECOMMEND TO CLAN"
+LANG_ENGLISH        "RECOMENDAR AO CLÃ"
 
 REFERENCE           WEAPON_SYRETTE
-LANG_ENGLISH        "Syrette"
+LANG_ENGLISH        "Seringa"
 
 REFERENCE           MENU_SAVEQUIT_TEXT_4
 LANG_ENGLISH        "Se você tem changed storage devices"
 
 REFERENCE           KEY_RIGHTARROW
-LANG_ENGLISH        "RIGHT ARROW"
+LANG_ENGLISH        "SETA PARA DIREITA"
 
 REFERENCE           KEY_KP_RIGHTARROW
-LANG_ENGLISH        "KP RIGHT ARROW"
+LANG_ENGLISH        "KP SETA DIREITA"
 
 REFERENCE           XBOXLIVE_KICKPLAYER
 LANG_ENGLISH        "Expulsar &&1?"
 
 REFERENCE           MP_IED_HOLDING_IED
-LANG_ENGLISH        "^5(Holding IED)"
+LANG_ENGLISH        "^5(Com IED)"
 
 REFERENCE           MENU_EMBLEM_RGB_COLOR_HINTTEXT
 LANG_ENGLISH        "Editar cor por Red, Green e Blue valores."
 
 REFERENCE           MENU_GEOMETRIC_DETAIL
-LANG_ENGLISH        "Geometric Detail"
+LANG_ENGLISH        "Detalhe Geométrico"
 
 REFERENCE           MP_BLACKBIRD_KILL
 LANG_ENGLISH        "Ativo VSAT Orbital Abate"
@@ -442,7 +442,7 @@ REFERENCE           WEAPON_EVOSKORPION_GRIP
 LANG_ENGLISH        "Skorpion Evo III Fore Cano"
 
 REFERENCE           MPUI_RETICLE_REFLEX_9
-LANG_ENGLISH        "Diamond"
+LANG_ENGLISH        "Diamante"
 
 REFERENCE           MP_1MIN_0SEC
 LANG_ENGLISH        "1:0"
@@ -451,13 +451,13 @@ REFERENCE           KEY_CTRL
 LANG_ENGLISH        "CTRL"
 
 REFERENCE           MP_11TH
-LANG_ENGLISH        "11th"
+LANG_ENGLISH        "11º"
 
 REFERENCE           MPUI_DESC_MAP_MEAT
 LANG_ENGLISH        "Pass o meat Dear!"
 
 REFERENCE           MENU_STORE_FREE_PRODUCT
-LANG_ENGLISH        "FREE"
+LANG_ENGLISH        "GRÁTIS"
 
 REFERENCE           KEY_SHIFT
 LANG_ENGLISH        "SHIFT"
@@ -481,16 +481,16 @@ REFERENCE           MP_SAVE_PLAY
 LANG_ENGLISH        "Salvar Jogar"
 
 REFERENCE           KEY_MOUSE1
-LANG_ENGLISH        "LEFT MOUSE"
+LANG_ENGLISH        "MOUSE ESQUERDO"
 
 REFERENCE           MPUI_PARA_CAPS
-LANG_ENGLISH        "PARANOID"
+LANG_ENGLISH        "PARANOIA"
 
 REFERENCE           WEAPON_M16_MK
 LANG_ENGLISH        "Colt M16A1 Masterkey"
 
 REFERENCE           MP_SUDDEN_DEATH
-LANG_ENGLISH        "SUDDEN DEATH"
+LANG_ENGLISH        "MORTE SÚBITA"
 
 REFERENCE           MP_ROUND_1_OF_3
 LANG_ENGLISH        "Rodada 1 de 3"
@@ -505,34 +505,34 @@ REFERENCE           MP_DRIVE_LVTA4
 LANG_ENGLISH        "Segure ^3&&1^7 para dirigir o LVT"
 
 REFERENCE           WEAPON_ZOMBIE_MELEE
-LANG_ENGLISH        "BRAAAINS..."
+LANG_ENGLISH        "CÉÉÉREBROS..."
 
 REFERENCE           MPUI_RULES_FREE_CAPS
-LANG_ENGLISH        "FREE"
+LANG_ENGLISH        "GRÁTIS"
 
 REFERENCE           MP_SMALLGAME_SHORT
 LANG_ENGLISH        "8 Jogadores"
 
 REFERENCE           MENU_MATCH_WILL_BEGIN
-LANG_ENGLISH        "The match é about para begin..."
+LANG_ENGLISH        "A partida está prestes a começar..."
 
 REFERENCE           KEY_INS
 LANG_ENGLISH        "INS"
 
 REFERENCE           MENU_AUDIO_SETTINGS_CAPS
-LANG_ENGLISH        "AUDIO SETTINGS"
+LANG_ENGLISH        "CONFIGURAÇÕES DE ÁUDIO"
 
 REFERENCE           MPUI_CONTRACTS_CAPS
-LANG_ENGLISH        "CONTRACTS"
+LANG_ENGLISH        "CONTRATOS"
 
 REFERENCE           MP_DEATHMATCH
 LANG_ENGLISH        "Grátis-para-todos"
 
 REFERENCE           MPUI_RULES_UNLIMITED_CAPS
-LANG_ENGLISH        "UNLIMITED"
+LANG_ENGLISH        "ILIMITADO"
 
 REFERENCE           MPUI_HOURS
-LANG_ENGLISH        "Hours"
+LANG_ENGLISH        "Horas"
 
 REFERENCE           MP_REBELS_WIN_ROUND
 LANG_ENGLISH        "Op 40 tem won o rodada!"
@@ -553,13 +553,13 @@ REFERENCE           MP_OBJ_TDM_ELIMINATE_ENEMIES
 LANG_ENGLISH        "Ganhe pontos por eliminando inimigo jogadores"
 
 REFERENCE           MENU_ZOMBIE_COSMODROME_DESC
-LANG_ENGLISH        "The risen dead tem overtaken um Soviet cosmodrome e todos Hell tem broken loose. The countdown para o zombie apocalypse tem begun."
+LANG_ENGLISH        "Os mortos ressuscitados dominaram um cosmódromo soviético e o inferno se soltou. A contagem regressiva para o apocalipse zumbi começou."
 
 REFERENCE           MPUI_PUR_CAPS
-LANG_ENGLISH        "PURGATORY"
+LANG_ENGLISH        "PURGATÓRIO"
 
 REFERENCE           MENU_EJECTING_BRASS
-LANG_ENGLISH        "Ejecting Brass"
+LANG_ENGLISH        "Ejeção de Estojos"
 
 REFERENCE           WEAPON_MK48_EXTBARREL
 LANG_ENGLISH        "Mk 48 Cano Longo"
@@ -580,25 +580,25 @@ REFERENCE           MENU_GUN_EMBLEM
 LANG_ENGLISH        "Mostrar Emblema"
 
 REFERENCE           KEY_KP_EQUALS
-LANG_ENGLISH        "KP EQUALS"
+LANG_ENGLISH        "KP IGUAL"
 
 REFERENCE           WEAPON_BALLISTA_EXTCLIP
 LANG_ENGLISH        "Ballista Extended Clipe"
 
 REFERENCE           MENU_MODS
-LANG_ENGLISH        "Mods"
+LANG_ENGLISH        "Modificações"
 
 REFERENCE           KEY_PGDN
 LANG_ENGLISH        "PAGE DOWN"
 
 REFERENCE           MPUI_RULES_60SECONDS_CAPS
-LANG_ENGLISH        "60 SECONDS"
+LANG_ENGLISH        "60 SEGUNDOS"
 
 REFERENCE           MENU_ACTION_INVENTORY_CAPS
-LANG_ENGLISH        "ATTACHMENTS/SPECIAL AMMO"
+LANG_ENGLISH        "ACESSÓRIOS/MUNIÇÃO ESPECIAL"
 
 REFERENCE           MENU_STEREO_SPEAKERS_CAPS
-LANG_ENGLISH        "STEREO SPEAKERS"
+LANG_ENGLISH        "CAIXAS ESTÉREO"
 
 REFERENCE           MP_FINAL_PLAYERS
 LANG_ENGLISH        "Final 2 Jogadores"
@@ -622,10 +622,10 @@ REFERENCE           PLATFORM_SHOW_CONTRACTS
 LANG_ENGLISH        "^BBUTTON_INTERACT^ Contratos"
 
 REFERENCE           MPUI_COUNTRY_AUSTRALIA
-LANG_ENGLISH        "Australia"
+LANG_ENGLISH        "Austrália"
 
 REFERENCE           MPUI_TOTAL_BUY_IN_CAPS
-LANG_ENGLISH        "TOTAL BUY IN"
+LANG_ENGLISH        "COMPRA TOTAL"
 
 REFERENCE           PRESENCE_HQ
 LANG_ENGLISH        "Quartel-General"
@@ -637,7 +637,7 @@ REFERENCE           EXE_COD_PIRACY_TEMP_BAN_CONSOLE
 LANG_ENGLISH        "Este console tem temporarily banned de o Call de Duty: Black Ops II servidores due para detection de unauthorized conteúdo. Visit www.callofduty.com/blackops/status."
 
 REFERENCE           MPUI_RULES_PLANT_TIME_CAPS
-LANG_ENGLISH        "PLANT TIME"
+LANG_ENGLISH        "TEMPO DE PLANTA"
 
 REFERENCE           MENU_NO_INVITE
 LANG_ENGLISH        "Você tem no game invites."
@@ -655,7 +655,7 @@ REFERENCE           MENU_100_POINTS
 LANG_ENGLISH        "100 Pontos"
 
 REFERENCE           MENU_MONTHS_JUL
-LANG_ENGLISH        "July"
+LANG_ENGLISH        "Julho"
 
 REFERENCE           WEAPON_EVOSKORPION_FASTADS
 LANG_ENGLISH        "Skorpion Evo III Mira Rápida Handle"
@@ -667,13 +667,13 @@ REFERENCE           MP_ELIMINATE_THE_ENEMY
 LANG_ENGLISH        "Eliminate o inimigo"
 
 REFERENCE           PLATFORM_EMBLEM_TOGGLE_FLIP
-LANG_ENGLISH        "Flip"
+LANG_ENGLISH        "Inverter"
 
 REFERENCE           KEY_MOUSE4
 LANG_ENGLISH        "MOUSE 4"
 
 REFERENCE           PRESENCE_ZRACE
-LANG_ENGLISH        "Race"
+LANG_ENGLISH        "Corrida"
 
 REFERENCE           MENU_BOTS_NOT_SUPPORTED_SAS
 LANG_ENGLISH        "Bots é não supported in Paus e Pedras."
@@ -682,7 +682,7 @@ REFERENCE           PLATFORM_PRESS_TO_USE_COMLINK
 LANG_ENGLISH        "Pressione ^3[{+attack}]^7 para call in Helicóptero Furtivo"
 
 REFERENCE           MP_23RD
-LANG_ENGLISH        "23rd"
+LANG_ENGLISH        "23º"
 
 REFERENCE           WEAPON_SIG556_SF
 LANG_ENGLISH        "SIG556 Seleção de Tiro"
@@ -691,7 +691,7 @@ REFERENCE           MP_SABOTAGE_TIMER
 LANG_ENGLISH        "Sabotagem - &&1"
 
 REFERENCE           KEY_KP_UPARROW
-LANG_ENGLISH        "KP UP ARROW"
+LANG_ENGLISH        "KP SETA CIMA"
 
 REFERENCE           PLATFORM_MAX_CORPSES_DESC
 LANG_ENGLISH        "Definir o Número de Corpses para exibir em tela."
@@ -703,7 +703,7 @@ REFERENCE           MENU_DRONE_HACK_TIME
 LANG_ENGLISH        "The quantidade de hora necessary para invadir um Automated Ground Robot."
 
 REFERENCE           MENU_LEAGUE_NO_TEAMS_DESC
-LANG_ENGLISH        "Você tem não colocado in any Leagues. Seu Solo Ladders e League Teams appear aqui after você tem colocado in um League."
+LANG_ENGLISH        "Você não foi classificado em nenhuma Liga. Suas Escadas Solo e Times de Liga aparecerão aqui após você ter sido classificado em uma Liga."
 
 REFERENCE           WEAPON_PDW57_MMS
 LANG_ENGLISH        "PDW-57 MMS"
@@ -730,19 +730,19 @@ REFERENCE           MP_NVA_WIN_ROUND
 LANG_ENGLISH        "NVA tem won o rodada!"
 
 REFERENCE           WEAPON_LONGBREATH
-LANG_ENGLISH        "LONGBREATH"
+LANG_ENGLISH        "RESPIRAÇÃO LONGA"
 
 REFERENCE           KEY_KP_5
 LANG_ENGLISH        "KP 5"
 
 REFERENCE           WEAPON_CAMO_SUIT
-LANG_ENGLISH        "Camouflage Suit"
+LANG_ENGLISH        "Traje Camuflado"
 
 REFERENCE           MP_ANYGAMESIZE
 LANG_ENGLISH        "Qualquer Size"
 
 REFERENCE           MENU_OPTIONS_CONTROLS_CAPS
-LANG_ENGLISH        "OPTIONS & CONTROLS"
+LANG_ENGLISH        "OPÇÕES E CONTROLES"
 
 REFERENCE           WEAPON_INSAS_STEADYAIM
 LANG_ENGLISH        "MSMC Mira um Laser"
@@ -754,10 +754,10 @@ REFERENCE           PLATFORM_DYK_COOP_MSG7
 LANG_ENGLISH        "At o beginning de um novo rodada jogadores receive two grenades."
 
 REFERENCE           KEY_MWHEELUP
-LANG_ENGLISH        "WHEEL UP"
+LANG_ENGLISH        "RODA CIMA"
 
 REFERENCE           KEY_MWHEELDOWN
-LANG_ENGLISH        "WHEEL DOWN"
+LANG_ENGLISH        "RODA BAIXO"
 
 REFERENCE           WEAPON_ROTTWEIL72_FASTMAG
 LANG_ENGLISH        "Olympia Carregador Rápido"
@@ -772,10 +772,10 @@ REFERENCE           MENU_FILESHARE_RATESCREENSHOT
 LANG_ENGLISH        "Taxa Captura de Tela"
 
 REFERENCE           KEY_LEFT_RIGHT_ARROWS
-LANG_ENGLISH        "LEFT/RIGHT ARROWS"
+LANG_ENGLISH        "SETAS ESQUERDA/DIREITA"
 
 REFERENCE           WEAPON_LSAT_AMMOPACK
-LANG_ENGLISH        "LSAT Ammopack"
+LANG_ENGLISH        "LSAT Carregador de Munição"
 
 REFERENCE           MPUI_RETICLE_ACOG_10
 LANG_ENGLISH        "3ARC"
@@ -805,13 +805,13 @@ REFERENCE           MENU_RANK
 LANG_ENGLISH        "Ranque"
 
 REFERENCE           MENU_BASICTRAINING_HARD_CAPS
-LANG_ENGLISH        "HARDENED"
+LANG_ENGLISH        "ENDURECIDO"
 
 REFERENCE           MP_FLAG_RETURNED_BY
 LANG_ENGLISH        "Returned The Bandeira!"
 
 REFERENCE           MENU_JOIN_SERVER_CAPS
-LANG_ENGLISH        "JOIN"
+LANG_ENGLISH        "ENTRAR"
 
 REFERENCE           MPUI_PERMISSION_EMBLEM_EDITOR
 LANG_ENGLISH        "* Apenas clan leader pode editar emblema para o clan."
@@ -820,7 +820,7 @@ REFERENCE           MP_OBJ_DOM_CAPTURE_FLAGS_SCORE
 LANG_ENGLISH        "Destruir alvo A ou B por plantando explosivos em either local. Primeiro team para &&1 pontos wins."
 
 REFERENCE           MPUI_SNIPER_RIFLE
-LANG_ENGLISH        "Sniper Rifle"
+LANG_ENGLISH        "Fuzil de Precisão"
 
 REFERENCE           MENU_2X
 LANG_ENGLISH        "2x"
@@ -829,19 +829,19 @@ REFERENCE           KEY_F2
 LANG_ENGLISH        "F2"
 
 REFERENCE           MPUI_RULES_DRONE_HACK_TIME_CAPS
-LANG_ENGLISH        "DRONE HACK TIME"
+LANG_ENGLISH        "TEMPO DE HACK DO DRONE"
 
 REFERENCE           MPUI_JAPANESE_SHORT
-LANG_ENGLISH        "Imperial Army"
+LANG_ENGLISH        "Exército Imperial"
 
 REFERENCE           MENU_DRAW_HUD_CAPS
-LANG_ENGLISH        "DRAW HUD"
+LANG_ENGLISH        "DESENHAR HUD"
 
 REFERENCE           MP_VOTE_TEMPBAN
 LANG_ENGLISH        "Temporarily Ban Jogador: &&1"
 
 REFERENCE           KEY_SEMICOLON
-LANG_ENGLISH        "SEMICOLON"
+LANG_ENGLISH        "PONTO E VÍRGULA"
 
 REFERENCE           PLATFORM_XONLINE_E_SESSION_NOT_LOGGED_ON
 LANG_ENGLISH        "Você must be logged into Steam para start este session."
@@ -850,13 +850,13 @@ REFERENCE           EXE_AUTODL_SERVERDISABLED_PURE
 LANG_ENGLISH        "Poderia não baixar &&1 because autodownloading é disabled em o servidor.\n\nYou precisar para obter este arquivo elsewhere before você pode connect para este pure servidor."
 
 REFERENCE           MPUI_RULES_NUMBER_OF_LIVES_CAPS
-LANG_ENGLISH        "NUMBER OF LIVES"
+LANG_ENGLISH        "NÚMERO DE VIDAS"
 
 REFERENCE           PLATFORM_DEMO_CONFIG_RT
 LANG_ENGLISH        "^BBUTTON_FIRE^"
 
 REFERENCE           MENU_QUICK_REFRESH
-LANG_ENGLISH        "Quick Refresh"
+LANG_ENGLISH        "Atualização Rápida"
 
 REFERENCE           WEAPON_SA58_REFLEX
 LANG_ENGLISH        "FAL-OSW Reflex"
@@ -865,19 +865,19 @@ REFERENCE           KEY_F3
 LANG_ENGLISH        "F3"
 
 REFERENCE           KEY_KP_STAR
-LANG_ENGLISH        "KP STAR"
+LANG_ENGLISH        "KP ASTERISCO"
 
 REFERENCE           PLATFORM_EMBLEM_TOGGLE_OUTLINE
 LANG_ENGLISH        "Alternar Outline/Cheio"
 
 REFERENCE           MENU_CONFIRMNOSAVEDEVICE_Q_CAPS
-LANG_ENGLISH        "Você é não connected para um save device e não be able para save campanha progresso. Você may selecionar um save device through o Opções menu.\n\nWould você gostar para continue?"
+LANG_ENGLISH        "Você não está conectado a um dispositivo de salvamento e não poderá salvar o progresso da campanha. Você pode selecionar um dispositivo de salvamento através do menu Opções.\n\nGostaria de continuar?"
 
 REFERENCE           MP_WAR_NEUTRAL_ARTILLERY_CAPTURED
 LANG_ENGLISH        "Artilharia capturado"
 
 REFERENCE           MPUI_ROOFTOPS_CAPS
-LANG_ENGLISH        "ROOF TOPS"
+LANG_ENGLISH        "TELHADOS"
 
 REFERENCE           WEAPON_RPD_REFLEX
 LANG_ENGLISH        "RPD Reflex"
@@ -886,7 +886,7 @@ REFERENCE           MENU_MAPVETOSTATUSPLURAL
 LANG_ENGLISH        "&&1 votos - &&2 precisava"
 
 REFERENCE           MENU_DEMO_TOTAL_DURATION_LESS_THAN_ONE
-LANG_ENGLISH        "Não pode enviar o filme. The total duration de o filme should be em least 1 segundo long."
+LANG_ENGLISH        "Não é possível enviar o filme. A duração total do filme deve ser de pelo menos 1 segundo."
 
 REFERENCE           KEY_F4
 LANG_ENGLISH        "F4"
@@ -904,19 +904,19 @@ REFERENCE           MP_WAR_YOUR_ARTILLERY_CAPTURED
 LANG_ENGLISH        "Seu artillery foi capturado"
 
 REFERENCE           MP_MATCH_TIE
-LANG_ENGLISH        "The match é um tie!"
+LANG_ENGLISH        "A partida é um empate!"
 
 REFERENCE           MP_ALLIES_MISSION_ACCOMPLISHED
 LANG_ENGLISH        "Aliado missão accomplished"
 
 REFERENCE           MENU_SESSION_REJOIN_CAPS
-LANG_ENGLISH        "SESSION REJOIN"
+LANG_ENGLISH        "REENTRAR NA SESSÃO"
 
 REFERENCE           MENU_SYSINFO_VERSION_NUMBER
-LANG_ENGLISH        "VERSION NUMBER: &&1"
+LANG_ENGLISH        "NÚMERO DA VERSÃO: &&1"
 
 REFERENCE           MENU_KICK_PLAYER_CAPS
-LANG_ENGLISH        "KICK PLAYER"
+LANG_ENGLISH        "EXPULSAR JOGADOR"
 
 REFERENCE           EXE_AUTODL_FILENOTONSERVER
 LANG_ENGLISH        "Arquivo &&1 não found em servidor para autodownloading."
@@ -931,7 +931,7 @@ REFERENCE           MP_LVTA4_GUNNER
 LANG_ENGLISH        "Segure ^3&&1^7 para usar o LVT MG"
 
 REFERENCE           EXE_MONTH_ABV_SEPTEMBER
-LANG_ENGLISH        "Sep"
+LANG_ENGLISH        "Set"
 
 REFERENCE           KEY_F7
 LANG_ENGLISH        "F7"
@@ -949,7 +949,7 @@ REFERENCE           MENU_CUSTOM_CAPS
 LANG_ENGLISH        "PERSONALIZADO"
 
 REFERENCE           MPUI_STATS_MILESTONES_CAPS
-LANG_ENGLISH        "CHALLENGE(S)"
+LANG_ENGLISH        "DESAFIO(S)"
 
 REFERENCE           MPUI_DESC_LEADERBOARD_WINS
 LANG_ENGLISH        "Compare seu vitória/loss record para seu amigos e o world."
@@ -958,7 +958,7 @@ REFERENCE           KEY_F10
 LANG_ENGLISH        "F10"
 
 REFERENCE           MENU_MODIFIERS
-LANG_ENGLISH        "Modifiers"
+LANG_ENGLISH        "Modificadores"
 
 REFERENCE           MP_WAR_RADAR_UPDATE_ACQUIRED
 LANG_ENGLISH        "Avião Espião com electronics package called in por &&1 para &&2 segundos"
@@ -973,7 +973,7 @@ REFERENCE           KEY_F11
 LANG_ENGLISH        "F11"
 
 REFERENCE           MENU_SOUTHPAW_CAPS
-LANG_ENGLISH        "SOUTHPAW"
+LANG_ENGLISH        "CANHOTO"
 
 REFERENCE           WEAPON_AK47_DUALCLIP
 LANG_ENGLISH        "AK47 Carregador Rápido"
@@ -1015,25 +1015,25 @@ REFERENCE           MP_ESTABLISH_AND_DEFEND
 LANG_ENGLISH        "Establish e defender seu Quartel-General"
 
 REFERENCE           MENU_JOIN_IN_PROGRESS_REJOIN_CAPS
-LANG_ENGLISH        "REJOIN"
+LANG_ENGLISH        "REENTRAR"
 
 REFERENCE           WEAPON_HK416_DUAL_ATTACH
-LANG_ENGLISH        "M27 Customized"
+LANG_ENGLISH        "M27 Customizada"
 
 REFERENCE           MPUI_LOADOUT_CAPS
-LANG_ENGLISH        "LOADOUT"
+LANG_ENGLISH        "EQUIPAMENTO"
 
 REFERENCE           MPUI_CONFIRM_PURCHASE_CAPS
-LANG_ENGLISH        "UNLOCK CONFIRMATION"
+LANG_ENGLISH        "CONFIRMAÇÃO DE DESBLOQUEIO"
 
 REFERENCE           PLATFORM_EMBLEM_PURCHASE_CAPS
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ BUY"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ COMPRAR"
 
 REFERENCE           MP_OBJ_SAB_DESTROY_TARGET_SCORE
 LANG_ENGLISH        "Recover o bomba e plantar it em o inimigo hardpoint. Primeiro team para destroy o hardpoint wins."
 
 REFERENCE           WEAPON_SAIGA12_DUAL_ATTACH
-LANG_ENGLISH        "S12 Customized"
+LANG_ENGLISH        "S12 Customizada"
 
 REFERENCE           MPUI_CHANGE_GAME_TYPEMAP
 LANG_ENGLISH        "Mudar Game Tipo/Mapa"
@@ -1045,10 +1045,10 @@ REFERENCE           WEAPON_HATCHET_DESC
 LANG_ENGLISH        "Retrievable axe esse causes instant death em impact."
 
 REFERENCE           KEY_ARROWS
-LANG_ENGLISH        "ARROWS"
+LANG_ENGLISH        "SETAS"
 
 REFERENCE           PLATFORM_SOUND_DEVICE_CAPS
-LANG_ENGLISH        "SOUND DEVICE"
+LANG_ENGLISH        "DISPOSITIVO DE SOM"
 
 REFERENCE           PLATFORM_ESTABLISHED_CONNECTION_TO_LIVE
 LANG_ENGLISH        "The Call de Duty: Black Ops II servidor é agora connected"
@@ -1066,7 +1066,7 @@ REFERENCE           MPUI_CAMO_PREREQ
 LANG_ENGLISH        "Requer &&2 camuflagem para be desbloqueado."
 
 REFERENCE           MPUI_RULES_7SECONDS_CAPS
-LANG_ENGLISH        "7 SECONDS"
+LANG_ENGLISH        "7 SEGUNDOS"
 
 REFERENCE           PLATFORM_FILESHARE_STARTSEARCH
 LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Aplicar Filtro"
@@ -1078,7 +1078,7 @@ REFERENCE           MP_WAR_RADAR_ACQUIRED
 LANG_ENGLISH        "Avião Espião called in por &&1 para &&2 segundos"
 
 REFERENCE           PLATFORM_BASICTRAINING_FRIEND_NAMES_CAPS
-LANG_ENGLISH        "USE FRIEND GAMERTAGS"
+LANG_ENGLISH        "USAR GAMERTAGS DE AMIGOS"
 
 REFERENCE           MENU_CREATE_SERVER
 LANG_ENGLISH        "Criar Servidor"
@@ -1087,7 +1087,7 @@ REFERENCE           MP_WAGER_POT_EMPTY
 LANG_ENGLISH        "The aposta pot é vazio."
 
 REFERENCE           KEY_KP_LEFTARROW
-LANG_ENGLISH        "KP LEFT ARROW"
+LANG_ENGLISH        "KP SETA ESQUERDA"
 
 REFERENCE           KEY_KP_END
 LANG_ENGLISH        "KP END"
@@ -1096,16 +1096,16 @@ REFERENCE           MENU_COLOR_BLIND_ASSIST_DESC
 LANG_ENGLISH        "Mostrar o minimap e jogador indicator in cor-blind friendly cores."
 
 REFERENCE           KEY_KP_SLASH
-LANG_ENGLISH        "KP SLASH"
+LANG_ENGLISH        "KP BARRA"
 
 REFERENCE           MPUI_CATEGORY_PARTY_CAPS
-LANG_ENGLISH        "PARTY"
+LANG_ENGLISH        "GRUPO"
 
 REFERENCE           KEY_KP_DEL
 LANG_ENGLISH        "KP DEL"
 
 REFERENCE           MP_HQ_AVAILABLE_IN
-LANG_ENGLISH        "HQ online in: &&1"
+LANG_ENGLISH        "QG online em: &&1"
 
 REFERENCE           MP_KING_OF_THE_HILL
 LANG_ENGLISH        "Ponto Duro"
@@ -1114,10 +1114,10 @@ REFERENCE           MPUI_COMPLETE_MY_CLASS
 LANG_ENGLISH        "Completo My Classe"
 
 REFERENCE           MENU_TEXTURE_QUALITY_CAPS
-LANG_ENGLISH        "TEXTURE QUALITY"
+LANG_ENGLISH        "QUALIDADE DE TEXTURA"
 
 REFERENCE           MPUI_SHRP_KILLS_CAPS
-LANG_ENGLISH        "SHARPSHOOTER KILLS"
+LANG_ENGLISH        "ABATES PRECISOS"
 
 REFERENCE           MPUI_TDEF
 LANG_ENGLISH        "Hora Defender"
@@ -1135,13 +1135,13 @@ REFERENCE           MP_WAR_WAITING_FOR_AMMO
 LANG_ENGLISH        "Aguardando para ammunition para be disponível..."
 
 REFERENCE           KEY_KP_DOWNARROW
-LANG_ENGLISH        "KP DOWN ARROW"
+LANG_ENGLISH        "KP SETA BAIXO"
 
 REFERENCE           MP_10TH
-LANG_ENGLISH        "10th"
+LANG_ENGLISH        "10º"
 
 REFERENCE           PLATFORM_VIDEO_MODE_CAPS
-LANG_ENGLISH        "SCREEN RESOLUTION"
+LANG_ENGLISH        "RESOLUÇÃO DE TELA"
 
 REFERENCE           PLATFORM_JUMPFORWARD
 LANG_ENGLISH        "^BBUTTON_EMBLEM_PALETTE_NEXT^ Pular Forward"
@@ -1168,7 +1168,7 @@ REFERENCE           MP_VOTE_NO
 LANG_ENGLISH        "(F2) Não:"
 
 REFERENCE           PLATFORM_HIGH_CAPS
-LANG_ENGLISH        "HIGH"
+LANG_ENGLISH        "ALTO"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_STYLE_SETTINGS_VEHICLE
 LANG_ENGLISH        "Veículo Abates"
@@ -1186,19 +1186,19 @@ REFERENCE           KEY_KP_INS
 LANG_ENGLISH        "KP INS"
 
 REFERENCE           KEY_KP_MINUS
-LANG_ENGLISH        "KP MINUS"
+LANG_ENGLISH        "KP MENOS"
 
 REFERENCE           MP_4MIN_0SEC
 LANG_ENGLISH        "4:0"
 
 REFERENCE           MPUI_CAMO_RED
-LANG_ENGLISH        "Red"
+LANG_ENGLISH        "Vermelho"
 
 REFERENCE           MPUI_RULES_120SECONDS_CAPS
-LANG_ENGLISH        "120 SECONDS"
+LANG_ENGLISH        "120 SEGUNDOS"
 
 REFERENCE           KEY_KP_PLUS
-LANG_ENGLISH        "KP PLUS"
+LANG_ENGLISH        "KP MAIS"
 
 REFERENCE           MP_PURGATORY_QUEUE_POSITION
 LANG_ENGLISH        "Abates until soltar de purgatory:"
@@ -1213,13 +1213,13 @@ REFERENCE           MP_ONE_SQUAD
 LANG_ENGLISH        "One Esquadrão"
 
 REFERENCE           MPUI_VOTE_TO_START_CAPS
-LANG_ENGLISH        "READY UP"
+LANG_ENGLISH        "PREPARAR"
 
 REFERENCE           MPUI_COD7_TECHDEMO_CAPS
-LANG_ENGLISH        "TECH DEMO"
+LANG_ENGLISH        "DEMO TÉCNICA"
 
 REFERENCE           MENU_FILESHARE_SCREENSHOTS
-LANG_ENGLISH        "Screenshots"
+LANG_ENGLISH        "Capturas de Tela"
 
 REFERENCE           MENU_GRAPHICS_SETTINGS_DESC
 LANG_ENGLISH        "Adjust o safe area, brightness e 3D settings."
@@ -1249,7 +1249,7 @@ REFERENCE           MP_MISSILE_SWARM_ACTIVE
 LANG_ENGLISH        "HK-Drone Enxame Ativo"
 
 REFERENCE           MENU_EMBLEM_ICON_CLASSIFIED_TOOLTIP_SING
-LANG_ENGLISH        "Declassified after 1 more imagem purchase."
+LANG_ENGLISH        "Desclassificado após mais 1 compra de imagem."
 
 REFERENCE           MP_MULTIPLIERS_RESET
 LANG_ENGLISH        "Multipliers Redefinir"
@@ -1270,10 +1270,10 @@ REFERENCE           MP_YOUR_TEAM_HAS_RECOVERED_THE_BOMB
 LANG_ENGLISH        "Seu team tem recovered o bomba"
 
 REFERENCE           MP_SAFEZONE_AVAILABLE_IN
-LANG_ENGLISH        "Safe Zone online in: &&1"
+LANG_ENGLISH        "Zona Segura online em: &&1"
 
 REFERENCE           KEY_UP_DOWN_ARROWS
-LANG_ENGLISH        "UP/DOWN ARROWS"
+LANG_ENGLISH        "SETAS CIMA/BAIXO"
 
 REFERENCE           PLATFORM_MOVE_CAMERA
 LANG_ENGLISH        "Usar ^3[{+movestick}]^7 para control o camera"
@@ -1285,13 +1285,13 @@ REFERENCE           MP_THIS_PLAY
 LANG_ENGLISH        "Pick Este Jogar"
 
 REFERENCE           MPUI_SOCOTRA_CAPS
-LANG_ENGLISH        "YEMEN"
+LANG_ENGLISH        "IÊMEN"
 
 REFERENCE           PLATFORM_CANNOTUSENAME
 LANG_ENGLISH        "Inválido nome! Seu nome must contain em least 4 alphanumeric personagens."
 
 REFERENCE           GAME_GODMODE_ON
-LANG_ENGLISH        "godmode ON"
+LANG_ENGLISH        "mododeus LIGADO"
 
 REFERENCE           MPUI_ENABLE_UAV
 LANG_ENGLISH        "Ativar Avião Espião"
@@ -1309,16 +1309,16 @@ REFERENCE           MP_SHOCK_CHARGE_PICKUP
 LANG_ENGLISH        "Segure ^3&&1^7 para Pegar Shock Charge\n"
 
 REFERENCE           MENU_CHALLENGE_CATEGORY_BOOTCAMP
-LANG_ENGLISH        "Boot Camp"
+LANG_ENGLISH        "Treinamento"
 
 REFERENCE           MENU_LB_BULLETS_HIT
-LANG_ENGLISH        "Bullets Hit"
+LANG_ENGLISH        "Balas Acertadas"
 
 REFERENCE           MP_WAR_ARTILLERY_INSTRUCTIONS3
 LANG_ENGLISH        "Artilharia fall onde você é aiming"
 
 REFERENCE           MENU_LEVEL_WAR_DRONE_DESC
-LANG_ENGLISH        "DEFEND Forward Operating Base \"Spectre\", e prevenir SDC troops de detonating um Electromagnetic Pulse bomba inside o facility."
+LANG_ENGLISH        "DEFENDA a Base Operacional Avançada \"Spectre\" e impeça as tropas SDC de detonar uma bomba de Pulso Eletromagnético dentro da instalação."
 
 REFERENCE           MP_SCORED_AXIS
 LANG_ENGLISH        "Eixo scored &&1 pontos!"
@@ -1354,13 +1354,13 @@ REFERENCE           MP_HEADSHOT_PREFIX
 LANG_ENGLISH        "Tiro na Cabeça:"
 
 REFERENCE           MPUI_VMAY_HAND_BRAKE
-LANG_ENGLISH        "&&1 Hand Brake"
+LANG_ENGLISH        "&&1 Freio de Mão"
 
 REFERENCE           MPUI_COUNTRY_NEW_ZEALAND
 LANG_ENGLISH        "Novo Zealand"
 
 REFERENCE           MP_KILLCAM_CAPS
-LANG_ENGLISH        "KILLCAM"
+LANG_ENGLISH        "CÂMERA DE ABATE"
 
 REFERENCE           XBOXLIVE_CANTJOINSESSIONGAMERUNNING
 LANG_ENGLISH        "Unable para join game session in progresso"
@@ -1372,7 +1372,7 @@ REFERENCE           MP_PREVIOUS_SPAWN_ID
 LANG_ENGLISH        "^5Anterior aparecer ID: ^3&&1"
 
 REFERENCE           MPUI_GRENADE_LAUNCHER_CAPS
-LANG_ENGLISH        "GRENADE LAUNCHER"
+LANG_ENGLISH        "LANÇADOR DE GRANADAS"
 
 REFERENCE           MPUI_GRENADE_LAUNCHER
 LANG_ENGLISH        "Lança-granadas"
@@ -1390,7 +1390,7 @@ REFERENCE           MP_WAR_ARTILLERY_INSTRUCTIONS2
 LANG_ENGLISH        "Pressione USE para cancel"
 
 REFERENCE           WEAPON_M14_IR
-LANG_ENGLISH        "M14 IR"
+LANG_ENGLISH        "M14 IV"
 
 REFERENCE           PRESENCE_SAS
 LANG_ENGLISH        "Paus e Pedras"
@@ -1399,13 +1399,13 @@ REFERENCE           EXE_SERVERISFULL
 LANG_ENGLISH        "Servidor é full."
 
 REFERENCE           MP_ROUNDCAM_CAPS
-LANG_ENGLISH        "ROUNDCAM"
+LANG_ENGLISH        "CÂMERA DE RODADA"
 
 REFERENCE           MPUI_YOU_PLACED_CAPS
-LANG_ENGLISH        "YOU PLACED &&1"
+LANG_ENGLISH        "VOCÊ FICOU EM &&1º"
 
 REFERENCE           MENU_TEAM_SCORE_PER_KILL_CONFIRMED_HINT
-LANG_ENGLISH        "The número de pontos para each kill confirmed."
+LANG_ENGLISH        "O número de pontos para cada abate confirmado."
 
 REFERENCE           MP_CHOOSE_OBJ
 LANG_ENGLISH        "Choose Objetivo"
@@ -1420,19 +1420,19 @@ REFERENCE           MP_CODNOTALLOWED
 LANG_ENGLISH        "Você é não authorized para usar este Marca fazer Clã."
 
 REFERENCE           MPUI_DRONE_LOC
-LANG_ENGLISH        "DEEP JUNGLE, MYANMAR"
+LANG_ENGLISH        "MATA FECHADA, MIANMAR"
 
 REFERENCE           WEAPON_BALLISTA_SILENCER
 LANG_ENGLISH        "Ballista Supressor"
 
 REFERENCE           MP_PLAYERS_REMAINING_CAPS
-LANG_ENGLISH        "&&1 ALIVE"
+LANG_ENGLISH        "&&1 VIVOS"
 
 REFERENCE           WEAPON_SRM1216_EXTBARREL
 LANG_ENGLISH        "M1216 Cano Longo"
 
 REFERENCE           MP_MATCHRESUMING
-LANG_ENGLISH        "Match resuming"
+LANG_ENGLISH        "Partida retomando"
 
 REFERENCE           MP_STARTING_NEW_ROUND
 LANG_ENGLISH        "Iniciando novo rodada..."
@@ -1447,7 +1447,7 @@ REFERENCE           MP_ASSIST_PREFIX
 LANG_ENGLISH        "Assist:"
 
 REFERENCE           MPUI_HINT_INVENTORY_CAPS
-LANG_ENGLISH        "HOLD &&1"
+LANG_ENGLISH        "SEGURE &&1"
 
 REFERENCE           MP_UNKNOWN_WEAPON_SELECTED
 LANG_ENGLISH        "Desconhecido arma selected"
@@ -1477,19 +1477,19 @@ REFERENCE           MENU_MAP
 LANG_ENGLISH        "Mapa"
 
 REFERENCE           MPUI_XP_NEEDED_CAPS
-LANG_ENGLISH        "XP NEEDED"
+LANG_ENGLISH        "XP NECESSÁRIO"
 
 REFERENCE           MPUI_RULES_BOMB_TIMER_CAPS
-LANG_ENGLISH        "BOMB TIMER"
+LANG_ENGLISH        "TEMPORIZADOR DA BOMBA"
 
 REFERENCE           MPUI_SWAYREDUC_SHORT
-LANG_ENGLISH        "Ballistics CPU"
+LANG_ENGLISH        "CPU Balística"
 
 REFERENCE           MP_PRESS_ACTIVATE_TO_RESPAWN
 LANG_ENGLISH        "Pressione ^3[{+activate}]^7 para reaparecer"
 
 REFERENCE           MENU_JOIN_SERVER_FRIENDS_CAPS
-LANG_ENGLISH        "FRIENDS"
+LANG_ENGLISH        "AMIGOS"
 
 REFERENCE           MP_WAR_RADAR_ACQUIRED_DIRECTION_ENEMY
 LANG_ENGLISH        "Inimigo acquired Avião Espião com imaging package para &&1 segundos"
@@ -1504,10 +1504,10 @@ REFERENCE           MPUI_DESC_FIND_GAME_LOCKED
 LANG_ENGLISH        "Apenas o grupo anfitrião pode find games."
 
 REFERENCE           EXE_SAYTEAM
-LANG_ENGLISH        "SAY TEAM"
+LANG_ENGLISH        "DIZER AO TIME"
 
 REFERENCE           MP_SCORE_KILL
-LANG_ENGLISH        "KILL"
+LANG_ENGLISH        "ABATE"
 
 REFERENCE           EXE_ERROR_CREATING_SESSION_NONMATCH
 LANG_ENGLISH        "An erro occured enquanto creating um non matchmaking session."
@@ -1525,7 +1525,7 @@ REFERENCE           MPUI_RF
 LANG_ENGLISH        "Tiro Rápido"
 
 REFERENCE           MPUI_HCCTF_CAPS
-LANG_ENGLISH        "HARDCORE CAPTURE THE FLAG"
+LANG_ENGLISH        "HARDCORE CAPTURA A BANDEIRA"
 
 REFERENCE           MP_HQ_DESPAWN_IN
 LANG_ENGLISH        "HQ Offline in: &&1"
@@ -1543,7 +1543,7 @@ REFERENCE           EXE_SERVERDIDNTHAVECD
 LANG_ENGLISH        "Servidor não tem CD"
 
 REFERENCE           WEAPON_BEARTRAP
-LANG_ENGLISH        "Animal Trap"
+LANG_ENGLISH        "Armadilha de Animais"
 
 REFERENCE           GAME_VOTECAST
 LANG_ENGLISH        "Votar cast."
@@ -1558,7 +1558,7 @@ REFERENCE           MENU_NO_SESSIONS
 LANG_ENGLISH        "Não poderia Find Qualquer Session. Tentar Novamente..."
 
 REFERENCE           GAME_THREE
-LANG_ENGLISH        "Three"
+LANG_ENGLISH        "Três"
 
 REFERENCE           MP_SLASHSCORE
 LANG_ENGLISH        "/&&1"
@@ -1570,13 +1570,13 @@ REFERENCE           PLATFORM_BUTTON_X
 LANG_ENGLISH        "^BBUTTON_INTERACT^"
 
 REFERENCE           MENU_VERSION_INSTALLED
-LANG_ENGLISH        "Version Installed:"
+LANG_ENGLISH        "Versão Instalada:"
 
 REFERENCE           MP_CONNECTED
 LANG_ENGLISH        "&&1 Conectado"
 
 REFERENCE           MP_CANTJOINTEAM
-LANG_ENGLISH        "Changing times would result in um unbalanced número de jogadores em esse team"
+LANG_ENGLISH        "Mudar de time resultaria em um número desequilibrado de jogadores naquele time"
 
 REFERENCE           MP_WAITING_FOR_HQ
 LANG_ENGLISH        "Aguardando para HQ para be destroyed..."
@@ -1588,19 +1588,19 @@ REFERENCE           WEAPON_M14_SILENCER
 LANG_ENGLISH        "M14 Supressor"
 
 REFERENCE           MPUI_COUNTRY_DENMARK
-LANG_ENGLISH        "Denmark"
+LANG_ENGLISH        "Dinamarca"
 
 REFERENCE           MP_DISCONNECTED
 LANG_ENGLISH        "&&1 Desconectado"
 
 REFERENCE           MPUI_COUNTRY_POLAND
-LANG_ENGLISH        "Poland"
+LANG_ENGLISH        "Polônia"
 
 REFERENCE           MP_SCORE_LIMIT_REACHED
 LANG_ENGLISH        "Pontuação limite reached"
 
 REFERENCE           PLATFORM_ZOMBIE_WAVES_CAPS
-LANG_ENGLISH        "^BBUTTON_CAC_PREV^ HIGH SCORE ^BBUTTON_CAC_NEXT^"
+LANG_ENGLISH        "^BBUTTON_CAC_PREV^ PONTUAÇÃO ^BBUTTON_CAC_NEXT^"
 
 REFERENCE           MPUI_WAGER_LASTSTANDING
 LANG_ENGLISH        "Quem be o last one standing?"
@@ -1615,7 +1615,7 @@ REFERENCE           MPUI_RULES_NORMAL_CAPS
 LANG_ENGLISH        "NORMAL"
 
 REFERENCE           MP_MATCHSTARTING
-LANG_ENGLISH        "Match starting"
+LANG_ENGLISH        "Partida iniciando"
 
 REFERENCE           MPUI_DESC_MAP_HOTEL
 LANG_ENGLISH        "Battle para control o rooftop de um swanky Cuban hotel."
@@ -1624,10 +1624,10 @@ REFERENCE           EXE_AWAITINGCONNECTION
 LANG_ENGLISH        "Awaiting conexão...&&1"
 
 REFERENCE           MPUI_RULES_DIFFICULTY_HARD_CAPS
-LANG_ENGLISH        "HARD"
+LANG_ENGLISH        "DIFÍCIL"
 
 REFERENCE           PLATFORM_REFRESH
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Refresh"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Atualizar"
 
 REFERENCE           MP_CAP_LIMIT_REACHED
 LANG_ENGLISH        "Capturar limite reached"
@@ -1645,7 +1645,7 @@ REFERENCE           MENU_RATIO
 LANG_ENGLISH        "Proporção"
 
 REFERENCE           WEAPON_FIVESEVEN_DESC
-LANG_ENGLISH        "Semi-automatic pistol. Versatile e strong overall com um large magazine."
+LANG_ENGLISH        "Pistola semiautomática. Versátil e forte no geral com um carregador grande."
 
 REFERENCE           MP_CAPTURE
 LANG_ENGLISH        "Capturar"
@@ -1666,16 +1666,16 @@ REFERENCE           MP_HQ_REINFORCEMENTS_IN
 LANG_ENGLISH        "Reforços in: &&1"
 
 REFERENCE           MPUI_SOCOTRA_LOC
-LANG_ENGLISH        "SOCOTRA ISLAND, REPUBLIC OF YEMEN"
+LANG_ENGLISH        "ILHA DE SOCOTRA, REPÚBLICA DO IÊMEN"
 
 REFERENCE           PLATFORM_PREVIEW
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Preview"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Visualizar"
 
 REFERENCE           MPUI_REBELS_SHORT_CAPS
 LANG_ENGLISH        "OP 40"
 
 REFERENCE           XBOXLIVE_SAMECLAN
-LANG_ENGLISH        "Entrar session in progresso é não permitido quando same clan members tentar para join o match in o clan game sala."
+LANG_ENGLISH        "Entrar em uma sessão em andamento não é permitido quando membros do mesmo clã tentam entrar na partida no lobby do jogo do clã."
 
 REFERENCE           MENU_DAYS_ABBREVIATION
 LANG_ENGLISH        "d"
@@ -1690,10 +1690,10 @@ REFERENCE           MP_CLAYMORE_HOLDING_DETONATOR
 LANG_ENGLISH        "^1(Holding Detonador)"
 
 REFERENCE           MPUI_RULES_20SECONDS_CAPS
-LANG_ENGLISH        "20 SECONDS"
+LANG_ENGLISH        "20 SEGUNDOS"
 
 REFERENCE           MP_DEFEAT_CAPS
-LANG_ENGLISH        "DEFEAT"
+LANG_ENGLISH        "DERROTA"
 
 REFERENCE           WEAPON_FNFAL_REFLEX
 LANG_ENGLISH        "FAL Reflex"
@@ -1729,7 +1729,7 @@ REFERENCE           MP_C4_PRESS_TO_SWITCH_TO_DETONATOR
 LANG_ENGLISH        "(Pressione Usar para trocar para Detonador)"
 
 REFERENCE           MENU_LEVEL_SINGAPORE_RTS_CAPS
-LANG_ENGLISH        "STRIKE FORCE: SINGAPORE"
+LANG_ENGLISH        "FORÇA DE ATAQUE: CINGAPURA"
 
 REFERENCE           MP_WINS
 LANG_ENGLISH        "&&1 Vitórias!"
@@ -1738,7 +1738,7 @@ REFERENCE           EXE_ERR_LOW_PING_ONLY
 LANG_ENGLISH        "Servidor é para low ping jogadores apenas."
 
 REFERENCE           MPUI_RULES_EVERY_2ROUNDS_CAPS
-LANG_ENGLISH        "EVERY 2 ROUNDS"
+LANG_ENGLISH        "A CADA 2 RODADAS"
 
 REFERENCE           MP_VOTECAST
 LANG_ENGLISH        "Votar cast"
@@ -1762,13 +1762,13 @@ REFERENCE           MENU_TEAM_WINNING
 LANG_ENGLISH        "Vencendo com &&1 de &&2 pontos"
 
 REFERENCE           MPUI_ACOG
-LANG_ENGLISH        "ACOG Sight"
+LANG_ENGLISH        "Mira ACOG"
 
 REFERENCE           MP_TIE
-LANG_ENGLISH        "The game é um tie!"
+LANG_ENGLISH        "O jogo é um empate!"
 
 REFERENCE           WEAPON_AK47_IR
-LANG_ENGLISH        "AK47 IR"
+LANG_ENGLISH        "AK47 IV"
 
 REFERENCE           WEAPON_AS50_STEADYAIM
 LANG_ENGLISH        "XPR-50 Mira um Laser"
@@ -1810,7 +1810,7 @@ REFERENCE           TICKER_COUNTERS_WAGERHUMILIATION
 LANG_ENGLISH        "WAGER MATCH: &&1 jogadores Humilhados."
 
 REFERENCE           MPUI_CANCEL_PURCHASE_CAPS
-LANG_ENGLISH        "CANCEL"
+LANG_ENGLISH        "CANCELAR"
 
 REFERENCE           MP_BOMB_HAS_BEEN_RECOVERED
 LANG_ENGLISH        "The bomba tem recovered"
@@ -1819,7 +1819,7 @@ REFERENCE           MENU_ATTACH_POINT_TOP
 LANG_ENGLISH        "Topo Attach Point"
 
 REFERENCE           MENU_FILESHARE_NUMRATINGS
-LANG_ENGLISH        "Total Votes"
+LANG_ENGLISH        "Total de Votos"
 
 REFERENCE           MP_YOU_WILL_SPAWN_AXIS_WITH_A_NEXT_ROUND
 LANG_ENGLISH        "Você aparecerá como Oposição com um &&1 na próxima rodada"
@@ -1843,7 +1843,7 @@ REFERENCE           MP_YOU_WILL_RESPAWN_WITH_A
 LANG_ENGLISH        "Você reaparecerá com um &&1"
 
 REFERENCE           TICKER_COUNTERS_RUNAROUNDTHEWORLD
-LANG_ENGLISH        "AROUND THE WORLD: Black Ops II jogadores tem collectively ran around o world &&1 times."
+LANG_ENGLISH        "AO REDOR DO MUNDO: Os jogadores de Black Ops II correram coletivamente ao redor do mundo &&1 vezes."
 
 REFERENCE           WEAPON_FNP45_EXTCLIP
 LANG_ENGLISH        "Tac-45 Extended Clipe"
@@ -1858,10 +1858,10 @@ REFERENCE           MENU_OK_CAPS
 LANG_ENGLISH        "OK"
 
 REFERENCE           MENU_NEW_DIVISION
-LANG_ENGLISH        "Division"
+LANG_ENGLISH        "Divisão"
 
 REFERENCE           MP_HLR_LONG_RANGE_KILL
-LANG_ENGLISH        "Ranged Shot"
+LANG_ENGLISH        "Tiro à Distância"
 
 REFERENCE           MENU_LANGUAGE_CHANGE_AND_RETURN
 LANG_ENGLISH        "idioma mudar e return"
@@ -1879,7 +1879,7 @@ REFERENCE           MPUI_CONTRACTS_DESC
 LANG_ENGLISH        "Comprar Contratos para earn more Experience (XP) e Pontos COD (^BCP^)."
 
 REFERENCE           MENU_SAVED_FILMS
-LANG_ENGLISH        "SAVED FILMS"
+LANG_ENGLISH        "FILMES SALVOS"
 
 REFERENCE           MP_RUSSIAN_MISSION_ACCOMPLISHED
 LANG_ENGLISH        "Spetsnaz missão accomplished"
@@ -1894,10 +1894,10 @@ REFERENCE           WEAPON_AN94_DUALOPTIC
 LANG_ENGLISH        "AN-94 Mira Híbrida"
 
 REFERENCE           MPUI_BUY_AND_EQUIP_CAPS
-LANG_ENGLISH        "UNLOCK AND EQUIP"
+LANG_ENGLISH        "DESBLOQUEAR E EQUIPAR"
 
 REFERENCE           MP_ALLIES_WIN_MATCH
-LANG_ENGLISH        "The Aliados tem won o match!"
+LANG_ENGLISH        "Os Aliados venceram a partida!"
 
 REFERENCE           MPUI_LEAVE_WITHOUT_PARTY
 LANG_ENGLISH        "Sair without Grupo"
@@ -1912,10 +1912,10 @@ REFERENCE           MPUI_DESC_MAP_BERLINWALL2
 LANG_ENGLISH        "Beware de no man's land as você battle over control de o Berlin Wall."
 
 REFERENCE           MPUI_RETICLE_ARROWS03
-LANG_ENGLISH        "Arrows With Dot"
+LANG_ENGLISH        "Setas com Ponto"
 
 REFERENCE           MP_BEACON
-LANG_ENGLISH        "Beacon"
+LANG_ENGLISH        "Sinalizador"
 
 REFERENCE           MP_AUTOBALANCE_NEXT_ROUND
 LANG_ENGLISH        "Teams be auto-balanced next rodada"
@@ -1927,16 +1927,16 @@ REFERENCE           MENU_DEMO_CONTROLS_INCREASE_PLAYBACK_SPEED_LARGE
 LANG_ENGLISH        "Velocidade +.1.0x"
 
 REFERENCE           MPUI_BASICTRAINING_POPUP_DESC
-LANG_ENGLISH        "Combat Training é um way para simulate playing multiplayer com seu amigos.\n\nDuring Combat Training você rank up, earn Pontos COD e desbloquear many (but não todos) game features.\n\nHowever, whatever você desbloquear, completar, ou purchase não carry over quando você ir online against real jogadores."
+LANG_ENGLISH        "O Combat Training é uma forma de simular partidas multiplayer com seus amigos.\n\nDurante o Combat Training, você sobe de nível, ganha Pontos COD e desbloqueia muitos recursos do jogo (mas não todos).\n\nNo entanto, tudo o que você desbloquear, completar ou comprar não será transferido quando você jogar online contra jogadores reais."
 
 REFERENCE           MP_3RD
-LANG_ENGLISH        "3rd"
+LANG_ENGLISH        "3º"
 
 REFERENCE           PLATFORM_ZOOMOUT
-LANG_ENGLISH        "^BBUTTON_ADS^ Zoom Out"
+LANG_ENGLISH        "^BBUTTON_ADS^ Reduzir Zoom"
 
 REFERENCE           MPUI_WAGERMATCH_MULTI_ROOM_CAPS
-LANG_ENGLISH        "MULTI EVENT"
+LANG_ENGLISH        "MULTI EVENTO"
 
 REFERENCE           MP_AUTOBALANCE_SECONDS
 LANG_ENGLISH        "Teams be auto-balanced in &&1 segundos"
@@ -1951,7 +1951,7 @@ REFERENCE           MENU_DEMO_DOLLYCAM_MARKER_SPEED
 LANG_ENGLISH        "Velocidade Configurações"
 
 REFERENCE           MPUI_PREVIEW
-LANG_ENGLISH        "Preview"
+LANG_ENGLISH        "Visualizar"
 
 REFERENCE           MPUI_DESC_CHALLENGES
 LANG_ENGLISH        "Completo Desafios para ganhe XP recompensas e arma addons."
@@ -1966,10 +1966,10 @@ REFERENCE           MP_SCRAMBLER_PICKUP
 LANG_ENGLISH        "Segure ^3&&1^7 para Pegar Bloqueador"
 
 REFERENCE           WEAPON_TYPE95_DUAL_ATTACH
-LANG_ENGLISH        "Type25 Customized"
+LANG_ENGLISH        "Type25 Customizada"
 
 REFERENCE           MP_SHRP_WEAPONS_CYCLED
-LANG_ENGLISH        "Weapons Cycled"
+LANG_ENGLISH        "Armas Cicladas"
 
 REFERENCE           MP_CLAYMORE_PRESS_TO_SWITCH_TO_CLAYMORE
 LANG_ENGLISH        "(Pressione Usar para trocar para Claymore)"
@@ -1978,7 +1978,7 @@ REFERENCE           WEAPON_SA58_FMJ
 LANG_ENGLISH        "FAL-OSW FMJ"
 
 REFERENCE           EXE_AWAITINGGAMESTATE
-LANG_ENGLISH        "Awaiting gamestate"
+LANG_ENGLISH        "Aguardando estado do jogo"
 
 REFERENCE           PLATFORM_MONITOR_CAPS
 LANG_ENGLISH        "MONITOR"
@@ -1996,7 +1996,7 @@ REFERENCE           WEAPON_TAR21_FASTADS
 LANG_ENGLISH        "MTAR Mira Rápida Handle"
 
 REFERENCE           EXE_ERR_VIDEOCARD_MISSING_FEATURE
-LANG_ENGLISH        "Seu video cartão appears para be missing one ou more features required para run Call de Duty."
+LANG_ENGLISH        "Sua placa de vídeo parece estar faltando um ou mais recursos necessários para executar Call of Duty."
 
 REFERENCE           MP_VOTE_CALLED
 LANG_ENGLISH        "Votar Called:"
@@ -2005,13 +2005,13 @@ REFERENCE           PLATFORM_VOICEMETER_DESC
 LANG_ENGLISH        "Este exibir como loud seu voice saída é. To aumentar/diminuir volume você precisar para mudar o Recording Controles in seu Windows Som settings."
 
 REFERENCE           MPUI_RULES_200POINTS_CAPS
-LANG_ENGLISH        "200 POINTS"
+LANG_ENGLISH        "200 PONTOS"
 
 REFERENCE           MP_RAMPAGE_CAPS
-LANG_ENGLISH        "RAMPAGE"
+LANG_ENGLISH        "DESTRUIÇÃO"
 
 REFERENCE           MPUI_LPS
-LANG_ENGLISH        "Low Power Scope"
+LANG_ENGLISH        "Mira de Baixo Aumento"
 
 REFERENCE           MPUI_FMJ_CAPS
 LANG_ENGLISH        "FMJ"
@@ -2029,7 +2029,7 @@ REFERENCE           MPUI_CHALLENGES_DESC
 LANG_ENGLISH        "Visualizar seu current progresso across todos categories de Desafios."
 
 REFERENCE           MENU_CAREER_OVERVIEW_CAPS
-LANG_ENGLISH        "CAREER OVERVIEW"
+LANG_ENGLISH        "VISÃO GERAL DA CARREIRA"
 
 REFERENCE           MP_WAR_ARTILLERY_CROSSHAIR
 LANG_ENGLISH        "><"
@@ -2038,7 +2038,7 @@ REFERENCE           GAME_PICKUP_AMMO
 LANG_ENGLISH        "Recebeu &&1 munição."
 
 REFERENCE           PLATFORM_END_GAME
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ end game"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ encerrar partida"
 
 REFERENCE           MP_MAXHOLDTIME_MINUTES
 LANG_ENGLISH        "&&1 com sucesso defended o HQ!"
@@ -2050,7 +2050,7 @@ REFERENCE           MP_JOINED_GERMAN
 LANG_ENGLISH        "&&1 Entrou o Wehrmacht"
 
 REFERENCE           MPUI_LONGBREATH
-LANG_ENGLISH        "Ballistics CPU"
+LANG_ENGLISH        "CPU Balística"
 
 REFERENCE           MENU_CROSSHAIR_DESC
 LANG_ENGLISH        "Alternar Mira"
@@ -2068,7 +2068,7 @@ REFERENCE           MP_CALLEDAVOTE
 LANG_ENGLISH        "&&1 called um votar"
 
 REFERENCE           MPUI_RETICLE_CIRCLES04
-LANG_ENGLISH        "Circle Outline With Dot"
+LANG_ENGLISH        "Contorno Circular com Ponto"
 
 REFERENCE           MPUI_REVIVES_PRE
 LANG_ENGLISH        "Revives"
@@ -2080,7 +2080,7 @@ REFERENCE           MPUI_LEAVE_CLIP
 LANG_ENGLISH        "Sair Clipe?"
 
 REFERENCE           MPUI_PISTOLS
-LANG_ENGLISH        "Pistols"
+LANG_ENGLISH        "Pistolas"
 
 REFERENCE           MP_WAR_RADAR_DIRECTION_ACQUIRED
 LANG_ENGLISH        "Blackbird called in por &&1 para &&2 segundos"
@@ -2107,16 +2107,16 @@ REFERENCE           MP_NOSPECTATORVOTE
 LANG_ENGLISH        "Não permitido para votar as spectator"
 
 REFERENCE           MENU_TEAM_X_CAPS
-LANG_ENGLISH        "TEAM &&1"
+LANG_ENGLISH        "TIME &&1"
 
 REFERENCE           MENU_STANCE_UP_CAPS
-LANG_ENGLISH        "STANCE UP"
+LANG_ENGLISH        "POSTURA CIMA"
 
 REFERENCE           MPUI_RULES_5POINTS_CAPS
-LANG_ENGLISH        "5 POINTS"
+LANG_ENGLISH        "5 PONTOS"
 
 REFERENCE           MPUI_PUMP_CAPS
-LANG_ENGLISH        "PUMP ACTION"
+LANG_ENGLISH        "AÇÃO DE BOMBEAR"
 
 REFERENCE           PLATFORM_INVITE_ALREADY_INGAME
 LANG_ENGLISH        "User é já in seu game."
@@ -2125,7 +2125,7 @@ REFERENCE           MP_VOTEALREADYINPROGRESS
 LANG_ENGLISH        "A votar é já in progresso"
 
 REFERENCE           MENU_STEREO_HEADPHONES
-LANG_ENGLISH        "Stereo Headphones"
+LANG_ENGLISH        "Fones de Ouvido Estéreo"
 
 REFERENCE           EXE_LOCAL
 LANG_ENGLISH        "Local"
@@ -2149,13 +2149,13 @@ REFERENCE           MP_INVALIDGAMETYPE
 LANG_ENGLISH        "Inválido gametype"
 
 REFERENCE           MPUI_KILLS_CONFIRMED_CAPS
-LANG_ENGLISH        "CONFIRMS"
+LANG_ENGLISH        "CONFIRMAÇÕES"
 
 REFERENCE           WEAPON_SARITCH_STEADYAIM
 LANG_ENGLISH        "SMR Mira um Laser"
 
 REFERENCE           MPUI_RULES_OBECTIVE_HELD_RESPAWN_DELAY
-LANG_ENGLISH        "OBJECTIVE HELD RESPAWN DELAY"
+LANG_ENGLISH        "ATRASO DE RESSURGIR COM OBJETIVO"
 
 REFERENCE           MP_INVALIDVOTESTRING
 LANG_ENGLISH        "Inválido votar string"
@@ -2167,10 +2167,10 @@ REFERENCE           MP_REMOTE_EXIT
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Sair"
 
 REFERENCE           MENU_ENABLED_CAPS
-LANG_ENGLISH        "ENABLED"
+LANG_ENGLISH        "ATIVADO"
 
 REFERENCE           MPUI_ASSAULT_RIFLES
-LANG_ENGLISH        "Assault Rifles"
+LANG_ENGLISH        "Fuzis de Assalto"
 
 REFERENCE           MP_VOTE_CHANGEMAP
 LANG_ENGLISH        "Mudar Mapa: &&1"
@@ -2188,7 +2188,7 @@ REFERENCE           MENU_R_CIRCLE
 LANG_ENGLISH        "®"
 
 REFERENCE           MPUI_RULES_HOT_POTATO_CAPS
-LANG_ENGLISH        "HOT POTATO"
+LANG_ENGLISH        "BATATA QUENTE"
 
 REFERENCE           MENU_EXPIRED_INVITE
 LANG_ENGLISH        "Amigo é não online."
@@ -2212,10 +2212,10 @@ REFERENCE           MP_VOTE_GAMETYPE
 LANG_ENGLISH        "Game Tipo: &&1"
 
 REFERENCE           MP_LOSING_HQ
-LANG_ENGLISH        "Losing HQ!"
+LANG_ENGLISH        "Perdendo o QG!"
 
 REFERENCE           MENU_EMBLEM_SELECTOR_EMBLEMS_TAB
-LANG_ENGLISH        "EMBLEMS"
+LANG_ENGLISH        "EMBLEMAS"
 
 REFERENCE           MP_THE_SERVER_DOES_NOT_HAVE
 LANG_ENGLISH        "The servidor faz não tem esse mapa"
@@ -2224,10 +2224,10 @@ REFERENCE           PLATFORM_HOLD_USEMOVE
 LANG_ENGLISH        "Segure ^3[{+gostand}]^7 para pegar ou Segure ^3&&1^7 para usar"
 
 REFERENCE           PLATFORM_FILESHARE_ACCESSERROR_MSG
-LANG_ENGLISH        "Você não pode access user-created conteúdo because it é blocked por um profile's Privacy Configurações. Você pode mudar these settings por editing o Member Conteúdo seção de seu profile."
+LANG_ENGLISH        "Você não pode acessar conteúdo criado por usuários porque ele está bloqueado pelas Configurações de Privacidade de um perfil. Você pode mudar estas configurações editando a seção de Conteúdo de Membro do seu perfil."
 
 REFERENCE           WEAPON_RPD_DUAL_ATTACH
-LANG_ENGLISH        "RPD Customized"
+LANG_ENGLISH        "RPD Customizada"
 
 REFERENCE           MP_UNKNOWN
 LANG_ENGLISH        "Desconhecido"
@@ -2236,13 +2236,13 @@ REFERENCE           MP_CUSTOMTEAM_WIN_MATCH
 LANG_ENGLISH        "&&1 tem won o match!"
 
 REFERENCE           MPUI_HCSAB_CAPS
-LANG_ENGLISH        "HARDCORE SABOTAGE"
+LANG_ENGLISH        "HARDCORE SABOTAGEM"
 
 REFERENCE           MPUI_ARRAY
 LANG_ENGLISH        "Array"
 
 REFERENCE           MPUI_SET_CLAN_NAME_CAPS
-LANG_ENGLISH        "CLAN NAME"
+LANG_ENGLISH        "NOME DO CLÃ"
 
 REFERENCE           PLATFORM_MANTLE
 LANG_ENGLISH        "Pressione ^3&&1^7 para"
@@ -2266,7 +2266,7 @@ REFERENCE           MENU_CHALLENGES_WEAPON_MASTERY
 LANG_ENGLISH        "&&1 Maestria"
 
 REFERENCE           MPUI_ALLOW_TEAM_CHANGE_IN_GAME
-LANG_ENGLISH        "ALLOW TEAM CHANGE IN GAME"
+LANG_ENGLISH        "PERMITIR MUDANÇA DE TIME NO JOGO"
 
 REFERENCE           WEAPON_HAMR_REFLEX
 LANG_ENGLISH        "HAMR Reflex"
@@ -2278,13 +2278,13 @@ REFERENCE           MPUI_KICK_PLAYER
 LANG_ENGLISH        "Expulsar Jogador"
 
 REFERENCE           MPUI_CRACKED_LOC
-LANG_ENGLISH        "HO CHI MINH CITY, VIETNAM"
+LANG_ENGLISH        "CIDADE DE HO CHI MINH, VIETNÃ"
 
 REFERENCE           MENU_CLOSE_DESC
 LANG_ENGLISH        "Não one may join seu grupo."
 
 REFERENCE           MP_22ND
-LANG_ENGLISH        "22nd"
+LANG_ENGLISH        "22º"
 
 REFERENCE           WEAPON_NS2000
 LANG_ENGLISH        "NS2000"
@@ -2296,10 +2296,10 @@ REFERENCE           MP_MINUS
 LANG_ENGLISH        "-"
 
 REFERENCE           MENU_PLAYER_EMBLEM_3
-LANG_ENGLISH        "Dragon"
+LANG_ENGLISH        "Dragão"
 
 REFERENCE           MP_SUICIDE
-LANG_ENGLISH        "Suicide"
+LANG_ENGLISH        "Suicídio"
 
 REFERENCE           WEAPON_M16_SF
 LANG_ENGLISH        "Colt M16A1 Seleção de Tiro"
@@ -2308,10 +2308,10 @@ REFERENCE           MP_HELI_FIRE_MINIGUN
 LANG_ENGLISH        "^3[{+attack}]^7 Atirar Metralhadora Rotativa"
 
 REFERENCE           MENU_DEMO_HIGHLIGHT_REEL_GAME_RESULT_FINAL
-LANG_ENGLISH        "Final Result"
+LANG_ENGLISH        "Resultado Final"
 
 REFERENCE           MENU_TEAM_KILL_PUNISH_DISABLED
-LANG_ENGLISH        "DISABLED"
+LANG_ENGLISH        "DESATIVADO"
 
 REFERENCE           MP_PLUS_AMOUNT
 LANG_ENGLISH        "+%s"
@@ -2320,13 +2320,13 @@ REFERENCE           MPUI_1_YES
 LANG_ENGLISH        "1. Sim"
 
 REFERENCE           MP_ROUND_WIN_CAPS
-LANG_ENGLISH        "ROUND WIN"
+LANG_ENGLISH        "VITÓRIA DE RODADA"
 
 REFERENCE           WEAPON_UZI_EXTBARREL
 LANG_ENGLISH        "Uzi Cano Longo"
 
 REFERENCE           WEAPON_QCW05_DESC
-LANG_ENGLISH        "3 rodada burst submachine gun. High cyclic atirar taxa allows para fast consecutive bursts."
+LANG_ENGLISH        "Submetralhadora de 3 tiros por rajada. A alta cadência de tiro cíclica permite rajadas consecutivas rápidas."
 
 REFERENCE           PLATFORM_EMBLEM_EDIT_LAYER
 LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Editar"
@@ -2341,7 +2341,7 @@ REFERENCE           MPUI_GL
 LANG_ENGLISH        "Lança-granadas"
 
 REFERENCE           MP_5TH
-LANG_ENGLISH        "5th"
+LANG_ENGLISH        "5º"
 
 REFERENCE           MENU_SCORE_WINNING
 LANG_ENGLISH        "Vencendo &&1 - &&2"
@@ -2386,7 +2386,7 @@ REFERENCE           WEAPON_MINIGUN
 LANG_ENGLISH        "Máquina da Morte"
 
 REFERENCE           EXE_ERR_SHOULD_BE
-LANG_ENGLISH        "should be"
+LANG_ENGLISH        "deveria ser"
 
 REFERENCE           MP_FIRSTSQUAD
 LANG_ENGLISH        "1st Esquadrão"
@@ -2401,7 +2401,7 @@ REFERENCE           MENU_SESSIONS_QOS_PROGRESS_TERM
 LANG_ENGLISH        "Checking quality para match &&1 de &&2."
 
 REFERENCE           MPUI_LENS_CAPS
-LANG_ENGLISH        "LENS"
+LANG_ENGLISH        "LENTE"
 
 REFERENCE           MP_C4_HOLDING_DETONATOR
 LANG_ENGLISH        "^1(Holding Detonador)"
@@ -2413,7 +2413,7 @@ REFERENCE           GAME_INVALIDGAMETYPE
 LANG_ENGLISH        "Inválido gametype."
 
 REFERENCE           MENU_UNLINKTWITTER_CAPS
-LANG_ENGLISH        "SIGN OUT OF TWITTER"
+LANG_ENGLISH        "SAIR DO TWITTER"
 
 REFERENCE           PLATFORM_JOINAUTOOFF
 LANG_ENGLISH        "^BBUTTON_INTERACT^ Auto Entrar Off"
@@ -2422,7 +2422,7 @@ REFERENCE           PLATFORM_CLICK_TO_CONTINUE
 LANG_ENGLISH        "click para continue."
 
 REFERENCE           GAME_UFOOFF
-LANG_ENGLISH        "ufomode OFF"
+LANG_ENGLISH        "modoovni DESLIGADO"
 
 REFERENCE           MP_EXPLOSIVESDEFUSED
 LANG_ENGLISH        "Explosives desarmado"
@@ -2446,7 +2446,7 @@ REFERENCE           MENU_N_WINSTREAK
 LANG_ENGLISH        "&&1 Sequência de Vitórias"
 
 REFERENCE           MPUI_LB_CAREER_CAPS
-LANG_ENGLISH        "CAREER"
+LANG_ENGLISH        "CARREIRA"
 
 REFERENCE           MPUI_BARRACKS_DESC
 LANG_ENGLISH        "Editar seu ID, manage seu Compartilhamento de Arquivos, visualizar Desafios e more."
@@ -2455,7 +2455,7 @@ REFERENCE           MP_TOGGLE_MAP_PACK
 LANG_ENGLISH        "Alternar Mapa Pack"
 
 REFERENCE           MP_HIGHLIGHT_REEL
-LANG_ENGLISH        "Highlight Reel"
+LANG_ENGLISH        "Melhores Momentos"
 
 REFERENCE           WEAPON_QBB95_REFLEX
 LANG_ENGLISH        "QBB LSW Reflex"
@@ -2470,10 +2470,10 @@ REFERENCE           MPUI_BUTTON_LAYOUT
 LANG_ENGLISH        "Botão Layout:"
 
 REFERENCE           MENU_SHARED
-LANG_ENGLISH        "Shared"
+LANG_ENGLISH        "Compartilhado"
 
 REFERENCE           PLATFORM_FINDGAME
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ find game"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ encontrar partida"
 
 REFERENCE           MP_SCRAMBLER_3
 LANG_ENGLISH        "Bloqueador Ativo ..."
@@ -2488,10 +2488,10 @@ REFERENCE           MENU_DEMO_CONTROLS_TOGGLE_HUD
 LANG_ENGLISH        "Alternar Hud"
 
 REFERENCE           MPUI_CONTROLLER_VIBRATION
-LANG_ENGLISH        "Controller Vibration:"
+LANG_ENGLISH        "Vibração do Controle:"
 
 REFERENCE           MPUI_MATUKA
-LANG_ENGLISH        "Bloodshot"
+LANG_ENGLISH        "Olho Sangrento"
 
 REFERENCE           EXE_CANNOTKICKHOSTPLAYER
 LANG_ENGLISH        "Não pode expulsar o anfitrião jogador."
@@ -2500,10 +2500,10 @@ REFERENCE           WEAPON_FIVESEVEN_REFLEX
 LANG_ENGLISH        "Five-seven Reflex"
 
 REFERENCE           MP_HLR_CRUSH_KILL
-LANG_ENGLISH        "Crush!"
+LANG_ENGLISH        "Esmagado!"
 
 REFERENCE           MPUI_PROJECTILE_LOWER
-LANG_ENGLISH        "launcher"
+LANG_ENGLISH        "lançador"
 
 REFERENCE           PLATFORM_DYK_COOP_MSG38
 LANG_ENGLISH        "In Dead Ops Arcade, chickens fazer valuable companions."
@@ -2521,10 +2521,10 @@ REFERENCE           MP_UNAVAILABLE_FOR_N
 LANG_ENGLISH        "Série de Pontuação não pode be usado para"
 
 REFERENCE           MP_HLR_HEADSHOT
-LANG_ENGLISH        "Head Shot"
+LANG_ENGLISH        "Tiro na Cabeça"
 
 REFERENCE           MPUI_TACKNIFE_SHORT
-LANG_ENGLISH        "Knife"
+LANG_ENGLISH        "Faca"
 
 REFERENCE           MP_LOSS_PREFIX
 LANG_ENGLISH        "Derrota:"
@@ -2533,52 +2533,52 @@ REFERENCE           MP_HLR_FINAL_KILL
 LANG_ENGLISH        "Final Abate"
 
 REFERENCE           MP_SPECOPS_FORFEITED
-LANG_ENGLISH        "Black Ops forfeited"
+LANG_ENGLISH        "Black Ops desistiu"
 
 REFERENCE           MPUI_LOSSES
-LANG_ENGLISH        "Losses"
+LANG_ENGLISH        "Derrotas"
 
 REFERENCE           WEAPON_VECTOR_DUAL_ATTACH
-LANG_ENGLISH        "Vector K10 Customized"
+LANG_ENGLISH        "Vector K10 Customizada"
 
 REFERENCE           MP_CD_NAME
-LANG_ENGLISH        "Militia"
+LANG_ENGLISH        "Milícia"
 
 REFERENCE           PRESENCE_BLACKOUT
-LANG_ENGLISH        "Odysseus"
+LANG_ENGLISH        "Odisseu"
 
 REFERENCE           MP_HLR_MULTI_KILL
 LANG_ENGLISH        "Multi Abate"
 
 REFERENCE           MENU_RESTRICT_SPECIALTY_CAPS
-LANG_ENGLISH        "RESTRICT PERKS"
+LANG_ENGLISH        "RESTRINGIR VANTAGENS"
 
 REFERENCE           MPUI_SPREAD_PRE
-LANG_ENGLISH        "K/D Spread"
+LANG_ENGLISH        "Diferença K/D"
 
 REFERENCE           MPUI_DEFUSES_CAPS
-LANG_ENGLISH        "DEFUSES"
+LANG_ENGLISH        "DESATIVAÇÕES"
 
 REFERENCE           MENU_CUSTOMIZED_CAPS
-LANG_ENGLISH        "CUSTOMIZED"
+LANG_ENGLISH        "PERSONALIZADO"
 
 REFERENCE           MPUI_RESET_STATS_CAPS
-LANG_ENGLISH        "RESET STATS"
+LANG_ENGLISH        "REDEFINIR ESTATÍSTICAS"
 
 REFERENCE           MP_OVERTIME_CAPS
-LANG_ENGLISH        "OVERTIME"
+LANG_ENGLISH        "PRORROGAÇÃO"
 
 REFERENCE           MP_BOCAGE_OBJ_ATTACKER
 LANG_ENGLISH        "Capturar o Beacon (Yellow Star) e pegar it para o country manor. (Blue Caixa)"
 
 REFERENCE           MP_MARINE_FORFEITED
-LANG_ENGLISH        "SOG forfeited"
+LANG_ENGLISH        "SOG desistiu"
 
 REFERENCE           MPUI_LB_DOMINATION_HC_CAPS
 LANG_ENGLISH        "&&1 HARDCORE DOMINATION &&2"
 
 REFERENCE           MPUI_ANY_LOCALE_CAPS
-LANG_ENGLISH        "DEFAULT"
+LANG_ENGLISH        "PADRÃO"
 
 REFERENCE           XBOXLIVE_LEAVELOBBY
 LANG_ENGLISH        "Sair Sala?"
@@ -2587,10 +2587,10 @@ REFERENCE           MP_N_REMAINING
 LANG_ENGLISH        "(&&1 restante)"
 
 REFERENCE           WEAPON_BALLISTA_IR
-LANG_ENGLISH        "Ballista Dual Band"
+LANG_ENGLISH        "Ballista Banda Dupla"
 
 REFERENCE           MPUI_LEADER
-LANG_ENGLISH        "Leader"
+LANG_ENGLISH        "Líder"
 
 REFERENCE           MP_BOCAGE_OBJ_DEFENDER
 LANG_ENGLISH        "Defender o Beacon (Yellow Star) de o Eixo. Manter it de o country manor. (Blue Caixa)"
@@ -2599,7 +2599,7 @@ REFERENCE           MENU_SESSIONS_LOBBY_MERGE
 LANG_ENGLISH        "Buscando para salas (&&1 matches)."
 
 REFERENCE           MPUI_EXTBARREL_CAPS
-LANG_ENGLISH        "LONG BARREL"
+LANG_ENGLISH        "CANO LONGO"
 
 REFERENCE           MP_BOCAGE_OBJ_SPECTATOR
 LANG_ENGLISH        "Eixo: Capturar o Beacon (Yellow Star) e pegar it para o country manor. (Blue Caixa)\nAliados: Defender o Beacon (Yellow Star) de o Eixo. Manter it de o country manor. (Blue Caixa)"
@@ -2617,13 +2617,13 @@ REFERENCE           MP_CANTJOINTEAM_ALLIED
 LANG_ENGLISH        "Joining &&1 would result in um unbalanced número de jogadores em esse team"
 
 REFERENCE           MENU_HARDENED_CAPS
-LANG_ENGLISH        "HARDENED"
+LANG_ENGLISH        "ENDURECIDO"
 
 REFERENCE           PLATFORM_RECOMMENDATION_LIST
 LANG_ENGLISH        "^BBUTTON_SP_TOGGLEMENU^ Recommendation Lista"
 
 REFERENCE           MPUI_RULES_HQ_RESPAWN_DELAY_CAPS
-LANG_ENGLISH        "HQ ACTIVATE DELAY"
+LANG_ENGLISH        "ATRASO DE ATIVAÇÃO DO QG"
 
 REFERENCE           EXE_GETTINGINFOFORSERVERS
 LANG_ENGLISH        "Getting info para &&1 servidores (ESC para cancel)"
@@ -2635,19 +2635,19 @@ REFERENCE           PLATFORM_PICKUPHEALTH
 LANG_ENGLISH        "Pressione ^3&&1^7 para pegar vida"
 
 REFERENCE           MENU_FIND_STANDARD_MATCH
-LANG_ENGLISH        "Find Standard Match"
+LANG_ENGLISH        "Encontrar Partida Padrão"
 
 REFERENCE           MP_KILL_AXIS_PLAYERS
 LANG_ENGLISH        "Abate Oposição jogadores"
 
 REFERENCE           MENU_COLOR_BLIND_ASSIST_CAPS
-LANG_ENGLISH        "COLOR BLIND ASSIST"
+LANG_ENGLISH        "ASSISTÊNCIA PARA DALTONISMO"
 
 REFERENCE           MP_WAR_SPYPLANE_EXPIRED
 LANG_ENGLISH        "Avião Espião expirado"
 
 REFERENCE           XBOXLIVE_SIGNINREQUIRED
-LANG_ENGLISH        "Você must be signed into um Steam profile para jogar multiplayer games"
+LANG_ENGLISH        "Você deve estar conectado a um perfil Steam para jogar partidas multiplayer"
 
 REFERENCE           MENU_30_MINUTES_DEFAULT
 LANG_ENGLISH        "30 Minutes (Padrão)"
@@ -2659,7 +2659,7 @@ REFERENCE           MP_KILL_ALLIED_PLAYERS
 LANG_ENGLISH        "Abate Aliado jogadores"
 
 REFERENCE           MP_BONUSES
-LANG_ENGLISH        "Bonuses"
+LANG_ENGLISH        "Bônus"
 
 REFERENCE           WEAPON_VECTOR_STEADYAIM
 LANG_ENGLISH        "Vector K10 Mira um Laser"
@@ -2680,7 +2680,7 @@ REFERENCE           MPUI_CONNECT_DESC
 LANG_ENGLISH        "Formulário groups & clans com seu amigos ou meet novo Call de Duty jogadores."
 
 REFERENCE           MPUI_EDIT_CLAN_EMBLEM_CAPS
-LANG_ENGLISH        "CLAN EMBLEM"
+LANG_ENGLISH        "EMBLEMA DO CLÃ"
 
 REFERENCE           MP_RUSSIAN_WIN_MATCH
 LANG_ENGLISH        "Spetsnaz tem won o match!"
@@ -2710,13 +2710,13 @@ REFERENCE           MP_SETUP_HQ_ALLIED
 LANG_ENGLISH        "Aliados tem definir up their HQ"
 
 REFERENCE           MENU_MONTHS_NOV
-LANG_ENGLISH        "November"
+LANG_ENGLISH        "Novembro"
 
 REFERENCE           WEAPON_DSR50_FMJ
 LANG_ENGLISH        "DSR 50 FMJ"
 
 REFERENCE           MENU_COLLECTIBLES_CAPS
-LANG_ENGLISH        "COLLECTIBLES"
+LANG_ENGLISH        "COLECIONÁVEIS"
 
 REFERENCE           MP_CTF_OBJ_TEXT
 LANG_ENGLISH        "Ganhe pontos por stealing o inimigo bandeira e então touching seu bandeira em seu base. Primeiro team com &&1 captures wins."
@@ -2731,7 +2731,7 @@ REFERENCE           MENU_HEADSHOTSONLY
 LANG_ENGLISH        "Tiros na Cabeça Apenas"
 
 REFERENCE           MPUI_CREATE_A_CLASS_CAPS
-LANG_ENGLISH        "CREATE A CLASS"
+LANG_ENGLISH        "CRIAR UMA CLASSE"
 
 REFERENCE           MP_SETUP_HQ_AXIS
 LANG_ENGLISH        "Eixo tem definir up their HQ"
@@ -2740,7 +2740,7 @@ REFERENCE           MPUI_ERDL
 LANG_ENGLISH        "ERDL"
 
 REFERENCE           MENU_LOOK_UP_CAPS
-LANG_ENGLISH        "LOOK UP"
+LANG_ENGLISH        "OLHAR PARA CIMA"
 
 REFERENCE           MP_CTF_OBJ_TEXT_NOSCORE
 LANG_ENGLISH        "Ganhe pontos por stealing o inimigo bandeira e então touching seu bandeira em seu base"
@@ -2770,7 +2770,7 @@ REFERENCE           MP_OBJ_TEXT
 LANG_ENGLISH        "Ganhe pontos por capturando e defendendo neutral HQs para 2 minutos ou por destruindo inimigo HQs. Primeiro team para &&1 pontos wins."
 
 REFERENCE           MPUI_RULES_GAMEPLAY_OPTIONS_CAPS
-LANG_ENGLISH        "GAMEPLAY OPTIONS"
+LANG_ENGLISH        "OPÇÕES DE JOGABILIDADE"
 
 REFERENCE           MP_GENERIC_HACKING
 LANG_ENGLISH        "Segure ^3&&1^7 para Invadir Item"
@@ -2809,28 +2809,28 @@ REFERENCE           MP_OBJ_CTF_HINT
 LANG_ENGLISH        "Capturar o Inimigo Bandeira!"
 
 REFERENCE           MPUI_RULES_DRONE_ACTIVE_TIME_CAPS
-LANG_ENGLISH        "DRONE POWER-ON TIME"
+LANG_ENGLISH        "TEMPO DE ATIVAÇÃO DO DRONE"
 
 REFERENCE           MENU_FULLSCREEN_CAPS
-LANG_ENGLISH        "FULL SCREEN"
+LANG_ENGLISH        "TELA CHEIA"
 
 REFERENCE           MPUI_WEAPON_FLAMETHROWER
 LANG_ENGLISH        "Lança-chamas"
 
 REFERENCE           MPUI_WAGER_SIDEBET
-LANG_ENGLISH        "Side Bet"
+LANG_ENGLISH        "Aposta Lateral"
 
 REFERENCE           MP_ESTABLISHING_HQ
-LANG_ENGLISH        "Establishing HQ"
+LANG_ENGLISH        "Estabelecendo QG"
 
 REFERENCE           MENU_STATS_RESET
 LANG_ENGLISH        "Seu online stats tem redefinir."
 
 REFERENCE           MPUI_RUSSIAN_WEAPONS
-LANG_ENGLISH        "Russian Weapons"
+LANG_ENGLISH        "Armas Russas"
 
 REFERENCE           MP_PLANTING_EXPLOSIVE
-LANG_ENGLISH        "Planting..."
+LANG_ENGLISH        "Plantando..."
 
 REFERENCE           WEAPON_AS50_ACOG
 LANG_ENGLISH        "XPR-50 ACOG"
@@ -2845,13 +2845,13 @@ REFERENCE           WEAPON_MP7_SILENCER
 LANG_ENGLISH        "MP7 Supressor"
 
 REFERENCE           EXE_UPLOADINGSTATS
-LANG_ENGLISH        "Synchronizing game settings..."
+LANG_ENGLISH        "Sincronizando configurações do jogo..."
 
 REFERENCE           GAME_MUSTBEALIVECOMMAND
 LANG_ENGLISH        "Você must be vivo para usar este command."
 
 REFERENCE           MPUI_RULES_20POINTS_CAPS
-LANG_ENGLISH        "20 POINTS"
+LANG_ENGLISH        "20 PONTOS"
 
 REFERENCE           PLATFORM_AUTO_TURRET_GAMBLER
 LANG_ENGLISH        "Segure ^3&&1^7 para Torreta Sentinela OR Double Tap ^3[{+reload}]^7 para Tentar Novamente"
@@ -2872,13 +2872,13 @@ REFERENCE           WEAPON_BALLISTA_ACOG
 LANG_ENGLISH        "Ballista ACOG"
 
 REFERENCE           MPUI_WAGER_MATCH_EARNINGS_CAPS
-LANG_ENGLISH        "WAGER MATCH EARNINGS"
+LANG_ENGLISH        "GANHOS DE PARTIDA APOSTADA"
 
 REFERENCE           MP_RUSSIAN_WIN
-LANG_ENGLISH        "Spetsnaz wins!"
+LANG_ENGLISH        "Spetsnaz venceu!"
 
 REFERENCE           MENU_VIEW_FILE_SHARE_CAPS
-LANG_ENGLISH        "VIEW FILE SHARE"
+LANG_ENGLISH        "VER COMPARTILHAMENTO"
 
 REFERENCE           MP_REINFORCEMENTS
 LANG_ENGLISH        "Reforços aparecer in &&1 segundos"
@@ -2890,19 +2890,19 @@ REFERENCE           MP_HQ_REVEALED
 LANG_ENGLISH        "HQ local revealed"
 
 REFERENCE           MPUI_RANGEFINDER_SHORT_CAPS
-LANG_ENGLISH        "TARGET FINDER"
+LANG_ENGLISH        "BUSCADOR DE ALVOS"
 
 REFERENCE           PLATFORM_INVITE_FRIEND_OFFLINE
 LANG_ENGLISH        "Seu amigo é Offline."
 
 REFERENCE           MENU_LOOK_DOWN_CAPS
-LANG_ENGLISH        "LOOK DOWN"
+LANG_ENGLISH        "OLHAR PARA BAIXO"
 
 REFERENCE           EXE_CHECKPOINT_REACHED
-LANG_ENGLISH        "Checkpoint Reached"
+LANG_ENGLISH        "Ponto de Controle Alcançado"
 
 REFERENCE           MPUI_RULES_SHARE_BOMB_TIMER_CAPS
-LANG_ENGLISH        "SHARED BOMB TIMER"
+LANG_ENGLISH        "TEMPORIZADOR DE BOMBA COMPARTILHADO"
 
 REFERENCE           GAME_ERR_SAVEGAME_BAD
 LANG_ENGLISH        "Savegame é out-de-dados ou corrupt."
@@ -2911,13 +2911,13 @@ REFERENCE           MP_REINFORCEMENTS_HUD
 LANG_ENGLISH        "Reforços: &&1"
 
 REFERENCE           MPUI_COUNTRY_BRAZIL
-LANG_ENGLISH        "Brazil"
+LANG_ENGLISH        "Brasil"
 
 REFERENCE           MENU_ZOMBIES_POINTS_KILLS
 LANG_ENGLISH        "Abates"
 
 REFERENCE           MP_INSTANT
-LANG_ENGLISH        "instant"
+LANG_ENGLISH        "instantâneo"
 
 REFERENCE           MPUI_TIMEDISPLAY_MINUTES
 LANG_ENGLISH        "&&1m"
@@ -2926,25 +2926,25 @@ REFERENCE           MP_SCORED_ALLIES
 LANG_ENGLISH        "Aliados scored &&1 pontos!"
 
 REFERENCE           MPUI_KILLSTREAKS_CALLED_CAPS
-LANG_ENGLISH        "KILLSTREAKS USED"
+LANG_ENGLISH        "SEQUÊNCIAS DE ABATES USADAS"
 
 REFERENCE           MENU_HEALTH_REGEN_TIME_0
-LANG_ENGLISH        "DISABLED"
+LANG_ENGLISH        "DESATIVADO"
 
 REFERENCE           MP_WAR_NEUTRAL_COPTER_CAPTURED
 LANG_ENGLISH        "Aerial support capturado"
 
 REFERENCE           MPUI_RULES_10POINTS_CAPS
-LANG_ENGLISH        "10 POINTS"
+LANG_ENGLISH        "10 PONTOS"
 
 REFERENCE           MP_OBJ_SD_PLANT_BOMB
 LANG_ENGLISH        "Plantar explosivos em um alvo e destroy it. Primeiro team para"
 
 REFERENCE           MPUI_RULES_2500POINTS_CAPS
-LANG_ENGLISH        "2500 POINTS"
+LANG_ENGLISH        "2500 PONTOS"
 
 REFERENCE           MP_DESTROYING_HQ
-LANG_ENGLISH        "Destroying HQ"
+LANG_ENGLISH        "Destruindo QG"
 
 REFERENCE           MP_THIS_OBJ
 LANG_ENGLISH        "Este Objetivo"
@@ -2968,13 +2968,13 @@ REFERENCE           MP_DESTROY_THE_OBJECTIVE
 LANG_ENGLISH        "Destruir o objective"
 
 REFERENCE           MPUI_RULES_1_5MINUTES_CAPS
-LANG_ENGLISH        "1.5 MINUTES"
+LANG_ENGLISH        "1,5 MINUTOS"
 
 REFERENCE           MP_RPS_KNIFE_HEAD
 LANG_ENGLISH        "Headwear: Nenhum"
 
 REFERENCE           MENU_YEMEN
-LANG_ENGLISH        "Yemen"
+LANG_ENGLISH        "Iemen"
 
 REFERENCE           PLATFORM_DRAW_FPS_DESC
 LANG_ENGLISH        "Ativar ou Desativar o Frames Per Segundo counter."
@@ -2992,7 +2992,7 @@ REFERENCE           PLATFORM_DEMO_EDIT_CAMERA_MARKER_KEYBOARD
 LANG_ENGLISH        "^3F^7 Editar Câmera Marcador"
 
 REFERENCE           MENU_TOGGLE_AIM_DOWN_THE_SIGHT_CAPS
-LANG_ENGLISH        "TOGGLE ADS"
+LANG_ENGLISH        "ATIVAR/DESATIVAR MIRA"
 
 REFERENCE           MP_MAXHOLDTIME_ALLIES
 LANG_ENGLISH        "Aliados held o radio para o máximo hora de &&1 minutos!"
@@ -3007,10 +3007,10 @@ REFERENCE           EXE_ERR_INVALID_CD_KEY
 LANG_ENGLISH        "Tecla Código é não válido.\nPlease inserir seu Tecla Código in o Multijogador Opções/Inserir Tecla Código menu e então tentar connecting para o servidor novamente."
 
 REFERENCE           MPUI_CATEGORY_STANDARD_CAPS
-LANG_ENGLISH        "STANDARD"
+LANG_ENGLISH        "PADRAO"
 
 REFERENCE           MPUI_CALLOUT_CARDS_DESC
-LANG_ENGLISH        "Choose whether ou não para mostrar identity cards esse call out team actions e quem o jogador eliminou."
+LANG_ENGLISH        "Escolha se deseja ou não mostrar cartões de identificação que exibem ações da equipe e quem o jogador eliminou."
 
 REFERENCE           MP_WAR_SPYPLANE_EXPIRED_ENEMY
 LANG_ENGLISH        "Inimigo Avião Espião expirado"
@@ -3028,7 +3028,7 @@ REFERENCE           MPUI_DESC_CHANGE_MAP
 LANG_ENGLISH        "Choose um different mapa."
 
 REFERENCE           MENU_FILTER_SERVERS
-LANG_ENGLISH        "Filters"
+LANG_ENGLISH        "Filtros"
 
 REFERENCE           MP_TIME_TILL_SPAWN
 LANG_ENGLISH        "Aparição in"
@@ -3040,7 +3040,7 @@ REFERENCE           MPUI_HANOI_CAPS
 LANG_ENGLISH        "HANOI"
 
 REFERENCE           MP_RESPAWN_WHEN_RADIO_NEUTRALIZED
-LANG_ENGLISH        "Dead until HQ neutralized"
+LANG_ENGLISH        "Morto ate o QG ser neutralizado"
 
 REFERENCE           MP_SEALS_ELIMINATED
 LANG_ENGLISH        "SEALS eliminados"
@@ -3055,7 +3055,7 @@ REFERENCE           MENU_LB_ACCURACY
 LANG_ENGLISH        "Precisão"
 
 REFERENCE           MENU_COMBAT
-LANG_ENGLISH        "Combat..."
+LANG_ENGLISH        "Combate..."
 
 REFERENCE           WEAPON_AK47_SILENCER
 LANG_ENGLISH        "AK47 Supressor"
@@ -3067,10 +3067,10 @@ REFERENCE           WEAPON_SA58_STEADYAIM
 LANG_ENGLISH        "FAL-OSW Mira um Laser"
 
 REFERENCE           MENU_FILESHARE_MOSTPOPULAR
-LANG_ENGLISH        "Highest Rated"
+LANG_ENGLISH        "Mais Bem Avaliados"
 
 REFERENCE           EXE_SV_INFO_PROTOCOL
-LANG_ENGLISH        "Protocol Version"
+LANG_ENGLISH        "Versao do Protocolo"
 
 REFERENCE           PLATFORM_PRESS_TO_USE_ARTILLERY
 LANG_ENGLISH        "Segure ^3&&1^7 para call in artillery"
@@ -3091,7 +3091,7 @@ REFERENCE           MENU_MATCHES_REMAINING
 LANG_ENGLISH        "Matches until seu team é colocado in um Division"
 
 REFERENCE           MPUI_START_FILM_CAPS
-LANG_ENGLISH        "START FILM"
+LANG_ENGLISH        "INICIAR FILME"
 
 REFERENCE           MENU_PLAY_DEMO_LEVEL
 LANG_ENGLISH        "Jogar Demo Nível"
@@ -3103,16 +3103,16 @@ REFERENCE           MP_OPFOR_ELIMINATED
 LANG_ENGLISH        "Oposição tem eliminados"
 
 REFERENCE           MENU_SENSITIVITY_VERY_LOW_CAPS
-LANG_ENGLISH        "(VERY LOW) 1"
+LANG_ENGLISH        "(MUITO BAIXA) 1"
 
 REFERENCE           MPUI_HOST_DISBAND_PRIVATE_LOBBY
 LANG_ENGLISH        "Disband Privado Sala"
 
 REFERENCE           EXE_SV_INFO_CLIENT_CONSOLE
-LANG_ENGLISH        "Client Console"
+LANG_ENGLISH        "Console do Cliente"
 
 REFERENCE           MP_WAR_CAPTURING_ARTILLERY
-LANG_ENGLISH        "Capturing artillery"
+LANG_ENGLISH        "Capturando artilharia"
 
 REFERENCE           WEAPON_EVOSKORPION_DUALCLIP
 LANG_ENGLISH        "Skorpion Evo III Carregador Rápido"
@@ -3121,7 +3121,7 @@ REFERENCE           PLATFORM_USEFLAK88
 LANG_ENGLISH        "Pressione ^3&&1^7 para usar o Flak 88 gun"
 
 REFERENCE           MENU_CUSTOMIZATION_CAPS
-LANG_ENGLISH        "CUSTOMIZATION"
+LANG_ENGLISH        "PERSONALIZACAO"
 
 REFERENCE           MPUI_RULES_PINUPS_CAPS
 LANG_ENGLISH        "PIN-UPS"
@@ -3136,16 +3136,16 @@ REFERENCE           XBOXLIVE_NETCONNECTION_STORE
 LANG_ENGLISH        "Você must tem um ativo rede conexão para access o Loja."
 
 REFERENCE           WEAPON_HAMR_IR
-LANG_ENGLISH        "HAMR Dual Band"
+LANG_ENGLISH        "HAMR Banda Dupla"
 
 REFERENCE           MENU_PLAYER2
 LANG_ENGLISH        "Jogador 2"
 
 REFERENCE           MP_ELIMINATE_ENEMIES
-LANG_ENGLISH        "Eliminate enemies"
+LANG_ENGLISH        "Elimine inimigos"
 
 REFERENCE           MENU_STRAFE_CAPS
-LANG_ENGLISH        "STRAFE"
+LANG_ENGLISH        "LATERAL"
 
 REFERENCE           MPUI_REVOLVER
 LANG_ENGLISH        "Revolver"
@@ -3154,7 +3154,7 @@ REFERENCE           MP_BOMB_DEFUSED
 LANG_ENGLISH        "Bomba desarmado"
 
 REFERENCE           MENU_RIGHT_SURROUND_BACK_CAPS
-LANG_ENGLISH        "RIGHT SURROUND BACK"
+LANG_ENGLISH        "DIREITO TRASEIRO SURROUND"
 
 REFERENCE           MP_CAPTURE_PREFIX
 LANG_ENGLISH        "Capturar:"
@@ -3163,7 +3163,7 @@ REFERENCE           PLATFORM_CONFIRM_SWITCH_TO_ZM
 LANG_ENGLISH        "É você sure você querer para launch Zumbis?"
 
 REFERENCE           MPUI_LANDING_CAPS
-LANG_ENGLISH        "LANDING"
+LANG_ENGLISH        "POUSO"
 
 REFERENCE           GAME_UNKNOWNCLIENTCOMMAND
 LANG_ENGLISH        "Desconhecido cmd &&1"
@@ -3172,7 +3172,7 @@ REFERENCE           EXE_KEYWAIT
 LANG_ENGLISH        "Aguardando para novo tecla. Pressione ESCAPE para cancel ou BACKSPACE para clear"
 
 REFERENCE           MENU_INITIALIZING_CAPS
-LANG_ENGLISH        "INITALIZING"
+LANG_ENGLISH        "INICIALIZANDO"
 
 REFERENCE           MP_TIME_EXPIRED
 LANG_ENGLISH        "Hora tem expirado"
@@ -3184,13 +3184,13 @@ REFERENCE           WEAPON_DSR50_DESC
 LANG_ENGLISH        "Bolt-action sniper rifle. Deadly de o waist up."
 
 REFERENCE           MPUI_REFLECT
-LANG_ENGLISH        "Reflect"
+LANG_ENGLISH        "Refletir"
 
 REFERENCE           MP_DEFUSING_EXPLOSIVE
-LANG_ENGLISH        "Defusing..."
+LANG_ENGLISH        "Desarmando..."
 
 REFERENCE           MPUI_RULES_4ROUNDS_CAPS
-LANG_ENGLISH        "4 ROUNDS"
+LANG_ENGLISH        "4 RODADAS"
 
 REFERENCE           MP_HACKING
 LANG_ENGLISH        "Invadindo..."
@@ -3202,7 +3202,7 @@ REFERENCE           MP_FBI_WIN_ROUND
 LANG_ENGLISH        "FBI tem won o rodada!"
 
 REFERENCE           MPUI_DESC_MAP_DRONE
-LANG_ENGLISH        "Oculto drone facility in o heart de o Myanmar jungles. Great long engagements down o center, fun close quarters fights inside o facility."
+LANG_ENGLISH        "Instalação de drone oculta no coração das selvas de Myanmar. Ótimos combates de longo alcance no centro, divertidos combates em espaços fechados dentro da instalação."
 
 REFERENCE           MP_EXPLOSIVES_PLANTED
 LANG_ENGLISH        "The inimigo plantado o explosivos!"
@@ -3211,7 +3211,7 @@ REFERENCE           PLATFORM_STANCEHINT_JUMP
 LANG_ENGLISH        "Pressione ^3&&1^7 para pular"
 
 REFERENCE           MENU_15_MINUTES
-LANG_ENGLISH        "15 Minutes"
+LANG_ENGLISH        "15 Minutos"
 
 REFERENCE           WEAPON_RIOTSHIELD_DESC
 LANG_ENGLISH        "Ballistic-proof blunt shield arma. Pode be deployed em o ground as cobertura."
@@ -3220,10 +3220,10 @@ REFERENCE           EXE_AUTODL_SERVERDISABLED
 LANG_ENGLISH        "Poderia não baixar &&1 because autodownloading é disabled em o servidor.\n\nSet autodownload para Não in seu settings e você might be able para connect se você fazer tem o arquivo."
 
 REFERENCE           MPUI_CREATE_MATCH_CAPS
-LANG_ENGLISH        "CREATE MATCH"
+LANG_ENGLISH        "CRIAR PARTIDA"
 
 REFERENCE           MENU_CONTINUE_RETRY
-LANG_ENGLISH        "Continue retry?"
+LANG_ENGLISH        "Continuar tentativa?"
 
 REFERENCE           EXE_DISCONNECTED
 LANG_ENGLISH        "Game session no longer disponível"
@@ -3238,13 +3238,13 @@ REFERENCE           WEAPON_EQUIPMENT_KILLS_CHALLENGE_DESC
 LANG_ENGLISH        "Abate &&1 enemies com este equipamento."
 
 REFERENCE           MPUI_DESTRUCTIONS_CAPS
-LANG_ENGLISH        "DESTRUCTIONS"
+LANG_ENGLISH        "DESTRUICOES"
 
 REFERENCE           PLATFORM_DOWNLOADABLE_CONTENT_INVALID_REGION
 LANG_ENGLISH        "The conteúdo você é tentando para load é de um incorrect region. Por favor verificar esse você tem o correct downloadable conteúdo."
 
 REFERENCE           MPUI_KILL_DEATH_RATIO_CAPS
-LANG_ENGLISH        "KILL / DEATH (RATIO)"
+LANG_ENGLISH        "ABATES / MORTES (PROPORCAO)"
 
 REFERENCE           PLATFORM_DYK_COOP_MSG45
 LANG_ENGLISH        "In Dead Ops Arcade, sendo awarded o Fate Of Firepower permanently upgrade seu jogador's arma."
@@ -3253,16 +3253,16 @@ REFERENCE           MENU_DOYOUWISHTOCONTINUE
 LANG_ENGLISH        "Fazer você wish para continue?"
 
 REFERENCE           MP_EXPLOSIVES_PLANTED_BY
-LANG_ENGLISH        "Planted The Explosives!"
+LANG_ENGLISH        "Plantou os Explosivos!"
 
 REFERENCE           MP_RALLY_REACHED
-LANG_ENGLISH        "Rally Point Reached"
+LANG_ENGLISH        "Ponto de Encontro Alcancado"
 
 REFERENCE           PLATFORM_DEMO_CONFIG_DPAD_RIGHT
 LANG_ENGLISH        "^BBUTTON_EMBLEM_PALETTE_NEXT^"
 
 REFERENCE           MP_EXPLOSIVES_DEFUSED_BY
-LANG_ENGLISH        "Defused The Explosives!"
+LANG_ENGLISH        "Desarmou os Explosivos!"
 
 REFERENCE           PLATFORM_DEMO_CHANGE_CAMERA_KEYBOARD
 LANG_ENGLISH        "^3F3^7"
@@ -3295,7 +3295,7 @@ REFERENCE           MP_AXIS_ATTACK
 LANG_ENGLISH        "Attack o Aliado-held objective!"
 
 REFERENCE           PLATFORM_LAGOMETER_CAPS
-LANG_ENGLISH        "LAGOMETER"
+LANG_ENGLISH        "LAGOMETRO"
 
 REFERENCE           MP_0MIN
 LANG_ENGLISH        "0:"
@@ -3310,7 +3310,7 @@ REFERENCE           MENU_MELEE_BREATH
 LANG_ENGLISH        "Corpo um Corpo/Segure Breath"
 
 REFERENCE           TICKER_COUNTERS_CARSDESTROYED
-LANG_ENGLISH        "DESTRUCTION DERBY: &&1 cars destroyed."
+LANG_ENGLISH        "DERRUBADA: &&1 carros destruidos."
 
 REFERENCE           MP_EXPLOSIVES_DROPPED_BY
 LANG_ENGLISH        "&&1 dropped o explosivos!"
@@ -3319,7 +3319,7 @@ REFERENCE           MENU_FILESHARE_VOTE_SUCCESS
 LANG_ENGLISH        "Seu votar tem submitted."
 
 REFERENCE           MPUI_PLAYLIST_FINISHEDSOLO_CAPS
-LANG_ENGLISH        "LOCKED"
+LANG_ENGLISH        "BLOQUEADO"
 
 REFERENCE           MP_WAR_COPTER_INSTRUCTIONS2
 LANG_ENGLISH        "Pressione USE para cancel"
@@ -3334,10 +3334,10 @@ REFERENCE           MP_OBJ_ATTACKERS
 LANG_ENGLISH        "Destruir alvo A ou B por plantando explosivos em either local. Primeiro team para &&1 pontos wins."
 
 REFERENCE           MENU_SAVING
-LANG_ENGLISH        "Saving..."
+LANG_ENGLISH        "Salvando..."
 
 REFERENCE           MENU_SYSTEMLINK_WARNING
-LANG_ENGLISH        "Todos users must tem o same game version para jogar System Link games. Por favor sign into Xbox LIVE para garanta que esse você tem o latest atualizar para o game."
+LANG_ENGLISH        "Todos os usuários devem ter a mesma versão do jogo para jogar partidas System Link. Por favor, faça login no Xbox LIVE para garantir que você tenha a atualização mais recente do jogo."
 
 REFERENCE           MP_WAR_WAITING_FOR_COPTER_TO_BE_READY_FOR_ORDERS
 LANG_ENGLISH        "Aguardando para helicopter para be ready para orders..."
@@ -3349,10 +3349,10 @@ REFERENCE           MP_OBJ_ATTACKERS_NOSCORE
 LANG_ENGLISH        "Destruir alvo A ou B por plantando explosivos em either local"
 
 REFERENCE           MPUI_RULES_5SECONDS_CAPS
-LANG_ENGLISH        "5 SECONDS"
+LANG_ENGLISH        "5 SEGUNDOS"
 
 REFERENCE           MENU_SENSITIVITY_LOW_CAPS
-LANG_ENGLISH        "(LOW) 2"
+LANG_ENGLISH        "(BAIXA) 2"
 
 REFERENCE           AUTOSAVE_NOGAME
 LANG_ENGLISH        "Não Nome Specified"
@@ -3367,13 +3367,13 @@ REFERENCE           MP_OBJ_DEFENDERS_NOSCORE
 LANG_ENGLISH        "Proteger alvo A e B de sendo destroyed. Se explosivos é plantado em either local, desarmar them before they explode."
 
 REFERENCE           WEAPON_TITUS_DESC
-LANG_ENGLISH        "Multi-shot explosivo flechette launcher. Pressione [{+actionslot 3}] para toggle double-burst shotgun atirar."
+LANG_ENGLISH        "Lançador de flechettes explosivo de múltiplos disparos. Pressione [{+actionslot 3}] para alternar para o modo rajada dupla de espingarda."
 
 REFERENCE           MP_RANK_REQUIRED
 LANG_ENGLISH        "Esse Arma Requer A Ranque Of %s"
 
 REFERENCE           MP_TH
-LANG_ENGLISH        "th"
+LANG_ENGLISH        "°"
 
 REFERENCE           MP_OBJ_SPECTATOR_ALLIESATTACKING
 LANG_ENGLISH        "Aliados: Destruir alvo A ou B por plantando explosivos em either local.\n\nEixo: Proteger alvo A e B de sendo destroyed. Se explosivos é plantado em either local, desarmar them before they explode."
@@ -3397,7 +3397,7 @@ REFERENCE           WEAPON_ROTTWEIL72
 LANG_ENGLISH        "Olympia"
 
 REFERENCE           EXE_TIMEDOUT
-LANG_ENGLISH        "Timed out"
+LANG_ENGLISH        "Tempo esgotado"
 
 REFERENCE           MP_ATTACK_PLAY
 LANG_ENGLISH        "Attack Jogar"
@@ -3427,13 +3427,13 @@ REFERENCE           WEAPON_METALSTORM_DESC
 LANG_ENGLISH        "Ver enemies through walls, segurar o trigger para queue bullets e soltar para extreme material penetration."
 
 REFERENCE           MENU_NUMBER_OF_LIVES_HINT
-LANG_ENGLISH        "The número de times each jogador pode die before they é no longer permitido para reaparecer."
+LANG_ENGLISH        "O número de vezes que cada jogador pode morrer antes de não ter mais permissão para reaparecer."
 
 REFERENCE           MPUI_PLAYER_KILLED
 LANG_ENGLISH        "Jogador Eliminou"
 
 REFERENCE           MP_CAPTURING_OBJECTIVE
-LANG_ENGLISH        "Capturing objective..."
+LANG_ENGLISH        "Capturando objetivo..."
 
 REFERENCE           MP_TROPAS_NAME
 LANG_ENGLISH        "TROPAS"
@@ -3451,7 +3451,7 @@ REFERENCE           PLATFORM_GUNNERDUCK
 LANG_ENGLISH        "^3&&1^7 Cobertura"
 
 REFERENCE           MPUI_IS_DESC
-LANG_ENGLISH        "Rail mounted tritium Iron Sights."
+LANG_ENGLISH        "Mira de Ferro com tritio montada em trilho."
 
 REFERENCE           MP_ADD_SQUAD
 LANG_ENGLISH        "Adicionar Esquadrão"
@@ -3463,25 +3463,25 @@ REFERENCE           MENU_LEAN_LEFT
 LANG_ENGLISH        "Lean Esquerda"
 
 REFERENCE           MENU_VOTE_YES_CAPS
-LANG_ENGLISH        "VOTE YES"
+LANG_ENGLISH        "VOTAR SIM"
 
 REFERENCE           WEAPON_MP7_DUAL_ATTACH
-LANG_ENGLISH        "MP7 Customized"
+LANG_ENGLISH        "MP7 Personalizada"
 
 REFERENCE           MENU_CAREER_STATS_VS_CAPS
-LANG_ENGLISH        "CAREER STATS VS"
+LANG_ENGLISH        "ESTATISTICAS DE CARREIRA VS"
 
 REFERENCE           WEAPON_KNIFERANG_DESC
-LANG_ENGLISH        "Shoot out seu blade em enemies, então pull it back com [{+attack}], killing enemies em o return caminho."
+LANG_ENGLISH        "Dispare sua lâmina contra os inimigos, então puxe-a de volta com [{+attack}], matando inimigos no caminho de retorno."
 
 REFERENCE           PLATFORM_VIEW_GAMERCARD
 LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Visualizar Steam Perfil"
 
 REFERENCE           MP_INTERMISSION_CAPS
-LANG_ENGLISH        "INTERMISSION"
+LANG_ENGLISH        "INTERVALO"
 
 REFERENCE           MP_MATCH_STARTING
-LANG_ENGLISH        "Match starting"
+LANG_ENGLISH        "Partida iniciando"
 
 REFERENCE           EXE_CONNECTINGTO
 LANG_ENGLISH        "Conectando para &&1"
@@ -3514,10 +3514,10 @@ REFERENCE           WEAPON_TYPE95_FASTADS
 LANG_ENGLISH        "Tipo 25 Mira Rápida Handle"
 
 REFERENCE           MENU_CHANNELS
-LANG_ENGLISH        "CHANNELS"
+LANG_ENGLISH        "CANAIS"
 
 REFERENCE           MP_MATCH_STARTING_IN
-LANG_ENGLISH        "MATCH BEGINS IN"
+LANG_ENGLISH        "PARTIDA COMECA EM"
 
 REFERENCE           MENU_BONUSCARD_SECONDARY_GUNFIGHTER_NA
 LANG_ENGLISH        "Curinga não disponível quando acessórios é não disponível para secondary arma."
@@ -3538,10 +3538,10 @@ REFERENCE           MPUI_COST
 LANG_ENGLISH        "Custo"
 
 REFERENCE           MENU_BUTTON_LAYOUT_CAPS
-LANG_ENGLISH        "BUTTON LAYOUT"
+LANG_ENGLISH        "LAYOUT DOS BOTOES"
 
 REFERENCE           PRESENCE_ZMEAT
-LANG_ENGLISH        "Meat"
+LANG_ENGLISH        "Carne"
 
 REFERENCE           MENU_LOAD_MISSION
 LANG_ENGLISH        "Load Missão?"
@@ -3556,19 +3556,19 @@ REFERENCE           MP_WAR_WAITING_FOR_RADAR
 LANG_ENGLISH        "Aguardando para Avião Espião para be disponível..."
 
 REFERENCE           MENU_WAITING_FOR_PLAYER_TO_BE_READY_CAPS
-LANG_ENGLISH        "NEED 1 MORE PLAYER TO BE READY"
+LANG_ENGLISH        "PRECISA DE MAIS 1 JOGADOR PRONTO"
 
 REFERENCE           MPUI_START_LOBBY_CAPS
-LANG_ENGLISH        "START LOBBY"
+LANG_ENGLISH        "INICIAR LOBBY"
 
 REFERENCE           MPUI_2_AMERICAN
-LANG_ENGLISH        "2. American"
+LANG_ENGLISH        "2. Americano"
 
 REFERENCE           MP_CLAYMORE_HOLDING_CLAYMORE
-LANG_ENGLISH        "^5(Holding Claymore)"
+LANG_ENGLISH        "^5(Com Claymore)"
 
 REFERENCE           PLATFORM_EMBLEM_SCALE_LAYER
-LANG_ENGLISH        "Scale"
+LANG_ENGLISH        "Escala"
 
 REFERENCE           MENU_LOADING_DOTS
 LANG_ENGLISH        "Carregando..."
@@ -3580,7 +3580,7 @@ REFERENCE           MP_YOU_ALLIED_PLATOON_LEADER
 LANG_ENGLISH        "Você é o Aliado platoon leader!"
 
 REFERENCE           MP_12TH
-LANG_ENGLISH        "12th"
+LANG_ENGLISH        "12°"
 
 REFERENCE           MENU_WORLD_DYNAMIC_LIGHT_QUALITY
 LANG_ENGLISH        "World Dynamic Light Qualidade"
@@ -3589,7 +3589,7 @@ REFERENCE           MPUI_SQUAD_PERK
 LANG_ENGLISH        "Esquadrão Vantagem"
 
 REFERENCE           MENU_FIND_RANKED_MATCH
-LANG_ENGLISH        "Find Ranked Match"
+LANG_ENGLISH        "Buscar Partida Ranqueada"
 
 REFERENCE           MENU_SELECTING_GAMETYPE
 LANG_ENGLISH        "Choosing um game mode"
@@ -3601,10 +3601,10 @@ REFERENCE           WEAPON_AK47_MK
 LANG_ENGLISH        "AK47 Masterkey"
 
 REFERENCE           WEAPON_DATA_GLOVE
-LANG_ENGLISH        "DATA GLOVE PAIRED"
+LANG_ENGLISH        "LUVA DE DADOS PAREADA"
 
 REFERENCE           MENU_KILL_PLAYERS_ON_THE_OPPOSING_ELIMINATION
-LANG_ENGLISH        "Usar teamwork para kill inimigo jogadores e eliminar o entire team. Cada hora você kill um inimigo jogador um jogador em seu team reaparecer."
+LANG_ENGLISH        "Use trabalho em equipe para matar jogadores inimigos e eliminar o time inteiro. Cada vez que você matar um jogador inimigo, um jogador do seu time renascerá."
 
 REFERENCE           MP_YOU_AXIS_PLATOON_LEADER
 LANG_ENGLISH        "Você é o Eixo platoon leader!"
@@ -3619,7 +3619,7 @@ REFERENCE           PLATFORM_UPGRADE_TO_PRO
 LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Upgrade para Pro Version"
 
 REFERENCE           MPUI_RULES_5FLAGS_CAPS
-LANG_ENGLISH        "5 FLAGS"
+LANG_ENGLISH        "5 BANDEIRAS"
 
 REFERENCE           MENU_12801024
 LANG_ENGLISH        "1280*1024"
@@ -3628,7 +3628,7 @@ REFERENCE           MP_SENSOR_GRENADE_DESTROY
 LANG_ENGLISH        "Segure ^3&&1^7 para Esmagar Sensor Granada"
 
 REFERENCE           MPUI_VILLA_CAPS
-LANG_ENGLISH        "VILLA"
+LANG_ENGLISH        "VILA"
 
 REFERENCE           MP_IS_PLATOON_LEADER
 LANG_ENGLISH        "%s é seu team's platoon leader"
@@ -3640,19 +3640,19 @@ REFERENCE           MP_2_PLACE_WAYPOINT_DEFEND_POINT
 LANG_ENGLISH        "2. Place Defender Waypoint"
 
 REFERENCE           MENU_LEVEL_SOCOTRA_DESC
-LANG_ENGLISH        "CLASSIFIED"
+LANG_ENGLISH        "CLASSIFICADO"
 
 REFERENCE           MP_LEFT_PLAYS
 LANG_ENGLISH        "Esquerda Plays"
 
 REFERENCE           MPUI_SUB_MACHINE_GUN
-LANG_ENGLISH        "Submachine Gun"
+LANG_ENGLISH        "Submetralhadora"
 
 REFERENCE           MP_MIDDLE_PLAYS
 LANG_ENGLISH        "Meio Plays"
 
 REFERENCE           MENU_TDEF_DESC
-LANG_ENGLISH        "Grab e segurar o bandeira. The team com o bandeira earns bonus pontos para every kill."
+LANG_ENGLISH        "Pegue e segure a bandeira. O time com a bandeira ganha pontos bônus para cada abate."
 
 REFERENCE           WEAPON_STUN_GRENADE_DESC
 LANG_ENGLISH        "Disorients enemies e slows movement."
@@ -3697,13 +3697,13 @@ REFERENCE           MP_QRDRONE_ACTIVE
 LANG_ENGLISH        "MQ-7 Wasp Ativo"
 
 REFERENCE           MENU_RESET_SYSTEM_DEFAULTS_CAPS
-LANG_ENGLISH        "OPTIMAL SYSTEM SETTINGS"
+LANG_ENGLISH        "CONFIGURACOES OTIMAS DO SISTEMA"
 
 REFERENCE           MPUI_TOTALXP_PRE_CAPS
-LANG_ENGLISH        "TOTAL XP EARNED"
+LANG_ENGLISH        "TOTAL DE XP GANHO"
 
 REFERENCE           MPUI_RULES_15POINTS_CAPS
-LANG_ENGLISH        "15 POINTS"
+LANG_ENGLISH        "15 PONTOS"
 
 REFERENCE           PLATFORM_FILESHARE_PLACEINMYFILESHARE
 LANG_ENGLISH        "^BBUTTON_INTERACT^ Place in My Compartilhamento de Arquivos"
@@ -3715,34 +3715,34 @@ REFERENCE           MPUI_COUNTRY_PORTUGAL
 LANG_ENGLISH        "Portugal"
 
 REFERENCE           MPUI_EVERYONE
-LANG_ENGLISH        "Everyone"
+LANG_ENGLISH        "Todos"
 
 REFERENCE           MP_NEXT_OBJ
 LANG_ENGLISH        "Próximo Objetivo"
 
 REFERENCE           MP_GUN_PREV_LEVEL
-LANG_ENGLISH        "Demoted!"
+LANG_ENGLISH        "Rebaixado!"
 
 REFERENCE           MP_NEW_RIGHT_PLAY
 LANG_ENGLISH        "Novo Direita Jogar"
 
 REFERENCE           WEAPON_SWAYREDUC
-LANG_ENGLISH        "Ballistics CPU"
+LANG_ENGLISH        "CPU Balistica"
 
 REFERENCE           MP_CANCEL_NEW_PLAY
 LANG_ENGLISH        "Cancelar Novo Jogar"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_1
-LANG_ENGLISH        "Plus, Precision"
+LANG_ENGLISH        "Mais, Precisao"
 
 REFERENCE           EXE_ERR_COULDNT_CREATE_WINDOW
 LANG_ENGLISH        "Poderia não criar um janela. Este é um Microsoft Windows(TM) erro. Você may precisar para reboot."
 
 REFERENCE           MENU_TEAM_KILL_PUNISH_COUNT
-LANG_ENGLISH        "TEAM KILL PUNISH COUNT"
+LANG_ENGLISH        "CONTAGEM DE PUNICAO POR MATAR EQUIPE"
 
 REFERENCE           MPUI_ASSAULT_RIFLE_DESC
-LANG_ENGLISH        "Assault Rifle"
+LANG_ENGLISH        "Fuzil de Assalto"
 
 REFERENCE           MP_3_DELETE_LAST_WAYPOINT
 LANG_ENGLISH        "3. Excluir Último Waypoint"
@@ -3751,7 +3751,7 @@ REFERENCE           MP_NEXT_SQUAD
 LANG_ENGLISH        "Próximo Esquadrão"
 
 REFERENCE           MP_13TH
-LANG_ENGLISH        "13th"
+LANG_ENGLISH        "13°"
 
 REFERENCE           MP_PREV_SQUAD
 LANG_ENGLISH        "Anterior Esquadrão"
@@ -3763,7 +3763,7 @@ REFERENCE           MPUI_RUSSIAN_SHORT
 LANG_ENGLISH        "Spetsnaz"
 
 REFERENCE           MENU_RECENTLY_SHARED
-LANG_ENGLISH        "Recently Shared"
+LANG_ENGLISH        "Compartilhados Recentemente"
 
 REFERENCE           MPUI_CAMO_SIBERIA_CAPS
 LANG_ENGLISH        "SIBERIA"
@@ -3775,7 +3775,7 @@ REFERENCE           EXE_ERR_NOT_A_DEMO_SERVER
 LANG_ENGLISH        "Servidor é não um demo servidor."
 
 REFERENCE           MENU_EMBLEM_LAYER_CAPS
-LANG_ENGLISH        "LAYER &&1"
+LANG_ENGLISH        "CAMADA &&1"
 
 REFERENCE           WEAPON_FIVESEVEN_DW_DESC
 LANG_ENGLISH        "Dual Wielded Pistol com High munição capacity"
@@ -3784,7 +3784,7 @@ REFERENCE           MP_YOUR_FLAG_WAS_RETURNED
 LANG_ENGLISH        "Seu bandeira foi returned"
 
 REFERENCE           EXE_ERR_MULTITEX_BAD_MAX
-LANG_ENGLISH        "OpenGL 1.3 multitexture found, but it não permitir multiple textures."
+LANG_ENGLISH        "Multitextura OpenGL 1.3 encontrada, mas ela não permite várias texturas."
 
 REFERENCE           MP_DELETE_SQUAD
 LANG_ENGLISH        "Excluir Esquadrão"
@@ -3793,7 +3793,7 @@ REFERENCE           MP_CUSTOMTEAM_NAME
 LANG_ENGLISH        "&&1"
 
 REFERENCE           MENU_RESPEC_DESC
-LANG_ENGLISH        "Refund reimburses todos o Desbloquear Tokens você tem usado este Prestígio level e relocks any conteúdo você usado um token em. Usar Refund para tentar out different types de armas e gear."
+LANG_ENGLISH        "O Reembolso reembolsa todos os Tokens de Desbloqueio que você usou neste nível de Prestígio e bloqueia novamente qualquer conteúdo em que você usou um token. Use o Reembolso para experimentar diferentes tipos de armas e equipamentos."
 
 REFERENCE           MENU_OPTION_BULLET_IMPACTS
 LANG_ENGLISH        "Projétil Impacts"
@@ -3841,7 +3841,7 @@ REFERENCE           WEAPON_TARGET_NOT_ENOUGH_CLEARANCE
 LANG_ENGLISH        "Não Enough Clearance"
 
 REFERENCE           MP_PLACE_WAYPOINTS
-LANG_ENGLISH        "Place Waypoints"
+LANG_ENGLISH        "Colocar Waypoints"
 
 REFERENCE           MENU_DIFF_RECRUIT_DESC
 LANG_ENGLISH        "For jogadores quem é novo para first-person action games."
@@ -3850,7 +3850,7 @@ REFERENCE           PLATFORM_DEMO_RATE_CUSTOM
 LANG_ENGLISH        "^BBUTTON_INTERACT^ Taxa Game"
 
 REFERENCE           MP_FINALFIGHT
-LANG_ENGLISH        "Final Fight"
+LANG_ENGLISH        "Luta Final"
 
 REFERENCE           MENU_RANKED_MATCH_DESC
 LANG_ENGLISH        "Entrar um Ranked Match."
@@ -3862,10 +3862,10 @@ REFERENCE           PLATFORM_HOLD_TO_DEFUSE_EXPLOSIVES
 LANG_ENGLISH        "Segure ^3&&1^7 para desarmar explosivos"
 
 REFERENCE           MPUI_RULES_ITEM_3LIVES_CAPS
-LANG_ENGLISH        "3 LIVES"
+LANG_ENGLISH        "3 VIDAS"
 
 REFERENCE           MP_2_PLACE_WAYPOINT_RALLY_POINT
-LANG_ENGLISH        "2. Place Rally Waypoint"
+LANG_ENGLISH        "2. Colocar Waypoint de Encontro"
 
 REFERENCE           MPUI_PLAYER_MATCH_DESC
 LANG_ENGLISH        "Jogar online para earn Experience (XP)."
@@ -3877,7 +3877,7 @@ REFERENCE           MP_4_PREV_SQUAD
 LANG_ENGLISH        "4. Anterior Esquadrão"
 
 REFERENCE           PLATFORM_DYK_COOP_MSG21
-LANG_ENGLISH        "Careful quando você kill um zombie crawler: they leave behind um noxious surprise."
+LANG_ENGLISH        "Cuidado ao matar um zumbi rastejante: eles deixam para trás uma surpresa nociva."
 
 REFERENCE           MENU_PS3_INSTALL_DESC
 LANG_ENGLISH        "Instalar textures para HDD."
@@ -3901,7 +3901,7 @@ REFERENCE           MP_5_NEXT_SQUAD
 LANG_ENGLISH        "5. Próximo Esquadrão"
 
 REFERENCE           MENU_GRAPHIC_CONTENT_CAPS
-LANG_ENGLISH        "GRAPHIC CONTENT"
+LANG_ENGLISH        "CONTEUDO GRAFICO"
 
 REFERENCE           MENU_EMPTY
 LANG_ENGLISH        "Vazio"
@@ -3928,7 +3928,7 @@ REFERENCE           MP_DEFEND_PLAY
 LANG_ENGLISH        "Defender Jogar"
 
 REFERENCE           MPUI_SPECIALGRENADE_CAPS
-LANG_ENGLISH        "TACTICALS"
+LANG_ENGLISH        "TATICAS"
 
 REFERENCE           MP_JOINED_TWO
 LANG_ENGLISH        "%s Entrou Esquadrão Two"
@@ -3937,16 +3937,16 @@ REFERENCE           PLATFORM_STANCEHINT_STAND
 LANG_ENGLISH        "Pressione ^3&&1^7 para levantar"
 
 REFERENCE           MPUI_PRESTIGE_LEADERBOARDS_CAPS
-LANG_ENGLISH        "PRESTIGE LEADERBOARDS"
+LANG_ENGLISH        "RANKING DE PRESTIGIO"
 
 REFERENCE           MP_REBELS_ELIMINATED
-LANG_ENGLISH        "Op 40 Eliminated"
+LANG_ENGLISH        "Op 40 Eliminado"
 
 REFERENCE           MP_TEAM_TYPE
 LANG_ENGLISH        "Choose Hora Tipo"
 
 REFERENCE           MENU_INGAMESTORE_CAPS
-LANG_ENGLISH        "ENTER STORE"
+LANG_ENGLISH        "ENTRAR NA LOJA"
 
 REFERENCE           MENU_DEMO_CONTROLS_PLAYBACK_SPEED
 LANG_ENGLISH        "Playback Velocidade (Pressure Sensitive)"
@@ -3955,7 +3955,7 @@ REFERENCE           MP_QRDRONE_DESCEND
 LANG_ENGLISH        "^3[{+vehiclemovedown}]^7 Descer"
 
 REFERENCE           MPUI_SABOTAGE_CAPS
-LANG_ENGLISH        "SABOTAGE"
+LANG_ENGLISH        "SABOTAGEM"
 
 REFERENCE           MENU_CREATEAMODE
 LANG_ENGLISH        "Criar-um-Modo"
@@ -3973,10 +3973,10 @@ REFERENCE           MP_DOWNTEAM
 LANG_ENGLISH        "Eixo"
 
 REFERENCE           MPUI_ENEMY_PRACTICE_DUMMIES_CAPS
-LANG_ENGLISH        "ENEMY BOTS"
+LANG_ENGLISH        "BOTS INIMIGOS"
 
 REFERENCE           MENU_DEFAULT_ALT_CAPS
-LANG_ENGLISH        "DEFAULT FLIPPED"
+LANG_ENGLISH        "PADRAO INVERTIDO"
 
 REFERENCE           MP_USEVEHICLE
 LANG_ENGLISH        "Segure use_button para inserir veículo"
@@ -3994,7 +3994,7 @@ REFERENCE           MP_NO_DEFEND_PLAYS_FOUND
 LANG_ENGLISH        "Não defensive plays found"
 
 REFERENCE           MP_CONTROL_HQ
-LANG_ENGLISH        "CONTROL THE HQ LOCATION"
+LANG_ENGLISH        "CONTROLE A LOCALIZACAO DO QG"
 
 REFERENCE           PLATFORM_PICK_UP_LAST_STAND
 LANG_ENGLISH        "Segure ^3&&1^7 para pegar Segunda Chance"
@@ -4012,10 +4012,10 @@ REFERENCE           PLATFORM_DYK_COOP_MSG32
 LANG_ENGLISH        "Visit Treyarch.com para ir behind-o-scenes com o developers de 'Call de Duty: Black Ops II'."
 
 REFERENCE           MP_MIDDLE_SQUAD
-LANG_ENGLISH        "Frontal Attack"
+LANG_ENGLISH        "Ataque Frontal"
 
 REFERENCE           MENU_DEFAULT_CAPS
-LANG_ENGLISH        "DEFAULT"
+LANG_ENGLISH        "PADRAO"
 
 REFERENCE           MP_EMP_ACTIVE
 LANG_ENGLISH        "EMP Ativo"
@@ -4024,28 +4024,28 @@ REFERENCE           XBOXLIVE_CANTJOINSESSION_ARG
 LANG_ENGLISH        "Erro &&1 joining game session"
 
 REFERENCE           PLATFORM_THUMBSTICK_LAYOUT_STICK_LAYOUT
-LANG_ENGLISH        "STICK LAYOUT"
+LANG_ENGLISH        "LAYOUT DOS ANALOGICOS"
 
 REFERENCE           MPUI_RULES_EVERY_4ROUNDS_CAPS
-LANG_ENGLISH        "EVERY 4 ROUNDS"
+LANG_ENGLISH        "A CADA 4 RODADAS"
 
 REFERENCE           MP_RIGHT_SQUAD
 LANG_ENGLISH        "Direita Flank"
 
 REFERENCE           MENU_MODEL_DETAIL
-LANG_ENGLISH        "Model Detail"
+LANG_ENGLISH        "Detalhe do Modelo"
 
 REFERENCE           PLATFORM_PARTYCHATNOTALLOWED
 LANG_ENGLISH        "Steam Grupo Chat é não permitido."
 
 REFERENCE           MENU_RESTRICT_WILDCARDS_CAPS
-LANG_ENGLISH        "RESTRICT WILDCARDS"
+LANG_ENGLISH        "RESTRINGIR WILDCARDS"
 
 REFERENCE           MPUI_END_GAME_CAPS
-LANG_ENGLISH        "END GAME"
+LANG_ENGLISH        "FIM DE JOGO"
 
 REFERENCE           MENU_SENSITIVITY_HIGH_CAPS
-LANG_ENGLISH        "(HIGH) 8"
+LANG_ENGLISH        "(ALTA) 8"
 
 REFERENCE           WEAPON_UZI_DUALCLIP
 LANG_ENGLISH        "Uzi Carregador Rápido"
@@ -4054,13 +4054,13 @@ REFERENCE           MP_SEARCHING_FOR_LOBBY_OF_TYPE_ORIGINAL
 LANG_ENGLISH        "Buscando para salas running original maps"
 
 REFERENCE           MPUI_RETICLE_THREEDOTS01
-LANG_ENGLISH        "Three Dots"
+LANG_ENGLISH        "Tres Pontos"
 
 REFERENCE           PLATFORM_RC_BOMB_BOOST
 LANG_ENGLISH        "^3&&1^7 Impulso"
 
 REFERENCE           MP_TWO_SQUADS
-LANG_ENGLISH        "Two Squads"
+LANG_ENGLISH        "Dois Esquadroes"
 
 REFERENCE           WEAPON_M16_ACOG
 LANG_ENGLISH        "Colt M16A1 ACOG"
@@ -4069,13 +4069,13 @@ REFERENCE           MP_CANNOT_PLANT_CLAYMORE
 LANG_ENGLISH        "Pode't plantar Claymore aqui"
 
 REFERENCE           MP_THREE_SQUADS
-LANG_ENGLISH        "Three Squads"
+LANG_ENGLISH        "Tres Esquadroes"
 
 REFERENCE           WEAPON_GRIP
 LANG_ENGLISH        "Cano"
 
 REFERENCE           MP_PINCER
-LANG_ENGLISH        "Pincer"
+LANG_ENGLISH        "Pinca"
 
 REFERENCE           EXE_TOOFEWPLAYERS
 LANG_ENGLISH        "Há é não enough jogadores para continue o game."
@@ -4117,7 +4117,7 @@ REFERENCE           MENU_COMMUNITY_ACCESSERROR
 LANG_ENGLISH        "Não pode Access Community"
 
 REFERENCE           GAME_GODMODE_OFF
-LANG_ENGLISH        "godmode OFF"
+LANG_ENGLISH        "mododeus DESLIGADO"
 
 REFERENCE           MENU_ZOMBIE_GLOBAL_CAPS
 LANG_ENGLISH        "GLOBAL"
@@ -4126,19 +4126,19 @@ REFERENCE           MP_CLOSE
 LANG_ENGLISH        "Fechar"
 
 REFERENCE           MENU_SENSITIVITY_INSANE_CAPS
-LANG_ENGLISH        "(INSANE) 14"
+LANG_ENGLISH        "(INSANA) 14"
 
 REFERENCE           MENU_QUICK_CHAT_CAPS
-LANG_ENGLISH        "QUICK CHAT"
+LANG_ENGLISH        "CHAT RAPIDO"
 
 REFERENCE           MP_CTF_OVERTIME_ROUND_2_LOSER
-LANG_ENGLISH        "CAPTURE THE ENEMY FLAG BEFORE TIME RUNS OUT"
+LANG_ENGLISH        "CAPTURE A BANDEIRA INIMIGA ANTES DO TEMPO ACABAR"
 
 REFERENCE           MP_WAITING_RESUME
 LANG_ENGLISH        "Aguardando para Jogadores para Resume Match"
 
 REFERENCE           MPUI_RETICLE_CIRCLES_TRIANGLES01
-LANG_ENGLISH        "Circle With Arrows"
+LANG_ENGLISH        "Circulo com Setas"
 
 REFERENCE           MENU_PUBLIC
 LANG_ENGLISH        "Público"
@@ -4150,7 +4150,7 @@ REFERENCE           MP_BIGGAME_SHORT
 LANG_ENGLISH        "16 Jogadores"
 
 REFERENCE           MP_ROUND_DRAW_CAPS
-LANG_ENGLISH        "ROUND DRAW"
+LANG_ENGLISH        "RODADA EMPATADA"
 
 REFERENCE           MPUI_NEW_CHALLENGES
 LANG_ENGLISH        "Novo Desafios"
@@ -4159,10 +4159,10 @@ REFERENCE           MP_JOINED_AUTO
 LANG_ENGLISH        "%s Will Be Atribuído A Esquadrão At Missão Iniciar"
 
 REFERENCE           MPUI_RF_SHORT_CAPS
-LANG_ENGLISH        "RAPID FIRE"
+LANG_ENGLISH        "TIRO RAPIDO"
 
 REFERENCE           EXE_LUI_PANIC
-LANG_ENGLISH        "LUI Panic"
+LANG_ENGLISH        "Panico LUI"
 
 REFERENCE           WEAPON_SUPPLY_DROP
 LANG_ENGLISH        "Pacote de Suprimentos"
@@ -4180,13 +4180,13 @@ REFERENCE           MP_YOU_WILL_JOIN_SQUAD_ONE_NEXT_ROUND
 LANG_ENGLISH        "Você Will Entrar Esquadrão One Próximo Rodada"
 
 REFERENCE           MPUI_DOMINATION_CAPS
-LANG_ENGLISH        "DOMINATION"
+LANG_ENGLISH        "DOMINACAO"
 
 REFERENCE           WEAPON_FIVESEVEN_DW
 LANG_ENGLISH        "Five-seven Dual"
 
 REFERENCE           MPUI_BUY_GUN_EMBLEM_CAPS
-LANG_ENGLISH        "BUY EMBLEM"
+LANG_ENGLISH        "COMPRAR EMBLEMA"
 
 REFERENCE           MP_RES_YOUR_FLAG_WAS_CAPTURED
 LANG_ENGLISH        "Seu bandeira foi capturado"
@@ -4201,13 +4201,13 @@ REFERENCE           MP_YOU_WILL_BE_AUTOASSIGNED_NEXT_ROUND
 LANG_ENGLISH        "Você Will Be Autoassigned A Esquadrão Próximo Rodada"
 
 REFERENCE           MP_GERMAN_FORFEITED
-LANG_ENGLISH        "Wehrmacht forfeited"
+LANG_ENGLISH        "Wehrmacht desistiu"
 
 REFERENCE           MP_RUSSIAN_DESTROYED_TARGET
 LANG_ENGLISH        "Spetsnaz destroyed alvo"
 
 REFERENCE           EXE_COD_FEATURE_PLAYER_BAN
-LANG_ENGLISH        "&&1 tem banned de usando este feature. Sign out este profile para usar o feature."
+LANG_ENGLISH        "&&1 foi banido de usar este recurso. Saia deste perfil para usar o recurso."
 
 REFERENCE           MPUI_WAGERMATCH_BUY_IN
 LANG_ENGLISH        "Comprar In:"
@@ -4228,7 +4228,7 @@ REFERENCE           PLATFORM_MISSINGMAP
 LANG_ENGLISH        "Você fazer não tem este mapa. Você pode obter este mapa por baixando mapa packs de o Steam Marketplace"
 
 REFERENCE           MENU_MATURE_CAPS
-LANG_ENGLISH        "GRAPHIC CONTENT"
+LANG_ENGLISH        "CONTEUDO GRAFICO"
 
 REFERENCE           MP_SELECT_MAP_PACKS
 LANG_ENGLISH        "Selecionar Mapa Packs"
@@ -4240,37 +4240,37 @@ REFERENCE           WEAPON_XM8_STEADYAIM
 LANG_ENGLISH        "M8A1 Mira um Laser"
 
 REFERENCE           MP_4TH
-LANG_ENGLISH        "4th"
+LANG_ENGLISH        "4°"
 
 REFERENCE           MPUI_RETICLE_COLOR_7
-LANG_ENGLISH        "Orange"
+LANG_ENGLISH        "Laranja"
 
 REFERENCE           MP_PLAYER_TOGGLE_MUTE
 LANG_ENGLISH        "Alternar Silenciar"
 
 REFERENCE           MENU_TIME_PLAYED_CAPS
-LANG_ENGLISH        "TIME PLAYED"
+LANG_ENGLISH        "TEMPO JOGADO"
 
 REFERENCE           MP_MIGRATINGHOSTS_CAPS
-LANG_ENGLISH        "MIGRATING HOSTS"
+LANG_ENGLISH        "MIGRANDO HOSTS"
 
 REFERENCE           MP_MUTED
 LANG_ENGLISH        "Silenciado"
 
 REFERENCE           MP_CAPTURE_AND_HOLD_FLAG
-LANG_ENGLISH        "Capturar e segurar o bandeira para score pontos. The first jogador para &&1 pontos wins."
+LANG_ENGLISH        "Capture e segure a bandeira para marcar pontos. O primeiro jogador a &&1 pontos vence."
 
 REFERENCE           MPUI_PLAYERCARD_DESC
 LANG_ENGLISH        "Editar seu Cartão de Jogador, manage seu Compartilhamento de Arquivos, visualizar Desafios e more."
 
 REFERENCE           MENU_WAGER_MATCH_WILL_BEGIN
-LANG_ENGLISH        "Locking in bets!"
+LANG_ENGLISH        "Apostas confirmadas!"
 
 REFERENCE           PLATFORM_CHOOSESLOT_BACK
 LANG_ENGLISH        "^BBUTTON_CANCEL^ Voltar"
 
 REFERENCE           MENU_OPTION_DYNAMIC_FOLIAGE
-LANG_ENGLISH        "Dynamic Foliage"
+LANG_ENGLISH        "Folhagem Dinamica"
 
 REFERENCE           MENU_CHANGE_STANCE
 LANG_ENGLISH        "Mudar Stance"
@@ -4291,10 +4291,10 @@ REFERENCE           MP_DEFEND_THE_OBJECTIVE
 LANG_ENGLISH        "Defender o objective"
 
 REFERENCE           MPUI_SCORE_CAPS
-LANG_ENGLISH        "SCORE"
+LANG_ENGLISH        "PONTUACAO"
 
 REFERENCE           MP_DEFEND_HQ
-LANG_ENGLISH        "DEFEND THE HQ"
+LANG_ENGLISH        "DEFENDA O QG"
 
 REFERENCE           MENU_FORCE_RESPAWN
 LANG_ENGLISH        "Forçar Reaparição"
@@ -4309,10 +4309,10 @@ REFERENCE           WEAPON_M16_ELBIT
 LANG_ENGLISH        "Colt M16A1 Ponto Vermelho"
 
 REFERENCE           MP_TROPAS_FORFEITED
-LANG_ENGLISH        "Tropas forfeited"
+LANG_ENGLISH        "Tropas desistiu"
 
 REFERENCE           MENU_FORCE_RESPAWN_HINT
-LANG_ENGLISH        "Jogadores automatically aparecer. Este é always em se um Atraso de Aparição por Onda é definir. Turn este off para let jogadores choose quando they aparecer after dying."
+LANG_ENGLISH        "Jogadores aparecerão automaticamente. Isto está sempre ativado se um Atraso de Aparição por Onda estiver definido. Desligue isto para deixar os jogadores escolherem quando aparecerem após morrer."
 
 REFERENCE           MPUI_ALREADY_SELECTED
 LANG_ENGLISH        "Já selected."
@@ -4327,7 +4327,7 @@ REFERENCE           WEAPON_UZI_ELBIT
 LANG_ENGLISH        "Uzi Ponto Vermelho"
 
 REFERENCE           MPUI_HOLO
-LANG_ENGLISH        "EOTech Sight"
+LANG_ENGLISH        "Mira EOTech"
 
 REFERENCE           MP_YOUR_FLAG_WAS_TAKEN
 LANG_ENGLISH        "Seu bandeira foi taken!"
@@ -4363,7 +4363,7 @@ REFERENCE           MP_KILL
 LANG_ENGLISH        "Abate"
 
 REFERENCE           MPUI_END_GAME
-LANG_ENGLISH        "End Game"
+LANG_ENGLISH        "Fim de Jogo"
 
 REFERENCE           MP_HEADSHOT
 LANG_ENGLISH        "Tiro na Cabeça"
@@ -4378,13 +4378,13 @@ REFERENCE           PLATFORM_FOLLOWNEXTPLAYER_MOUSE
 LANG_ENGLISH        "^BBUTTON_MOUSE_RIGHT^"
 
 REFERENCE           MP_ASSIST
-LANG_ENGLISH        "Assist"
+LANG_ENGLISH        "Assistencia"
 
 REFERENCE           MP_DEFUSE
 LANG_ENGLISH        "Desarmar"
 
 REFERENCE           MENU_INTERMISSION
-LANG_ENGLISH        "Intermission"
+LANG_ENGLISH        "Intervalo"
 
 REFERENCE           MPUI_ZOO_CAPS
 LANG_ENGLISH        "ZOO"
@@ -4420,13 +4420,13 @@ REFERENCE           MP_PREDATOR_ACTIVE
 LANG_ENGLISH        "Míssil Hellstorm Ativo"
 
 REFERENCE           PLATFORM_JOIN_CAPS
-LANG_ENGLISH        "^BBUTTON_INTERACT^ JOIN"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ ENTRAR"
 
 REFERENCE           MENU_UPLOAD_FILE
 LANG_ENGLISH        "Enviando Arquivo"
 
 REFERENCE           MPUI_THEATER_LOBBY_CAPS
-LANG_ENGLISH        "THEATER"
+LANG_ENGLISH        "TEATRO"
 
 REFERENCE           MP_WIN
 LANG_ENGLISH        "Vitória"
@@ -4441,7 +4441,7 @@ REFERENCE           TICKER_CLIPUPLOADED
 LANG_ENGLISH        "&&1 criado um novo Clipe."
 
 REFERENCE           MP_PMC_FORFEITED
-LANG_ENGLISH        "Mercs forfeited"
+LANG_ENGLISH        "Mercs desistiu"
 
 REFERENCE           MP_KILL_PREFIX
 LANG_ENGLISH        "Abate:"
@@ -4459,7 +4459,7 @@ REFERENCE           MP_SCRAMBLER
 LANG_ENGLISH        "Bloqueador Ativo"
 
 REFERENCE           MPUI_SIBERIAN
-LANG_ENGLISH        "Silver"
+LANG_ENGLISH        "Prata"
 
 REFERENCE           WEAPON_DRAGUNOV_EXTCLIP
 LANG_ENGLISH        "Dragunov Carregador Estendido"
@@ -4471,10 +4471,10 @@ REFERENCE           MENU_MOUSE_LOOK
 LANG_ENGLISH        "Mouse Olhar"
 
 REFERENCE           PLATFORM_STEAM_KICK_CHEAT
-LANG_ENGLISH        "Cheat detected."
+LANG_ENGLISH        "Trapaca detectada."
 
 REFERENCE           PLATFORM_USE_GEAR_CAPS
-LANG_ENGLISH        "SPECIAL ACTION 3"
+LANG_ENGLISH        "ACAO ESPECIAL 3"
 
 REFERENCE           TICKER_NEWS_UI_DISBANDED_CLAN
 LANG_ENGLISH        "^5&&1^7 disbanded o ^3&&2^7 clan."
@@ -4492,7 +4492,7 @@ REFERENCE           MP_WIN_PREFIX
 LANG_ENGLISH        "Vitória:"
 
 REFERENCE           MENU_PLAY_LIST_SETTING
-LANG_ENGLISH        "Playlist Setting"
+LANG_ENGLISH        "Configuracao da Playlist"
 
 REFERENCE           MP_TEAMKILL_PREFIX
 LANG_ENGLISH        "Hora Abate:"
@@ -4687,7 +4687,7 @@ REFERENCE           EXE_SV_INFO_NAME
 LANG_ENGLISH        "nome"
 
 REFERENCE           PLATFORM_NO
-LANG_ENGLISH        "^BBUTTON_NO^ No"
+LANG_ENGLISH        "^BBUTTON_NO^ Nao"
 
 REFERENCE           MPUI_LOCKON_ONLY
 LANG_ENGLISH        "Apenas Trava em Aeronaves"
@@ -4735,7 +4735,7 @@ REFERENCE           GAME_OBJECTIVECOMPLETED
 LANG_ENGLISH        "Objetivo concluído"
 
 REFERENCE           PLATFORM_FILESHARE_MYFILESHARE
-LANG_ENGLISH        "^BBUTTON_INTERACT^ My File Share"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Meu Compartilhamento"
 
 REFERENCE           GAME_MISSIONFAILED
 LANG_ENGLISH        "Missão Falhou"
@@ -4831,7 +4831,7 @@ REFERENCE           WEAPON_STICKY_GRENADE
 LANG_ENGLISH        "Semtex"
 
 REFERENCE           PLATFORM_GAME_SUMMARY
-LANG_ENGLISH        "^BBUTTON_INTERACT^ After Action Report"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Relatorio de Acao"
 
 REFERENCE           MPUI_DESC_VOTE_TO_START
 LANG_ENGLISH        "Vote para iniciar o mapa selecionado. Se a porcentagem necessária de votos for atingida, a contagem regressiva do jogo começará."
@@ -4852,7 +4852,7 @@ REFERENCE           MPUI_DESC_MAP_CRACKED
 LANG_ENGLISH        "Ruas do Vietnã. Confrontos próximos dentro e fora de prédios destruídos pela guerra."
 
 REFERENCE           PLATFORM_VIEW_MAP
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ view map"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ ver mapa"
 
 REFERENCE           PLATFORM_PROCEED
 LANG_ENGLISH        "Pressione [{primary}] para prosseguir"
@@ -4864,7 +4864,7 @@ REFERENCE           MPUI_PROJECTILE_CAPS
 LANG_ENGLISH        "PROJÉTEIS"
 
 REFERENCE           PLATFORM_DIFFICULTY_HARDENED
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Difficulty: Hardened"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Dificuldade: Veterano"
 
 REFERENCE           GAME_NOSPECTATORVOTE
 LANG_ENGLISH        "Não permitido votar como espectador."
@@ -4888,7 +4888,7 @@ REFERENCE           GAME_INVALIDVOTESTRING
 LANG_ENGLISH        "String de voto inválida."
 
 REFERENCE           PLATFORM_RESET_CAMERA
-LANG_ENGLISH        "^BBUTTON_FIRE^ Reset Camera"
+LANG_ENGLISH        "^BBUTTON_FIRE^ Resetar Camera"
 
 REFERENCE           GAME_VOTECOMMANDSARE
 LANG_ENGLISH        "Comandos de votação são:"
@@ -4942,7 +4942,7 @@ REFERENCE           GAME_GC_HOLDYOURPOSITION
 LANG_ENGLISH        "Mantenha sua posição."
 
 REFERENCE           PLATFORM_REMOVE_USER_FILE
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Remove File"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Remover Arquivo"
 
 REFERENCE           TICKER_COUNTERS_COULDNTFINISHJOB
 LANG_ENGLISH        "MÃO AMIGA: &&1 assistências."
@@ -4993,7 +4993,7 @@ REFERENCE           GAME_DEMI_GODMODE_OFF
 LANG_ENGLISH        "modo semideus DESATIVADO"
 
 REFERENCE           PLATFORM_GUN_ATTRIBUTES
-LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Gun Attributes"
+LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Atributos da Arma"
 
 REFERENCE           MPUI_YOUR_BANK
 LANG_ENGLISH        "Pontos COD Disponíveis"
@@ -5002,7 +5002,7 @@ REFERENCE           GAME_NOTARGETON
 LANG_ENGLISH        "notarget ATIVADO"
 
 REFERENCE           PLATFORM_JUMPBACK
-LANG_ENGLISH        "^BBUTTON_EMBLEM_PALETTE_PREV^ Jump Back"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_PALETTE_PREV^ Voltar"
 
 REFERENCE           GAME_NOCLIPON
 LANG_ENGLISH        "noclip ATIVADO"
@@ -5047,7 +5047,7 @@ REFERENCE           MPUI_SPECTATE
 LANG_ENGLISH        "Espectar"
 
 REFERENCE           PLATFORM_CLEAR_KILLSTREAKS
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Clear Killstreaks"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Limpar Sequencias"
 
 REFERENCE           GAME_PICKUP_CLIPONLY_AMMO
 LANG_ENGLISH        "Pegou &&1 munição"
@@ -5152,7 +5152,7 @@ REFERENCE           MENU_FILESHARE_SORT
 LANG_ENGLISH        "Ordenar"
 
 REFERENCE           PLATFORM_VIEW_PLAYER_CARD
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ View Playercard"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Ver Cartao do Jogador"
 
 REFERENCE           GAME_CUSTOM_GAMEMODE
 LANG_ENGLISH        "Call of Duty: Black Ops II Modo de Jogo Personalizado"
@@ -5185,7 +5185,7 @@ REFERENCE           PLATFORM_AI_TANK_GAMBLER
 LANG_ENGLISH        "Segure ^3&&1^7 para A.G.R OU Toque Duas Vezes ^3[{+reload}]^7 para Tentar Novamente"
 
 REFERENCE           PLATFORM_PURCHASE
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Buy"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Comprar"
 
 REFERENCE           GAME_BUTTON_TO_REVIVE_PLAYER
 LANG_ENGLISH        "Pressione e segure ^3&&1^7 para reviver o jogador"
@@ -5311,7 +5311,7 @@ REFERENCE           PLATFORM_DUALOPTIC_DESC
 LANG_ENGLISH        "ACOG com mira reflex acoplada no topo. Pressione ^3[{+breath_sprint}]^7 enquanto segura ^3[{+speed_throw}]^7 para alternar entre as miras."
 
 REFERENCE           PLATFORM_DEMO_RATE_CLIP
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Rate Clip"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Avaliar Clipe"
 
 REFERENCE           MENU_IN_PROGRESS
 LANG_ENGLISH        "Em Andamento"
@@ -5341,7 +5341,7 @@ REFERENCE           MENU_ENDOFGAME_CAPS
 LANG_ENGLISH        "FIM DE JOGO"
 
 REFERENCE           PLATFORM_SAFE_AREA_ADJUST_HORIZONTAL
-LANG_ENGLISH        "^BBUTTON_LUI_DPAD_RL^ ADJUST HORIZONTAL"
+LANG_ENGLISH        "^BBUTTON_LUI_DPAD_RL^ AJUSTE HORIZONTAL"
 
 REFERENCE           MENU_OK
 LANG_ENGLISH        "OK"
@@ -5353,7 +5353,7 @@ REFERENCE           PLATFORM_DEPTH_OF_FIELD_CAPS
 LANG_ENGLISH        "PROFUNDIDADE DE CAMPO"
 
 REFERENCE           PLATFORM_HELICOPTER_ASCEND
-LANG_ENGLISH        "^3&&1^7 Ascend"
+LANG_ENGLISH        "^3&&1^7 Subir"
 
 REFERENCE           PLATFORM_4X_MSAA_CAPS
 LANG_ENGLISH        "4X MSAA"
@@ -5389,7 +5389,7 @@ REFERENCE           PLATFORM_EMBLEM_LAYER_UP_KBM
 LANG_ENGLISH        "Mover camada para baixo"
 
 REFERENCE           PLATFORM_COMPARE
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Compare"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Comparar"
 
 REFERENCE           TICKER_COUNTERS_FALLOFFEVEREST
 LANG_ENGLISH        "FEITO UMA PEDRA: Jogadores de Black Ops II caíram coletivamente a altura do Monte Everest &&1 vezes."
@@ -5614,7 +5614,7 @@ REFERENCE           MPUI_HITS
 LANG_ENGLISH        "Acertos"
 
 REFERENCE           PLATFORM_HATCH_UP
-LANG_ENGLISH        "^3&&1^7 to climb up"
+LANG_ENGLISH        "^3&&1^7 para subir"
 
 REFERENCE           MENU_TAB_FACEBOOK_CAPS
 LANG_ENGLISH        "FACEBOOK"
@@ -5629,10 +5629,10 @@ REFERENCE           PLATFORM_RESTORE_GRAPHICS
 LANG_ENGLISH        "Isto restaurará todas as configurações do sistema para o valor padrão. Tem certeza?"
 
 REFERENCE           PLATFORM_UPLOAD_DEMO
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Upload film file"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Enviar arquivo de filme"
 
 REFERENCE           PLATFORM_PLAYER_TOGGLE_MUTE_BTN
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Toggle Mute"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Ativar/Desativar Mudo"
 
 REFERENCE           MENU_CHALLENGE_CATEGORY_AIR
 LANG_ENGLISH        "Assalto Aéreo"
@@ -5668,7 +5668,7 @@ REFERENCE           PLATFORM_SATCHEL_CHARGE_DOUBLE_TAP
 LANG_ENGLISH        "Toque Duas Vezes ^3[{+activate}]^7 para Detonar"
 
 REFERENCE           PLATFORM_FOLLOWSTART
-LANG_ENGLISH        "^BBUTTON_MP_TOGGLECHASECAM^ Chase"
+LANG_ENGLISH        "^BBUTTON_MP_TOGGLECHASECAM^ Perseguir"
 
 REFERENCE           PLATFORM_USEVEHICLE
 LANG_ENGLISH        "Pressione ^3&&1^7 para dirigir veículo"
@@ -5686,7 +5686,7 @@ REFERENCE           MENU_CONTINUE_RESTART
 LANG_ENGLISH        "Continuar reinicialização?"
 
 REFERENCE           PLATFORM_FOLLOWSTOP
-LANG_ENGLISH        "^BBUTTON_MP_TOGGLECHASECAM^ Free Cam"
+LANG_ENGLISH        "^BBUTTON_MP_TOGGLECHASECAM^ Camera Livre"
 
 REFERENCE           MPUI_SIBERIA
 LANG_ENGLISH        "Sibéria"
@@ -5737,19 +5737,19 @@ REFERENCE           MENU_OPTIONS
 LANG_ENGLISH        "Opções"
 
 REFERENCE           PLATFORM_SELECT
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Select"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Selecionar"
 
 REFERENCE           PLATFORM_DYK_COOP_MSG11
 LANG_ENGLISH        "Às vezes é melhor correr do que reviver."
 
 REFERENCE           PLATFORM_EMBLEM_DUPLICATE_LAYER
-LANG_ENGLISH        "^BBUTTON_EMBLEM_OUTLINE^ Duplicate Layer"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_OUTLINE^ Duplicar Camada"
 
 REFERENCE           MENU_HIGH_BOOST_DESC
 LANG_ENGLISH        "Aumenta as altas frequências."
 
 REFERENCE           PLATFORM_CANCEL
-LANG_ENGLISH        "^BBUTTON_CANCEL^ cancel"
+LANG_ENGLISH        "^BBUTTON_CANCEL^ cancelar"
 
 REFERENCE           MENU_SENT
 LANG_ENGLISH        "Enviado"
@@ -5767,7 +5767,7 @@ REFERENCE           WEAPON_SA58
 LANG_ENGLISH        "FAL OSW"
 
 REFERENCE           PLATFORM_PREFERENCES_BOTH
-LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Party Privacy / Search Preferences"
+LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Privacidade do Grupo / Preferencias de Busca"
 
 REFERENCE           PLATFORM_MP_OPEN_MENU
 LANG_ENGLISH        "^3&&1^7 Menu"
@@ -5779,7 +5779,7 @@ REFERENCE           MPUI_ATTACHMENTS
 LANG_ENGLISH        "Acessórios"
 
 REFERENCE           PLATFORM_DEMO_SELECT_SEGMENT
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Select Segment"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Selecionar Segmento"
 
 REFERENCE           PLATFORM_SCOREBOARD_CAPS
 LANG_ENGLISH        "PLACAR"
@@ -5794,7 +5794,7 @@ REFERENCE           WEAPON_SAIGA12_REFLEX
 LANG_ENGLISH        "S12 Reflex"
 
 REFERENCE           PLATFORM_SCOREBOARD
-LANG_ENGLISH        "^BBUTTON_MP_SCOREBOARD^ Score"
+LANG_ENGLISH        "^BBUTTON_MP_SCOREBOARD^ Pontuacao"
 
 REFERENCE           WEAPON_XM8_SF
 LANG_ENGLISH        "M8A1 Fogo Seletivo"
@@ -5833,7 +5833,7 @@ REFERENCE           PLATFORM_REINSERT_CONTROLLER
 LANG_ENGLISH        "por favor, reconecte o controle e"
 
 REFERENCE           PLATFORM_LEAVE_GAME
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ leave game"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ sair da partida"
 
 REFERENCE           PLATFORM_HOLD_1_TO_TURN_THE_BASE
 LANG_ENGLISH        "Segure ^3&&1^7 para girar a base do tanque e alinhar com a torre."
@@ -5848,7 +5848,7 @@ REFERENCE           MENU_QUICKSTART
 LANG_ENGLISH        "Início Rápido"
 
 REFERENCE           TICKER_NEWS_UI_CREATED_CLAN
-LANG_ENGLISH        "^5&&1^7 created the ^3&&2^7 clan."
+LANG_ENGLISH        "^5&&1^7 criou o cla ^3&&2^7."
 
 REFERENCE           MPUI_WEAPON_PISTOL_WITH_S
 LANG_ENGLISH        "Pistolas"
@@ -5857,7 +5857,7 @@ REFERENCE           PLATFORM_EMBLEM_CLEAR_LAYER_BUTTON
 LANG_ENGLISH        "^BBUTTON_EMBLEM_RESET^"
 
 REFERENCE           PLATFORM_DIFFICULTY_REGULAR
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Difficulty: Regular"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Dificuldade: Normal"
 
 REFERENCE           PLATFORM_XONLINE_E_SESSION_REGISTER_KEY_FAILED
 LANG_ENGLISH        "Falha no registro de chave durante criação da sessão."
@@ -5866,7 +5866,7 @@ REFERENCE           MENU_YOUR_SETTINGS_ARE_NOW_SET
 LANG_ENGLISH        "Suas configurações foram definidas"
 
 REFERENCE           PLATFORM_RC_BOMB_STEERING
-LANG_ENGLISH        "^BBUTTON_LOOK^ Steering"
+LANG_ENGLISH        "^BBUTTON_LOOK^ Direcao"
 
 REFERENCE           MPUI_5_LEAVE_GAME
 LANG_ENGLISH        "5. Sair da Partida"
@@ -5878,7 +5878,7 @@ REFERENCE           MENU_STATUS
 LANG_ENGLISH        "Status:"
 
 REFERENCE           PLATFORM_DIFFICULTY_SKILLED
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Difficulty: Skilled"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Dificuldade: Habilidoso"
 
 REFERENCE           WEAPON_AK74U_SILENCER
 LANG_ENGLISH        "AK74u Supressor"
@@ -5887,7 +5887,7 @@ REFERENCE           WEAPON_SAIGA12_EXTBARREL
 LANG_ENGLISH        "S12 Cano Longo"
 
 REFERENCE           PLATFORM_DIFFICULTY_VETERAN
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Difficulty: Veteran"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Dificuldade: Veterano"
 
 REFERENCE           MPUI_AAR_AWARDS_STATS_MILESTONES
 LANG_ENGLISH        "Desafios Completos"
@@ -5899,7 +5899,7 @@ REFERENCE           MENU_RULES_DIFFICULTY
 LANG_ENGLISH        "Dificuldade"
 
 REFERENCE           PLATFORM_VIEW_GAME_SCORECARD
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ View Game Scorecard"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Ver Placar da Partida"
 
 REFERENCE           PLATFORM_QUIT
 LANG_ENGLISH        "Sair"
@@ -5911,25 +5911,25 @@ REFERENCE           MENU_LEFT_SURROUND_BACK_DESC
 LANG_ENGLISH        "Ajuste o Trim do Alto-falante Traseiro Esquerdo."
 
 REFERENCE           PLATFORM_NOTREADY
-LANG_ENGLISH        "^BBUTTON_MP_NOTREADY^ not ready"
+LANG_ENGLISH        "^BBUTTON_MP_NOTREADY^ nao pronto"
 
 REFERENCE           PLATFORM_READY
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ ready"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ pronto"
 
 REFERENCE           MENU_MINIMAP
 LANG_ENGLISH        "Mini-Mapa[Modo Fácil]"
 
 REFERENCE           PLATFORM_DIFFICULTY_EASY
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Difficulty: Easy"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Dificuldade: Facil"
 
 REFERENCE           MENU_HANDBREAK
 LANG_ENGLISH        "Freio de Mão"
 
 REFERENCE           PLATFORM_INVITE_GAME
-LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Invite To Game"
+LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Convidar para Partida"
 
 REFERENCE           PLATFORM_STARTGAME
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ start game"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ iniciar partida"
 
 REFERENCE           MPUI_LB_WEEKLY_CAPS
 LANG_ENGLISH        "&&1  SEMANAL  &&2"
@@ -5938,16 +5938,16 @@ REFERENCE           PLATFORM_STATSREADERROR
 LANG_ENGLISH        "Detectamos um erro nos dados online salvos. Suas estatísticas foram redefinidas para corrigir o erro."
 
 REFERENCE           PLATFORM_VIEWGAMER
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ view gamer"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ ver jogador"
 
 REFERENCE           MPUI_RULES_8SECONDS_CAPS
 LANG_ENGLISH        "8 SEGUNDOS"
 
 REFERENCE           PLATFORM_STARTPRIVATEGAME
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ start match"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ iniciar partida"
 
 REFERENCE           PLATFORM_CONTINUE
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Continue"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Continuar"
 
 REFERENCE           MENU_ANAGLYPH_TITLE_ON
 LANG_ENGLISH        "ATENÇÃO:\n\nColoque seus óculos anáglifos agora."
@@ -5956,7 +5956,7 @@ REFERENCE           WEAPON_TYPE95_EXTCLIP
 LANG_ENGLISH        "Type 25 Carregador Estendido"
 
 REFERENCE           PLATFORM_FINDGAMEFROMPARTY
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ find game"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ buscar partida"
 
 REFERENCE           MENU_LEGACY_SOUTHPAW_CAPS
 LANG_ENGLISH        "LEGACY CANHOTO"
@@ -5974,19 +5974,19 @@ REFERENCE           MPUI_SERVICE_REPORT_CAPS
 LANG_ENGLISH        "RELATÓRIO DE SERVIÇO"
 
 REFERENCE           PLATFORM_OPTIONS
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ options"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ opcoes"
 
 REFERENCE           PLATFORM_VIEW_GEAR
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ view gear"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ ver equipamento"
 
 REFERENCE           PLATFORM_KICKEDFROMPARTY
 LANG_ENGLISH        "Você foi expulso do grupo."
 
 REFERENCE           PLATFORM_CLIP_OPTIONS
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Clip Options"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Opcoes do Clipe"
 
 REFERENCE           PLATFORM_DELETE
-LANG_ENGLISH        "^BBUTTON_DELETE^ delete"
+LANG_ENGLISH        "^BBUTTON_DELETE^ excluir"
 
 REFERENCE           PLATFORM_PRESS_TO_SET_AIRSTRIKE
 LANG_ENGLISH        "Pressione ^3[{+attack}]^7 para chamar Trovão Rolante"
@@ -5995,13 +5995,13 @@ REFERENCE           WEAPON_NIGHTINGALE
 LANG_ENGLISH        "Rouxinol"
 
 REFERENCE           PLATFORM_CHECK_PRO_STATUS
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ View Challenges for ^3&&1^7."
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Ver Desafios de ^3&&1^7."
 
 REFERENCE           MPUI_MAX_HEALTH_PRE
 LANG_ENGLISH        "Vida Máxima:"
 
 REFERENCE           PLATFORM_CREATECUSTOM
-LANG_ENGLISH        "^BBUTTON_CREATE^ create custom"
+LANG_ENGLISH        "^BBUTTON_CREATE^ criar personalizada"
 
 REFERENCE           WEAPON_BARRETM82_ACOG
 LANG_ENGLISH        "M82A1 ACOG"
@@ -6019,25 +6019,25 @@ REFERENCE           PLATFORM_PRESS_TO_USE_RADAR
 LANG_ENGLISH        "Segure ^3&&1^7 para chamar VANT"
 
 REFERENCE           PLATFORM_DEMO_SEERATING
-LANG_ENGLISH        "^BBUTTON_INTERACT^ View Your Rating"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Ver Sua Avaliacao"
 
 REFERENCE           PLATFORM_DEMO_TAKE_SCREENSHOT_KEYBOARD
 LANG_ENGLISH        "Segure ^3R^7"
 
 REFERENCE           PLATFORM_PGUP_OR_DOWN
-LANG_ENGLISH        "^BBUTTON_EMBLEM_FORWARD_BACKWARD^ Page Up or Down"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_FORWARD_BACKWARD^ Pagina Acima ou Abaixo"
 
 REFERENCE           WEAPON_CROSSBOW_EXPLOSIVE_DESC
 LANG_ENGLISH        "Arco montado em uma coronha que dispara parafusos explosivos. Eficaz em alcance médio a longo."
 
 REFERENCE           PLATFORM_PGDOWN
-LANG_ENGLISH        "^BBUTTON_MP_PGDOWN^ Page down"
+LANG_ENGLISH        "^BBUTTON_MP_PGDOWN^ Pagina abaixo"
 
 REFERENCE           MENU_LEAGUE_FIND_MATCH_DESC
 LANG_ENGLISH        "Encontre uma partida contra oponentes de habilidade similar."
 
 REFERENCE           PLATFORM_SAVECUSTOMMODE
-LANG_ENGLISH        "^BBUTTON_CANCEL^ Save / Back"
+LANG_ENGLISH        "^BBUTTON_CANCEL^ Salvar / Voltar"
 
 REFERENCE           MPUI_X_POINTS_TO_WIN_CAPS
 LANG_ENGLISH        "&&1 PONTOS PARA VENCER"
@@ -6076,7 +6076,7 @@ REFERENCE           PLATFORM_PRESS_TO_SET_NAPALM
 LANG_ENGLISH        "Pressione ^3[{+attack}]^7 para chamar Ataque de Napalm"
 
 REFERENCE           PLATFORM_CHANGE_FILTER
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Change Filter"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Mudar Filtro"
 
 REFERENCE           MENU_SPECULAR_MAP_RESOLUTION
 LANG_ENGLISH        "Resolução do Mapa de Especular"
@@ -6157,10 +6157,10 @@ REFERENCE           PLATFORM_PRESS_TO_JOIN
 LANG_ENGLISH        "Pressione ^BBUTTON_SELECTCHOICE^ para entrar"
 
 REFERENCE           PLATFORM_PRODUCTION_LEVELS
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Production Levels"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Niveis de Producao"
 
 REFERENCE           PLATFORM_REDUCEPLAYSPEED
-LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_LEFT^ Slo-mo"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_LEFT^ Camera lenta"
 
 REFERENCE           PLATFORM_SQUAD_BACK_KEYBOARD
 LANG_ENGLISH        "Pressione ^3ESC^7 para Sair"
@@ -6169,16 +6169,16 @@ REFERENCE           MPUI_PRESTIGE_LB_CHOICE_1
 LANG_ENGLISH        "Sou rico e famoso"
 
 REFERENCE           PLATFORM_TOGGLE_FRIENDSLIST
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Toggle Friendslist"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Ativar/Desativar Lista de Amigos"
 
 REFERENCE           MENU_TEXT_ERROR
 LANG_ENGLISH        "Erro de Texto"
 
 REFERENCE           PLATFORM_PARTY_INVITE
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Friends"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Amigos"
 
 REFERENCE           PLATFORM_RENAME
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Rename"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Renomear"
 
 REFERENCE           MENU_LOSSES
 LANG_ENGLISH        "Derrotas"
@@ -6235,7 +6235,7 @@ REFERENCE           PLATFORM_XBOXLIVE_INSTR
 LANG_ENGLISH        "ONLINE"
 
 REFERENCE           PLATFORM_SWITCHSEATS
-LANG_ENGLISH        "^3[{+switchseat}]^7 Change Seat"
+LANG_ENGLISH        "^3[{+switchseat}]^7 Trocar Assento"
 
 REFERENCE           MENU_PAKISTAN
 LANG_ENGLISH        "Paquistão"
@@ -6253,7 +6253,7 @@ REFERENCE           PLATFORM_NOW_SAVING
 LANG_ENGLISH        "Salvando conteúdo. Por favor, não desligue seu computador."
 
 REFERENCE           PLATFORM_FRONTMG
-LANG_ENGLISH        "^3&&1^7 Coaxial MG"
+LANG_ENGLISH        "^3&&1^7 Metralhadora Coaxial"
 
 REFERENCE           MENU_GRAPHICS
 LANG_ENGLISH        "Gráficos"
@@ -6379,7 +6379,7 @@ REFERENCE           WEAPON_VECTOR_RF
 LANG_ENGLISH        "Vector K10 Tiro Rápido"
 
 REFERENCE           PLATFORM_TOGGLE_FRIENDS_CLAN
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Toggle Friends/Clan"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Ativar/Desativar Amigos/Cla"
 
 REFERENCE           WEAPON_FNP45_DUALCLIP
 LANG_ENGLISH        "Tac-45 Carregador Rápido"
@@ -6445,7 +6445,7 @@ REFERENCE           PLATFORM_ERROR_MODIFYING_SESSION
 LANG_ENGLISH        "Erro ao modificar sessão."
 
 REFERENCE           PLATFORM_FRIENDLIST
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Friends"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Amigos"
 
 REFERENCE           MPUI_END_GAME2
 LANG_ENGLISH        "Finalizar Partida?"
@@ -6457,16 +6457,16 @@ REFERENCE           MPUI_YOUR_CLASSES
 LANG_ENGLISH        "Suas Classes Personalizadas"
 
 REFERENCE           PLATFORM_INVITE_FRIENDS
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Friends"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Amigos"
 
 REFERENCE           PLATFORM_CANCEL_COMPARE
-LANG_ENGLISH        "^BBUTTON_CANCEL^ Cancel / Clear"
+LANG_ENGLISH        "^BBUTTON_CANCEL^ Cancelar / Limpar"
 
 REFERENCE           MENU_2_KILLS
 LANG_ENGLISH        "2 Abates"
 
 REFERENCE           PLATFORM_RC_BOMB_HANDBRAKE
-LANG_ENGLISH        "^3&&1^7 Handbrake"
+LANG_ENGLISH        "^3&&1^7 Freio de Mao"
 
 REFERENCE           MENU_TIME
 LANG_ENGLISH        "Tempo"
@@ -6475,16 +6475,16 @@ REFERENCE           MENU_DIVISION_TRANSFER_DESC
 LANG_ENGLISH        "Seu time foi movido para uma nova divisão."
 
 REFERENCE           PLATFORM_SHOW_CLAN_CARD
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Flip To Show Clan Card"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Virar para Mostrar Cartao do Cla"
 
 REFERENCE           PLATFORM_INVITE_CLAN
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Invite To Clan"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Convidar para o Cla"
 
 REFERENCE           MPUI_PAUSE_MENU
 LANG_ENGLISH        "MENU MULTIJOGADOR"
 
 REFERENCE           PLATFORM_VIEW_CLANCARD
-LANG_ENGLISH        "^BBUTTON_INTERACT^ View Clan Card"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Ver Cartao do Cla"
 
 REFERENCE           MPUI_MAP_SIZE
 LANG_ENGLISH        "Tamanho do Mapa"
@@ -6589,34 +6589,34 @@ REFERENCE           MENU_CLASSIFIED
 LANG_ENGLISH        "Classificado"
 
 REFERENCE           PLATFORM_EMBLEM_PALETTE
-LANG_ENGLISH        "^BBUTTON_EMBLEM_PALETTE_CYCLE^ Change Color"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_PALETTE_CYCLE^ Mudar Cor"
 
 REFERENCE           PLATFORM_CLAN_MEMBER_LIST
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Clan Member List"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Lista de Membros do Cla"
 
 REFERENCE           PLATFORM_REVERT_CHANGES
-LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Revert Changes"
+LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Reverter Alteracoes"
 
 REFERENCE           PLATFORM_DONE_SELECT
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Done"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Pronto"
 
 REFERENCE           MENU_CHALLENGE_CATEGORY_OPERATIONS_HINT
 LANG_ENGLISH        "Alcance vitórias na carreira e melhor desempenho entre os modos de jogo. Ganhe XP e Planos de Fundo."
 
 REFERENCE           PLATFORM_WAGER_PULLDOWN_TOGGLE
-LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Toggle Stats"
+LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Ativar/Desativar Estatisticas"
 
 REFERENCE           MENU_EMBLEM_SELECT_IMAGE_CAPS
 LANG_ENGLISH        "SELECIONAR IMAGEM"
 
 REFERENCE           TICKER_NEWS_UI_JOINED_CLAN
-LANG_ENGLISH        "^5&&1^7 is now a member of the ^3&&2^7 clan."
+LANG_ENGLISH        "^5&&1^7 agora e membro do cla ^3&&2^7."
 
 REFERENCE           PLATFORM_PAUSE
-LANG_ENGLISH        "^BBUTTON_EMBLEM_FORWARD^ Pause/Unpause"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_FORWARD^ Pausar/Despausar"
 
 REFERENCE           PLATFORM_EXITDEMO
-LANG_ENGLISH        "^BBUTTON_EMBLEM_BACKWARD^ Exit Demo"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_BACKWARD^ Sair do Demo"
 
 REFERENCE           WEAPON_UZI_DESC
 LANG_ENGLISH        "Totalmente automática com alta taxa de disparo. Eficaz em curto alcance."
@@ -6625,13 +6625,13 @@ REFERENCE           MPUI_SECONDARY_WEAPON_CAPS
 LANG_ENGLISH        "SECUNDÁRIA"
 
 REFERENCE           PLATFORM_INCREASEPLAYSPEED
-LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_RIGHT^ Fast-mo"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_RIGHT^ Acelerar"
 
 REFERENCE           MENU_VIEWING_PLAYERCARD
 LANG_ENGLISH        "Visualizando Quartel"
 
 REFERENCE           PLATFORM_RESETPLAYSPEED
-LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_RIGHT^ + ^BBUTTON_EMBLEM_ROTATE_LEFT^ Reset Playspeed"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_RIGHT^ + ^BBUTTON_EMBLEM_ROTATE_LEFT^ Resetar Velocidade"
 
 REFERENCE           MENU_VOTE_YES
 LANG_ENGLISH        "Votar Sim"
@@ -6640,7 +6640,7 @@ REFERENCE           MENU_SMALL
 LANG_ENGLISH        "Pequeno"
 
 REFERENCE           PLATFORM_PRESS_TO_COPYCAT
-LANG_ENGLISH        "^BBUTTON_MP_TOGGLEVIEW^ Steal their class!"
+LANG_ENGLISH        "^BBUTTON_MP_TOGGLEVIEW^ Roube a classe deles!"
 
 REFERENCE           PLATFORM_CAC_NEXT
 LANG_ENGLISH        "^BBUTTON_CAC_NEXT^"
@@ -6655,7 +6655,7 @@ REFERENCE           MENU_CROUCH_PRONE
 LANG_ENGLISH        "Abaixar/Deitar"
 
 REFERENCE           PLATFORM_TOGGLE_DEMO_UPLOADED
-LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Uploaded"
+LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Enviados"
 
 REFERENCE           MPUI_LENS_DEFAULT_CAPS
 LANG_ENGLISH        "LENTE PADRÃO"
@@ -6664,10 +6664,10 @@ REFERENCE           PLATFORM_TOGGLE_DEMO_LOCAL
 LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Local"
 
 REFERENCE           PLATFORM_DOWNLOAD_AND_PLAY_DEMO
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Download & Play Film"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Baixar e Reproduzir Filme"
 
 REFERENCE           PLATFORM_PLAY_DEMO
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Play Film"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Reproduzir Filme"
 
 REFERENCE           PLATFORM_COMBAT_RECORD_VIEW_BUTTONS
 LANG_ENGLISH        "^BBUTTON_RECORD_VIEW_PREV^                                                ^BBUTTON_RECORD_VIEW_NEXT^"
@@ -6682,10 +6682,10 @@ REFERENCE           MENU_BASICTRAINING_DIFFICULTY_CAPS
 LANG_ENGLISH        "DIFICULDADE DOS BOTS"
 
 REFERENCE           PLATFORM_LOBBY_LEADERBOARD
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Lobby Leaderboard"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Ranking do Lobby"
 
 REFERENCE           PLATFORM_RENDER_CLIP
-LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Render Clip"
+LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Renderizar Clipe"
 
 REFERENCE           PLATFORM_M220_TOW_GAMBLER
 LANG_ENGLISH        "Segure ^3&&1^7 para Valquíria OU Toque Duas Vezes ^3[{+reload}]^7 para Tentar Novamente"
@@ -6706,7 +6706,7 @@ REFERENCE           MENU_SELECT_PROFILE
 LANG_ENGLISH        "Selecionar Perfil"
 
 REFERENCE           PLATFORM_FILESHARE_SEARCH
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Filter"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Filtrar"
 
 REFERENCE           PLATFORM_DYK_COOP_MSG2
 LANG_ENGLISH        "Você não precisa olhar para uma janela para lacrá-la."
@@ -6721,7 +6721,7 @@ REFERENCE           PLATFORM_PRESS_TO_USE_NAPALM
 LANG_ENGLISH        "Pressione ^3[{+attack}]^7 para chamar Napalm"
 
 REFERENCE           PLATFORM_DOWNLOADPACKAGE
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Download Package"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Baixar Pacote"
 
 REFERENCE           WEAPON_HK416_REFLEX
 LANG_ENGLISH        "M27 Reflex"
@@ -6754,7 +6754,7 @@ REFERENCE           WEAPON_QBB95_FMJ
 LANG_ENGLISH        "QBB LSW FMJ"
 
 REFERENCE           PLATFORM_DEMO_TOGGLE_HUD_KEYBOARD
-LANG_ENGLISH        "^3F2^7 Toggle Hud"
+LANG_ENGLISH        "^3F2^7 Ativar/Desativar HUD"
 
 REFERENCE           WEAPON_EVOSKORPION_RF
 LANG_ENGLISH        "Skorpion Evo III Tiro Rápido"
@@ -6775,16 +6775,16 @@ REFERENCE           MPUI_WEAPONS_CAPS
 LANG_ENGLISH        "ARMAS"
 
 REFERENCE           PLATFORM_ROTATE
-LANG_ENGLISH        "^BBUTTON_LOOK^ Rotate"
+LANG_ENGLISH        "^BBUTTON_LOOK^ Girar"
 
 REFERENCE           MENU_HIT_MARKERS
 LANG_ENGLISH        "Indicador de Acerto"
 
 REFERENCE           PLATFORM_SELLBACK
-LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Sell Back"
+LANG_ENGLISH        "^BBUTTON_MP_REFRESH^ Revender"
 
 REFERENCE           PLATFORM_FILESHARE_DOWNLOAD
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Download and Play"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Baixar e Reproduzir"
 
 REFERENCE           MENU_EMBLEM_FILTER_BY_TYPE
 LANG_ENGLISH        "Filtrar por tipo"
@@ -6793,7 +6793,7 @@ REFERENCE           MENU_START_GAME
 LANG_ENGLISH        "Iniciar Jogo"
 
 REFERENCE           PLATFORM_JOINAUTO
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Auto Join"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Entrada Automatica"
 
 REFERENCE           MPUI_PERK_2
 LANG_ENGLISH        "Vantagem 2"
@@ -6805,7 +6805,7 @@ REFERENCE           MPUI_DOWNS_PRE
 LANG_ENGLISH        "Vezes Caído"
 
 REFERENCE           PLATFORM_JOINAUTO_OFF
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Auto Join Off"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Entrada Automatica Desligada"
 
 REFERENCE           MPUI_DESC_MAP_PROTOTYPE
 LANG_ENGLISH        "Zumbis devem morrer!"
@@ -6814,7 +6814,7 @@ REFERENCE           MPUI_WINS_FRIENDS
 LANG_ENGLISH        "Vitórias (Amigos)"
 
 REFERENCE           PLATFORM_SPECTATE_DEMO_PLAYER
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Spectate ^3&&1^7"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Espectador ^3&&1^7"
 
 REFERENCE           PLATFORM_M202_FLASH_GAMBLER
 LANG_ENGLISH        "Segure ^3&&1^7 para Ceifador OU Toque Duas Vezes ^3[{+reload}]^7 para Tentar Novamente"
@@ -6901,13 +6901,13 @@ REFERENCE           PLATFORM_DEFAULT_STICK_INSTR
 LANG_ENGLISH        "Descrição padrão do analógico"
 
 REFERENCE           PLATFORM_PAN
-LANG_ENGLISH        "^BBUTTON_LOOKSTICK^ Pan"
+LANG_ENGLISH        "^BBUTTON_LOOKSTICK^ Panoramica"
 
 REFERENCE           PLATFORM_NEXT_CAPS
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ NEXT"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ PROXIMO"
 
 REFERENCE           PLATFORM_AFTER_ACTION_REPORT_CAPS
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ AFTER ACTION REPORT"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ RELATORIO DE ACAO"
 
 REFERENCE           MENU_TDM_SCORE_LIMIT
 LANG_ENGLISH        "O número de pontos necessários para encerrar a rodada."
@@ -6916,7 +6916,7 @@ REFERENCE           MENU_EMBLEM_LAYER_CHANGES_CANCEL
 LANG_ENGLISH        "Cancelar Alterações de Camada?"
 
 REFERENCE           TICKER_NEWS_UI_SP
-LANG_ENGLISH        "^5&&1^7 completed the level &&2 in Campaign."
+LANG_ENGLISH        "^5&&1^7 completou o nivel &&2 na Campanha."
 
 REFERENCE           PLATFORM_AUTOJOIN_LOBBY_MSG_2
 LANG_ENGLISH        "Por que não usar este tempo para conferir todas as opções disponíveis em Crie uma Classe, ver e comprar novos Contratos ou Sequências de Abates, criar um novo Emblema ou ver seu Registro de Combate (^BBUTTON_INTERACT^ Carta do Jogador) ou seus amigos (^BBUTTON_FRIENDSLIST^ Amigos)."
@@ -6928,10 +6928,10 @@ REFERENCE           WEAPON_SVU_RANGEFINDER
 LANG_ENGLISH        "SVU-AS Localizador de Alvos"
 
 REFERENCE           PLATFORM_FILESHARE_SUBMITRATING
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Rate"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Avaliar"
 
 REFERENCE           PLATFORM_FILE_OPTIONS
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Save or View Game"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Salvar ou Ver Partida"
 
 REFERENCE           MPUI_INVITE_FRIENDS_TO_SQUAD
 LANG_ENGLISH        "Convidar Amigos para o Esquadrão"
@@ -6940,13 +6940,13 @@ REFERENCE           MPUI_ATTACHMENTS_NOT_AVAILABLE
 LANG_ENGLISH        "Acessórios indisponíveis"
 
 REFERENCE           PLATFORM_VIEW_NEMESIS_PLAYERCARD
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ View Playercard"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Ver Cartao do Jogador"
 
 REFERENCE           MPUI_PATTERN_COLOR_1_CAPS
 LANG_ENGLISH        "VERMELHO"
 
 REFERENCE           PLATFORM_CLOSE_AAR
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Close"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Fechar"
 
 REFERENCE           WEAPON_AK47_DUAL_ATTACH
 LANG_ENGLISH        "AK47 Múltiplos Acessórios"
@@ -6958,25 +6958,25 @@ REFERENCE           MENU_RENAME_LOADOUT_CAPS
 LANG_ENGLISH        "RENOMEAR EQUIPAMENTO"
 
 REFERENCE           PLATFORM_DEMO_RATE_FILM
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Rate Film"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Avaliar Filme"
 
 REFERENCE           PLATFORM_DEMO_PREVIEW_CLIP
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Preview Clip"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Visualizar Clipe"
 
 REFERENCE           PLATFORM_DEMO_PLACE_SEGMENT
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Place Segment"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Colocar Segmento"
 
 REFERENCE           MENU_ATTACH_POINT_TRIGGER_DESC
 LANG_ENGLISH        "Este é o ponto de fixação no carregador da arma."
 
 REFERENCE           PLATFORM_DEMO_DELETE_SEGMENT
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Delete Segment"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Excluir Segmento"
 
 REFERENCE           PLATFORM_GUIDED_MISSILE_DETONATE
 LANG_ENGLISH        "Segure ^3&&1^7 para detonar"
 
 REFERENCE           PLATFORM_FILTER
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Filter"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Filtrar"
 
 REFERENCE           MPUI_LB_HEADQUARTERS_HC_CAPS
 LANG_ENGLISH        "&&1  QUARTEL-GENERAL DURO  &&2"
@@ -6997,10 +6997,10 @@ REFERENCE           MPUI_AAR_AWARDS_CONTRACT_COMPLETED
 LANG_ENGLISH        "Contrato Completo"
 
 REFERENCE           PLATFORM_RC_BOMB_DETONATE
-LANG_ENGLISH        "^3&&1^7 Detonate"
+LANG_ENGLISH        "^3&&1^7 Detonar"
 
 REFERENCE           PLATFORM_COPY_CLASS
-LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Copy Class"
+LANG_ENGLISH        "^BBUTTON_FRIENDSLIST^ Copiar Classe"
 
 REFERENCE           WEAPON_GASMASK
 LANG_ENGLISH        "Máscara de Gás"
@@ -7009,7 +7009,7 @@ REFERENCE           WEAPON_MAKAROV_SILENCER
 LANG_ENGLISH        "Makarov Supressor"
 
 REFERENCE           PLATFORM_BACKGROUND_PAGE
-LANG_ENGLISH        "^BBUTTON_CAC_PREV^  PAGE ^3&&1^7 / ^3&&2^7  ^BBUTTON_CAC_NEXT^"
+LANG_ENGLISH        "^BBUTTON_CAC_PREV^  PAGINA ^3&&1^7 / ^3&&2^7  ^BBUTTON_CAC_NEXT^"
 
 REFERENCE           MPUI_ORDINAL_CAPS_4
 LANG_ENGLISH        "4º"
@@ -7033,10 +7033,10 @@ REFERENCE           WEAPON_AK74U_ELBIT
 LANG_ENGLISH        "AK74u Ponto Vermelho"
 
 REFERENCE           PLATFORM_GUN_STATS
-LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Gun Stats\n"
+LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Estatisticas da Arma\n"
 
 REFERENCE           PLATFORM_PREFERENCES_PRIVACY
-LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Party Privacy"
+LANG_ENGLISH        "^BBUTTON_MP_CANCELCOMMAND^ Privacidade do Grupo"
 
 REFERENCE           PLATFORM_TABBED_MENU_TITLE
 LANG_ENGLISH        "^BBUTTON_CAC_PREV^  ^3&&1^7  ^BBUTTON_CAC_NEXT^"
@@ -7090,7 +7090,7 @@ REFERENCE           WEAPON_METALSTORM_DESC_MP
 LANG_ENGLISH        "Rifle de carga empilhada. Dispare de 1 a 5 balas por vez com base em quanto tempo você segura o gatilho."
 
 REFERENCE           PLATFORM_FILESHARE_LEARNMORE
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Learn More"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Saiba Mais"
 
 REFERENCE           MPUI_CANCEL_SELL_CAPS
 LANG_ENGLISH        "CANCELAR VENDA"
@@ -7099,7 +7099,7 @@ REFERENCE           PLATFORM_EMBLEM_DUPLICATE_LAYER_BUTTON
 LANG_ENGLISH        "^BBUTTON_EMBLEM_OUTLINE^"
 
 REFERENCE           PLATFORM_DEMO_RATE_SCREENSHOT
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Rate Screenshot"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Avaliar Screenshot"
 
 REFERENCE           WEAPON_M32_DESC
 LANG_ENGLISH        "Lançador de granadas semiautomático de 6 tiros."
@@ -7108,10 +7108,10 @@ REFERENCE           PLATFORM_OK
 LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Ok"
 
 REFERENCE           PLATFORM_ZOMBIE_POINTS_CAPS
-LANG_ENGLISH        "^BBUTTON_CAC_PREV^ ROUNDS SURVIVED ^BBUTTON_CAC_NEXT^"
+LANG_ENGLISH        "^BBUTTON_CAC_PREV^ RODADAS SOBREVIVIDAS ^BBUTTON_CAC_NEXT^"
 
 REFERENCE           PLATFORM_GAME_SUMMARY_WAGER
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Earnings Report"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Relatorio de Ganhos"
 
 REFERENCE           MPUI_SF_SHORT
 LANG_ENGLISH        "Fogo Seletivo"
@@ -7120,7 +7120,7 @@ REFERENCE           PLATFORM_EQUIPMENT_USE_DESC
 LANG_ENGLISH        "Coloque equipamento usando ^BBUTTON_MP_PGUP^."
 
 REFERENCE           PLATFORM_CHALLENGES_SORT
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Sort"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Ordenar"
 
 REFERENCE           MENU_7_5_SECONDS
 LANG_ENGLISH        "7.5 Segundos"
@@ -7132,7 +7132,7 @@ REFERENCE           MENU_RESTRICT_SPECIALTY2_CAPS
 LANG_ENGLISH        "RESTRINGIR VANTAGEM 2"
 
 REFERENCE           PLATFORM_APPLY_SORT
-LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Apply Sort"
+LANG_ENGLISH        "^BBUTTON_SELECTCHOICE^ Aplicar Ordenacao"
 
 REFERENCE           WEAPON_GALIL_FT
 LANG_ENGLISH        "Galil Lança-chamas"
@@ -7141,10 +7141,10 @@ REFERENCE           MENU_LEVEL_WAR_PAKISTAN_CAPS
 LANG_ENGLISH        "EXPEDIÇÃO"
 
 REFERENCE           PLATFORM_FILESHARE_PLACEGAMEINMYFILESHARE
-LANG_ENGLISH        "^BBUTTON_INTERACT^ Place Game in My File Share"
+LANG_ENGLISH        "^BBUTTON_INTERACT^ Colocar Partida no Meu Compartilhamento"
 
 REFERENCE           PLATFORM_SCREENSHOT_PAN
-LANG_ENGLISH        "^BBUTTON_MOVE^ Pan"
+LANG_ENGLISH        "^BBUTTON_MOVE^ Panoramica"
 
 REFERENCE           MPUI_RCRACE_CAPS
 LANG_ENGLISH        "CORRIDA DE CARRO RC"
@@ -7231,7 +7231,7 @@ REFERENCE           PLATFORM_UNMUTE_ERROR_FROM_LIVE
 LANG_ENGLISH        "O jogador foi silenciado na Carta do Jogador e deve ser ativado lá."
 
 REFERENCE           PLATFORM_DEMO_EDIT_CAMERA_MARKER
-LANG_ENGLISH        "^BBUTTON_LOOK^ Edit Camera Marker"
+LANG_ENGLISH        "^BBUTTON_LOOK^ Editar Marcador de Camera"
 
 REFERENCE           MPUI_HCCTF_SHORT_CAPS
 LANG_ENGLISH        "HC CTF"
@@ -7246,13 +7246,13 @@ REFERENCE           MENU_CLANNAME_NOT_PERMISSIBLE
 LANG_ENGLISH        "Nome de clã não permitido"
 
 REFERENCE           PLATFORM_DEMO_PLACE_CAMERA_MARKER
-LANG_ENGLISH        "^BBUTTON_LOOK^ Place Camera Marker"
+LANG_ENGLISH        "^BBUTTON_LOOK^ Colocar Marcador de Camera"
 
 REFERENCE           TICKER_COUNTERS_CUSTOMGUN
 LANG_ENGLISH        "ESTA É MINHA ARMA: &&1 personalizações de arma compradas."
 
 REFERENCE           PLATFORM_REMOTE_MISSILE_BOOST
-LANG_ENGLISH        "^3[{+speed_throw}]^7 Boost"
+LANG_ENGLISH        "^3[{+speed_throw}]^7 Impulso"
 
 REFERENCE           PLATFORM_ERROR_QOS_LISTEN_START
 LANG_ENGLISH        "Erro ao iniciar escuta QOS no servidor."
@@ -7273,7 +7273,7 @@ REFERENCE           MENU_DELETE_ALL_SEGMENTS_CONFIRMATION
 LANG_ENGLISH        "Tem certeza que deseja excluir todos os clipes?"
 
 REFERENCE           PLATFORM_DEMO_DETACH_FROM_OBJECT
-LANG_ENGLISH        "^BBUTTON_LOOK^ Detach From Object"
+LANG_ENGLISH        "^BBUTTON_LOOK^ Desanexar do Objeto"
 
 REFERENCE           WEAPON_STEADYAIM
 LANG_ENGLISH        "Laser"
@@ -7282,10 +7282,10 @@ REFERENCE           WEAPON_TAZER_KNUCKLES
 LANG_ENGLISH        "Socos Supressores do Combatente"
 
 REFERENCE           PLATFORM_DEMO_DETACH_FROM_OBJECT_KEYBOARD
-LANG_ENGLISH        "^3F^7 Detach From Object"
+LANG_ENGLISH        "^3F^7 Desanexar do Objeto"
 
 REFERENCE           PLATFORM_DEMO_ATTACH_TO_OBJECT_KEYBOARD
-LANG_ENGLISH        "^3F^7 Attach To Object"
+LANG_ENGLISH        "^3F^7 Anexar ao Objeto"
 
 REFERENCE           MPUI_HCKOTH_CAPS
 LANG_ENGLISH        "PONTO DURO DURO"
@@ -7870,7 +7870,7 @@ REFERENCE           WEAPON_PYTHON_SNUB
 LANG_ENGLISH        "Python Canhão Curto"
 
 REFERENCE           WEAPON_RAY_GUN
-LANG_ENGLISH        "Raio Laser"
+LANG_ENGLISH        "Arma de Raios"
 
 REFERENCE           WEAPON_ROTTWEIL72_DESC
 LANG_ENGLISH        "Escopeta de cano duplo sobreposto. Eficaz em alcance médio a curto."
@@ -8500,7 +8500,7 @@ REFERENCE           MPUI_ACOG_SHORT_CAPS
 LANG_ENGLISH        "ACOG"
 
 REFERENCE           MENU_EMBLEM_LAYER_ROTATE_BUTTON
-LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_LEFT^^BBUTTON_EMBLEM_ROTATE_RIGHT^ Rotate"
+LANG_ENGLISH        "^BBUTTON_EMBLEM_ROTATE_LEFT^^BBUTTON_EMBLEM_ROTATE_RIGHT^ Girar"
 
 REFERENCE           WEAPON_SARITCH_SILENCER
 LANG_ENGLISH        "SMR Supressor"
@@ -8521,7 +8521,7 @@ REFERENCE           WEAPON_AN94
 LANG_ENGLISH        "AN-94"
 
 REFERENCE           WEAPON_SKORPIONEVO
-LANG_ENGLISH        "Skorpion Evo"
+LANG_ENGLISH        "Skorpion EVO"
 
 REFERENCE           WEAPON_M60_FMJ
 LANG_ENGLISH        "M60 FMJ"
@@ -8584,7 +8584,7 @@ REFERENCE           MPUI_CONTRACT_CATEGORY_DESC1
 LANG_ENGLISH        "Contratos para obter abates e Sequências de Abates."
 
 REFERENCE           WEAPON_VECTOR_MMS
-LANG_ENGLISH        "Vector K10  MMS"
+LANG_ENGLISH        "Vector K10 MMS"
 
 REFERENCE           WEAPON_SRM1216_MMS
 LANG_ENGLISH        "M1216 MMS"
@@ -8992,7 +8992,7 @@ REFERENCE           WEAPON_SIG556_EXTBARREL
 LANG_ENGLISH        "SIG556 Cano Longo"
 
 REFERENCE           WEAPON_SIG556_FMJ
-LANG_ENGLISH        "SIG556 FMJ"
+LANG_ENGLISH        "SWAT-556 FMJ"
 
 REFERENCE           WEAPON_TAR21_EXTRAMAGS
 LANG_ENGLISH        "MTAR Carregadores Extras"
@@ -9109,7 +9109,7 @@ REFERENCE           WEAPON_SVU_SWAYREDUC
 LANG_ENGLISH        "SVU-AS CPU Balística"
 
 REFERENCE           WEAPON_870MCS_MMS
-LANG_ENGLISH        "R-870 MCS MMS"
+LANG_ENGLISH        "Remington 870 MCS MMS"
 
 REFERENCE           MPUI_RULES_4_5SECONDS_CAPS
 LANG_ENGLISH        "4.5 SEGUNDOS"
@@ -9127,7 +9127,7 @@ REFERENCE           WEAPON_LSAT_FASTADS
 LANG_ENGLISH        "LSAT Empunhadura Rápida"
 
 REFERENCE           WEAPON_AN94_FMJ
-LANG_ENGLISH        "AN94 FMJ"
+LANG_ENGLISH        "AN-94 FMJ"
 
 REFERENCE           WEAPON_LSAT_EXTBARREL
 LANG_ENGLISH        "LSAT Cano Longo"
@@ -9157,7 +9157,7 @@ REFERENCE           WEAPON_XM8_DUALOPTIC2
 LANG_ENGLISH        "M8A1 Mira Híbrida"
 
 REFERENCE           WEAPON_SCAR_MMS
-LANG_ENGLISH        "SCAR MMS"
+LANG_ENGLISH        "SCAR-H MMS"
 
 REFERENCE           WEAPON_SA58_MMS
 LANG_ENGLISH        "FAL-OSW MMS"
@@ -10081,7 +10081,7 @@ REFERENCE           MENU_FAILED_DW_FILE
 LANG_ENGLISH        "Falha ao buscar arquivo DW"
 
 REFERENCE           WEAPON_AK47_FMJ
-LANG_ENGLISH        "AK47 FMJ"
+LANG_ENGLISH        "AK-47 FMJ"
 
 REFERENCE           WEAPON_GALIL_FMJ
 LANG_ENGLISH        "Galil FMJ"
@@ -10132,7 +10132,7 @@ REFERENCE           MPUI_LPS_CAPS
 LANG_ENGLISH        "MIRA DE BAIXO ZOOM"
 
 REFERENCE           WEAPON_AK74U_FMJ
-LANG_ENGLISH        "AK74u FMJ"
+LANG_ENGLISH        "AK-74u FMJ"
 
 REFERENCE           WEAPON_UZI_FMJ
 LANG_ENGLISH        "Uzi FMJ"
@@ -10207,7 +10207,7 @@ REFERENCE           MPUI_RULES_15000POINTS_CAPS
 LANG_ENGLISH        "15000 PONTOS"
 
 REFERENCE           WEAPON_BARRETM82_FMJ
-LANG_ENGLISH        "M82A1 FMJ"
+LANG_ENGLISH        "Barrett M82A1 FMJ"
 
 REFERENCE           MPUI_RETICLE_DEFAULT
 LANG_ENGLISH        "Ponto"
@@ -10330,7 +10330,7 @@ REFERENCE           MPUI_WAGER_MATCH_DESC
 LANG_ENGLISH        "Aposte seus COD Points (^BCP^) contra outros jogadores em modos especiais."
 
 REFERENCE           MPUI_VOTE_REGULAR_MAP_CAPS
-LANG_ENGLISH        "REGULAR MAP"
+LANG_ENGLISH        "MAPA REGULAR"
 
 REFERENCE           PRESENCE_LOBBY
 LANG_ENGLISH        "No Lobby Pré-Jogo"
@@ -11209,7 +11209,7 @@ REFERENCE           MPUI_2_AUTOASSIGN
 LANG_ENGLISH        "2. Atribuição Automática"
 
 REFERENCE           MPUI_ACCURACY_DAMAGE_MOBILITY
-LANG_ENGLISH        "Accuracy:\nDamage:\nMobility:"
+LANG_ENGLISH        "Precisão:\nDano:\nMobilidade:"
 
 REFERENCE           MPUI_THE_MP40_SUBMACHINE_GUN
 LANG_ENGLISH        "A submetralhadora MP40 é uma arma eficaz para limpeza de salas. Tem um mínimo levantamento do cano mesmo quando disparada automaticamente em rajadas longas."
@@ -11566,7 +11566,7 @@ REFERENCE           MPUI_HARDCORE_PRE
 LANG_ENGLISH        "Modo Hardcore:"
 
 REFERENCE           MENU_20_ROUNDS
-LANG_ENGLISH        "20 Rounds"
+LANG_ENGLISH        "20 Munições"
 
 REFERENCE           MPUI_RES
 LANG_ENGLISH        "Resistência"
@@ -11662,7 +11662,7 @@ REFERENCE           MPUI_DESC_CHANGE_GAMETYPE
 LANG_ENGLISH        "Escolha um Modo de Jogo diferente."
 
 REFERENCE           MENU_MOVE_CAPS
-LANG_ENGLISH        "MOVE"
+LANG_ENGLISH        "MOVER"
 
 REFERENCE           MPUI_EXTRAMAGS
 LANG_ENGLISH        "Carregadores Extras"
@@ -12040,19 +12040,19 @@ REFERENCE           MENU_RESTRICT_BONUSCARD_CAPS
 LANG_ENGLISH        "RESTRINGIR CORINGAS"
 
 REFERENCE           MPUI_RULES_1ROUND_CAPS
-LANG_ENGLISH        "1 ROUND"
+LANG_ENGLISH        "1 RODADA"
 
 REFERENCE           MPUI_RULES_3ROUNDS_CAPS
-LANG_ENGLISH        "3 ROUNDS"
+LANG_ENGLISH        "3 RODADAS"
 
 REFERENCE           MPUI_RULES_5ROUNDS_CAPS
-LANG_ENGLISH        "5 ROUNDS"
+LANG_ENGLISH        "5 RODADAS"
 
 REFERENCE           MPUI_KILLSTREAKS_HINT
 LANG_ENGLISH        "Você pode ativar até 3 sequências de abates por vez."
 
 REFERENCE           MPUI_RULES_6ROUNDS_CAPS
-LANG_ENGLISH        "6 ROUNDS"
+LANG_ENGLISH        "6 RODADAS"
 
 REFERENCE           MENU_OPTIONS_STICK_LAYOUT_TITLE
 LANG_ENGLISH        "OPÇÕES/LAYOUT DOS ANÁLOGICOS"
@@ -12109,7 +12109,7 @@ REFERENCE           MENU_UNMUTE_ERROR_FRIENDS_ONLY
 LANG_ENGLISH        "Suas preferências atuais permitem falar apenas com amigos."
 
 REFERENCE           MENU_1_ROUND
-LANG_ENGLISH        "1 Round"
+LANG_ENGLISH        "1 Rodada"
 
 REFERENCE           MPUI_RULES_12POINTS_CAPS
 LANG_ENGLISH        "12 PONTOS"
@@ -12505,7 +12505,7 @@ REFERENCE           MPUI_DUGA_CAPS
 LANG_ENGLISH        "GRID"
 
 REFERENCE           MPUI_HAVANA_CAPS
-LANG_ENGLISH        "HAVANA (delete me)"
+LANG_ENGLISH        "HAVANA"
 
 REFERENCE           MPUI_JUNGLE_CAPS
 LANG_ENGLISH        "JUNGLE"
@@ -12940,7 +12940,7 @@ REFERENCE           MPUI_LB_FLAG_RUSH
 LANG_ENGLISH        "&&1 Flag Rush &&2"
 
 REFERENCE           MPUI_LB_WAYPOINT_FLAG_RUSH
-LANG_ENGLISH        "&&1 Waypoint Flag Rush &&2"
+LANG_ENGLISH        "&&1 Flag Rush de Waypoint &&2"
 
 REFERENCE           MPUI_CASHPOT_CAPS
 LANG_ENGLISH        "POTE DE DINHEIRO"
@@ -13171,7 +13171,7 @@ REFERENCE           MENU_ZOMBIES_WAVES_SURVIVAL_TIME
 LANG_ENGLISH        "Tempo do Último Round"
 
 REFERENCE           MPUI_ROUND_X
-LANG_ENGLISH        "Round &&1"
+LANG_ENGLISH        "Rodada &&1"
 
 REFERENCE           MPUI_WAGERMATCH_TOTAL_POT
 LANG_ENGLISH        "Pote Total:"
@@ -13555,7 +13555,7 @@ REFERENCE           MPUI_CATEGORY_STANDARD_DESC
 LANG_ENGLISH        "Escolha entre o conjunto base de modos de jogo do Black Ops II."
 
 REFERENCE           MPUI_CAMO_ERDL_CAPS
-LANG_ENGLISH        "ERDLN"
+LANG_ENGLISH        "ERDL"
 
 REFERENCE           MPUI_CAMO_TIGER
 LANG_ENGLISH        "Tigre"
@@ -15796,7 +15796,7 @@ REFERENCE           MENU_STAND
 LANG_ENGLISH        "Em Pé"
 
 REFERENCE           MENU_LOADOUT
-LANG_ENGLISH        "Loadout"
+LANG_ENGLISH        "Equipamento"
 
 REFERENCE           MPUI_REFLEX_SHORT_CAPS
 LANG_ENGLISH        "REFLEX"
@@ -19243,7 +19243,7 @@ REFERENCE           MENU_DELETE_SEGMENT_CONFIRMATION
 LANG_ENGLISH        "Tem certeza de que deseja excluir este clipe?"
 
 REFERENCE           MENU_ALPHA_CAPS
-LANG_ENGLISH        "ALPHA"
+LANG_ENGLISH        "ALFA"
 
 REFERENCE           MENU_CHARLIE_CAPS
 LANG_ENGLISH        "CHARLIE"
@@ -19762,7 +19762,7 @@ REFERENCE           MENU_LEVEL_RF_T6_CAPS
 LANG_ENGLISH        "RF_T6"
 
 REFERENCE           MENU_LEVEL_CHALLENGE_BLOOD_BATH_CAPS
-LANG_ENGLISH        "Challenge BloodBath"
+LANG_ENGLISH        "Desafio BloodBath"
 
 REFERENCE           MENU_GAME_RECORDING_UPLOAD
 LANG_ENGLISH        "Enviando Gravação de Jogo"
@@ -19837,10 +19837,10 @@ REFERENCE           MENU_MAKING_TEAMS
 LANG_ENGLISH        "Criando times平衡ados..."
 
 REFERENCE           MENU_CHALLENGE_CATEGORY_PERKS
-LANG_ENGLISH        "Perks"
+LANG_ENGLISH        "Vantagens"
 
 REFERENCE           MENU_CHALLENGE_CATEGORY_WILDCARDS
-LANG_ENGLISH        "Wildcards"
+LANG_ENGLISH        "Coringas"
 
 REFERENCE           MENU_WAGER_MATCH_CHECKING_FUNDS
 LANG_ENGLISH        "Verificando fundos insuficientes..."
@@ -20080,7 +20080,7 @@ REFERENCE           MENU_LEAGUE_FIND_MATCH_INVALID_TEAM_DESC
 LANG_ENGLISH        "Times não podem jogar nesta liga."
 
 REFERENCE           MENU_LOADOUTS_CAPS
-LANG_ENGLISH        "LOADOUTS"
+LANG_ENGLISH        "EQUIPAMENTOS"
 
 REFERENCE           MENU_CLEAR_LOADOUT_CAPS
 LANG_ENGLISH        "LIMPAR LOADOUT"
@@ -20470,7 +20470,7 @@ REFERENCE           MENU_CHANGE_TRANSITION
 LANG_ENGLISH        "Alterar Transição"
 
 REFERENCE           MENU_WILDCARDS_CAPS
-LANG_ENGLISH        "WILDCARDS"
+LANG_ENGLISH        "CORINGAS"
 
 REFERENCE           MENU_RESTRICT_WEAPON_SMG_CAPS
 LANG_ENGLISH        "RESTRINGIR SUBMETRALHADORAS"
@@ -20707,7 +20707,7 @@ REFERENCE           MENU_OFF_FOR_TACTICALS
 LANG_ENGLISH        "Desligado para Táticas"
 
 REFERENCE           MENU_ID_CARD
-LANG_ENGLISH        "PLAYERCARD"
+LANG_ENGLISH        "CARTÃO DE JOGADOR"
 
 REFERENCE           MENU_EMBLEM_CLEAR_LAYER
 LANG_ENGLISH        "Limpar Camada"
@@ -20824,7 +20824,7 @@ REFERENCE           MENU_LEAGUE_LEADERBOARD_DESC
 LANG_ENGLISH        "Classificação para a liga atual."
 
 REFERENCE           MENU_MILLIBAR_CAPS
-LANG_ENGLISH        "MILLIBAR"
+LANG_ENGLISH        "MILIBAR"
 
 REFERENCE           MENU_ACTIVE_CAPS
 LANG_ENGLISH        "ATIVO"
@@ -21157,7 +21157,7 @@ REFERENCE           MENU_X_WEAPON
 LANG_ENGLISH        "&&1 Arma"
 
 REFERENCE           MENU_GUNLIST
-LANG_ENGLISH        "Ladder"
+LANG_ENGLISH        "Classificação"
 
 REFERENCE           MENU_GUNLIST_HINT
 LANG_ENGLISH        "Determina qual conjunto de armas o jogo usa.\n\nNormal: \nLadder padrão.\n\nClose Quarters:\nEscopetas, SMGs e Lançadores.\n\nMarksman:\nRifles de Assalto, LMGs e Rifles de Precisão.\n\nCrazytown:\nPistolas e Especiais.\n\nAleatório:\nSeleciona aleatoriamente de todas as ladders"
@@ -21166,7 +21166,7 @@ REFERENCE           MENU_GUNLIST_0
 LANG_ENGLISH        "Normal"
 
 REFERENCE           MENU_GUNLIST_3
-LANG_ENGLISH        "Marksman"
+LANG_ENGLISH        "Precisão"
 
 REFERENCE           MENU_GUNLIST_4
 LANG_ENGLISH        "Crazytown"
@@ -21652,7 +21652,7 @@ REFERENCE           XBOXLIVE_CLAN_MEMBERS_DESC
 LANG_ENGLISH        "Membros do clã que jogaram partidas online"
 
 REFERENCE           XBOXLIVE_PLAYERCARD
-LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Playercard"
+LANG_ENGLISH        "^BBUTTON_MP_GAMERCARD^ Cartão de Jogador"
 
 REFERENCE           XBOXLIVE_CLANDISBANDED
 LANG_ENGLISH        "O líder do clã解散ou o clã."

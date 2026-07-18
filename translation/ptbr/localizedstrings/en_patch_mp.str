@@ -209,7 +209,7 @@ REFERENCE           MEDAL_STICK_EXPLOSIVE_KILL_DESC
 LANG_ENGLISH        "Fixe um explosivo em um inimigo."
 
 REFERENCE           CHALLENGE_TYPE_TDM
-LANG_ENGLISH        "Team Deathmatch"
+LANG_ENGLISH        "Combate em Equipe"
 
 REFERENCE           SCRIPT_HINT_CAMO_SUIT_ON
 LANG_ENGLISH        "Camuflagem: Ativada"
@@ -596,7 +596,7 @@ REFERENCE           OBJECTIVES_AQ_HINT
 LANG_ENGLISH        "Capture e carregue a bandeira."
 
 REFERENCE           MEDAL_UNINTERRUPTED_OBIT_FEED_KILLS
-LANG_ENGLISH        "Quad Feed"
+LANG_ENGLISH        "Quadruplicado"
 
 REFERENCE           MENU_DIGITAL_UNLOCK_ELITE_MEMBER_EM_DESC
 LANG_ENGLISH        "Desbloqueado como Membro Elite. "
@@ -818,7 +818,7 @@ REFERENCE           MPUI_HOLO_DESC
 LANG_ENGLISH        "Mira holográfica. Fornece uma visão mais clara do alvo que uma reflex, mas com menos visão periférica."
 
 REFERENCE           MEDAL_DESTROYED_COUNTERUAV
-LANG_ENGLISH        "Fuzzbuster"
+LANG_ENGLISH        "Interceptador"
 
 REFERENCE           OBJECTIVES_GUN
 LANG_ENGLISH        "Consiga um abate com cada arma."
@@ -1223,7 +1223,7 @@ REFERENCE           CHALLENGE_LAID_TO_REST
 LANG_ENGLISH        "Enterrado&&3"
 
 REFERENCE           MEDAL_FLAG_CAPTURE
-LANG_ENGLISH        "Playmaker"
+LANG_ENGLISH        "Artilheiro"
 
 REFERENCE           SCORE_RCXD_KILL
 LANG_ENGLISH        "Eliminação com RC-XD"
@@ -1340,7 +1340,7 @@ REFERENCE           MEDAL_SHARE_PACKAGE_MULTIPLE_GRENADE_LAUNCHER
 LANG_ENGLISH        "War Machine Compartilhado"
 
 REFERENCE           EM_BACK_COMICS
-LANG_ENGLISH        "Comics"
+LANG_ENGLISH        "Quadrinhos"
 
 REFERENCE           MEDAL_RETRIEVE_OWN_TAGS
 LANG_ENGLISH        "Recuperado"
@@ -1370,7 +1370,7 @@ REFERENCE           EM_BACK_NEPAL
 LANG_ENGLISH        "Nepal"
 
 REFERENCE           MEDAL_FINAL_KILL_ELIMINATION
-LANG_ENGLISH        "Playmaker"
+LANG_ENGLISH        "Artilheiro"
 
 REFERENCE           EM_BACK_TAJIKISTAN
 LANG_ENGLISH        "Tadjiquistão"
@@ -1412,7 +1412,7 @@ REFERENCE           MEDAL_OFFENSE
 LANG_ENGLISH        "Ofensiva"
 
 REFERENCE           CHALLENGE_TYPE_DM
-LANG_ENGLISH        "Free-For-All"
+LANG_ENGLISH        "Todos Contra Todos"
 
 REFERENCE           MEDAL_DEFENSE
 LANG_ENGLISH        "Defesa"
@@ -1892,7 +1892,7 @@ REFERENCE           MEDAL_HACKED_DESC
 LANG_ENGLISH        "Hackeou equipamento ou arma inimiga."
 
 REFERENCE           MPUI_RETICLE_REFLEX_28
-LANG_ENGLISH        "OMG"
+LANG_ENGLISH        "MDS"
 
 REFERENCE           SCORE_KILLSTREAK_4
 LANG_ENGLISH        "Bônus de 4 Eliminações"
@@ -2589,7 +2589,7 @@ REFERENCE           PRESENCE_ZM_PRISON
 LANG_ENGLISH        "Mob of the Dead"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_31
-LANG_ENGLISH        "Spectre, Apparition"
+LANG_ENGLISH        "Espectro, Aparição"
 
 REFERENCE           EM_BACK_TANZANIA
 LANG_ENGLISH        "Tanzânia"
@@ -2631,7 +2631,7 @@ REFERENCE           MEDAL_DESTROYED_HELI_GUARD_DESC
 LANG_ENGLISH        "Destruiu um Escort Drone."
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_27
-LANG_ENGLISH        "Sunset, Mirage"
+LANG_ENGLISH        "Pôr do Sol, Miragem"
 
 REFERENCE           CHALLENGE_KILL_ENEMY_WHEN_INJURED_DESC
 LANG_ENGLISH        "Ganhe &&1 medalhas de Sobrevivente usando a &&2."
@@ -2739,7 +2739,7 @@ REFERENCE           CGAME_TEAMMATE
 LANG_ENGLISH        "COMPANHEIRO"
 
 REFERENCE           MENU_DLC2_MAP_PACK_NAME
-LANG_ENGLISH        "Uprising"
+LANG_ENGLISH        "Levante"
 
 REFERENCE           CGAME_UNKNOWN
 LANG_ENGLISH        "desconhecido"
@@ -2775,7 +2775,7 @@ REFERENCE           MPUI_GHOST_UPSELL_TITLE
 LANG_ENGLISH        "Call of Duty: Ghosts"
 
 REFERENCE           MPUI_RETICLE_REFLEX_29
-LANG_ENGLISH        "Rend"
+LANG_ENGLISH        "Rasgo"
 
 REFERENCE           LEAGUE_DAILY_BONUS_COMPLETE
 LANG_ENGLISH        "Bônus Diário: Completo"
@@ -2817,7 +2817,7 @@ REFERENCE           MENU_VIEW_PLAYERCARD_HINT
 LANG_ENGLISH        "Veja o Cartão de Jogador deste jogador."
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_19
-LANG_ENGLISH        "Scales, Snake Bite"
+LANG_ENGLISH        "Escamas, Presa"
 
 REFERENCE           CGAME_HEAD_SHOT
 LANG_ENGLISH        "tiro na cabeça"
@@ -3063,7 +3063,7 @@ REFERENCE           SCORE_SATELLITE_ASSIST
 LANG_ENGLISH        "Assistência de VSAT"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_29
-LANG_ENGLISH        "Rend, Cleave"
+LANG_ENGLISH        "Rasgo, Corte"
 
 REFERENCE           EM_BACK_SAUDI_ARABIA
 LANG_ENGLISH        "Arábia Saudita"
@@ -3162,7 +3162,7 @@ REFERENCE           EM_BACK_CYPRUS
 LANG_ENGLISH        "Chipre"
 
 REFERENCE           MPUI_RETICLE_ACOG_31
-LANG_ENGLISH        "Apparition"
+LANG_ENGLISH        "Aparição"
 
 REFERENCE           SCORE_KILLED_ENEMY_WHILE_CARRYING_FLAG
 LANG_ENGLISH        "Abate com Bandeira"
@@ -3462,7 +3462,7 @@ REFERENCE           SCORE_FLAG_CARRIER_KILL_RETURN_CLOSE
 LANG_ENGLISH        "Retorno de Abate de Porta-bandeira"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_36
-LANG_ENGLISH        "Scorcher, Conjure"
+LANG_ENGLISH        "Chamusca, Conjurar"
 
 REFERENCE           SCORE_PACKAGE_KILL
 LANG_ENGLISH        "Abate com Pacote"
@@ -3504,13 +3504,13 @@ REFERENCE           SCORE_MULTIKILL_6
 LANG_ENGLISH        "Super Abate"
 
 REFERENCE           MPUI_RETICLE_HOLO_29
-LANG_ENGLISH        "Splice"
+LANG_ENGLISH        "Emenda"
 
 REFERENCE           SCRIPT_HINT_THROW_C4_TOGGLE
 LANG_ENGLISH        "Pressione ^3[{+toggleads_throw}]^7 para lançar C4."
 
 REFERENCE           MPUI_RETICLE_HOLO_28
-LANG_ENGLISH        "Deuce"
+LANG_ENGLISH        "Duque"
 
 REFERENCE           MENU_LIVESTREAM_CHOOSE_MODE_DESC
 LANG_ENGLISH        "Escolha a rede na qual deseja transmitir sua Live Stream"
@@ -3750,7 +3750,7 @@ REFERENCE           SCRIPT_HOLD_TO_USE
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para usar"
 
 REFERENCE           MENU_DLC2_MAP_PACK_NAME_DASH
-LANG_ENGLISH        "-UPRISING"
+LANG_ENGLISH        "-LEVANTE"
 
 REFERENCE           EM_BACK_SENEGAL
 LANG_ENGLISH        "Senegal"
@@ -5179,7 +5179,7 @@ REFERENCE           MEDAL_KNIFE_LEADER_GUN
 LANG_ENGLISH        "Regicídio"
 
 REFERENCE           MEDAL_X2_SCORE_SHRP
-LANG_ENGLISH        "Double Down"
+LANG_ENGLISH        "Redobrado"
 
 REFERENCE           MENU_SESSIONS_SEARCH_STAGE
 LANG_ENGLISH        "Procurando partidas (&&1 correspondências)."
@@ -5200,7 +5200,7 @@ REFERENCE           MEDAL_KNIFE_WITH_AMMO_OIC
 LANG_ENGLISH        "Econômico"
 
 REFERENCE           MENU_PRESTIGE_MODE_DESC_1
-LANG_ENGLISH        "Você recomeçará do Nível 1 tendo ganho um pouco de prestígio, mas manterá todo seu progresso de camuflagens, retículas, níveis de armas e Desafios.\n\nEm troca, você pode desbloquear permanentemente um item e escolher uma das três Recompensas de Prestígio:\n\n1.\tUm Slot Extra de Criar uma Classe\n2.\tOpção de reembolsar Tokens de Desbloqueio gastos anteriormente.\n3.\tOpção de redefinir TODAS as suas estatísticas e progresso.\n"
+LANG_ENGLISH        "Você recomeçará do Nível 1 tendo ganho um pouco de prestígio, mas manterá todo seu progresso de camuflagens, retículas, níveis de armas e Desafios.\n\nEm troca, você pode desbloquear permanentemente um item e escolher uma das três Recompensas de Prestígio:\n\n1.\tUm Slot Adicional de Criar uma Classe\n2.\tOpção de reembolsar Tokens de Desbloqueio gastos anteriormente.\n3.\tOpção de redefinir TODAS as suas estatísticas e progresso.\n"
 
 REFERENCE           MEDAL_HACK_3_AGRS_IN_HACK
 LANG_ENGLISH        "Hackathon"
@@ -5320,7 +5320,7 @@ REFERENCE           MENU_VOTING_OPTION_1
 LANG_ENGLISH        "Ciborgue"
 
 REFERENCE           MENU_DLC1_MAP_PACK_NAME
-LANG_ENGLISH        "Revolution"
+LANG_ENGLISH        "Revolução"
 
 REFERENCE           MENU_EMBLEM_COPY_ALLOWED_HINT
 LANG_ENGLISH        "Crie uma cópia deste emblema."
@@ -5626,7 +5626,7 @@ REFERENCE           MENU_CR_WEAPONS_SPECIAL_HINT
 LANG_ENGLISH        "Arma Mais Mortífera: &&1"
 
 REFERENCE           MENU_DLC2_DESC
-LANG_ENGLISH        "Uprising inclui quatro Mapas Multijogador: Magma, Encore, Vertigo e Studio: uma adaptação reimaginada do mapa multijogador favorito dos fãs de Black Ops, Firing Range. \n \nTambém incluído está Mob of the Dead, o novo Mapa de Zumbis onde quatro gângsteres da era da Lei Seca são forçados a defender-se de hordas de mortos-vivos enquanto estão presos na notória Ilha de Alcatraz em São Francisco.\n"
+LANG_ENGLISH        "Uprising inclui quatro Mapas Multijogador: Magma, Encore, Vertigo e Studio: uma adaptação reimaginada do mapa multijogador favorito dos fãs de Black Ops, Campo de Tiro. \n \nTambém incluído está Mob of the Dead, o novo Mapa de Zumbis onde quatro gângsteres da era da Lei Seca são forçados a defender-se de hordas de mortos-vivos enquanto estão presos na notória Ilha de Alcatraz em São Francisco.\n"
 
 REFERENCE           MENU_FETCH_STATS_FAILED_TITLE
 LANG_ENGLISH        "Não foi possível obter estatísticas"
@@ -5905,7 +5905,7 @@ REFERENCE           MENU_FILESHARE_CUSTOMGAME_SMALL
 LANG_ENGLISH        "partida personalizada"
 
 REFERENCE           MENU_DLC4_MAP_PACK_NAME_DASH
-LANG_ENGLISH        "-APOCALYPSE"
+LANG_ENGLISH        "-APOCALIPSE"
 
 REFERENCE           MENU_FILESHARE_SAVE_SUCCESS
 LANG_ENGLISH        "O(a) &&1 foi salvo(a) com sucesso."
@@ -5929,7 +5929,7 @@ REFERENCE           MENU_RECENTLY_SHARED_HINT
 LANG_ENGLISH        "Uma coleção de arquivos salvos recentemente pela comunidade."
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_13
-LANG_ENGLISH        "Ka-ching, Ice"
+LANG_ENGLISH        "Ka-ching, Gelo"
 
 REFERENCE           MENU_SAVE_AS_NEW
 LANG_ENGLISH        "SALVAR COMO NOVO"
@@ -6232,7 +6232,7 @@ REFERENCE           MPUI_TOS_REFUSE
 LANG_ENGLISH        "Recusar"
 
 REFERENCE           MPUI_RETICLE_ACOG_29
-LANG_ENGLISH        "Cleave"
+LANG_ENGLISH        "Corte"
 
 REFERENCE           MENU_LIVESTREAM_SEND_TO_TWITTER_DESC
 LANG_ENGLISH        "Envie um link desta transmissão para o Twitter para notificar as pessoas que você está transmitindo ao vivo."
@@ -6334,7 +6334,7 @@ REFERENCE           MENU_THEATER_LOAD_HINT
 LANG_ENGLISH        "Carregue um filme para começar."
 
 REFERENCE           MENU_DLC4_MAP_PACK_NAME
-LANG_ENGLISH        "Apocalypse"
+LANG_ENGLISH        "Apocalipse"
 
 REFERENCE           MENU_DLCZM0_MAP_PACK_NAME_DASH
 LANG_ENGLISH        "-NUKETOWN ZUMBIS"
@@ -6442,7 +6442,7 @@ REFERENCE           MENU_LB_CARD_TEXT_ONEFLAG
 LANG_ENGLISH        "Ranking de Partida Pública para One Flag CTF."
 
 REFERENCE           MPUI_HCHQ
-LANG_ENGLISH        "Hardcore Headquarters"
+LANG_ENGLISH        "Quartel-General Hardcore"
 
 REFERENCE           PLATFORM_US_WASHINGTON_SEATTLE_LOC
 LANG_ENGLISH        "EUA, Seattle"
@@ -6571,7 +6571,7 @@ REFERENCE           MPUI_ELITE_NO
 LANG_ENGLISH        "Não"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_16
-LANG_ENGLISH        "Winky, Happy Bullet"
+LANG_ENGLISH        "Piscada, Bala Feliz"
 
 REFERENCE           MPUI_ELITE_SUBSCRIBE
 LANG_ENGLISH        "Inscrever-se?"
@@ -6802,7 +6802,7 @@ REFERENCE           MPUI_MISSING_MAP_PACKS
 LANG_ENGLISH        "Pacotes de Mapa DLC Ausentes:"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_28
-LANG_ENGLISH        "OMG, Charm"
+LANG_ENGLISH        "MDS, Charme"
 
 REFERENCE           MPUI_MAP_IN_PLAYER_COLUMN
 LANG_ENGLISH        "Mapa na Coluna do Jogador"
@@ -6835,7 +6835,7 @@ REFERENCE           MPUI_ZOMBIES
 LANG_ENGLISH        "Zumbis"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_17
-LANG_ENGLISH        "Super Star, Spin"
+LANG_ENGLISH        "Super Estrela, Giro"
 
 REFERENCE           MPUI_BACON
 LANG_ENGLISH        "Bacon"
@@ -6853,52 +6853,52 @@ REFERENCE           MPUI_RETICLE_REFLEX_14
 LANG_ENGLISH        "Pepe"
 
 REFERENCE           MPUI_RETICLE_REFLEX_16
-LANG_ENGLISH        "Winky"
+LANG_ENGLISH        "Piscada"
 
 REFERENCE           MPUI_RETICLE_ACOG_11
-LANG_ENGLISH        "Canopy"
+LANG_ENGLISH        "Dossel"
 
 REFERENCE           MPUI_RETICLE_ACOG_13
-LANG_ENGLISH        "Ice"
+LANG_ENGLISH        "Gelo"
 
 REFERENCE           MPUI_RETICLE_ACOG_16
-LANG_ENGLISH        "Happy Bullet"
+LANG_ENGLISH        "Bala Feliz"
 
 REFERENCE           MPUI_RETICLE_ACOG_19
-LANG_ENGLISH        "Snake Bite"
+LANG_ENGLISH        "Presa"
 
 REFERENCE           MPUI_RETICLE_ACOG_20
-LANG_ENGLISH        "Snack Attack"
+LANG_ENGLISH        "Ataque Petisco"
 
 REFERENCE           MPUI_DESC_MAP_UPLINK
 LANG_ENGLISH        "O favorito dos fãs Summit retorna, reimaginado como uma instalação futurista no topo de uma montanha."
 
 REFERENCE           MPUI_RETICLE_HOLO_11
-LANG_ENGLISH        "Horizon"
+LANG_ENGLISH        "Horizonte"
 
 REFERENCE           MPUI_RETICLE_HOLO_13
 LANG_ENGLISH        "Bling"
 
 REFERENCE           MPUI_RETICLE_HOLO_14
-LANG_ENGLISH        "Corazon"
+LANG_ENGLISH        "Coração"
 
 REFERENCE           MPUI_RETICLE_HOLO_16
-LANG_ENGLISH        "Uh-Oh!"
+LANG_ENGLISH        "Eita!"
 
 REFERENCE           MPUI_RETICLE_HOLO_18
-LANG_ENGLISH        "Braaaaiiins"
+LANG_ENGLISH        "Cééérebroooos"
 
 REFERENCE           MPUI_RETICLE_HOLO_20
-LANG_ENGLISH        "Sizzle"
+LANG_ENGLISH        "Chispa"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_11
-LANG_ENGLISH        "Mil-Dot, Canopy"
+LANG_ENGLISH        "Mil-Dot, Dossel"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_12
-LANG_ENGLISH        "Hooligan, Anarchist"
+LANG_ENGLISH        "Hooligan, Anarquista"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_15
-LANG_ENGLISH        "Tagged, Elevate"
+LANG_ENGLISH        "Marcado, Elevar"
 
 REFERENCE           MPUI_MTX_WEAPON0
 LANG_ENGLISH        "Pacote Guerra na Selva"
@@ -6997,25 +6997,25 @@ REFERENCE           MPUI_RETICLE_ACOG_21
 LANG_ENGLISH        "Excalibur"
 
 REFERENCE           MPUI_RETICLE_ACOG_23
-LANG_ENGLISH        "Sky Stalker"
+LANG_ENGLISH        "Caçador Celeste"
 
 REFERENCE           MPUI_RETICLE_ACOG_24
-LANG_ENGLISH        "KABOOM!"
+LANG_ENGLISH        "KABUM!"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_21
-LANG_ENGLISH        "Regal, Excalibur"
+LANG_ENGLISH        "Régio, Excalibur"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_23
-LANG_ENGLISH        "Triclaw, Sky Stalker"
+LANG_ENGLISH        "Triclaw, Caçador Celeste"
 
 REFERENCE           MPUI_RETICLE_HOLO_23
-LANG_ENGLISH        "Dragon Ring"
+LANG_ENGLISH        "Anel do Dragão"
 
 REFERENCE           MPUI_RETICLE_HOLO_24
 LANG_ENGLISH        "POW!"
 
 REFERENCE           MPUI_RETICLE_REFLEX_21
-LANG_ENGLISH        "Regal"
+LANG_ENGLISH        "Régio"
 
 REFERENCE           MPUI_RETICLE_REFLEX_23
 LANG_ENGLISH        "Triclaw"
@@ -7087,31 +7087,31 @@ REFERENCE           MPUI_MTX_WEAPON19
 LANG_ENGLISH        "Pacote Soco-em-lata"
 
 REFERENCE           MPUI_RETICLE_ACOG_25
-LANG_ENGLISH        "Abyss"
+LANG_ENGLISH        "Abismo"
 
 REFERENCE           MPUI_RETICLE_ACOG_26
-LANG_ENGLISH        "Rupture"
+LANG_ENGLISH        "Ruptura"
 
 REFERENCE           MPUI_RETICLE_ACOG_28
-LANG_ENGLISH        "Charm"
+LANG_ENGLISH        "Charme"
 
 REFERENCE           MPUI_RETICLE_ACOG_30
-LANG_ENGLISH        "Packed"
+LANG_ENGLISH        "Potente"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_26
-LANG_ENGLISH        "Volley Fire, Rupture"
+LANG_ENGLISH        "Rajada, Ruptura"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_30
-LANG_ENGLISH        "Nuke, Packed"
+LANG_ENGLISH        "Nuke, Potente"
 
 REFERENCE           MPUI_RETICLE_HOLO_25
-LANG_ENGLISH        "Surf Board"
+LANG_ENGLISH        "Prancha"
 
 REFERENCE           MPUI_RETICLE_HOLO_27
-LANG_ENGLISH        "Sand Strike"
+LANG_ENGLISH        "Tempestade"
 
 REFERENCE           MPUI_RETICLE_REFLEX_27
-LANG_ENGLISH        "Sunset"
+LANG_ENGLISH        "Pôr do Sol"
 
 REFERENCE           MPUI_FROSTBITE_CAPS
 LANG_ENGLISH        "FROST"
@@ -7147,7 +7147,7 @@ REFERENCE           MPUI_TAKEOFF_LOC
 LANG_ENGLISH        "ÁGUAS TERRITORIAIS DOS E.U.A., OCEANO PACÍFICO"
 
 REFERENCE           MPUI_RETICLE_REFLEX_36
-LANG_ENGLISH        "Scorcher"
+LANG_ENGLISH        "Chamusca"
 
 REFERENCE           MPUI_DIG_LOC
 LANG_ENGLISH        "LOGAR, AFEGANISTÃO"
@@ -7162,31 +7162,31 @@ REFERENCE           MPUI_MTX_WEAPON23
 LANG_ENGLISH        "Pacote Weaponized 115"
 
 REFERENCE           MPUI_RETICLE_ACOG_32
-LANG_ENGLISH        "Bones"
+LANG_ENGLISH        "Ossos"
 
 REFERENCE           MPUI_RETICLE_ACOG_33
-LANG_ENGLISH        "Shred"
+LANG_ENGLISH        "Estilhaço"
 
 REFERENCE           MPUI_RETICLE_ACOG_34
 LANG_ENGLISH        "RPM"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_32
-LANG_ENGLISH        "Bang Bang, Bones"
+LANG_ENGLISH        "Bang Bang, Ossos"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_33
-LANG_ENGLISH        "Tracked, Shred"
+LANG_ENGLISH        "Rastreado, Estilhaço"
 
 REFERENCE           MPUI_RETICLE_DUALOPTIC_35
-LANG_ENGLISH        "Cross, Crystal"
+LANG_ENGLISH        "Cruz, Cristal"
 
 REFERENCE           MPUI_RETICLE_HOLO_34
-LANG_ENGLISH        "Drift"
+LANG_ENGLISH        "Deriva"
 
 REFERENCE           MPUI_RETICLE_HOLO_35
-LANG_ENGLISH        "Gear"
+LANG_ENGLISH        "Marcha"
 
 REFERENCE           MPUI_RETICLE_HOLO_36
-LANG_ENGLISH        "Arcane"
+LANG_ENGLISH        "Arcano"
 
 REFERENCE           MPUI_RETICLE_REFLEX_32
 LANG_ENGLISH        "Bang Bang"
@@ -7201,7 +7201,7 @@ REFERENCE           MPUI_MTX_WEAPON24
 LANG_ENGLISH        "Pacote Afterlife"
 
 REFERENCE           MPUI_COMICS
-LANG_ENGLISH        "Comics"
+LANG_ENGLISH        "Quadrinhos"
 
 REFERENCE           MPUI_UKPUNK
 LANG_ENGLISH        "UK Punk"
