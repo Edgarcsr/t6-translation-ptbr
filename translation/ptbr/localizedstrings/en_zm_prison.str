@@ -2,7 +2,7 @@ VERSION             "1"
 CONFIG              "ptbr_translation"
 
 REFERENCE           ZM_PRISON_TOMAHAWK_PICKUP
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Hell's Retriever"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Recuperador Infernal"
 
 REFERENCE           ZM_PRISON_CRAFT_PLANE
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir Avião"
@@ -11,13 +11,13 @@ REFERENCE           ZM_PRISON_CRAFT_PACKASPLAT
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir Melhoria do Blundergat"
 
 REFERENCE           ZM_PRISON_GONDOLA_ACTIVE
-LANG_ENGLISH        "A Gondola está ativa"
+LANG_ENGLISH        "A Gôndola está ativa"
 
 REFERENCE           ZM_PRISON_FAN_TRAP
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para ativar Armadilha de Ventilador [Custo: &&1]"
 
 REFERENCE           ZM_PRISON_LAUNDRY_MACHINE_ACTIVATE
-LANG_ENGLISH        "Pressione ^3[{+activate}]^7 para ativar Máquina de Lavar"
+LANG_ENGLISH        "Pressione ^3[{+activate}]^7 para ativar Lavanderia"
 
 REFERENCE           ZM_PRISON_CRAFT_RIOT
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir Escudo de Zumbi"
@@ -38,7 +38,7 @@ REFERENCE           ZM_PRISON_CRAFTING_PLANE
 LANG_ENGLISH        "Peça adicionada ao Avião"
 
 REFERENCE           ZM_PRISON_TOMAHAWK_UPGRADED_PICKUP
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Hell's Redeemer"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Redentor Infernal"
 
 REFERENCE           ZM_PRISON_REFUELING_PLANE
 LANG_ENGLISH        "Combustível adicionado ao Avião"
@@ -53,10 +53,10 @@ REFERENCE           ZM_PRISON_AFTERLIFE_HOWTO_2
 LANG_ENGLISH        "Pressione ^3[{+gostand}]^7 para levitar"
 
 REFERENCE           ZM_PRISON_CALL_GONDOLA
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para chamar a Gondola"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para chamar a Gôndola"
 
 REFERENCE           ZM_PRISON_AFTERLIFE_KILL
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para entrar na Vida Após a Morte"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para entrar no Pós-Vida"
 
 REFERENCE           ZM_PRISON_AFTERLIFE_INTERACT
 LANG_ENGLISH        "Choque para ligar a energia"
@@ -77,7 +77,7 @@ REFERENCE           ZM_PRISON_CONVERT_PICKUP
 LANG_ENGLISH        "Segure [{+activate}] para pegar sua arma convertida"
 
 REFERENCE           ZM_PRISON_PERK_CHERRY
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Electric Cherry [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Cereja Elétrica [Custo: &&1]"
 
 REFERENCE           ZM_PRISON_BAD
 LANG_ENGLISH        "O CICLO CONTINUA..."
@@ -125,13 +125,13 @@ REFERENCE           ZM_PRISON_TOWER_TRAP
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para ativar Armadilha da Torre [Custo: &&1]"
 
 REFERENCE           ZM_PRISON_MOVE_GONDOLA
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para usar a Gondola [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para usar a Gôndola [Custo: &&1]"
 
 REFERENCE           ZM_PRISON_GONDOLA_REQUIRES_POWER
-LANG_ENGLISH        "Gondola precisa de Energia"
+LANG_ENGLISH        "Gôndola precisa de Energia"
 
 REFERENCE           ZM_PRISON_GONDOLA_COOLDOWN
-LANG_ENGLISH        "A Gondola está recarregando"
+LANG_ENGLISH        "A Gôndola está recarregando"
 
 REFERENCE           ZM_PRISON_SQ_BS
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Acid Gat"
@@ -140,7 +140,7 @@ REFERENCE           ZM_PRISON_MISSING_BLUNDERGAT
 LANG_ENGLISH        "Blundergat Necessário"
 
 REFERENCE           ZM_PRISON_OUT_OF_LIVES
-LANG_ENGLISH        "Sem Vida Após a Morte Restante"
+LANG_ENGLISH        "Sem Pós-Vida Restante"
 
 REFERENCE           ZM_PRISON_LIFE_OVER
 LANG_ENGLISH        "VIDA ACABOU"

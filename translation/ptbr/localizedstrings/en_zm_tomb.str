@@ -14,7 +14,7 @@ REFERENCE           ZM_TOMB_PUIS
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para trocar pelo Cajado de Gelo"
 
 REFERENCE           ZM_TOMB_PERK_ONEINCH
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar One Inch Punch [Custo: &&1]"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para comprar Soco de Uma Polegada [Custo: &&1]"
 
 REFERENCE           ZM_TOMB_NS
 LANG_ENGLISH        "Precisa de pá para cavar"
@@ -29,13 +29,13 @@ REFERENCE           ZM_TOMB_ZOMBIE_STAFF_PICKUP
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Cajado"
 
 REFERENCE           ZM_TOMB_DIHO
-LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para usar o Drone Maxis"
+LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para usar o Drone de Maxis"
 
 REFERENCE           ZM_TOMB_X2D
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Cavar"
 
 REFERENCE           ZM_TOMB_PULS
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para trocar pelo Cajado de Relâmpago"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para trocar pelo Cajado Elétrico"
 
 REFERENCE           ZM_TOMB_TELEPORT_BUY
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para acessar o Teletransportador [Custo: &&1]"
@@ -47,7 +47,7 @@ REFERENCE           ZM_TOMB_X2CT
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para chamar o Tanque [Custo: &&1]"
 
 REFERENCE           ZM_TOMB_QUADROTOR
-LANG_ENGLISH        "Drone Maxis"
+LANG_ENGLISH        "Drone de Maxis"
 
 REFERENCE           ZM_TOMB_RU
 LANG_ENGLISH        "Disco Correto Indisponível"
@@ -62,7 +62,7 @@ REFERENCE           ZM_TOMB_CRS
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado"
 
 REFERENCE           ZM_TOMB_INLS
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir Cajado de Relâmpago"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir Cajado Elétrico"
 
 REFERENCE           ZM_TOMB_PLAY_RECORD
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Tocar Disco"
@@ -113,7 +113,7 @@ REFERENCE           ZM_TOMB_CH3
 LANG_ENGLISH        "Gaste 30000 Pontos"
 
 REFERENCE           ZM_TOMB_CRQ
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Drone Maxis"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Drone de Maxis"
 
 REFERENCE           ZM_TOMB_ZC
 LANG_ENGLISH        "A energia deve estar ligada"
@@ -128,7 +128,7 @@ REFERENCE           ZM_TOMB_TAKE_BEACON
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Sinalizador de Artilharia"
 
 REFERENCE           ZM_TOMB_TQ
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Drone Maxis"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar o Drone de Maxis"
 
 REFERENCE           ZM_TOMB_BOF
 LANG_ENGLISH        "Você recebeu o Cajado de Fogo"
@@ -137,19 +137,19 @@ REFERENCE           ZM_TOMB_PRESS_X_TO_TELEPORT
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para Ejetar"
 
 REFERENCE           ZM_TOMB_DIHS
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Drone Maxis"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Drone de Maxis"
 
 REFERENCE           ZM_TOMB_CRW
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado de Gelo"
 
 REFERENCE           ZM_TOMB_CRL
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado de Relâmpago"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para construir o Cajado Elétrico"
 
 REFERENCE           ZM_TOMB_BOW
 LANG_ENGLISH        "Você recebeu o Cajado de Gelo"
 
 REFERENCE           ZM_TOMB_BOL
-LANG_ENGLISH        "Você recebeu o Cajado de Relâmpago"
+LANG_ENGLISH        "Você recebeu o Cajado Elétrico"
 
 REFERENCE           ZM_TOMB_ZCIP
 LANG_ENGLISH        "Um gerador de conversão 115 está sendo energizado"
@@ -179,7 +179,7 @@ REFERENCE           ZM_TOMB_ZONE_RECAPTURE_IN_PROGRESS
 LANG_ENGLISH        "Um gerador de conversão 115 está sendo atacado"
 
 REFERENCE           ZM_TOMB_QUADROTOR_IN_USE
-LANG_ENGLISH        "Drone Maxis em uso"
+LANG_ENGLISH        "Drone de Maxis em uso"
 
 REFERENCE           ZM_TOMB_OSO
 LANG_ENGLISH        "Você só pode carregar um cajado"

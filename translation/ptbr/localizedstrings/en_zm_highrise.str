@@ -2,7 +2,7 @@ VERSION             "1"
 CONFIG              "ptbr_translation"
 
 REFERENCE           ZM_HIGHRISE_EQUIP_SPRINGPAD
-LANG_ENGLISH        "Trample Steam"
+LANG_ENGLISH        "Trampolim a Vapor"
 
 REFERENCE           ZM_HIGHRISE_BUILD_SPRINGPAD
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para adicionar Peça"
@@ -11,40 +11,40 @@ REFERENCE           ZM_HIGHRISE_BUILDING_SPRINGPAD
 LANG_ENGLISH        "Peça Adicionada"
 
 REFERENCE           ZM_HIGHRISE_BOUGHT_SPRINGPAD
-LANG_ENGLISH        "Pegou Trample Steam"
+LANG_ENGLISH        "Pegou Trampolim a Vapor"
 
 REFERENCE           ZM_HIGHRISE_EQUIP_SPRINGPAD_HOWTO
-LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para usar Trample Steam"
+LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para usar Trampolim a Vapor"
 
 REFERENCE           ZM_HIGHRISE_BUILDING_SLIPGUN
 LANG_ENGLISH        "Peça Adicionada"
 
 REFERENCE           ZM_HIGHRISE_GRAB_SPRINGPAD
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Trample Steam"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Trampolim a Vapor"
 
 REFERENCE           ZM_HIGHRISE_EQUIP_SPRINGPAD_PICKUP_HINT_STRING
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Trample Steam"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Trampolim a Vapor"
 
 REFERENCE           ZM_HIGHRISE_BUILD_SLIPGUN
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para adicionar Peça"
 
 REFERENCE           ZM_HIGHRISE_BOUGHT_SLIPGUN
-LANG_ENGLISH        "Pegou Sliquifier"
+LANG_ENGLISH        "Pegou Liquefator"
 
 REFERENCE           ZM_HIGHRISE_EQUIP_SLIPGUN
-LANG_ENGLISH        "Sliquifier"
+LANG_ENGLISH        "Liquefator"
 
 REFERENCE           ZM_HIGHRISE_GRAB_KEYS
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Chave"
 
 REFERENCE           ZM_HIGHRISE_GRAB_SLIPGUN
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Sliquifier"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Liquefator"
 
 REFERENCE           ZM_HIGHRISE_EQUIP_SLIPGUN_PICKUP_HINT_STRING
-LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Sliquifier"
+LANG_ENGLISH        "Segure ^3[{+activate}]^7 para pegar Liquefator"
 
 REFERENCE           ZM_HIGHRISE_EQUIP_SLIPGUN_HOWTO
-LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para usar Sliquifier"
+LANG_ENGLISH        "Pressione ^3[{+actionslot 1}]^7 para usar Liquefator"
 
 REFERENCE           ZM_HIGHRISE_BUILD_KEYS
 LANG_ENGLISH        "Segure ^3[{+activate}]^7 para inserir chave do elevador"
